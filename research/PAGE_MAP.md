@@ -4,6 +4,9 @@ Every page on the site is a stripped skeleton (headings + TODO only). Research b
 
 Checked 2026-10-02. Prices in research files are dated and volatile — re-verify before publishing.
 
+## Draft guide (author's single-page draft, expands into full guide later)
+- `docs/draft-guide.md` → all of the above; start with existing-pack/01-concise-layer.md + decision-flowchart-source.md, then pull per-topic files as sections grow
+
 ## Quick Start (concise layer)
 - `docs/index.md` (Home) → existing-pack/01-concise-layer.md, decision-flowchart-source.md
 - `docs/quick/quick-start.md` → existing-pack/01-concise-layer.md, decision-flowchart-source.md, context-history-community.md

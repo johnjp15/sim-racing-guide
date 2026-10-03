@@ -36,6 +36,14 @@
 | Gran Turismo 7 | No | PS4/PS5 | No | Full game playable in PS VR2 on PS5 (Traxion, index) |
 | RaceRoom / rFactor 2 | Yes | No | No | Niche but active league scenes; LFM hosts AMS2/RaceRoom/AC/ACC/LMU (Traxion 2026, index) |
 
+### Oct 2026 update box (supersedes version claims in the table above where they conflict)
+
+- **AC EVO:** v0.6 current on PC EA (not v0.9 — the v0.9 snippet was an aggregator artefact): Sebring + Ford Mustang GT3, self-hosted dedicated servers replacing paid hosting, career/economy system dropped Feb 2026 (Kunos). **1.0 exit: H1 2027 (1 Jan–30 Jun 2027)** per Digital Bros FY documents (24 Sep 2026) — Traxion, live-fetched Oct 2026. $39.99 EA price stands (index). LFM AC Evo beta remains valid (Apr 2026).
+- **AC Rally:** v0.6 (~10 Sep 2026) — Audi Quattro Gr.4, Peugeot 206 WRC 1999, VW Polo GTI R5 2018; photo mode, private lobbies, leaderboard reset; **1.0 exit also H1 2027** (Digital Bros). $29.99 stands.
+- **iRacing:** Season 4 2026 build shipped 9 Sep 2026 (Aston Martin Valkyrie AMR-LMH, Caterham Academy/420R, Gen 4 Grand National; "Physics Islands" multi-threading). Subscription tiers in the cost table below are confirmed against the official iRacing page (live-fetched Oct 2026).
+- **LMU:** console confirmed slipped to **early–mid 2027** (Motorsport Games CEO, Q4 2025 results reported Mar 2026); career mode must land first. PC Steam avg 3,157.6 (Aug 2026).
+- **GT7:** monthly cadence confirmed through **Update 1.71 (20 Aug 2026)** (Caterham Seven Superlight R500, Hyundai IONIQ 6 N, Toyota Chaser/Mark II) on official gran-turismo.com (index). Spec III/Power Pack ($29.99 PS5) — exact Spec III sequencing needs one clean timeline check (§15).
+
 ### Gear
 
 - **Essential:** load-cell brake pedal; paddle shifters (modern GT3/formula/Hypercar); rim with buttons/rotaries (brake bias, TC/ABS, diff, engine map); 5–12 Nm DD (8–12 gives clipping headroom).
@@ -71,7 +79,7 @@
 |---|---|---|---|---|
 | Assetto Corsa Rally | Steam Early Access | No | No | EA since 13 Nov 2025; v0.3 added winter/snow tyres (BoxThisLap, index); $29.99 (Steam via BoxThisLap/BSIMRACING, index). v0.6 Sep 2026 per prior research (index). 1.0 timing UNVERIFIED |
 | DiRT Rally 2.0 | Yes | PS4 | XB1 | 2019, still the cheap complete package; VR PC only, no PSVR (OverTake, index) |
-| EA Sports WRC | Yes | PS5 | XS X\|S | Official WRC licence; VR = PC SteamVR beta only, no PSVR2 (index, prior research) |
+| EA Sports WRC | Yes | PS5 | XS X\|S | Official WRC licence; VR = PC SteamVR beta only, no PSVR2 (index, prior research). **Update Oct 2026:** development has *ended* (final pack Mar 2025); Nacon holds the licence from 2027, no official WRC game in 2026 (The Drive/GameSpot, index) — §10 |
 
 ### Gear
 
@@ -193,7 +201,7 @@
 ### Platforms/status
 
 - PC only (AC + Content Manager + SRP mods). SRP Discord showed **445,893 members** in an OverTake page snapshot (index, Oct 2026) — report as "SRP Discord in the mid-400-thousands (Oct 2026 index snapshot)", not a live count.
-- No Hesi runs its own servers/Discord on top of SRP (prior research). Member counts UNVERIFIED this pass.
+- No Hesi runs its own servers/Discord on top of SRP (prior research); **No Hesi Patreon showed 31,043 members (Sep 2026 crawl, index)** — the only sourced No Hesi size figure; Discord count was not found, do not quote one.
 
 ### Gear
 
@@ -224,9 +232,77 @@
 
 ---
 
-## 9–11. Karting, off-road, open-world cruising
+## 9. Karting
 
-> **TODO (pending deep-dive, fold in before use):** karting sims 2026 (KartKraft/Kart Racing Pro status, gear: low-Nm instant response, small rim, no shifter, flat seating), off-road (Dakar Desert Rally status, EA WRC off-road, handbrake/round-rim needs), open-world cruising (Forza Horizon 6 2026 status — Eneba roundup lists FH6 with Japan setting, index; The Crew Motorfest, TDUSC status, Motor Town 1.0 watch, AC free-roam LA Canyons/Shutoko, why low-end wheels are fine). Cost-to-start and league signals to add per title.
+**What it is:** the purest speed-sensation discipline — you sit inches off the ground, steering is near-instant, no suspension travel to hide behind. In sim it rewards smoothness more than aggression.
+
+### Games and platforms (Oct 2026)
+
+| Game | Platform | Status |
+|---|---|---|
+| KartKraft | PC (Steam) only; console plans (2018 trailer) never shipped | Full release 26 Jan 2022, launch $39.99 (Motorsport Games, index). Sale sighting $3.74 at −85% (Steambase tracker — sale signal, not RRP) |
+| Kart Racing Pro (PiBoSo) | PC (Steam), €35.99 | VR supported; **no AI** — online/leagues only (Traxion roundup, page fetched live Oct 2026) |
+| rFactor 2 + KartSim | PC | KartSim content: old pack €19.98 (2018); COTF Esports Software 2026 £299 (kart-sim.com, index); Pro Middle East & Asia DLC £499 (May 2026: 14 karts, 10 circuits); Ultimate cited £1,199 (Traxion, fetched live) |
+| iRacing | PC | **No kart class found** — flagged, not confirmed negative. ("iRacing Arcade" is a separate arcade spinoff, not a kart sim) |
+
+Driving-model notes (Traxion roundup, live-fetched Oct 2026): KartKraft = prettiest, sublime mid/high-speed feel, but knife-edge steering lock; Kart Racing Pro = equal/better model, wet weather, VR smoothest; KartSim/rF2 = most complete (AI, weather, track evolution, LiDAR tracks) but set steering ratio to "Fast".
+
+### Gear
+
+- **Essential:** any DD or belt base + 2 pedals (karts are left-foot-brake, mostly no clutch); rotation is short — a single forum thread argues "180 degrees is a must" (**weak single-source, flag it**); no shifter (single-speed).
+- **Optional:** VR — Traxion calls it "by far the most entertaining option" for karts; all three titles support it.
+- **Seating:** low/flat is the real-kart trait; no dedicated sim kart-seating guide exists (**gap, flagged**).
+- **Cost to start:** game-only — KartKraft (sale-dependent) or Kart Racing Pro €35.99; the pro/aspiring-pro scene pays KartSim prices (£299–£1,199) — that pricing tells you who KartSim is for.
+- **Community:** tiny. KartKraft averaged ~23 players (June 2026, Steambase, index); Kart Racing Pro lobbies sparse, leagues are the route; KartSim's 2026 COTF calendar (Valencia→Muscat→Al Ain) is a real esports ladder for aspiring karters.
+
+---
+
+## 10. Off-road (rally-raid / Baja / dirt)
+
+**What it is:** long-distance rough-terrain driving — reading bumps and dunes at speed. Distinct from stage rally (§2): fewer hairpins, more endurance and terrain judgement.
+
+### Games and platforms
+
+| Game | Platform | Status Oct 2026 |
+|---|---|---|
+| EA Sports WRC | PC/PS5/XS X\|S | **Development ended** — Hard Chargers (Mar 2025) was the final pack; EA "paused" rally development Apr 2025 (The Drive, index). **Nacon re-acquired the WRC licence (exclusive 2027–2032, reboot); no official WRC game in 2025–26** (GameSpot, index) |
+| Dakar Desert Rally | PC/PS4/PS5/XB1/XS | $39.99 at 2022 launch; effectively end-of-life — no further patches planned (OverTake, index). v2.1 USA Tour (256 km²) was the last big content |
+| BeamNG (Baja/off-road) | PC; PS5 EA 19 Oct 2026 | The de facto Baja sandbox: SP Dunekicker trophy trucks, Johnson Valley, bypass shocks (v0.27); active trophy-truck mod scene (Traxion, index) |
+| DiRT Rally 2.0 (rallycross) | PC/PS4/XB1 | **Clubs shut down 8 Jul 2026** (OnlineRaceDriver, index); DR (2016)/DiRT 4 servers closed 8 Nov 2025 — legacy DiRT is in wind-down |
+
+### Gear
+
+- **Essential:** DD base + load-cell pedals + round rim (BoxThisLap AC Rally review calls DD "almost mandatory" for surface detail — rally context, same gear applies here).
+- **Near-essential:** analogue handbrake (hairpins, Scandi flicks). **Optional:** H-pattern (historic classes only). Long-travel pedals: **no source makes that claim — flagged gap.**
+- **Seating:** rally upright. **Display:** VR or single ultrawide.
+- **Cost to start:** game-only at catalogue prices (2026 store prices unverified — do not quote); gear overlaps rally.
+- **Community:** DR2.0 is still the most-played legacy rally title on Steam (Aug 2026 avg 627.6 vs EA WRC 345–657, SteamDB via OverTake, index) despite the Clubs closure — its scene is migrating, watch where.
+
+---
+
+## 11. Open-world cruising
+
+**What it is:** driving for the drive — big maps, traffic, no start/finish pressure. The natural home for the F1-Arcade friend who just wants to *go for a drive*.
+
+### Games and platforms (Oct 2026)
+
+| Game | Platform | Status |
+|---|---|---|
+| Forza Horizon 6 (Japan) | Win/XS X\|S 19 May 2026; Game Pass day one; **PS5 later in 2026, date TBA** | Metacritic 90 (index); Aug 2026 Steam avg 19,023.8 — the genre's giant (OverTake, index) |
+| Forza Horizon 5 | PC/PS5/Xbox (PS5 port 29 Apr 2025) | Still avg 5,723.1 on Steam (Aug 2026) |
+| The Crew Motorfest | PC/PS/Xbox; **Switch 2 version 8 Oct 2026, $49.99** | Year 3 content running; Steam avg ~969 (multi-platform caveat) |
+| Test Drive Unlimited Solar Crown | PC/PS5/XS | Still always-online in 2026; Year 2 seasons through Jul 2026 (Traxion, index) |
+| Motor Town: Behind The Wheel | PC/Mac/Linux, $19.99 | The healthy indie: ~9,700 Steam reviews, avg ~815 (Aug 2026) |
+| AC free-roam (PC) | PC only | Shutoko (150 km+), LA Canyons (~900 km²), PCH mods; AC EVO's Eifel free roam **still absent at v0.6**, now expected early 2026→later (Traxion/OverTake, index) |
+
+### Gear
+
+- **Essential:** a gamepad is genuinely sufficient for Horizon/Motorfest/TDU/Motor Town (controller-first design; **no source quantifies per-title FFB — flagged gap**). The exception is AC free-roam/No Hesi, which runs full sim FFB and rewards a DD like any AC driving.
+- **Optional:** any entry wheel for immersion; shifter/handbrake only in AC free-roam.
+- **Why low-end wheels are fine here** (label in the wiki as reasoning, not a sourced claim): pad-tuned assists + no ranked ladder that punishes imprecision; the hardcore end (AC) is the exception above.
+- **Seating/display:** any; single screen is home turf here.
+- **Cost to start:** cheapest Motor Town $19.99; Horizon 6 via Game Pass (sub price unverified); AC + free Shutoko.
+- **Community:** Horizon 6 dominates by an order of magnitude; Motor Town punches above its weight; AC free-roam lives on Discord servers (§7).
 
 ---
 
@@ -290,7 +366,12 @@ Key: **E** = essential/core · **N** = nice/situational · **—** = not needed.
 Verified live 2026-10-02 (in prior research passes): MOZA US store prices (handbrake/shifter); NLR F-GT ($599) and F-GT Elite/ERS3 ($999) product pages.
 Index (search snippets read 2026-10-02): iRacing official pricing post https://www.iracing.com/iracing-subscription-pricing-update-july-2026/; OverTake iRacing increase https://www.overtake.gg/news/iracing-confirms-subscription-fee-increase-starting-august-2026.4665/; trophi.ai cost breakdown https://www.trophi.ai/post/iracing-raises-prices-for-2026-announces-new-indycar-game; Traxion LFM/AC Evo https://traxion.gg/low-fuel-motorsport-adds-assetto-corsa-evo-support/; Univers-Simu ETS2 PS5 at TGS https://en.univers-simu.com/news/euro-truck-simulator-2-ps5-playable-tokyo-game-show-129324/; Traxion ATS record/2027 console note https://traxion.gg/ford-car-pack-dlc-and-new-road-trip-mode-help-break-american-truck-simulator-player-records/; AC Rally $29.99 via BoxThisLap https://boxthislap.org/assetto-corsa-rally-ea-0-3-early-access/ and BSimRacing; AC EVO $39.99 via Simulation Daily https://simulationdaily.com/news/assetto-corsa-evo-update-0-8/; NASCAR 25 pricing via Catchfence https://catchfence.com/index.php/cup-series/nascar-cup-series-news/436680-nascar-25-races-onto-playstation-5-xbox-series-xs-consoles-today/; SRP 445,893 Discord members via OverTake media page https://www.overtake.gg/media/shutoko-revival-project-huge-track-mod-for-assetto-corsa.3847/; GT3 roundup context RacingGames.gg https://racinggames.gg/article/the-5-best-gt3-sim-racing-games-you-should-be-playing-right-now (Sep 8 2026).
 Carried from prior research (index unless noted): AC Rally Wikipedia; BeamNG PS5 RacingGames.gg; ETS2 console GameSpot; LMU console Traxion (early–mid 2027); Sim-Lab handbrake; ISRTV load-cell; OverTake rim-sizing community threads; NLR F-GT manual (primary doc); Tom's Hardware TSS USB.
+**Deep-dive pass (index unless live-fetched; live-fetched = Traxion karting roundup, iRacing pricing page, Traxion AC EVO/Rally H1 2027):** KartKraft launch GlobeNewswire https://www.globenewswire.com/fr/news-release/2022/01/26/2373585/0/en/Motorsport-Games-Announces-Official-KartKraft-Launch.html; KartSim COTF https://www.kart-sim.com/products/kartsim-cotf-software; Traxion KartSim MEA DLC https://traxion.gg/kartsim-unveils-middle-east-and-asia-focused-track-and-kart-dlc-for-rfactor-2/; EA WRC end https://www.thedrive.com/news/ea-sports-wrc-is-dead-and-with-it-the-legacy-of-dirt-and-colin-mcrae-rally ; Nacon WRC https://www.gamespot.com/articles/after-being-paused-by-ea-the-wrc-racing-game-series-will-live-on/1100-6531821/; Dakar end-of-patches https://www.overtake.gg/news/dakar-desert-rally-no-further-fixes-patches-planned.1695/; DR2.0 Clubs closure https://www.onlineracedriver.com/2026/04/11/dirt-rally-2-0-clubs-will-be-shut-down-in-july-2026/; FH6 https://en.wikipedia.org/wiki/Forza_Horizon_6 ; Motorfest Switch 2 https://www.nintendolife.com/games/nintendo-switch-2/crew-motorfest ; TDUSC Year 2 https://traxion.gg/test-drive-unlimited-solar-crown-everything-coming-in-year-2/ ; Motor Town https://steambase.io/games/motor-town-behind-the-wheel/steam-charts ; AC EVO 0.6/free roam https://www.overtake.gg/news/assetto-corsa-evo-0-6-tested-update-with-positive-surprises-interesting-hints.4388/ and https://traxion.gg/assetto-corsa-evo-ditches-original-career-mode-concept/ ; AC Rally v0.6 https://traxion.gg/assetto-corsa-rallys-v0-6-update-to-introduce-photo-mode-private-lobbies-and-custom-liveries/ ; LMU console 2027 https://traxion.gg/le-mans-ultimate-console-versions-on-track-for-early-to-mid-2027/ ; GT7 1.71 https://www.gran-turismo.com/gb/news/00_4305265.html ; BeamNG PS5 https://racinggames.gg/article/everything-we-know-about-beamngdrives-upcoming-ps5-port ; No Hesi Patreon https://www.patreon.com/nohesi ; City Car Driving 2.0 https://store.steampowered.com/news/app/2327720/view/707775112793819212 ; Steam concurrency chart (Aug 2026) https://www.overtake.gg/news/unexpected-need-for-speed-revival-most-played-racing-games-on-steam-in-august-2026.4832/ .
 
 ## 15. Unverified / TODO — do not publish as fact
 
-- AC Rally VR at v0.6+, and 1.0 release timing · GT7 game price today · DR2.0 / EA WRC / BeamNG / City Car Driving current Steam prices (verify on Steam) · CarX Drift Racing Online 2 status · World of Outlaws current title status · TruckersMP and No Hesi member counts · rally community size numbers · KartKraft/Kart Racing Pro 2026 status, Dakar/off-road titles, Forza Horizon 6 / TDUSC / Motorfest 2026 status (deep-dive pending, §9–11) · Rim diameters & rotation figures are community consensus · Second-rim/button-box/pedal-set dollar ranges are labelled estimates · "Practice sims improve real driving" — no efficacy source exists in either pass; keep the claim out.
+- AC Rally VR at v0.6+, and 1.0 timing now sourced as H1 2027 (Digital Bros) — VR itself still unconfirmed · GT7 game price today · DR2.0 / EA WRC / BeamNG / City Car Driving current Steam prices (verify on Steam) · CarX Drift Racing Online 2 status · World of Outlaws current title status · TruckersMP member counts · rally community size numbers · Rim diameters & rotation figures are community consensus · Second-rim/button-box/pedal-set dollar ranges are labelled estimates · "Practice sims improve real driving" — no efficacy source exists in either pass; keep the claim out.
+- **From the Oct 2026 deep-dive (folded in §§9–11):** iRacing kart class — no evidence found, **not confirmed negative** · Kart Racing Pro latest-build info is low-trust (cracked-games listing) · kart rotation guidance rests on one forum thread ("180 degrees is a must"); **no authoritative kart-rig seating/rotation guide exists** · FH5 PS5 "~3M copies in <3 months" is single-blog (mitchcactus.co) · BeamNG PS5 ~$25 (GameRant) is an **estimate** — official price unannounced · No Hesi **Discord** member count not found (Patreon 31,043 is the sourced figure — use that, label it Patreon) · GT7 Spec III exact go-live date vs 2026 monthly sequence needs one clean check · per-title open-world FFB rankings and long-travel pedal claims — no sources found · current store prices for EA WRC, DR2.0, Dakar, TDU Solar Crown, AC original not verified (left blank in this file deliberately).
+- **No Hesi numbers, resolved:** use **31,043 Patreon members (Sep 2026 crawl, index)** + SRP Discord 445,893 (OverTake snapshot, index). Do not quote a No Hesi Discord count.
+- **BeamNG PS5, resolved:** launch **19 Oct 2026, 14:00 UTC**, 4-player split-screen, no mods/VR/World Editor at launch (RacingGames.gg, 24 Sep 2026 reporting, index); price unannounced.
+- **City Car Driving 2.0, resolved direction:** EA **17 Jun 2026**; launch rough, "Mixed" Steam reviews, wheel support flaky post-launch (2327720 news, index) — supports the "verify current state" framing, no more.
