@@ -143,3 +143,14 @@ The outline is **flexible by design** — it is expected to change.
 - [ ] Fill in Example Builds (`docs/builds/`)
 - [x] Choose + document deployment (GitHub Pages, Actions-based)
 - [ ] Publish
+
+## Publishing (live site)
+
+Site: https://johnjp15.github.io/sim-racing-guide/ (GitHub Pages, `gh-pages` branch)
+
+GitHub Actions is blocked on this account, so publishing is a local build + push:
+
+1. Edit pages under `docs/` (on GitHub web or locally) and push to `main`.
+2. From a clone of this repo, run: `./scripts/publish.sh`
+
+That builds MkDocs and pushes the result to `gh-pages`. First run creates a Python venv and installs MkDocs Material; later runs take seconds. If nothing changed, it says so and pushes nothing.
