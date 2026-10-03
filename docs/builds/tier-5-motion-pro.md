@@ -1,46 +1,35 @@
 # Tier 5 — Motion / Showpiece
 
-> **All prices preliminary — verify in research phase.** Totals should state whether PC/console and display are included.
+<!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Target user
 
-TODO — no-compromise builds, training, showpiece
+<!-- TODO -->
 
 ## Parts
 
-| Part | Placeholder | Est. price |
-|---|---|---|
-| Motion platform | TODO — 3DOF/6DOF class | TODO |
-| Wheelbase / pedals | TODO — high-end class | TODO |
-| Cockpit + seat | TODO | TODO |
-| Display | TODO — triples/VR class | TODO |
-| PC | TODO — high-end | TODO |
-| **Total** | | **TODO (preliminary: see [Types of Setups](../06-types-of-setups.md))** |
+<!-- TODO -->
 
 ## Footprint
 
-Dedicated space / room
+<!-- TODO -->
 
 ## What it feels like
 
-TODO — to write in research phase
+<!-- TODO -->
 
 ## Pros / cons
 
-- Pros: TODO
-- Cons: TODO
+<!-- TODO -->
 
 ## Next upgrade
 
-N/A / TODO
+<!-- TODO -->
 
 ## Used-market alternative
 
-TODO (note: motion used market is niche)
+<!-- TODO -->
 
 ## Related pages
 
-- [Example Builds Overview](index.md)
-- [Tier 4 — Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md)
-- [Components Overview](../components/index.md)
-- [Buying Smart](../09-buying-smart.md)
+<!-- TODO -->

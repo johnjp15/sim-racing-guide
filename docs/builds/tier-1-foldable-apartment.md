@@ -1,48 +1,35 @@
 # Tier 1 — The Apartment Folder
 
-> **All prices preliminary — verify in research phase.** Totals should state whether PC/console and display are included.
+<!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Target user
 
-TODO — apartments, shared rooms; setup must fold/store away
+<!-- TODO -->
 
 ## Parts
 
-| Part | Placeholder | Est. price |
-|---|---|---|
-| Wheelbase + rim | TODO | TODO |
-| Pedals | TODO | TODO |
-| Cockpit | TODO — foldable cockpit / wheel stand | TODO |
-| Display | Existing TV/monitor | TODO |
-| Platform | Existing PC/console | — |
-| **Total** | | **TODO (preliminary)** |
+<!-- TODO -->
 
 ## Footprint
 
-TODO (folds/stores)
+<!-- TODO -->
 
 ## What it feels like
 
-TODO — to write in research phase
+<!-- TODO -->
 
 ## Pros / cons
 
-- Pros: TODO
-- Cons: TODO
-- Watch out for: stand flex under strong bases / load-cell brakes
+<!-- TODO -->
 
 ## Next upgrade
 
-TODO
+<!-- TODO -->
 
 ## Used-market alternative
 
-TODO
+<!-- TODO -->
 
 ## Related pages
 
-- [Example Builds Overview](index.md)
-- [Tier 0 — The Desk Tester](tier-0-desk-starter.md)
-- [Tier 2 — First Dedicated Rig](tier-2-first-dedicated-rig.md)
-- [Cockpits & Mounting](../components/cockpits-mounting.md)
-- [Buying Smart](../09-buying-smart.md)
+<!-- TODO -->
