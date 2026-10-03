@@ -97,7 +97,7 @@
 | Logitech RS50 System | 8 Nm | DD | Xbox/PC or PS/PC, wheel+clamp (no pedals) | **$599.99–$699.99 by variant** | logitechg.com, **verified live** (child research) |
 | Thrustmaster T128 | ~2 Nm | Hybrid | PS/PC or Xbox/PC | $199.99 MSRP | TechRadar, index |
 | PXN VD6 bundle | 6 Nm const / 7 pk | DD | PC (bundle w/ 3-pedal Hall set) | $391.99 | us.e-pxn.com, **verified live** (child research) |
-| Logitech G Pro Wheel | 11 Nm | DD | PS/PC or Xbox/PC variants | $999.99–1,199.99 | Logitech US, live (prior session 2026-10-02) |
+| Logitech G Pro Wheel | 11 Nm | DD | PS/PC or Xbox/PC variants | $999.99–1,199.99 (index; CA store CAD $1,199.99–1,499.99) | Reviews index — US page unresolved, TODO |
 | Thrustmaster T248R | 3.1 Nm pk | Hybrid | PS/PC | $349.99 | TechRadar, index |
 | Thrustmaster T598 | 5 Nm const (+10 over.) | Axial DD | PS/PC or Xbox/PC | $499.99 (bundle w/ pedals) | TechRadar/PC Gamer, index |
 | Thrustmaster T818 | 10 Nm const | DD | PC | $649.99 (launch) / $750 MSRP conflict | Traxion vs Windows Central, index — TODO |

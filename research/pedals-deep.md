@@ -19,6 +19,11 @@
 - **Active pedal**: a motor drives the pedal itself — programmable force/travel curves per car, plus effects (ABS pulse, TC, engine/G-force vibration). Simucube ActivePedal (originator), Moza mBooster. No springs/elastomers to swap; feel is software.
 - **Haptic/reactor add-ons** (middle path): vibration motors on load-cell pedals — Simagic P-HPR reactor, Simucube ecosystem, Moza ecosystem effects. ABS feedback without full active cost.
 
+### What the "kg" rating actually means (important — numbers are conflated)
+1. **Sensor rated capacity**: max load the strain gauge is rated for (e.g. CSL Elite V2 sensor >150–200 kg class).
+2. **Pedal-face force**: force at the pad after leverage (e.g. Sprint 120 kg cell = 65 kg at plate; Ultimate+ 200 kg cell = 140 kg at face; Asetek quotes 180 kg on the pedal face).
+3. **Software-calibrated 100% point**: the force YOU set as full braking — what matters daily. A 100 kg pedal calibrated to 35 kg beats a 200 kg pedal calibrated to an unreachable max. Most drivers should set 100% at a force repeatable without seat/tray/leg shifting. (Child research synthesis of Fanatec/Asetek/Heusinkveld docs, index 2026-10-02.)
+
 ### Why load cell matters (the core argument for the wiki)
 - Real car brakes are pressure devices: the pedal is stiff, travel is short, and you judge braking by *how hard you push*, not how far. A load cell copies that; a pot/Hall brake makes you judge by ankle angle/travel — harder to repeat precisely (Fibos, MySimRig, Asetek Forte explainer — index).
 - Result claimed by every source: **consistency**. Same pressure = same braking, lap after lap; muscle memory works on force, which humans reproduce better than position (Fanatec marketing + Fibos + GTPlanet user reports of "far more consistent" braking after load-cell mod — index).
@@ -39,12 +44,14 @@
 - Simagic P2000 (200 kg, hydraulic brake): $689 at Apex (index); P1000 can add hydraulic kit + haptic reactor (Apex/ExtremeSimRacing index).
 - Asetek Initium upgrade path: hydraulic brake kit $329 on top of ~$119 pedals = $448 vs Forte $479 (TweakTown, index) — a worked example that upgrade paths can cost as much as buying right first.
 - Hydraulic = feel/damping fidelity. The measured input is still force; expect diminishing performance returns vs a good load cell (synthesis; TODO find head-to-head source).
+- **Review consensus (child research, Oct 2026)**: hydraulics buy feel and consistency; the lap-time jump comes from the load cell itself. TweakTown's Initium review calls the $329 hydraulic upgrade "non-essential" vs the load cell; a wpa-pool roundup argues a quality load cell with hydraulic damping gives "90% of the realism at a fraction of the cost." Vendor/reviewer lap-time claims (Asetek roundups, Boosted Media Simtag) are anecdotal, not controlled tests.
 
 ### Active pedals — who and what for
 - Simucube ActivePedal: motor-driven, Pro 110 kg / Ultimate 170 kg max force (simucube.com US index); per-car profiles (travel, force, curves, ABS/G-force/RPM effects), no elastomer swaps; **Pro $1,849, Ultimate $2,059–$2,499 (conflict), Co-Pedal $499** (simucube.com US, index crawled Sep–Oct 2026); needs Link Hub; one ActivePedal can accept 2 passive load-cell pedal inputs (Heusinkveld Sprint/Ultimate+ integrate via connector cable).
 - Moza mBooster: $759/$799 (live); dual 200 kg load cells + motor, 270 W peak; ABS/TC/G-force/engine effects via Pit House; native ABS translation in ACC, rFactor 2, AMS2, RaceRoom — NOT iRacing/LMU at launch coverage (Traxion, index). Works with other brands' pedals via separate USB (PC) (Traxion index).
 - Reviewer reality check: Gamereactor argues Heusinkveld Ultimate+ + rumble kit gives similar feedback cheaper and "more natural" (index opinion — flag as opinion).
 - Who it's for: multi-car drivers wanting per-car pedal feel without wrenching; immersion maximalists; NOT a first load-cell upgrade (price = 5–10× entry load cell).
+- **Active pedals: real info or gimmick? (child research synthesis)** Review consensus 2025–26: ABS/TC cues are real, usable information, but lap-time gains are small (~0.1 s overall vs high-end passive in BoxThisLap telemetry testing; +0.2 s in individual braking zones). Value = information + consistency + immersion, not raw pace. Simucube's own survey (vendor claim, label as such): 90% say ActivePedal helped trail braking. Native ABS telemetry depends on the sim — iRacing added `BrakeABSactive` telemetry in 2026 S1P2; whether Pit House/Simucube Tuner consume it as of Oct 2026 is unverified (TODO).
 
 ### Console pedal compatibility (critical, often misunderstood)
 - **Rule**: on PS/Xbox, pedals must be the same ecosystem as the base AND connect through the base (RJ12/USB to base, not console). The base is the only device the console sees (Fanatec manual, index). No native way to run Heusinkveld/Simagic/Asetek pedals on console with any base.
@@ -87,15 +94,15 @@
 | Logitech G Pro Pedals | Load cell 100 kg | 3 | PC / console via Pro base | **$379.99** | logitech.com US, **verified live** (child research) |
 | Asetek La Prima (B&T) | Load cell, 180 kg pedal-face | 2 | PC | $349 (index) / $335 (review) | Podium1 / OC Racing, index |
 | VRS DirectForce Pro | Load cell 140 kg, coil-spring | 2 / 3 | PC | $649 / $848 | vrs.racing, **verified live** (child research) |
-| Logitech G Pro Pedals | Load cell 100 kg | 3 | PC / console via Pro base | $349 | Traxion index |
 | Moza CRP2 | Load cell dual 200 kg | 2 (clutch $99) | PC | $369 sale / $399 list | Moza US, **live** |
-| Asetek Forte (B&T) | Load cell ~180 kg M.L.C.P.C. | 2 | PC | $479 | asetek.com US, index |
-| Heusinkveld Sprint | Load cell 120 kg (65 kg @ plate) | 2 / 3 | PC | $589.99 / ~$769 | Micro Center / sim-seats, index |
-| Simagic P2000 | Load cell 200 kg + hydraulic | 2/3 | PC | $689 | Apex (apevie), index |
-| Asetek Invicta T.H.O.R.P. II | Hydraulic | 2 | PC | $829 excl. tax | asetek.com US, index |
-| Heusinkveld Ultimate+ | Load cell 140 kg @ plate + dampers | 2 / 3 | PC | $1,049.99 / $1,299.99 | Micro Center, index |
-| Moza mBooster Active | **Active**, dual 200 kg LC | 1 (set w/ CRP2 throttle $949) | PC | $759 sale / $799 list | Moza US, **live** |
-| Simucube ActivePedal Pro / Ultimate | **Active**, 110 / 170 kg | 1 (Co-Pedal $499) | PC | $1,849 / $2,059–$2,499 | simucube.com US, index |
+| Asetek Forte (B&T) | Load cell ~180 kg M.L.C.P.C. | 2 | PC | $479 | asetek.com US, **verified live** (child research) |
+| Heusinkveld Sprint | Load cell 120 kg (65 kg @ plate) | 2 / 3 | PC | $589.99 2p index / $675.95 set (sold out) | Micro Center index / Sim Motion **verified live** (child research) |
+| Simagic P1000 / P1000-RS Hydraulic | Load cell 100 kg (+hydraulic variant) | 3 | PC | $469 / $579 | Apex, index (child research) |
+| Simagic P2000 | Load cell + hydraulic | 2/3 | PC | $609–$869, **all out of stock** — legacy? | US retailers, index (child research) |
+| Asetek Invicta T.H.O.R.P. II | Hydraulic | 2 | PC | $829 excl. tax | asetek.com US, **verified live** (child research) |
+| Heusinkveld Ultimate+ | Load cell 140 kg @ plate + dampers | 2 / 3 | PC | $1,049.99–$1,609 (conflict) | US retailers, index — TODO official |
+| Moza mBooster Active | **Active**, dual 200 kg LC | 1 (base plate +$119; set w/ CRP2 throttle $949) | PC | $759 sale / $799 list | Moza US, **live** |
+| Simucube ActivePedal Pro / Ultimate | **Active**, 110 / 170 kg | 1 (Co-Pedal $499; Link Hub ~$100 for Pro?) | PC | **$1,849 / $2,059** | simucube.com US, **verified live** (child research) |
 
 ### Table 3 — Console pedal compatibility matrix
 | Pedal set | PS5 (native) | Xbox (native) | PC | Notes |
@@ -109,10 +116,10 @@
 ---
 
 ## Options by budget (USD, checked 2026-10-02, volatile)
-- **First load cell (~$150)**: Moza SRP2 $149 (live, PC); Logitech RS Pedals $159.99 (index, best console-path value); Fanatec CSL + LC kit (TODO US price).
-- **Mid ($250–400)**: T-LCM $249 (index, console-friendly); CSL Elite V2 ~$299–325 (index, 3 pedals, console via base); G Pro Pedals $349 (index); CRP2 $369 (live, PC).
-- **Enthusiast ($450–900)**: Asetek Forte $479 / Sprint ~$590–769 / P2000 $689 / Invicta $829 (all index) — PC-only except none; rig assumed.
-- **Pro / active ($1,000+)**: Heusinkveld Ultimate+ $1,049.99+ (index); Moza mBooster $759 (live) as the "cheap active"; Simucube ActivePedal €2,378/pedal (index, USD TODO).
+- **First load cell (~$150)**: Moza SRP2 $149 (live, PC); Simagic P500 $149 (verified live, child research); Logitech RS Pedals $159.99 (verified live, best console-path value); Fanatec CSL Pedals owners: LC kit $99.99 (verified live).
+- **Mid ($250–400)**: T-LCM $249.99 (verified live, console-friendly); Raceline III LC $269.99 (verified live); CSL Elite V2 $329.99 (verified live, 3 pedals, console via base); CRP2 $369 (live, PC); G Pro Pedals $379.99 (verified live).
+- **Enthusiast ($450–900)**: Asetek Forte $479 / P1000 $469 / Sprint ~$590–676 / VRS DFP $649 / Invicta $829 (mixed verified/index) — PC-only; rig assumed.
+- **Pro / active ($759+)**: Moza mBooster $759 (live) as the "cheap active" (per pedal; +$119 base plate); Heusinkveld Ultimate+ $1,049.99+ (index conflict); Simucube ActivePedal Pro $1,849 / Ultimate $2,059 per pedal (verified live).
 
 ## Sources
 **Verified live (fetched 2026-10-02):**
@@ -121,15 +128,16 @@
 - fanatec.com product pages (CSL Elite V2 specs/pricing language, CSL LC kit), Traxion (RS Pedals launch, mBooster FAQ/effects support, DriveHub), TechRadar/Gaming Nexus (RS50 system), OverTake 2024 pedal roundup table (T-LCM, G Pro, Sprint, Ultimate+, SP01, Asetek lines — NOTE: 2024 prices, stale), Micro Center retailer index (Heusinkveld US prices), asetek.com US store extract (Forte/Invicta/La Prima, excl. tax), Apex/apevie + ExtremeSimRacing (Simagic P1000/P2000), TweakTown (Asetek Initium upgrade economics), Fibos/MySimRig/Asetek explainers (load-cell science), Gamereactor (active-pedal scepticism, opinion).
 
 ## Unverified / TODO items
-- [ ] Simucube ActivePedal Ultimate US price conflict: $2,059 vs $2,499 across simucube.com US pages (Pro $1,849 consistent) — resolve on the US store; also confirm Link Hub price (~$150 index).
-- [ ] Simagic P1000/P2000 clean US list prices (found open-box $422–450 and retailer $689; simagic.com US list not captured).
-- [ ] Thrustmaster T-LCM current US street price (OverTake table is 2024; Windows Central confirms $250 MSRP, date TODO).
-- [ ] Fanatec US pedal prices (CSL Pedals, LC kit, CSL Elite V2, ClubSport V3) on fanatec.com US — index only.
-- [ ] Asetek La Prima pedal US price ($335–453 index spread) and "console support planned" status (2024 claim, likely stale).
+- [ ] Simucube ActivePedal Pro total cost: is the ~$100 Link Hub mandatory on top of the $1,849 pedal? (Ultimate primary set includes Simucube Link; Pro page lists hub separately — child research.)
+- [ ] Simagic P500 MSRP conflict: $149 Apex (verified live) vs $199 aggregators; C-P500 clutch US price unknown.
+- [ ] Fanatec CSL Pedals base set NEW US price (only refurb $97.99 found); CSL LC kit max kg not stated by Fanatec (secondary "60 kg" index only); CSL Elite V2 sensor rating >150 vs >200 kg discrepancy.
+- [ ] Heusinkveld official USD pricing (heusinkveld.com not opened): Sprint $589.99–$675.95 spread; Ultimate+ $1,049.99–$1,609 conflict; baseplate extra.
+- [ ] Moza mBooster: is the 48 V PSU in the box? Is the $119 base plate required for typical rigs?
+- [ ] 2026 game support: do iRacing/LMU ABS telemetry feeds now drive Moza Pit House / Simucube Tuner effects? (Last confirmed status Mar 2025; iRacing added BrakeABSactive in 2026 S1P2.)
+- [ ] Simagic P2000: out of stock at every US retailer checked — discontinued?
 - [ ] Moza SRP2/CRP2 console routing: do SRP2 pedals work on the R3 Xbox bundle path / upcoming PS bases? Not confirmed.
 - [ ] Asetek active pedal retrofit for Invicta — teased 2024 (Traxion); shipped? priced?
-- [ ] Heusinkveld Sprint US prices ($589.99/$769 retailer index; heusinkveld.com sells EUR) — confirm US MSRP; Ultimate+ baseplate extra ($129.99 index).
-- [ ] Hydraulic vs load-cell head-to-head lap-time evidence — marketing claims only so far; flag as "feel, not proven pace".
-- [ ] Turtle Beach VelocityOne replacement/standalone pedal availability and specs (Dynamic Brake Tek load-cell rating kg?).
-- [ ] Nacon/other 2025–26 pedal entrants (Thrustmaster Raceline Pedals III LC $399.95 AU pre-order seen — US price TODO).
+- [ ] Hydraulic vs load-cell controlled lap-time evidence — only anecdotes so far; keep "feel, not proven pace" framing.
+- [ ] Logitech RS Pedals SE (2026 coverage): US price/availability unverified (EU €119.99 index only).
+- [ ] Thrustmaster T-LCM bit-depth drop on console (16-bit PC → 12-bit via base) — from retailer-derived specs, verify on TM docs.
 
