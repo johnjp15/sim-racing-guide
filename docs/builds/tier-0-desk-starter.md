@@ -4,7 +4,8 @@
 
 ## Target user
 
-<!-- TODO -->
+- Curious after F1 Arcade, want to try a wheel at home for minimum money
+- Already own: desk, chair, PC or console
 
 ## Parts
 
