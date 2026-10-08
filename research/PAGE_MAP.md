@@ -51,3 +51,16 @@ Checked 2026-10-02. Prices in research files are dated and volatile — re-verif
 
 ## Discipline / seating research (not yet separate site pages — outline may add them)
 - existing-pack/19–31, disciplines-expanded.md, cockpits-seating-deep.md
+
+## Rig Anatomy + Components (added 2026-10-07, interactive diagram TOC)
+- `docs/rig-anatomy.md` — interactive SVG, links below
+- `docs/components/chassis-mounts.md` → cockpits-seating-deep.md, existing-pack/12-cockpits-mounting.md, motion-highend-accessories.md
+- `docs/components/seating.md` → cockpits-seating-deep.md, existing-pack/30-seating-positions.md
+- `docs/components/wheelbases.md` → wheelbases-deep.md, console-ecosystem-deep.md, existing-pack/08-wheelbases.md
+- `docs/components/wheel-rims.md` → wheelbases-deep.md, existing-pack/10-wheel-rims.md
+- `docs/components/pedals.md` → pedals-deep.md, existing-pack/09-pedals.md
+- `docs/components/shifters-handbrakes.md` → existing-pack/11-shifters-handbrakes.md, disciplines-expanded.md, accessories-room-setup.md
+- `docs/components/displays-vr.md` → displays-vr-deep.md, existing-pack/13-displays-vr.md
+- `docs/components/button-boxes-accessories.md` → accessories-room-setup.md, existing-pack/11-shifters-handbrakes.md
+- `docs/components/pc-console.md` → pc-games-economics.md, console-ecosystem-deep.md, existing-pack/14-pc-console.md
+- `docs/components/audio.md` → motion-highend-accessories.md (tactile), accessories-room-setup.md
