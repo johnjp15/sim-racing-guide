@@ -14,28 +14,35 @@
 
 ## Parts
 
-<!-- TODO -->
+- Logitech G923 bundle: wheel + rim + 3 pedals, gear drive ~2.3 Nm
+- Desk clamp (in box) + pedal stop: wall or shoebox
+- Alt: Moza R3 3.9 Nm DD $279–339 (PC/Xbox, no PS) / Thrustmaster T248 $240–400 / T128 $200
 
 ## Footprint
 
-<!-- TODO -->
+- Existing desk ~120×60 cm, wheel clamps to edge
+- Pedals on floor against wall or box
 
 ## What it feels like
 
-<!-- TODO -->
+- Grainier FFB than F1 Arcade, no motion
+- Unlimited seat time
+- Slower than controller for the first week
 
 ## Pros / cons
 
-<!-- TODO -->
+- \+: cheapest way in, nothing to build or store
+- −: pedals slide, desk flex — no load-cell pedals yet
 
 ## Next upgrade
 
-<!-- TODO -->
+- Tier 1 foldable or wheel stand
 
 ## Used-market alternative
 
-<!-- TODO -->
+- G29/G920 ~$150–200; check pot jitter + gear slack
+- Avoid G27 (no PS5/Xbox)
 
 ## Related pages
 
-<!-- TODO -->
+- [Tier 1 — Foldable / Apartment](tier-1-foldable-apartment.md)
