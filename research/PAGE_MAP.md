@@ -52,8 +52,8 @@ Checked 2026-10-02. Prices in research files are dated and volatile — re-verif
 ## Discipline / seating research (not yet separate site pages — outline may add them)
 - existing-pack/19–31, disciplines-expanded.md, cockpits-seating-deep.md
 
-## Rig Anatomy + Components (added 2026-10-07, interactive diagram TOC)
-- `docs/rig-anatomy.md` — interactive SVG, links below
+## Rig Anatomy + Components (added 2026-10-07; rebuilt 2026-10-07 as 3D, now the Components starting page)
+- `docs/components/index.md` — Rig Anatomy: interactive Three.js 3D rig (modeled off a Sim-Lab P1X Ultimate reference photo), hover/click parts → component pages
 - `docs/components/chassis-mounts.md` → cockpits-seating-deep.md, existing-pack/12-cockpits-mounting.md, motion-highend-accessories.md
 - `docs/components/seating.md` → cockpits-seating-deep.md, existing-pack/30-seating-positions.md
 - `docs/components/wheelbases.md` → wheelbases-deep.md, console-ecosystem-deep.md, existing-pack/08-wheelbases.md

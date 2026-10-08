@@ -56,9 +56,8 @@ nav:
       - Tier 3 — Sweet Spot Enthusiast: builds/tier-3-sweet-spot-enthusiast.md
       - Tier 4 — Triples / VR Enthusiast: builds/tier-4-triples-vr-enthusiast.md
       - Tier 5 — Motion / Pro: builds/tier-5-motion-pro.md
-  - Rig Anatomy: rig-anatomy.md
   - Components:
-      - Overview: components/index.md
+      - Rig Anatomy: components/index.md
       - Chassis & Mounts: components/chassis-mounts.md
       - Seat: components/seating.md
       - Wheelbase: components/wheelbases.md
