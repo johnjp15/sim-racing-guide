@@ -1,5 +1,8 @@
 # Page → research map
 
+> **Current site (2026-10-07):** only the setup-tier pages are published — Home (`docs/index.md`), Types of Setups → `docs/builds/tier-0` … `tier-5`, and Draft Guide (`docs/draft-guide.md`). All other pages below were removed from the site; their research stays here for later.
+
+
 Every page on the site is a stripped skeleton (headings + TODO only). Research backing each page lives here in `research/` (never published). Future sessions: read the listed research, synthesize, and let the author write the prose.
 
 Checked 2026-10-02. Prices in research files are dated and volatile — re-verify before publishing.

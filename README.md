@@ -3,18 +3,11 @@
 A beginner-friendly wiki for friends getting into sim racing after trying F1 Arcade.
 Built as Markdown for **GitHub Wiki / MkDocs Material** — linkable pages, tier tables, and example builds that can be updated as prices change.
 
-## Two-layer structure
+## Current scope (2026-10-07)
 
-This wiki has two layers so both kinds of reader are served:
+The site is focused on **types of setups only** — the Tier 0–5 pages under `docs/builds/` — because that's what the author's friends care about. All other pages (concise/quick-start layer, full-guide chapters, components, glossary, FAQ) have been removed from the site; their research still lives under `research/` for when the author fills in the rest later.
 
-- **Quick Start (Concise)** — `docs/quick/`: the skim layer. A 5-Minute Guide, an Equipment Finder, and Builds At A Glance that summarise the options and link into the detail. Start here if you just want equipment fast.
-- **Full Guide — Detailed Chapters** — `docs/01-*.md` … `docs/10-*.md`, plus multi-page sections in `docs/components/` (one page per component category) and `docs/builds/` (one page per tier/build): the full reasoning, component deep-dive, buying logic, and the detailed example builds.
-
-Prices and parts tables live **only** in the detailed build pages (`docs/builds/`) as the single source of truth. The concise layer summarises and links — it does not duplicate price tables, so the two layers can never drift into conflicting copies.
-
-> **Status:** Scaffold only. Outline and structure are complete.
-> Product picks and prices are marked **preliminary — verify in research phase**.
-> Deep research comes next.
+> **Status:** Setup-tier focus. Pages are skeletons — the author writes all prose in their own voice.
 
 ## Project Structure
 

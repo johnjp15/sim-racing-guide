@@ -48,36 +48,11 @@ markdown_extensions:
 # Internal links in pages are relative Markdown links, so update those too when renaming.
 nav:
   - Home: index.md
-  - Quick Start (Concise):
-      - 5-Minute Guide: quick/quick-start.md
-      - Equipment Finder: quick/equipment-finder.md
-      - Builds at a Glance: quick/builds-at-a-glance.md
-  - Draft Guide: draft-guide.md
-  - Full Guide:
-      - 1. What is Sim Racing?: 01-what-is-sim-racing.md
-      - 2. Why Sim Race?: 02-why-sim-race.md
-      - 3. Who Is This For?: 03-who-is-this-for.md
-      - 4. Where & When Do You Race?: 04-where-and-when.md
-      - 5. How It Works — The 5 Pillars: 05-how-it-works.md
-      - 6. Types of Setups: 06-types-of-setups.md
-      - 9. Buying Smart: 09-buying-smart.md
-      - 10. First Setup, Tuning & Games: 10-first-setup-tuning-and-games.md
-  - Components:
-      - Overview: components/index.md
-      - Wheelbases: components/wheelbases.md
-      - Pedals: components/pedals.md
-      - Wheel Rims: components/wheel-rims.md
-      - Shifters & Handbrakes: components/shifters-handbrakes.md
-      - Cockpits & Mounting: components/cockpits-mounting.md
-      - Displays & VR: components/displays-vr.md
-      - PC, Audio & Accessories: components/pc-audio-accessories.md
-  - Example Builds:
-      - Overview: builds/index.md
+  - Types of Setups:
       - Tier 0 — Desk Starter: builds/tier-0-desk-starter.md
       - Tier 1 — Foldable / Apartment: builds/tier-1-foldable-apartment.md
       - Tier 2 — First Dedicated Rig: builds/tier-2-first-dedicated-rig.md
       - Tier 3 — Sweet Spot Enthusiast: builds/tier-3-sweet-spot-enthusiast.md
       - Tier 4 — Triples / VR Enthusiast: builds/tier-4-triples-vr-enthusiast.md
       - Tier 5 — Motion / Pro: builds/tier-5-motion-pro.md
-  - Glossary: glossary.md
-  - FAQ: faq.md
+  - Draft Guide: draft-guide.md
