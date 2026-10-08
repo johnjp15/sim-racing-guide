@@ -1,6 +1,6 @@
 # Tier 0 — The Desk Tester
 
-![Example: Logitech G29 wheel clamped to a desk with monitors](../images/tier-0.jpg)
+![Example: Logitech G29 wheel clamped to a desk with monitors and PC](../images/tier-0.jpg)
 
 <!-- Image source: https://www.techtesters.eu/logitech-g29-driving-force-shifter/5/ -->
 

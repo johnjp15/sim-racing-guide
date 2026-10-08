@@ -213,30 +213,80 @@ function part(k) {
 
 // ================= BUTTON BOX =================
 {
-  const g = part('buttonbox'), d = DARK();
-  g.add(box(0.1, 0.04, 0.14, d, 0.66, 0.62, 0.16));         // sits on deck, right of base
+  const g = part('buttonbox'), d = DARK(), p = PROFILE();
+  // mounted on the wheel deck, right of the base, angled up toward the driver
+  // (like a real Stream Deck / button box on a profile mount)
+  g.add(box(0.03, 0.05, 0.03, p, 0.62, 0.625, 0.17));       // mount post
+  const bb = new THREE.Group();
+  bb.position.set(0.62, 0.66, 0.17);
+  bb.rotation.z = 0.6;                                      // face up toward driver
+  g.add(bb);
+  bb.add(box(0.1, 0.03, 0.14, d, 0, 0, 0));
   const cols = [0xff9100, 0x4ade80, 0x60a5fa, 0xf43f5e];
-  cols.forEach((c, i) => g.add(cyl(0.013, 0.013, 0.02,
+  cols.forEach((c, i) => bb.add(cyl(0.013, 0.013, 0.02,
     mat(c, { emissive: c, emissiveIntensity: 0.4 }),
-    0.635 + (i % 2) * 0.05, 0.645, 0.125 + Math.floor(i / 2) * 0.06)));
+    -0.025 + (i % 2) * 0.05, 0.02, -0.035 + Math.floor(i / 2) * 0.07)));
 }
 
 // ================= DISPLAYS (triples on a freestanding stand) =================
 {
   const g = part('displays'), d = DARK(), p = PROFILE();
-  const cv = document.createElement('canvas');
-  cv.width = 512; cv.height = 288;
-  const cx = cv.getContext('2d');
-  const sky = cx.createLinearGradient(0, 0, 0, 288);
-  sky.addColorStop(0, '#0b1a33'); sky.addColorStop(0.55, '#274b73');
-  sky.addColorStop(0.56, '#1c2b1a'); sky.addColorStop(1, '#101a12');
-  cx.fillStyle = sky; cx.fillRect(0, 0, 512, 288);
-  cx.fillStyle = '#5b6470';
-  cx.beginPath(); cx.moveTo(236, 288); cx.lineTo(252, 160); cx.lineTo(260, 160); cx.lineTo(276, 288); cx.fill();
-  cx.fillStyle = '#e8e8e8';
-  for (let y = 170; y < 288; y += 24) cx.fillRect(254, y, 12, 4);
-  const tex = new THREE.CanvasTexture(cv);
-  const screenMat = new THREE.MeshBasicMaterial({ map: tex });
+  // Racing POV, rendered with a true perspective camera per screen:
+  // each screen is yawed to its angle, like a real triple-screen sim render.
+  // (48° h-FOV per 32" screen at 0.85 m — matches the model.)
+  function renderPOV(cv, yawDeg) {
+    const W = cv.width = 512, H = cv.height = 288;
+    const c = cv.getContext('2d');
+    const yaw = yawDeg * Math.PI / 180;
+    const fx = (W / 2) / Math.tan(24.1 * Math.PI / 180);
+    const fy = (H / 2) / Math.tan(14.5 * Math.PI / 180);
+    const sy = Math.sin(yaw), cy = Math.cos(yaw), h = 1.15;
+    const P = (x, y, z) => {
+      const zc = x * sy + z * cy;
+      if (zc < 0.4) return null;
+      return [W / 2 + fx * (x * cy - z * sy) / zc, H / 2 - fy * (y - h) / zc];
+    };
+    const quad = (pts, fill) => {
+      const q = pts.map(p => P(p[0], p[1], p[2]));
+      if (q.some(p => !p)) return;
+      c.fillStyle = fill; c.beginPath(); c.moveTo(q[0][0], q[0][1]);
+      for (let i = 1; i < 4; i++) c.lineTo(q[i][0], q[i][1]);
+      c.closePath(); c.fill();
+    };
+    let g = c.createLinearGradient(0, 0, 0, H);       // sky + grass
+    g.addColorStop(0, '#6aa9e8'); g.addColorStop(0.5, '#bcd9f2');
+    c.fillStyle = g; c.fillRect(0, 0, W, H);
+    c.fillStyle = '#6f9457'; c.fillRect(0, H / 2, W, H / 2);
+    const sp = P(-30, 25, 250);                        // sun
+    if (sp) { c.fillStyle = 'rgba(255,246,220,0.95)'; c.beginPath(); c.arc(sp[0], sp[1], 15, 0, 7); c.fill(); }
+    c.fillStyle = '#8a9bb0';                           // mountains
+    [[-120, 320], [-40, 300], [60, 330], [140, 310]].forEach(([mx, mz]) => {
+      const a = P(mx - 45, 0, mz), b = P(mx, 40, mz), d2 = P(mx + 45, 0, mz);
+      if (a && b && d2) { c.beginPath(); c.moveTo(a[0], a[1]); c.lineTo(b[0], b[1]); c.lineTo(d2[0], d2[1]); c.closePath(); c.fill(); }
+    });
+    for (let z = 220; z > 3; z -= 4) {                // road, far -> near
+      quad([[-5, 0.01, z], [5, 0.01, z], [5, 0.01, z + 4], [-5, 0.01, z + 4]], '#3c4147');
+      const cc = (Math.floor(z / 8) % 2 === 0) ? '#d83a34' : '#e8e8e8';
+      quad([[-6.4, 0.01, z], [-5, 0.01, z], [-5, 0.01, z + 4], [-6.4, 0.01, z + 4]], cc);
+      quad([[5, 0.01, z], [6.4, 0.01, z], [6.4, 0.01, z + 4], [5, 0.01, z + 4]], cc);
+      if (Math.floor(z / 6) % 3 === 0)
+        quad([[-0.18, 0.02, z], [0.18, 0.02, z], [0.18, 0.02, z + 3], [-0.18, 0.02, z + 3]], '#dfe3e6');
+    }
+    [[-14, 30], [16, 46], [-18, 70], [20, 95], [-15, 130], [17, 170]].forEach(([tx, tz]) => {
+      const b = P(tx, 0, tz); if (!b) return;         // trees
+      const s = fx / (tx * sy + tz * cy);
+      c.fillStyle = '#5a4632'; c.fillRect(b[0] - 0.15 * s, b[1] - 2.2 * s, 0.3 * s, 2.2 * s);
+      c.fillStyle = '#3f6b34'; c.beginPath(); c.arc(b[0], b[1] - 3.2 * s, 1.6 * s, 0, 7); c.fill();
+    });
+    c.fillStyle = '#101216';                          // cockpit dash + a-pillars
+    c.beginPath();
+    c.moveTo(0, H); c.lineTo(0, H * 0.90); c.lineTo(W * 0.5, H * 0.86); c.lineTo(W, H * 0.90); c.lineTo(W, H);
+    c.closePath(); c.fill();
+    c.fillStyle = '#0b0d10';
+    c.beginPath(); c.moveTo(0, H * 0.62); c.lineTo(W * 0.035, H * 0.66); c.lineTo(W * 0.025, H); c.lineTo(0, H); c.closePath(); c.fill();
+    c.beginPath(); c.moveTo(W, H * 0.62); c.lineTo(W * 0.965, H * 0.66); c.lineTo(W * 0.975, H); c.lineTo(W, H); c.closePath(); c.fill();
+    c.fillStyle = 'rgba(255,255,255,0.07)'; c.fillRect(0, H * 0.885, W, 2);
+  }
 
   // driver head (same height => screens stay vertical, each faces the driver)
   const HX = -0.05, HY = 1.0;
@@ -244,7 +294,10 @@ function part(k) {
   const mk = (deg) => {
     const grp = new THREE.Group();
     grp.add(box(0.76, 0.44, 0.03, d, 0, 0, 0));        // bezel, faces +z
-    const scr = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 0.40), screenMat);
+    const cv = document.createElement('canvas');
+    renderPOV(cv, deg);                                // this screen's own yawed view
+    const scr = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 0.40),
+      new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(cv) }));
     scr.position.z = 0.017;                            // toward driver
     grp.add(scr);
     grp.add(box(0.12, 0.12, 0.025, d, 0, 0, -0.028));  // vesa plate on back

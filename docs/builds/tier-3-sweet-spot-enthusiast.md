@@ -1,8 +1,8 @@
 # Tier 3 — The Sweet Spot
 
-![Example: complete rig with ultrawide display](../images/tier-3.jpg)
+![Example: complete Sim-Lab P1X Pro aluminum rig](../images/tier-3.jpg)
 
-<!-- Image source: https://turnkeyracingsims.com/pages/turnkey-packages -->
+<!-- Image source: https://simracingsetup.com/product-guides/best-aluminium-profile-sim-rigs/ -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 

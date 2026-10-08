@@ -1,8 +1,8 @@
 # Tier 5 — Motion / Showpiece
 
-![Example: Pro-Sim Formula Evolution motion simulator](../images/tier-5.jpg)
+![Example: Apex motion simulator with triple screens](../images/tier-5.jpg)
 
-<!-- Image source: https://collectingcars.com/for-sale/pro-sim-formula-evolution-racing-simulator -->
+<!-- Image source: https://www.apex.mx/simuladores/simulador-motion-gp -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 

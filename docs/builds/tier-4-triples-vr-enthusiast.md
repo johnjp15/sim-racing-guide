@@ -2,7 +2,7 @@
 
 ![Example: complete triple-screen rig with bucket seat](../images/tier-4.jpg)
 
-<!-- Image source: https://qubicsystem.com/use-case/ricardo-use-case/ -->
+<!-- Image source: https://simdeck.app/gear/builds/moh -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
