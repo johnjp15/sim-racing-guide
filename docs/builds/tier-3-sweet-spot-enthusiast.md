@@ -2,6 +2,12 @@
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
+## Cost
+
+### $1,800–$2,200
+
+<small>Assumes: existing PC/console, display, dedicated space</small>
+
 ## Target user
 
 <!-- TODO -->

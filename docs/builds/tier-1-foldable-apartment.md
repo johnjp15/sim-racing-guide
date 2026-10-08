@@ -2,6 +2,12 @@
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
+## Cost
+
+### $500–$700
+
+<small>Assumes: existing PC/console, display, foldable space</small>
+
 ## Target user
 
 <!-- TODO -->

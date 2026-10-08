@@ -6,8 +6,6 @@
 
 ### $200–$400
 
-US prices, Oct 2026
-
 <small>Assumes: existing PC/console, display, desk</small>
 
 ## Target user
