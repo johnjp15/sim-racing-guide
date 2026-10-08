@@ -110,20 +110,18 @@ function part(k) {
   // leveling feet
   [[-0.7, -0.26], [-0.7, 0.26], [1.3, -0.26], [1.3, 0.26]].forEach(([x, z]) =>
     g.add(cyl(0.03, 0.036, 0.04, d, x, 0.02, z)));
-  // wheel-deck uprights (x=0.72)
-  [-0.17, 0.17].forEach(z => g.add(box(0.04, 0.5, 0.04, p, 0.72, 0.33, z)));
-  // wheel deck, top at y=0.60, front edge at 0.54
-  g.add(box(0.36, 0.04, 0.42, p, 0.72, 0.58, 0));
+  // wheel-deck uprights (x=0.66)
+  [-0.17, 0.17].forEach(z => g.add(box(0.04, 0.5, 0.04, p, 0.66, 0.33, z)));
+  // wheel deck, top at y=0.60, front edge at 0.48
+  g.add(box(0.36, 0.04, 0.42, p, 0.66, 0.58, 0));
   // pedal supports: meet the tray underside, don't poke through
   [-0.17, 0.17].forEach(z => g.add(box(0.04, 0.24, 0.04, p, 0.93, 0.185, z, -0.5)));
   // seat rails
   [-0.18, 0.18].forEach(z => g.add(box(0.55, 0.035, 0.05, p, -0.05, 0.10, z)));
-  // monitor post BEHIND the pedal tray, arms reach forward to the screens
-  g.add(box(0.05, 1.15, 0.05, p, 1.3, 0.65, 0));
-  g.add(box(0.04, 0.04, 1.2, p, 1.3, 1.0, 0));
+  // (monitor stand is freestanding — part of the displays group, not the rig)
   // shifter + handbrake risers: tops meet the plates (nothing floats)
-  g.add(box(0.04, 0.4, 0.04, p, -0.05, 0.26, 0.30));
-  g.add(box(0.04, 0.4, 0.04, p, 0.14, 0.26, 0.30));
+  g.add(box(0.04, 0.4, 0.04, p, 0.32, 0.26, 0.30));
+  g.add(box(0.04, 0.4, 0.04, p, 0.50, 0.26, 0.30));
 }
 
 // ================= SEAT =================
@@ -139,45 +137,43 @@ function part(k) {
   g.add(box(0.5, 0.03, 0.38, d, -0.05, 0.135, 0));          // slider plate
 }
 
-// ================= WHEELBASE =================
+// ================= WHEELBASE + WHEEL (column tilted 18° like a real car) =================
 {
-  const g = part('wheelbase'), d = DARK(), a = ACCENT(), p = PROFILE();
-  g.add(box(0.2, 0.02, 0.18, p, 0.66, 0.61, 0));            // front-mount plate on deck
-  g.add(box(0.18, 0.13, 0.15, d, 0.66, 0.685, 0));          // base, bottom 0.62
-  g.add(box(0.182, 0.02, 0.152, a, 0.66, 0.74, 0));         // accent stripe
-}
+  const d = DARK(), a = ACCENT(), p = PROFILE();
+  const TILT = -18 * Math.PI / 180; // top of wheel away from driver
+  const gWb = part('wheelbase');
+  const col = new THREE.Group();          // tilted steering column
+  col.position.set(0.60, 0.63, 0);
+  col.rotation.z = TILT;
+  gWb.add(col);
+  col.add(box(0.24, 0.025, 0.18, p, 0, -0.012, 0)); // angled mount bracket
+  col.add(box(0.18, 0.13, 0.15, d, 0, 0.065, 0));   // base
+  col.add(box(0.182, 0.02, 0.152, a, 0, 0.12, 0));  // accent stripe
+  col.add(cyl(0.016, 0.016, 0.12, d, -0.15, 0.065, 0, 0, Math.PI / 2)); // shaft
 
-// ================= WHEEL =================
-{
-  const g = part('wheel'), d = DARK();
-  const wg = new THREE.Group();                            // tilted wheel assembly
-  wg.position.set(0.47, 0.70, 0);
-  wg.rotation.z = 0.25;                                    // top toward driver
+  const gWh = part('wheel');
+  scene.remove(gWh); col.add(gWh);        // wheel rides on the tilted column
+  gWh.position.set(-0.21, 0.065, 0);
   const rim = new THREE.Mesh(new THREE.TorusGeometry(0.14, 0.018, 12, 42), d);
   rim.rotation.y = Math.PI / 2;
-  wg.add(rim);
-  const hub = cyl(0.028, 0.028, 0.05, d, 0, 0, 0, 0, Math.PI / 2);
-  wg.add(hub);
+  gWh.add(rim);
+  gWh.add(cyl(0.028, 0.028, 0.05, d, 0, 0, 0, 0, Math.PI / 2)); // hub
   [[0.1, 0], [-0.05, 0.087], [-0.05, -0.087]].forEach(([dy, dz]) => {
     const s = box(0.02, 0.11, 0.025, d, 0, dy / 2, dz / 2);
     s.rotation.x = Math.atan2(dz, dy);
-    wg.add(s);
+    gWh.add(s);
   });
-  // grips at 3 and 9 o'clock
-  [0.62, Math.PI - 0.62].forEach(a0 => {
+  [0.62, Math.PI - 0.62].forEach(a0 => {  // grips at 3 and 9 o'clock
     const grip = new THREE.Mesh(new THREE.TorusGeometry(0.14, 0.024, 10, 12, 0.55), d);
     grip.rotation.y = Math.PI / 2;
     grip.rotation.x = a0;
-    wg.add(grip);
+    gWh.add(grip);
   });
-  // dash on hub, facing driver
-  wg.add(box(0.035, 0.075, 0.11, d, -0.035, 0.075, 0));
+  gWh.add(box(0.035, 0.075, 0.11, d, -0.035, 0.075, 0)); // dash housing
   const dashScr = new THREE.Mesh(new THREE.PlaneGeometry(0.085, 0.055),
     new THREE.MeshBasicMaterial({ color: 0x0ea5e9 }));
   dashScr.position.set(-0.054, 0.075, 0); dashScr.rotation.y = -Math.PI / 2;
-  wg.add(dashScr);
-  g.add(wg);
-  g.add(cyl(0.016, 0.016, 0.10, d, 0.52, 0.70, 0, 0, Math.PI / 2)); // shaft base->hub
+  gWh.add(dashScr);
 }
 
 // ================= PEDALS =================
@@ -196,21 +192,21 @@ function part(k) {
 // ================= SHIFTER =================
 {
   const g = part('shifter'), p = PROFILE(), d = DARK(), a = ACCENT();
-  g.add(box(0.16, 0.025, 0.1, p, -0.05, 0.45, 0.33));       // plate on riser
-  g.add(cyl(0.012, 0.012, 0.14, d, -0.05, 0.53, 0.33));     // lever
+  g.add(box(0.16, 0.025, 0.1, p, 0.32, 0.45, 0.33));        // plate on riser
+  g.add(cyl(0.012, 0.012, 0.14, d, 0.32, 0.53, 0.33));      // lever
   const knob = new THREE.Mesh(new THREE.SphereGeometry(0.026, 18, 14), a);
-  knob.position.set(-0.05, 0.61, 0.33);
+  knob.position.set(0.32, 0.61, 0.33);
   g.add(knob);
 }
 
 // ================= HANDBRAKE =================
 {
   const g = part('handbrake'), p = PROFILE(), d = DARK();
-  g.add(box(0.14, 0.025, 0.09, p, 0.14, 0.45, 0.33));       // plate on riser
-  const lever = cyl(0.011, 0.011, 0.2, d, 0.17, 0.53, 0.33);
+  g.add(box(0.14, 0.025, 0.09, p, 0.50, 0.45, 0.33));       // plate on riser
+  const lever = cyl(0.011, 0.011, 0.2, d, 0.53, 0.53, 0.33);
   lever.rotation.z = -0.5;
   g.add(lever);
-  const grip = cyl(0.02, 0.02, 0.09, d, 0.215, 0.615, 0.33);
+  const grip = cyl(0.02, 0.02, 0.09, d, 0.575, 0.615, 0.33);
   grip.rotation.z = Math.PI / 2 - 0.5;
   g.add(grip);
 }
@@ -225,7 +221,7 @@ function part(k) {
     0.635 + (i % 2) * 0.05, 0.645, 0.125 + Math.floor(i / 2) * 0.06)));
 }
 
-// ================= DISPLAYS (triples, close FOV) =================
+// ================= DISPLAYS (triples on a freestanding stand) =================
 {
   const g = part('displays'), d = DARK(), p = PROFILE();
   const cv = document.createElement('canvas');
@@ -241,26 +237,49 @@ function part(k) {
   for (let y = 170; y < 288; y += 24) cx.fillRect(254, y, 12, 4);
   const tex = new THREE.CanvasTexture(cv);
   const screenMat = new THREE.MeshBasicMaterial({ map: tex });
-  const mk = (x, z, ry) => {
+
+  // driver head (same height => screens stay vertical, each faces the driver)
+  const HX = -0.05, HY = 1.0;
+  const screens = [];
+  const mk = (deg) => {
     const grp = new THREE.Group();
-    grp.add(box(0.03, 0.44, 0.76, d, 0, 0, 0));             // slim bezel
+    grp.add(box(0.76, 0.44, 0.03, d, 0, 0, 0));        // bezel, faces +z
     const scr = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 0.40), screenMat);
-    scr.position.x = -0.017; scr.rotation.y = -Math.PI / 2;
+    scr.position.z = 0.017;                            // toward driver
     grp.add(scr);
-    grp.add(box(0.02, 0.12, 0.12, d, 0.025, 0, 0));         // vesa plate on back
+    grp.add(box(0.12, 0.12, 0.025, d, 0, 0, -0.028));  // vesa plate on back
     grp.add(box(0.014, 0.014, 0.014,
       mat(0x4ade80, { emissive: 0x4ade80, emissiveIntensity: 0.9 }),
-      -0.005, -0.19, 0.33));                               // power LED
-    grp.position.set(x, 1.0, z); grp.rotation.y = ry;
+      0.30, -0.19, 0.02));                             // power LED
+    const a = deg * Math.PI / 180, R = 0.85;          // arc around driver
+    grp.position.set(HX + R * Math.cos(a), HY, R * Math.sin(a));
+    grp.lookAt(HX, HY, 0);                            // face the driver
+    g.add(grp);
+    screens.push(grp);
     return grp;
   };
-  g.add(mk(0.80, 0, 0));                                    // center
-  g.add(mk(1.111, -0.598, -0.96));                          // sides, 55° wrap
-  g.add(mk(1.111, 0.598, 0.96));
-  // arms: post -> screen backs (end AT the vesa plate, never through)
-  g.add(strut(1.3, 0, 0.83, 0, 1.0, p));
-  g.add(strut(1.3, -0.35, 1.13, -0.575, 1.0, p));
-  g.add(strut(1.3, 0.35, 1.13, 0.575, 1.0, p));
+  mk(0); mk(40); mk(-40);
+
+  // freestanding stand: two posts + feet + wide crossbar (like a real triple stand)
+  [-0.45, 0.45].forEach(z => {
+    g.add(box(0.05, 1.2, 0.05, p, 0.95, 0.60, z));     // post
+    g.add(box(0.34, 0.04, 0.14, p, 0.95, 0.02, z));    // foot
+  });
+  g.add(box(0.05, 0.07, 2.0, p, 0.95, 1.0, 0));         // crossbar
+  // vesa arms: each runs perpendicular from its screen's back to the crossbar
+  screens.forEach(sg => {
+    sg.updateWorldMatrix(true, false);
+    const plateC = sg.localToWorld(new THREE.Vector3(0, 0, -0.028));
+    const nOut = new THREE.Vector3(0, 0, -1).applyQuaternion(sg.quaternion).normalize();
+    const L = (0.95 - plateC.x) / nOut.x;
+    const end = plateC.clone().addScaledVector(nOut, L);
+    const dir = end.clone().sub(plateC), len = dir.length();
+    const arm = new THREE.Mesh(new THREE.BoxGeometry(len, 0.025, 0.025), p);
+    arm.position.copy(plateC).addScaledVector(dir, 0.5);
+    arm.rotation.y = Math.atan2(-dir.z, dir.x);
+    g.add(arm);
+    g.add(box(0.07, 0.1, 0.07, p, 0.95, 1.0, end.z));       // mount block on crossbar
+  });
 }
 
 // ================= MACHINE (PC, side of rig) =================
@@ -283,20 +302,19 @@ function part(k) {
     g.add(box(0.11, 0.17, 0.11, d, 0.75, 0.42, z));         // speaker
     g.add(cyl(0.035, 0.035, 0.012, mat(0x11141a), 0.69, 0.44, z, 0, Math.PI / 2)); // cone faces driver
   });
-  // headphones hanging on monitor post
+  // headphones resting on top of the PC tower
   const band = new THREE.Mesh(new THREE.TorusGeometry(0.07, 0.014, 10, 22, Math.PI), d);
-  band.position.set(1.32, 0.82, 0.08); band.rotation.y = Math.PI / 2;
+  band.position.set(0.3, 0.635, 1.0); band.rotation.x = Math.PI / 2;
   g.add(band);
-  [-0.055, 0.055].forEach(dz => g.add(box(0.03, 0.09, 0.05, d, 1.32, 0.76, 0.08 + dz)));
+  [-0.06, 0.06].forEach(dz => g.add(box(0.05, 0.035, 0.09, d, 0.3, 0.6175, 1.0 + dz)));
 }
 
 // ================= MOUNTS =================
 {
   const g = part('mounts'), a = ACCENT();
   [
-    [0.72, 0.10, -0.17], [0.72, 0.10, 0.17],   // deck upright feet
-    [0.72, 0.54, -0.17], [0.72, 0.54, 0.17],   // deck joints
-    [1.3, 0.10, 0], [1.3, 0.98, 0],            // monitor post
+    [0.66, 0.10, -0.17], [0.66, 0.10, 0.17],   // deck upright feet
+    [0.66, 0.54, -0.17], [0.66, 0.54, 0.17],   // deck joints
     [-0.05, 0.10, -0.18], [-0.05, 0.10, 0.18], // seat rails
     [0.93, 0.10, -0.17], [0.93, 0.10, 0.17],   // pedal supports
   ].forEach(([x, y, z]) => g.add(box(0.055, 0.055, 0.055, a, x, y, z)));
@@ -322,9 +340,19 @@ function findPart(obj) {
   while (obj) { if (obj.userData.partKey) return obj; obj = obj.parent; }
   return null;
 }
-function setHighlight(g, on) {
+const partMeshes = {};
+Object.entries(groups).forEach(([k, g]) => {
+  partMeshes[k] = [];
   g.traverse(o => {
-    if (o.isMesh && o.material && o.material.emissive) {
+    if (!o.isMesh) return;
+    let p = o, owner = null;                       // nearest partKey ancestor
+    while (p) { if (p.userData.partKey) { owner = p.userData.partKey; break; } p = p.parent; }
+    if (owner === k) partMeshes[k].push(o);
+  });
+});
+function setHighlight(g, on) {
+  partMeshes[g.userData.partKey].forEach(o => {
+    if (o.material && o.material.emissive) {
       if (on) { o.material.emissive.setHex(0xff9100); o.material.emissiveIntensity = 0.45; }
       else { o.material.emissive.setHex(o.material.userData._c); o.material.emissiveIntensity = o.material.userData._e; }
     }
