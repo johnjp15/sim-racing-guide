@@ -4,9 +4,11 @@
 
 ## Cost
 
-- Range: $200–$400 (US, Oct 2026)
-- Anchor: $350 — Logitech G923 bundle
-- Assumes: existing PC/console, display, desk
+### $200–$400
+
+US prices, Oct 2026
+
+<small>Assumes: existing PC/console, display, desk</small>
 
 ## Target user
 
