@@ -1,8 +1,8 @@
 # Tier 0 — The Desk Tester
 
-![Example: Logitech G923 wheel on a desk](../images/tier-0.jpg)
+![Example: Logitech G29 wheel clamped to a desk with monitors](../images/tier-0.jpg)
 
-<!-- Image source: https://www.techbox.sk/logitech-g923-najlepsi-priatel-fanusikov-motorsportu-a-hernych-simulatorov -->
+<!-- Image source: https://www.techtesters.eu/logitech-g29-driving-force-shifter/5/ -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 

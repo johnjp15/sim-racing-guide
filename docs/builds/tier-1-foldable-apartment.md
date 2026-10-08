@@ -1,8 +1,8 @@
 # Tier 1 — The Apartment Folder
 
-![Example: Playseat Challenge foldable cockpit](../images/tier-1.jpg)
+![Example: Playseat Challenge with wheel and pedals facing a TV](../images/tier-1.jpg)
 
-<!-- Image source: https://sellout.woot.com/offers/playseat-challenge-sim-racing-cockpit-2 -->
+<!-- Image source: https://www.shango.media/frandroid-quels-sont-les-meilleurs-volants-pour-ps5-xbox-et-pc-en -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 

@@ -1,8 +1,8 @@
 # Tier 5 — Motion / Showpiece
 
-![Example: DOF Reality motion racing rig](../images/tier-5.webp)
+![Example: Pro-Sim Formula Evolution motion simulator](../images/tier-5.jpg)
 
-<!-- Image source: https://dofreality.com/product/racing/motion-racing-rig-4-axis-hero-h4-with-sfu/ -->
+<!-- Image source: https://collectingcars.com/for-sale/pro-sim-formula-evolution-racing-simulator -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 

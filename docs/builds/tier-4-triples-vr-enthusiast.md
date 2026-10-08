@@ -1,8 +1,8 @@
 # Tier 4 — Triples / VR Enthusiast
 
-![Example: triple-monitor sim racing setup](../images/tier-4.png)
+![Example: complete triple-screen rig with bucket seat](../images/tier-4.jpg)
 
-<!-- Image source: https://nextlevelracing.com/en-gb/products/elite-free-standing-triple-monitor-stand-black-edition/ -->
+<!-- Image source: https://qubicsystem.com/use-case/ricardo-use-case/ -->
 
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
