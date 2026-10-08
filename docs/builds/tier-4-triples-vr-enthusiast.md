@@ -1,5 +1,9 @@
 # Tier 4 — Triples / VR Enthusiast
 
+![Example: triple-monitor sim racing setup](../images/tier-4.png)
+
+<!-- Image source: https://nextlevelracing.com/en-gb/products/elite-free-standing-triple-monitor-stand-black-edition/ -->
+
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost

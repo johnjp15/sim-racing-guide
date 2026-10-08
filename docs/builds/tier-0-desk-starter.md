@@ -1,5 +1,9 @@
 # Tier 0 — The Desk Tester
 
+![Example: Logitech G923 wheel on a desk](../images/tier-0.jpg)
+
+<!-- Image source: https://www.techbox.sk/logitech-g923-najlepsi-priatel-fanusikov-motorsportu-a-hernych-simulatorov -->
+
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost

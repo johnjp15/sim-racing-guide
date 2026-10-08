@@ -1,5 +1,9 @@
 # Tier 1 — The Apartment Folder
 
+![Example: Playseat Challenge foldable cockpit](../images/tier-1.jpg)
+
+<!-- Image source: https://sellout.woot.com/offers/playseat-challenge-sim-racing-cockpit-2 -->
+
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost

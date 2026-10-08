@@ -1,5 +1,9 @@
 # Tier 3 — The Sweet Spot
 
+![Example: Sim-Lab GT1 EVO aluminum profile cockpit](../images/tier-3.webp)
+
+<!-- Image source: https://shop.arc-team.it/prodotto/postazione-sim-lab-gt1-evo/ -->
+
 <!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost
