@@ -103,9 +103,9 @@ function part(key) {
   g.add(box(0.42, 0.045, 0.42, p, 0.35, 0.645, 0));
   // pedal uprights (angled)
   [-0.17, 0.17].forEach(z => g.add(box(0.045, 0.52, 0.045, p, 0.72, 0.3, z, -0.45)));
-  // monitor post + arm
-  g.add(box(0.05, 1.2, 0.05, p, 1.12, 0.68, 0));
-  g.add(box(0.04, 0.04, 0.72, p, 1.12, 1.08, 0));
+  // monitor post + arm (close behind wheel for correct FOV)
+  g.add(box(0.05, 1.2, 0.05, p, 0.88, 0.68, 0));
+  g.add(box(0.04, 0.04, 0.72, p, 0.88, 1.02, 0));
   // seat rails
   [-0.19, 0.19].forEach(z => g.add(box(0.6, 0.04, 0.05, p, -0.55, 0.12, z)));
 }
@@ -123,10 +123,11 @@ function part(key) {
 
 // ---------- WHEELBASE ----------
 {
-  const g = part('wheelbase'), d = DARK(), a = ACCENT();
+  const g = part('wheelbase'), d = DARK(), a = ACCENT(), p = PROFILE();
   const base = box(0.17, 0.13, 0.15, d, 0.35, 0.76, 0, -0.1);
   g.add(base);
   g.add(box(0.172, 0.02, 0.152, a, 0.35, 0.72, 0, -0.1));
+  g.add(box(0.2, 0.025, 0.18, p, 0.35, 0.685, 0, -0.1)); // front-mount plate to deck
 }
 
 // ---------- WHEEL ----------
@@ -143,6 +144,19 @@ function part(key) {
     g.add(s);
   });
   g.add(cyl(0.016, 0.016, 0.09, d, 0.285, 0.76, 0, 0, Math.PI / 2)); // shaft
+  // dash on hub, facing driver
+  g.add(box(0.035, 0.075, 0.11, d, 0.215, 0.82, 0));
+  const dashScr = new THREE.Mesh(new THREE.PlaneGeometry(0.085, 0.055),
+    new THREE.MeshBasicMaterial({ color: 0x0ea5e9 }));
+  dashScr.position.set(0.196, 0.82, 0); dashScr.rotation.y = -Math.PI / 2;
+  g.add(dashScr);
+  // rim grips
+  [-0.1, 0.1].forEach(dy => {
+    const grip = new THREE.Mesh(new THREE.TorusGeometry(0.14, 0.024, 10, 12, 0.5), d);
+    grip.position.set(0.235, 0.76, 0); grip.rotation.y = Math.PI / 2;
+    grip.rotation.x = dy > 0 ? 0.55 : Math.PI - 0.55;
+    g.add(grip);
+  });
 }
 
 // ---------- PEDALS ----------
@@ -151,9 +165,11 @@ function part(key) {
   const tray = box(0.3, 0.03, 0.4, p, 0.8, 0.32, 0, -0.5);
   g.add(tray);
   [-0.11, 0, 0.11].forEach(z => {
-    g.add(box(0.025, 0.13, 0.07, d, 0.76, 0.4, z, -0.5));
-    g.add(box(0.028, 0.02, 0.075, mat(0x3a4250), 0.745, 0.46, z, -0.5));
+    g.add(box(0.02, 0.17, 0.03, d, 0.8, 0.33, z, -0.5)); // pedal arm
+    g.add(box(0.025, 0.13, 0.07, d, 0.76, 0.4, z, -0.5)); // pedal pad
+    g.add(box(0.028, 0.02, 0.075, mat(0x3a4250), 0.745, 0.46, z, -0.5)); // pad face
   });
+  g.add(box(0.24, 0.025, 0.34, p, 0.86, 0.2, 0, -0.5)); // heel rest
 }
 
 // ---------- SHIFTER ----------
@@ -203,29 +219,34 @@ function part(key) {
   const screenMat = new THREE.MeshBasicMaterial({ map: tex });
   const mk = (x, z, ry) => {
     const grp = new THREE.Group();
-    const bez = box(0.03, 0.4, 0.68, d, 0, 0, 0);
-    const scr = new THREE.Mesh(new THREE.PlaneGeometry(0.64, 0.36), screenMat);
+    grp.add(box(0.03, 0.46, 0.78, d, 0, 0, 0)); // slim bezel
+    const scr = new THREE.Mesh(new THREE.PlaneGeometry(0.74, 0.42), screenMat);
     scr.position.x = -0.017; scr.rotation.y = -Math.PI / 2;
-    grp.add(bez, scr);
-    grp.position.set(x, 1.06, z); grp.rotation.y = ry;
+    grp.add(scr);
+    grp.add(box(0.014, 0.014, 0.014,
+      mat(0x4ade80, { emissive: 0x4ade80, emissiveIntensity: 0.9 }),
+      0.02, -0.2, 0.34)); // power LED
+    grp.position.set(x, 1.02, z); grp.rotation.y = ry;
     return grp;
   };
-  g.add(mk(1.06, 0, 0));
-  g.add(mk(0.9, -0.36, 0.85));
-  g.add(mk(0.9, 0.36, -0.85));
-  // vesa arms
-  g.add(box(0.2, 0.03, 0.03, PROFILE(), 1.02, 1.06, -0.2, 0, 0.5));
-  g.add(box(0.2, 0.03, 0.03, PROFILE(), 1.02, 1.06, 0.2, 0, -0.5));
+  g.add(mk(0.82, 0, 0));
+  g.add(mk(0.66, -0.4, 0.85));
+  g.add(mk(0.66, 0.4, -0.85));
+  // vesa arms from post to screens
+  g.add(box(0.22, 0.03, 0.03, PROFILE(), 0.78, 1.02, -0.24, 0, 0.5));
+  g.add(box(0.22, 0.03, 0.03, PROFILE(), 0.78, 1.02, 0.24, 0, -0.5));
 }
 
-// ---------- MACHINE (PC) ----------
+// ---------- MACHINE (PC, parked to the side of the rig) ----------
 {
   const g = part('machine'), d = DARK(), a = ACCENT();
-  g.add(box(0.24, 0.52, 0.46, d, -1.15, 0.34, 0.58));
-  g.add(box(0.245, 0.5, 0.02, a, -1.15, 0.34, 0.36));
+  const px = 0.32, pz = 1.08;
+  g.add(box(0.24, 0.52, 0.46, d, px, 0.34, pz));
+  g.add(box(0.245, 0.5, 0.02, a, px, 0.34, pz + 0.225)); // LED strip, outward face
   const fan = new THREE.Mesh(new THREE.TorusGeometry(0.07, 0.012, 10, 28), mat(0x3a4250));
-  fan.position.set(-1.028, 0.4, 0.58); fan.rotation.y = Math.PI / 2;
+  fan.position.set(px - 0.122, 0.4, pz); fan.rotation.y = Math.PI / 2;
   g.add(fan);
+  g.add(box(0.02, 0.06, 0.3, d, px - 0.115, 0.15, pz)); // front IO panel
 }
 
 // ---------- SOUND ----------
@@ -248,16 +269,28 @@ function part(key) {
   const g = part('mounts'), a = ACCENT();
   const joints = [
     [0.35, 0.1, -0.26], [0.35, 0.1, 0.26], [0.35, 0.62, -0.17], [0.35, 0.62, 0.17],
-    [1.12, 0.1, 0], [1.12, 1.06, 0], [-0.55, 0.1, -0.19], [-0.55, 0.1, 0.19],
+    [0.88, 0.1, 0], [0.88, 1.02, 0], [-0.55, 0.1, -0.19], [-0.55, 0.1, 0.19],
     [0.72, 0.12, -0.17], [0.72, 0.12, 0.17],
   ];
   joints.forEach(([x, y, z]) => g.add(box(0.055, 0.055, 0.055, a, x, y, z)));
 }
 
 // ---------- interaction ----------
+// Desktop: hover highlights + tooltip, click navigates.
+// Touch: first tap selects (highlight + info card), second tap on the
+// same part or the card link navigates. Tap empty space to deselect.
 const ray = new THREE.Raycaster();
 const ptr = new THREE.Vector2();
+const card = document.getElementById('rig-card');
+const isTouch = window.matchMedia('(pointer: coarse)').matches;
 let hovered = null;
+let selectedKey = null;
+
+// part centers, for card placement
+const anchors = {};
+Object.entries(groups).forEach(([k, g]) => {
+  anchors[k] = new THREE.Box3().setFromObject(g).getCenter(new THREE.Vector3());
+});
 
 function findPart(obj) {
   while (obj) { if (obj.userData.partKey) return obj; obj = obj.parent; }
@@ -266,13 +299,13 @@ function findPart(obj) {
 function setHighlight(g, on) {
   g.traverse(o => {
     if (o.isMesh && o.material && o.material.emissive) {
-      if (on) { o.userData._e = o.material.emissiveIntensity; o.material.emissive.setHex(0xff9100); o.material.emissiveIntensity = 0.45; }
-      else { o.material.emissive.setHex(o.material.userData?._c ?? 0x000000); o.material.emissiveIntensity = o.userData._e ?? 0; }
+      if (on) { o.material.emissive.setHex(0xff9100); o.material.emissiveIntensity = 0.45; }
+      else { o.material.emissive.setHex(o.material.userData._c); o.material.emissiveIntensity = o.material.userData._e; }
     }
   });
   document.querySelectorAll('.leg[data-part="' + g.userData.partKey + '"]').forEach(el => el.classList.toggle('active', on));
 }
-// store original emissive hex once
+// store original emissive once
 Object.values(groups).forEach(g => g.traverse(o => {
   if (o.isMesh && o.material && o.material.emissive) {
     o.material.userData = o.material.userData || {};
@@ -290,10 +323,35 @@ function castAt(cx, cy) {
   return hits.length ? findPart(hits[0].object) : null;
 }
 
+function select(key) {
+  if (selectedKey && selectedKey !== key) setHighlight(groups[selectedKey], false);
+  selectedKey = key;
+  setHighlight(groups[key], true);
+  card.innerHTML = '<b>' + PARTS[key].name + '</b><a href="' + PARTS[key].url + '">Open page &rarr;</a>';
+  card.style.display = 'block';
+  positionCard();
+}
+function deselect() {
+  if (selectedKey) setHighlight(groups[selectedKey], false);
+  selectedKey = null;
+  card.style.display = 'none';
+}
+function positionCard() {
+  if (!selectedKey) return;
+  const v = anchors[selectedKey].clone().project(camera);
+  const r = container.getBoundingClientRect();
+  let x = (v.x * 0.5 + 0.5) * r.width + 14;
+  let y = (-v.y * 0.5 + 0.5) * r.height - 14;
+  x = Math.min(x, r.width - 150); y = Math.max(y, 8);
+  card.style.left = x + 'px';
+  card.style.top = y + 'px';
+}
+
 renderer.domElement.addEventListener('pointermove', e => {
+  if (e.pointerType !== 'mouse') return; // hover is a mouse affordance
   const g = castAt(e.clientX, e.clientY);
   if (g !== hovered) {
-    if (hovered) setHighlight(hovered, false);
+    if (hovered && hovered.userData.partKey !== selectedKey) setHighlight(hovered, false);
     hovered = g;
     if (hovered) setHighlight(hovered, true);
     renderer.domElement.style.cursor = hovered ? 'pointer' : 'grab';
@@ -307,7 +365,7 @@ renderer.domElement.addEventListener('pointermove', e => {
   } else tip.style.display = 'none';
 });
 renderer.domElement.addEventListener('pointerleave', () => {
-  if (hovered) setHighlight(hovered, false);
+  if (hovered && hovered.userData.partKey !== selectedKey) setHighlight(hovered, false);
   hovered = null; tip.style.display = 'none';
 });
 
@@ -316,14 +374,21 @@ renderer.domElement.addEventListener('pointerdown', e => { downX = e.clientX; do
 renderer.domElement.addEventListener('pointerup', e => {
   if (Math.hypot(e.clientX - downX, e.clientY - downY) > 6) return; // was a drag
   const g = castAt(e.clientX, e.clientY);
-  if (g) location.href = PARTS[g.userData.partKey].url;
+  const key = g ? g.userData.partKey : null;
+  if (isTouch || e.pointerType !== 'mouse') {
+    if (!key) { deselect(); return; }
+    if (selectedKey === key) location.href = PARTS[key].url; // second tap goes
+    else select(key);
+  } else if (key) {
+    location.href = PARTS[key].url;
+  }
 });
 
 // legend sync
 document.querySelectorAll('.leg[data-part]').forEach(el => {
   const k = el.getAttribute('data-part');
   el.addEventListener('mouseenter', () => setHighlight(groups[k], true));
-  el.addEventListener('mouseleave', () => setHighlight(groups[k], false));
+  el.addEventListener('mouseleave', () => { if (k !== selectedKey) setHighlight(groups[k], false); });
 });
 
 // resize
@@ -337,4 +402,8 @@ new ResizeObserver(resize).observe(container);
 resize();
 
 document.getElementById('rig-loading').style.display = 'none';
-renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
+renderer.setAnimationLoop(() => {
+  controls.update();
+  if (selectedKey) positionCard();
+  renderer.render(scene, camera);
+});
