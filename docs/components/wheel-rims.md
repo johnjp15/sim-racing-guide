@@ -1,6 +1,6 @@
 # Wheel
 
-![example](../images/components/wheel.webp)
+![example](../images/components/wheel.jpg)
 
 - What: the rim you hold. attaches to the wheelbase
 - Why: shape and size change leverage and feel

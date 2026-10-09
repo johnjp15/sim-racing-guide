@@ -1,6 +1,6 @@
 # Chassis & Mounts
 
-![example](../images/components/chassis.webp)
+![example](../images/components/chassis.jpg)
 
 - What: the frame. wheelbase, pedals, seat all bolt to it
 - Why: flex eats detail. a flexy chassis wastes a good wheelbase

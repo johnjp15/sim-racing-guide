@@ -1,6 +1,6 @@
 # Sound
 
-![example](../images/components/sound.webp)
+![example](../images/components/sound.jpg)
 
 - What: engine and tire noise
 - Why: shift timing by ear, cheap immersion

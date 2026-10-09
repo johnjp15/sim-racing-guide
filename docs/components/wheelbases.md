@@ -1,6 +1,6 @@
 # Wheelbase
 
-![example](../images/components/wheelbase.png)
+![example](../images/components/wheelbase.jpg)
 
 - What: the motor behind the wheel. this is force feedback
 - Why: the main thing you feel. how the car talks to you

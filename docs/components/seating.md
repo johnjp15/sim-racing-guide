@@ -1,6 +1,6 @@
 # Seat
 
-![example](../images/components/seat.png)
+![example](../images/components/seat.jpg)
 
 - What: where you sit for hours
 - Why: keeps you planted under braking, so your inputs stay consistent

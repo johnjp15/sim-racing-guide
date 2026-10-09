@@ -1,6 +1,6 @@
 # Displays
 
-![example](../images/tier-4.jpg)
+![example](../images/components/displays.jpg)
 
 - What: single, ultrawide, triples, or VR
 - Why: seeing the apex and the car next to you

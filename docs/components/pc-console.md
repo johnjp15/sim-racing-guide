@@ -1,6 +1,6 @@
 # PC / Console
 
-![example](../images/components/pc.png)
+![example](../images/components/pc.jpg)
 
 - What: runs the sim
 - Why: decides what you can play and how smooth
