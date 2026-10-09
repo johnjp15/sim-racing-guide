@@ -1,7 +1,9 @@
 # Button Box & Accessories
 
-- What it is: extra buttons, dash displays, stream-deck-style boxes
-- Why it matters: convenience — more controls at your fingertips without reaching for a keyboard
-- When to care: last; never the bottleneck, pure quality of life
+![example](../images/components/buttonbox.jpg)
+
+- extra buttons and dash screens
+- stops you reaching for the keyboard mid-race
+- nice to have. never the thing holding you back
 
 <!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->

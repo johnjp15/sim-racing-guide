@@ -1,7 +1,9 @@
 # Chassis & Mounts
 
-- What it is: the frame everything bolts to — wheelbase, pedals, seat, shifter
-- Why it matters: flex kills feel; a rigid chassis lets the wheelbase's detail actually reach your hands
-- When to care: before buying a strong direct-drive base; overkill for a Logitech on a desk
+![example](../images/components/chassis.webp)
+
+- the frame. wheelbase, pedals, seat all bolt to it
+- flex is the enemy. every bit of flex eats detail from your wheelbase
+- buy it before a strong direct drive base, not after
 
 <!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->

@@ -1,7 +1,9 @@
 # Seat
 
-- What it is: where you sit for hours — bucket seat or repurposed car seat
-- Why it matters: keeps you planted under braking so inputs stay consistent; comfort = longer sessions
-- When to care: when sessions pass an hour or you keep sliding around in an office chair
+![example](../images/components/seat.png)
+
+- where you sit for hours
+- keeps you planted so your inputs don't wander under braking
+- matters when sessions get long or you're sliding around
 
 <!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->

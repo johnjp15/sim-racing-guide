@@ -1,7 +1,9 @@
 # PC / Console
 
-- What it is: what runs the sim — your computer or console
-- Why it matters: decides which sims you can run and how well; a threshold, not a slider
-- When to care: first — nothing else matters if the sim won't run; once good enough, stop spending here
+![example](../images/components/pc.png)
+
+- runs the sim
+- decides what you can play and how smooth
+- sort this first. then stop thinking about it
 
 <!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->
