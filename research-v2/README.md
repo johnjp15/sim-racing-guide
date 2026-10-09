@@ -16,6 +16,7 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
 | 08-reddit-pedals-shifters-handbrakes.md | Community view | See "Reddit" below |
 | 09-reddit-chassis-seats-tactile-motion.md | Community view | See "Reddit" below |
 | 10-reddit-displays-pc-buying-advice.md | Community view | See "Reddit" below |
+| 11-refresh-2026-10-vr-motion-immersion.md | Oct 2026 refresh: Pimax Dream Air, Steam Frame, Moza HMA150, 3DOF vs 6DOF, shakers, belts, wind | Web research |
 
 ## Reddit
 

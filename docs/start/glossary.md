@@ -30,6 +30,11 @@
 | Wheel stand | Folding frame for wheel and pedals, no seat |
 | Bass shaker / tactile | Speaker-like puck bolted to the rig. Vibrates with engine, kerbs, shifts |
 | Motion platform | Actuators that move the seat or the whole rig |
+| DOF | Degrees of freedom. How many directions a motion platform moves |
+| 3DOF | Pitch, roll, heave. The usual home motion system |
+| 6DOF | 3DOF plus yaw, surge, sway |
+| Traction loss | Motion axis that swings the rear out (yaw) |
+| Belt tensioner | Motors that tighten the harness under braking |
 | Button box | Extra panel of switches and knobs |
 | DDU | Dash display unit. Small screen showing gear, speed, lap times |
 

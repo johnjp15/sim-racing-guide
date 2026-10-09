@@ -77,4 +77,5 @@ nav:
       - Button Box & Accessories: components/button-boxes-accessories.md
       - PC / Console: components/pc-console.md
       - Sound: components/audio.md
+      - Motion & Immersion: components/immersion.md
   - Draft Guide: draft-guide.md

@@ -37,6 +37,7 @@
 - VR: true depth and scale, no floor space
 - VR costs: heat, face pressure, nausea for some, can't see buttons, heavy GPU load
 - Try VR before buying. Quest 3S $350 is the cheap test
+- VR step up: Pimax Dream Air SE $899, Dream Air $1,999+. See [Displays](../components/displays-vr.md)
 
 ## Footprint
 

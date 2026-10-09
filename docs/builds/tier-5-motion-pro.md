@@ -46,7 +46,7 @@
 
 ## What it feels like
 
-- Chassis heaves, pitches, rolls
+- Chassis heaves, pitches, rolls (3DOF). No yaw: slides are hinted, not felt
 - Kerbs and gear shifts hit the whole body
 - Active brake: ABS pulse, pad feel, different per car
 - Not faster. More real
@@ -74,6 +74,7 @@
 
 ## Related pages
 
+- [Motion & Immersion](../components/immersion.md)
 - [Tier 4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md)
 - [Chassis & Mounts](../components/chassis-mounts.md)
 - [Wheelbase](../components/wheelbases.md)

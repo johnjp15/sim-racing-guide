@@ -2,6 +2,10 @@
 
 ![example](../images/components/chassis.jpg)
 
+<small>Photo: [TaurusEmerald](https://commons.wikimedia.org/wiki/File:Toyota_iRacing_Trak_Racer_Las_Vegas_Fall_2024.jpg), CC BY-SA 4.0, cropped</small>
+
+<!-- Image source: https://commons.wikimedia.org/wiki/File:Toyota_iRacing_Trak_Racer_Las_Vegas_Fall_2024.jpg (CC BY-SA 4.0, TaurusEmerald). Trak Racer steel tube cockpit, cropped -->
+
 - What: the frame. wheelbase, pedals, seat all bolt to it
 - Why: flex eats detail. a flexy chassis wastes a good wheelbase
 - When: before buying a strong direct drive base
@@ -81,16 +85,11 @@ flowchart LR
 
 ## Motion
 
-| Type | Examples | Price | Notes |
-|---|---|---|---|
-| Seat mover | Next Level Racing Motion V3 / Plus | $2,800 to $3,000 | Moves the seat or platform |
-| Budget full-frame | DOF Reality | $1,500 to $7,000 | Big movement, less refined |
-| 4 actuators under the rig | Moza HMA150 $2,999, D-BOX G5 $6,000 to $8,250 | $3,000 to $8,250 | What F1 Arcade uses (D-BOX) |
-| Belt tensioner | Qubic QS-BT1 | ~$1,800 | Tightens the harness under braking |
-
-- Immersion, not lap time
-- Needs a heavy profile rig, space, tolerant neighbors
+- Actuators go under the rig, so the rig must be rigid: heavy aluminum profile
+- Affordable 3DOF arrived in 2026: Moza HMA150, $2,999 for four actuators
+- Leave room: cables, monitor stand, walls
 - Last purchase, or never
+- Full detail, 3DOF vs 6DOF, belt tensioners: [Motion & Immersion](immersion.md)
 
 ## By tier
 
@@ -110,6 +109,7 @@ flowchart LR
 
 ## Related pages
 
+- [Motion & Immersion](immersion.md)
 - [Seat](seating.md)
 - [Wheelbase](wheelbases.md)
 - [Pedals](pedals.md)

@@ -2,6 +2,8 @@
 
 ![example](../images/components/sound.jpg)
 
+<!-- Image source: https://www.pexels.com/photo/driving-simulation-experience-in-tekirdag-turkiye-36899734/ (Pexels license, fthdgrl) -->
+
 - What: engine and tire noise
 - Why: shift timing by ear, cheap immersion
 - When: whenever. headphones are fine
@@ -30,20 +32,10 @@
 
 ## Feeling it: bass shakers
 
-- A speaker-like puck bolted to the seat or rig. Plays engine, kerbs, gear shifts, wheel slip as vibration
-- Driven by SimHub on PC through a small amp
-
-| Level | Kit | Price | Notes |
-|---|---|---|---|
-| Starter | Dayton puck on the seat | ~$20 | Weak. Seat or pedal plate only |
-| Default DIY | Dayton BST-1 + small amp (Nobsound, Fosi) + SimHub | ~$100 to $150 | Best value |
-| Plug and play | ButtKicker Gamer Plus / Pro | $280 / $350 | Amp and clamp included |
-| Four corners | 4 shakers + amp | $415 to $1,300 | Diminishing returns |
-
-- Best immersion per dollar. Makes you no faster
-- Works on an office chair or foldable too
-- Vibration travels through floors. Downstairs neighbors are the limit
-- Mount on the seat, not the frame, to keep it quieter
+- A speaker-like puck bolted to the seat. Plays engine, kerbs, shifts as vibration
+- Best immersion per dollar: ~$100 to $150 for a Dayton BST-1, small amp, SimHub
+- Not motion. Nothing moves
+- Full detail: [Motion & Immersion](immersion.md)
 
 ## Spotter
 
@@ -65,6 +57,7 @@
 
 ## Related pages
 
+- [Motion & Immersion](immersion.md)
 - [Chassis & Mounts](chassis-mounts.md)
 - [Button Box & Accessories](button-boxes-accessories.md)
 - [First Setup](../start/first-setup.md)

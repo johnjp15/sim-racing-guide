@@ -2,11 +2,13 @@
 
 ![example](../images/components/displays.jpg)
 
+<!-- Image source: https://unsplash.com/photos/race-car-simulators-offer-an-immersive-driving-experience-1RARtUwaXQs (Unsplash license, Ben A) -->
+
 - What: single, ultrawide, triples, or VR
 - Why: seeing the apex and the car next to you
 - When: after wheelbase and pedals
 
-<!-- Draft for you to edit. Facts from research-v2/04 and 10 (sources there). Prices USD, checked 2026-10. View angles are geometry, not quoted. -->
+<!-- Draft for you to edit. Facts from research-v2/04, 10 and 11 (sources there). Prices USD, checked 2026-10. View angles are geometry, not quoted. -->
 
 ## Varieties
 
@@ -24,16 +26,34 @@
 
 ## VR headsets
 
-| Level | Headset | Price | Notes |
-|---|---|---|---|
-| Try it | Meta Quest 3S | $350 | Cheapest test |
-| Default | Meta Quest 3 | $600 | Sharper lenses. Price went up in 2026 |
-| Console | PS VR2 | $399 | Gran Turismo 7 on PS5. Works on PC with an adapter |
-| High clarity | Pimax Crystal Light | ~$700 to $900 | Much sharper, heavier, needs a strong GPU |
-| Light and small | Bigscreen Beyond 2 | ~$960 to $1,020 + base stations | Tiny, comfortable, more setup |
+| Level | Headset | Price | Per eye | Notes |
+|---|---|---|---|---|
+| Try it | Meta Quest 3S | $350 | 1832 x 1920 | Cheapest test |
+| Default | Meta Quest 3 | $600 | 2064 x 2208 | Easy, wireless. Still the first headset to buy |
+| Console | PS VR2 | $399 | 2000 x 2040 OLED | Gran Turismo 7 on PS5. Works on PC with an adapter |
+| Wireless PC | Valve Steam Frame | $1,059 | 2160 x 2160 | New, Sept 2026. Sold by lottery. No cable option: the PC picture is streamed |
+| Sharp, cheaper | Pimax Crystal Light | ~$700 to $900 | 2880 x 2880 | Sharp but ~950 g on your head |
+| Light | Bigscreen Beyond 2 | ~$960 to $1,020 + base stations | 2560 x 2560 OLED | 107 g. Needs base stations |
+| Light, mid GPU | Pimax Dream Air SE | $899, or $1,199 without base stations | 2560 x 2560 OLED | Under 140 g. Easier to drive than the full Dream Air |
+| Enthusiast pick, 2026 | Pimax Dream Air | $1,999 with base stations, $2,299 without | 3840 x 3552 OLED | ~170 g visor, 90 Hz, eye tracking. Nothing else is this sharp and this light |
+
+## Pimax Dream Air
+
+- Why sim racers moved to it: about 4K per eye in a headset a third the weight of a Quest 3
+- Light matters most in long races. Neck, heat, pressure on the face
+- 90 Hz. Eye tracking renders full detail only where you look, which saves GPU
+- Needs a top GPU anyway
+- Weak points in reviews: tracking on the base-station-free version, stock strap, cable, sound, price
+- "170 g" is the visor. One review weighed ~300 g with the strap
+- Pimax pricing is split: part up front, the rest after a 14-day trial. Add both
+- Coming: Pimax Crystal Pro, $1,399, wireless. Announced Oct 2026
+
+## VR rules
 
 - Try a Quest before spending $900+
 - Needs a steady 72 to 90 frames per second
+- Resolution costs GPU. A Dream Air on a mid PC looks worse than a Quest 3 running smoothly
+- You sit still and face forward, so tracking matters less than in other VR games
 
 ## What matters
 
@@ -72,6 +92,7 @@
 ## Triples vs ultrawide vs VR
 
 - No winner in 2026. Depends on the driver
+- VR closed the gap this year: lighter, sharper headsets fixed the two main complaints
 
 - Wheel-to-wheel online racing: triples or VR
 - Hot laps, F1 25, rally, Forza: single or ultrawide
@@ -93,8 +114,8 @@
 - Tier 0 to 1: what you own, moved close
 - Tier 2: single 27" or 34" ultrawide
 - Tier 3: 34" ultrawide
-- Tier 4: triples or VR
-- Tier 5: triple 32"
+- Tier 4: triples, or VR (Quest 3, Dream Air SE)
+- Tier 5: triple 32", or Pimax Dream Air
 
 ## Used
 
@@ -107,5 +128,6 @@
 
 - [PC / Console](pc-console.md)
 - [Chassis & Mounts](chassis-mounts.md)
+- [Motion & Immersion](immersion.md)
 - [First Setup](../start/first-setup.md)
 - [Tier 4: Triples / VR Enthusiast](../builds/tier-4-triples-vr-enthusiast.md)

@@ -25,9 +25,10 @@
 </div>
 
 <p class="rigalso">Also on a full rig:
-<a href="chassis-mounts/">motion platform</a> ·
-<a href="audio/">tactile transducers</a> ·
-<a href="button-boxes-accessories/">wind sim</a> ·
+<a href="immersion/">motion platform</a> ·
+<a href="immersion/">bass shakers</a> ·
+<a href="immersion/">belt tensioner</a> ·
+<a href="immersion/">wind sim</a> ·
 <a href="button-boxes-accessories/">head tracking</a> ·
 <a href="button-boxes-accessories/">gloves</a> ·
 <a href="button-boxes-accessories/">keyboard tray</a> ·

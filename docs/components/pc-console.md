@@ -2,6 +2,8 @@
 
 ![example](../images/components/pc.jpg)
 
+<!-- Image source: https://unsplash.com/photos/a-desktop-computer-sitting-on-top-of-a-wooden-desk-Ie9BekWw_Uk (Unsplash license, ELLA DON) -->
+
 - What: runs the sim
 - Why: decides what you can play and how smooth
 - When: first. then stop thinking about it
