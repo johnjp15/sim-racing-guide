@@ -1,5 +1,7 @@
 # Button Box & Accessories
 
-<!-- Placeholder — write in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
+- What it is: extra buttons, dash displays, stream-deck-style boxes
+- Why it matters: convenience — more controls at your fingertips without reaching for a keyboard
+- When to care: last; never the bottleneck, pure quality of life
 
-<!-- TODO -->
+<!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->

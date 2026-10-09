@@ -1,5 +1,7 @@
 # Wheelbase
 
-<!-- Placeholder — write in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
+- What it is: the motor behind the wheel — the force feedback unit
+- Why it matters: the main thing you feel; detail and strength of the forces, how the car talks to you
+- When to care: first big upgrade after a gear/belt starter; direct drive is the endgame
 
-<!-- TODO -->
+<!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->
