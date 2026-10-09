@@ -37,7 +37,11 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 
@@ -48,6 +52,11 @@ markdown_extensions:
 # Internal links in pages are relative Markdown links, so update those too when renaming.
 nav:
   - Home: index.md
+  - Getting Started:
+      - What to Play: start/games.md
+      - First Setup: start/first-setup.md
+      - Buying Smart: start/buying.md
+      - Glossary: start/glossary.md
   - Types of Setups:
       - Intro: builds/index.md
       - "Tier 0: Desk Starter": builds/tier-0-desk-starter.md

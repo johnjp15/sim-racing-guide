@@ -4,7 +4,7 @@
 
 <!-- Image source: https://www.shango.media/frandroid-quels-sont-les-meilleurs-volants-pour-ps5-xbox-et-pc-en -->
 
-<!-- Placeholder, write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
+<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, checked 2026-10. "est" = estimate, not sourced. -->
 
 ## Cost
 
@@ -12,45 +12,68 @@
 
 <small>Assumes: existing PC/console, display, foldable space</small>
 
+- PlayStation with direct drive: $800 to $1,000
+
 ## Target user
 
 - Hooked after Tier 0, or sure you'll stick with it
 - Apartment / shared room, rig must disappear
+- Console on a couch TV
+- Skip if: a permanent 60×140 cm floor spot exists (Tier 2 costs little more)
+- Skip if: you want a stiff load cell brake (foldables flex)
 
 ## Parts
 
-- Moza R5 bundle: 5.5 Nm direct drive, ES rim, 2-pedal Hall set, $379 sale
-- Playseat Challenge X: foldable, carbon steel, $299
-- Console: G923 $350 (PS/Xbox); PS direct drive: Thrustmaster T598 5 Nm $466–500
-- Alt: NLR Wheel Stand 2.0 $279 (use your chair)
+- PC: Moza R5 bundle ~$380 + NLR GTLite Pro $299 = ~$680
+- PC, budget: R5 bundle + NLR GTLite $199 = ~$580
+- PC, own chair: R5 bundle + NLR Wheel Stand Lite 2.0 $179 = ~$560
+- Xbox: Moza R3 Xbox bundle ~$340 + Playseat Challenge X $300 = ~$640
+- PlayStation, direct drive: Thrustmaster T598 $600 (5 Nm, wheel, pedals) + GTLite Pro $299 = ~$900
+- PlayStation, in budget: Thrustmaster T248R $300 + GTLite $199 = ~$500. Not direct drive
+- Newest and cheapest foldable: NLR GTLite Air $179 (Sept 2026)
 
 ## Footprint
 
-- Challenge X in use: 140×60×105 cm, 11.1 kg
-- Folds with wheel attached
-- Wheel stand option: ~100×60 cm + own chair
+- GTLite Pro in use: 176×93×95 cm, 14.4 kg
+- Folded: 104×93×30 cm. Closet, not under the bed
+- Challenge X: 11.6 kg
+- First assembly 30 to 60 min (est)
+- Fold or unfold with gear attached: 1 to 2 min (est)
 
 ## What it feels like
 
-- First real seating position
-- Direct drive FFB, big step up from gear/belt
-- Wheel deck flex visible above ~8 Nm
+- vs Tier 0: fixed seat-to-pedal distance, reclined posture, pedals stay put
+- 5 Nm direct drive: smooth and detailed, still light
+- vs F1 Arcade: similar posture, far less rigid, no motion, weaker wheel
 
 ## Pros / cons
 
-- \+: folds away, proper position, DD wheel
-- −: still flex, no load-cell brake yet
+- \+: packs into a closet
+- \+: real driving position
+- \+: works in front of a couch TV
+- \+: base, wheel, pedals all move to a rigid rig later
+- −: flex under hard braking and above ~8 Nm (makers claim 10 to 13 Nm)
+- −: fabric seat sags over time
+- −: shifter mounts wobble
+- −: cables to manage every session
+- −: center post between the legs on some designs
+- −: the foldable itself has no upgrade path
 
 ## Next upgrade
 
-- Keep the R5, move to fixed Tier 2 rig
-- Add SR-P2 load-cell pedals ($149) once hard-mounted
+- Rigid rig first, load cell brake second
+- While still on a foldable: a rim you like beats stiffer pedals
+- Resale on the foldable ~half (est)
 
 ## Used-market alternative
 
-- Original Playseat Challenge ~$120–180; check straps + plastic wheel-deck clamp
+- Playseat Challenge, NLR GTLite, F-GT Lite: common on Marketplace, ~$100 to $180 (est)
+- Check: seams and velcro, hinges lock under load, wheel plate holes match your base, no bent tubes
+- Avoid: no-name stands made for G29 only (thin plates crack with direct drive)
 
 ## Related pages
 
 - [Tier 0: Desk Starter](tier-0-desk-starter.md)
 - [Tier 2: First Dedicated Rig](tier-2-first-dedicated-rig.md)
+- [Chassis & Mounts](../components/chassis-mounts.md)
+- [PC / Console](../components/pc-console.md)
