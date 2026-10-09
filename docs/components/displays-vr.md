@@ -18,7 +18,7 @@
 | 34" ultrawide | ~60° | $300 to $450, OLED ~$730 | Medium | No bezels, one cable. Default pick | Still can't see a car alongside |
 | 49" super-ultrawide | 80 to 100° | $650 to $900, OLED $1,100+ | High | "Triples lite", no alignment | Less side view than real triples, edges distort in some games |
 | Triple 27" | 140 to 155° | $570 to $900 + stand $275 | High | See cars beside you, 1:1 scale | 1.6 to 1.8 m wide, setup work, not all games |
-| Triple 32" | 160 to 170° | $900 to $1,200 + stand $365 | High | Feels like a cockpit | 2 m wide, dedicated room |
+| Triple 32" | 160 to 170° | $900 to $1,200 + stand $365 | High | Feels like a cockpit. Current pick if you have the room | 2 m wide, dedicated room |
 | 42 to 48" OLED TV | ~60° at 85 cm | $1,000 to $1,600 | High | Best picture, great for console | Needs a floor stand |
 | VR | 100 to 140° plus head turn | $350 to $1,000+ | Very high | True depth and scale, no floor space | Heat, nausea for some, can't see your buttons |
 

@@ -74,7 +74,7 @@ flowchart LR
 | Fanatec GT DD Pro, ClubSport DD+ | Yes | Yes | With an Xbox wheel |
 | Fanatec CSL DD, ClubSport DD, Podium DD | Yes | No | With an Xbox wheel |
 | Moza R3 Xbox bundle | Yes | No | Yes |
-| Moza R5 and up | Yes | No | Not officially |
+| Moza R5 and up | Yes | No | With the Xbox rim, sources disagree |
 | Simagic, Simucube, Asetek, VRS | Yes | No | No |
 
 - PlayStation support is in the base. It cannot be added later
