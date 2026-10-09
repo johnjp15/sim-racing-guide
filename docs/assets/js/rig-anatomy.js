@@ -25,6 +25,14 @@ const PARTS = {
 };
 
 const scene = new THREE.Scene();
+// ---- theme-aware backdrop: floor + background follow the page theme.
+// The rig model itself never changes. ----
+const THEMES = {
+  dark:  { bg: 0x0d1117, floor: 0x11151a, gridC: 0x2a3340, grid: 0x1a2230 },
+  light: { bg: 0xedf0f4, floor: 0xdde2e8, gridC: 0xaeb9c4, grid: 0xc6cfd8 },
+};
+const pageTheme = () =>
+  document.body.getAttribute('data-md-color-scheme') === 'slate' ? 'dark' : 'light';
 scene.background = new THREE.Color(0x0d1117);
 scene.fog = new THREE.Fog(0x0d1117, 7, 15);
 
@@ -60,9 +68,20 @@ const floor = new THREE.Mesh(
 );
 floor.rotation.x = -Math.PI / 2;
 scene.add(floor);
-const grid = new THREE.GridHelper(12, 24, 0x2a3340, 0x1a2230);
-grid.position.y = 0.001;
-scene.add(grid);
+let grid = null;
+function applyBackdrop() {
+  const th = THEMES[pageTheme()];
+  scene.background.setHex(th.bg);
+  floor.material.color.setHex(th.floor);
+  if (grid) { scene.remove(grid); grid.geometry.dispose(); grid.material.dispose(); }
+  grid = new THREE.GridHelper(12, 24, th.gridC, th.grid);
+  grid.position.y = 0.001;
+  scene.add(grid);
+}
+applyBackdrop();
+// MkDocs Material flips data-md-color-scheme on <body> when the user toggles theme
+new MutationObserver(applyBackdrop).observe(document.body,
+  { attributes: true, attributeFilter: ['data-md-color-scheme'] });
 
 // ---- helpers ----
 const mat = (color, o = {}) => new THREE.MeshStandardMaterial(Object.assign({ color, roughness: 0.6, metalness: 0.35 }, o));
