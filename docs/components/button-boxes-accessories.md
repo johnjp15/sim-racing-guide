@@ -6,4 +6,4 @@
 - stops you reaching for the keyboard mid-race
 - nice to have. never the thing holding you back
 
-<!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->
+<!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->

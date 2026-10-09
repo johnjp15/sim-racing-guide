@@ -6,4 +6,4 @@
 - the main thing you feel. everything else is secondary
 - first big upgrade. direct drive is the endgame
 
-<!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->
+<!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->

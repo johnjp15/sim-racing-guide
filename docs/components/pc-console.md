@@ -6,4 +6,4 @@
 - decides what you can play and how smooth
 - sort this first. then stop thinking about it
 
-<!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->
+<!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->

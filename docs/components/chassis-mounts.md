@@ -6,4 +6,4 @@
 - flex is the enemy. every bit of flex eats detail from your wheelbase
 - buy it before a strong direct drive base, not after
 
-<!-- TODO: sections below — What matters / Ignore / By tier / Compatibility / Used -->
+<!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->
