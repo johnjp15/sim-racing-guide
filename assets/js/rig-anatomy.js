@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-/* Interactive 3D rig diagram — dimensions follow a real aluminum-profile
+/* Interactive 3D rig diagram, dimensions follow a real aluminum-profile
  * rig. Driver faces +X. Hip point (seated) is at the origin-ish (0, 0.38, 0).
  * Right-hand side of driver is +Z. */
 
@@ -138,7 +138,7 @@ function part(k) {
   [-0.17, 0.17].forEach(z => g.add(box(0.04, 0.24, 0.04, p, 0.93, 0.185, z, -0.5)));
   // seat rails
   [-0.18, 0.18].forEach(z => g.add(box(0.55, 0.035, 0.05, p, -0.05, 0.10, z)));
-  // (monitor stand is freestanding — part of the displays group, not the rig)
+  // (monitor stand is freestanding, part of the displays group, not the rig)
   // shifter + handbrake risers: tops meet the plates (nothing floats)
   g.add(box(0.04, 0.4, 0.04, p, 0.32, 0.26, 0.30));
   g.add(box(0.04, 0.4, 0.04, p, 0.50, 0.26, 0.30));
@@ -263,10 +263,10 @@ function part(k) {
   const g = part('displays'), d = DARK(), p = PROFILE();
   // Racing POV, rendered with a true perspective camera per screen:
   // each screen is yawed to its angle, like a real triple-screen sim render.
-  // (48° h-FOV per 32" screen at 0.85 m — matches the model.)
+  // (48° h-FOV per 32" screen at 0.85 m, matches the model.)
   // ---- procedural triple-screen POV: fake, but perspective-correct ----
   // Each screen gets its own pinhole camera at the driver's head, yawed to the
-  // screen angle — the same way a real triple render works. Rendered 2x and
+  // screen angle, the same way a real triple render works. Rendered 2x and
   // downscaled for smooth edges.
   let _noiseTile = null;
   function noiseTile() {
@@ -362,7 +362,7 @@ function part(k) {
       const q = P(fx0, 20, fz0);
       if (q) { c.fillStyle = '#22262b'; c.fillRect(q[0] - 16, q[1] - 9, 32, 11); }
     });
-    // track: asphalt, curbs, lines, barriers, fencing — far -> near
+    // track: asphalt, curbs, lines, barriers, fencing, far -> near
     for (let z = 260; z > 2; z -= 4) {
       const hz = haze(z);
       poly([[-5, 0.01, z], [5, 0.01, z], [5, 0.01, z + 4], [-5, 0.01, z + 4]], mix('#3f444b', '#a8b4be', hz));
@@ -655,7 +655,7 @@ renderer.domElement.addEventListener('pointermove', e => {
     tip.style.display = 'block';
     tip.style.left = (e.clientX - r.left + 14) + 'px';
     tip.style.top = (e.clientY - r.top + 10) + 'px';
-    tip.textContent = PARTS[hovered.userData.partKey].name + ' — click for page';
+    tip.textContent = PARTS[hovered.userData.partKey].name + ': click for page';
   } else tip.style.display = 'none';
 });
 renderer.domElement.addEventListener('pointerleave', () => {
