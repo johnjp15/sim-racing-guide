@@ -2,8 +2,8 @@
 
 ![example](../images/components/chassis.webp)
 
-- the frame. wheelbase, pedals, seat all bolt to it
-- flex is the enemy. every bit of flex eats detail from your wheelbase
-- buy it before a strong direct drive base, not after
+- What: the frame. wheelbase, pedals, seat all bolt to it
+- Why: flex eats detail. a flexy chassis wastes a good wheelbase
+- When: before buying a strong direct drive base
 
 <!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->

@@ -2,8 +2,8 @@
 
 ![example](../images/components/sound.webp)
 
-- engine and tire noise
-- helps with shift timing. a lot of feel for little money
-- headphones are fine. don't overthink it
+- What: engine and tire noise
+- Why: shift timing by ear, cheap immersion
+- When: whenever. headphones are fine
 
 <!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->

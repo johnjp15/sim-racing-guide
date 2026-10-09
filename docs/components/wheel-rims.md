@@ -2,8 +2,8 @@
 
 ![example](../images/components/wheel.webp)
 
-- the rim you actually hold
-- shape changes leverage and feel. F1 wheel in a rally car feels wrong
-- one round wheel covers everything until you specialize
+- What: the rim you hold. attaches to the wheelbase
+- Why: shape and size change leverage and feel
+- When: you specialize. one round wheel covers everything at first
 
 <!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->

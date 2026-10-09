@@ -2,8 +2,8 @@
 
 ![example](../images/components/buttonbox.jpg)
 
-- extra buttons and dash screens
-- stops you reaching for the keyboard mid-race
-- nice to have. never the thing holding you back
+- What: extra buttons, dash screens
+- Why: stops the mid-race keyboard reach
+- When: last. never the bottleneck
 
 <!-- TODO: sections below - What matters / Ignore / By tier / Compatibility / Used -->
