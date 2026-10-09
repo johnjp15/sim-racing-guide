@@ -1,10 +1,10 @@
-# Tier 5 — Motion / Showpiece
+# Tier 5: Motion / Pro
 
 ![Example: Apex motion simulator with triple screens](../images/tier-5.jpg)
 
 <!-- Image source: https://www.apex.mx/simuladores/simulador-motion-gp -->
 
-<!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
+<!-- Placeholder, write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost
 

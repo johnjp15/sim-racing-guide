@@ -5,8 +5,8 @@ repo_url: https://github.com/johnjp15/sim-racing-guide
 edit_uri: edit/main/docs/
 
 site_name: Sim Racing Equipment Guide
-site_description: A beginner-friendly wiki for getting into sim racing after F1 Arcade — setups, tiers, components, and example builds.
-site_author: TODO
+site_description: "A beginner-friendly wiki for getting into sim racing after F1 Arcade: setups, tiers, components, and example builds."
+site_author: johnjp15
 
 theme:
   name: material
@@ -41,7 +41,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-# NAV / STRUCTURE — edit this one section to reorganise the wiki.
+# NAV / STRUCTURE, edit this one section to reorganise the wiki.
 # One topic = one file in docs/. To add, remove, rename, or reorder a page:
 #   1. add/remove/rename the .md file in docs/, and
 #   2. add/remove/edit its single line here.
@@ -50,12 +50,12 @@ nav:
   - Home: index.md
   - Types of Setups:
       - Intro: builds/index.md
-      - Tier 0 — Desk Starter: builds/tier-0-desk-starter.md
-      - Tier 1 — Foldable / Apartment: builds/tier-1-foldable-apartment.md
-      - Tier 2 — First Dedicated Rig: builds/tier-2-first-dedicated-rig.md
-      - Tier 3 — Sweet Spot Enthusiast: builds/tier-3-sweet-spot-enthusiast.md
-      - Tier 4 — Triples / VR Enthusiast: builds/tier-4-triples-vr-enthusiast.md
-      - Tier 5 — Motion / Pro: builds/tier-5-motion-pro.md
+      - "Tier 0: Desk Starter": builds/tier-0-desk-starter.md
+      - "Tier 1: Foldable / Apartment": builds/tier-1-foldable-apartment.md
+      - "Tier 2: First Dedicated Rig": builds/tier-2-first-dedicated-rig.md
+      - "Tier 3: Sweet Spot Enthusiast": builds/tier-3-sweet-spot-enthusiast.md
+      - "Tier 4: Triples / VR Enthusiast": builds/tier-4-triples-vr-enthusiast.md
+      - "Tier 5: Motion / Pro": builds/tier-5-motion-pro.md
   - Components:
       - Rig Anatomy: components/index.md
       - Chassis & Mounts: components/chassis-mounts.md

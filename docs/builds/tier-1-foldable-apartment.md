@@ -1,10 +1,10 @@
-# Tier 1 — The Apartment Folder
+# Tier 1: Foldable / Apartment
 
 ![Example: Playseat Challenge with wheel and pedals facing a TV](../images/tier-1.jpg)
 
 <!-- Image source: https://www.shango.media/frandroid-quels-sont-les-meilleurs-volants-pour-ps5-xbox-et-pc-en -->
 
-<!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
+<!-- Placeholder, write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost
 
@@ -15,12 +15,12 @@
 ## Target user
 
 - Hooked after Tier 0, or sure you'll stick with it
-- Apartment / shared room — rig must disappear
+- Apartment / shared room, rig must disappear
 
 ## Parts
 
-- Moza R5 bundle: 5.5 Nm direct drive, ES rim, 2-pedal Hall set — $379 sale
-- Playseat Challenge X: foldable, carbon steel — $299
+- Moza R5 bundle: 5.5 Nm direct drive, ES rim, 2-pedal Hall set, $379 sale
+- Playseat Challenge X: foldable, carbon steel, $299
 - Console: G923 $350 (PS/Xbox); PS direct drive: Thrustmaster T598 5 Nm $466–500
 - Alt: NLR Wheel Stand 2.0 $279 (use your chair)
 
@@ -33,7 +33,7 @@
 ## What it feels like
 
 - First real seating position
-- Direct drive FFB — big step up from gear/belt
+- Direct drive FFB, big step up from gear/belt
 - Wheel deck flex visible above ~8 Nm
 
 ## Pros / cons
@@ -52,5 +52,5 @@
 
 ## Related pages
 
-- [Tier 0 — Desk Starter](tier-0-desk-starter.md)
-- [Tier 2 — First Dedicated Rig](tier-2-first-dedicated-rig.md)
+- [Tier 0: Desk Starter](tier-0-desk-starter.md)
+- [Tier 2: First Dedicated Rig](tier-2-first-dedicated-rig.md)

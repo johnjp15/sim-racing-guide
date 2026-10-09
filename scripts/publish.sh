@@ -12,7 +12,7 @@
 #
 # Requirements: git (with push access to this repo), python3, network on first run.
 # Notes: GitHub Actions is blocked on this account ($0 budgets need a payment method),
-# so publishing is a local build + push. Your edits on main are untouched by this script —
+# so publishing is a local build + push. Your edits on main are untouched by this script:
 # commit/push your docs/ edits first, then run this to update the live site.
 set -euo pipefail
 
@@ -43,7 +43,7 @@ touch "$WT"/.nojekyll
 
 git -C "$WT" add -A
 if git -C "$WT" diff --cached --quiet; then
-  echo "No changes — live site is already up to date."
+  echo "No changes, live site is already up to date."
   exit 0
 fi
 

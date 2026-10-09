@@ -1,10 +1,10 @@
-# Tier 0 — The Desk Tester
+# Tier 0: Desk Starter
 
 ![Example: Logitech G29 wheel clamped to a desk with monitors and PC](../images/tier-0.jpg)
 
 <!-- Image source: https://www.techtesters.eu/logitech-g29-driving-force-shifter/5/ -->
 
-<!-- Placeholder — write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
+<!-- Placeholder, write this page in your own voice. Research for this topic lives in the repo under research/ (not published on this site). -->
 
 ## Cost
 
@@ -36,7 +36,7 @@
 ## Pros / cons
 
 - \+: cheapest way in, nothing to build or store
-- −: pedals slide, desk flex — no load-cell pedals yet
+- −: pedals slide, desk flex, no load-cell pedals yet
 
 ## Next upgrade
 
@@ -49,4 +49,4 @@
 
 ## Related pages
 
-- [Tier 1 — Foldable / Apartment](tier-1-foldable-apartment.md)
+- [Tier 1: Foldable / Apartment](tier-1-foldable-apartment.md)
