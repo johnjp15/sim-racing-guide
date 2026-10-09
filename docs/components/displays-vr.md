@@ -63,7 +63,15 @@
 | Automobilista 2 | Any console game (one screen only) |
 | rFactor 2, RaceRoom | |
 
+## Monitors people buy for triples
+
+- 27": LG 27GP850, Gigabyte M27Q, AOC Q27G3XMN
+- 32": Samsung Odyssey G5 32", LG 32GP850
+- Named from memory of community picks. Check current models and prices
+
 ## Triples vs ultrawide vs VR
+
+- No winner in 2026. Depends on the driver
 
 - Wheel-to-wheel online racing: triples or VR
 - Hot laps, F1 25, rally, Forza: single or ultrawide

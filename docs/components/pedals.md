@@ -27,6 +27,8 @@ flowchart LR
 - Simagic P700 is the reviewers' default entry pick
 - Simagic P1000: one long-term reviewer reports brake play and fading. Check recent reviews
 - Heusinkveld Sprint: the long-time benchmark
+- Moza CRP2: some forum regulars call it poor value next to the P700 or XP1
+- Moza SR-P Lite (bundled): the most regretted pedals. Plan to replace them
 
 ## Sensor types
 

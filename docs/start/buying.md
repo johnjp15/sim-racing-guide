@@ -81,6 +81,9 @@ flowchart LR
 - A formula wheel first, because of F1 Arcade. Miserable in road cars
 - Triples for F1 25 or Forza. They only stretch
 - Motion before a rigid rig
+- A Logitech G923 as an upgrade from a G29. Same thing
+- A mid-priced steel tube cockpit, replaced a year later
+- A clutch pedal that never gets used
 
 ## Related pages
 

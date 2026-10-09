@@ -77,7 +77,7 @@
 
 - Waiting for the next GPU generation
 - "Build it yourself, always cheaper." Not in 2026
-- Adapters that promise any wheel on any console. Unofficial, break with updates
+- Adapters that promise any wheel on any console. Some work (Brook with a Moza R9 on PS5), with weak force feedback, and can break with updates
 - "iRacing is on console." iRacing Arcade and NASCAR 25 are different games
 
 ## By tier
