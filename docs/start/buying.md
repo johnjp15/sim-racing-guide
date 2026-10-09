@@ -3,7 +3,7 @@
 !!! info "NEW PAGE"
     Added by Claude on 2026-10-09. Not in the original site plan. Keep, edit or delete.
 
-<!-- Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, checked 2026-10. Most used prices are estimates: check eBay sold listings. -->
+<!-- Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, checked 2026-10. Most used prices are estimates: check eBay sold listings. Reddit-reported prices from research-v2/12. -->
 
 ## Buy once vs throw away
 
@@ -55,6 +55,9 @@ flowchart LR
 - Maker refurb stores: Fanatec (2-year warranty), Logitech via eBay (1 year), Thrustmaster (6 months)
 - Amazon "Used, Like New" for Logitech sets: returnable
 - Best used buys: aluminum rigs, load cell pedals, Logitech G29/G920, monitors
+- Patient buyers pay a little over half of new. Many listings ask more than new
+- Paid on Reddit: G29 $100 to $150, Moza R9 + load cell pedals EUR 350, RTX 3090 EUR 500, PS VR2 EUR 150
+- Supply: people who went all in and quit
 - Risky used buys: direct drive bases priced near new. New prices fell in 2026
 - Warranty rarely transfers (Fanatec and Thrustmaster say no). Price it as no warranty
 - Before paying
@@ -74,6 +77,7 @@ flowchart LR
 
 ## Common regrets
 
+- Buying endgame gear first. A 5 Nm base on a wheel stand lasts years
 - Buying torque before pedals and a solid mount
 - A foldable, then a 12 Nm base six months later
 - A stiff load cell on a rolling office chair

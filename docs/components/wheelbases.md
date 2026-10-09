@@ -8,7 +8,7 @@
 - Why: the main thing you feel. how the car talks to you
 - When: first big upgrade after a starter base. direct drive is the endgame
 
-<!-- Draft for you to edit. Facts from research-v2/01, 07 and 11 (sources there). Prices USD, checked 2026-10. Community opinion is mostly from forums and reviewers, not Reddit directly (Reddit could not be read). -->
+<!-- Draft for you to edit. Facts from research-v2/01, 07, 11 and 12 (sources there). Prices USD, checked 2026-10. r/simracing opinion is from research-v2/12 (threads read Oct 2026). -->
 
 ## Levels
 
@@ -20,7 +20,7 @@ flowchart LR
 | Level | Examples | Price | Feels like | Buy if |
 |---|---|---|---|---|
 | Toy, no force feedback | Cheap no-name wheels | Under $100 | A spring. Teaches nothing | Never. A gamepad is better |
-| Gear drive, 2 to 3 Nm | Logitech G29 / G920 / G923 | $200 new, $100 to $150 used | Notchy, rattly, dead spot in the center | Used only, as a trial |
+| Gear drive, 2 to 3 Nm | Logitech G29 / G920 / G923 | $200 new, $100 to $150 used | Notchy, rattly, vague in the center. Not slower, just less feel | Used only, as a trial |
 | Belt and hybrid, 3 to 6 Nm | Thrustmaster T248, T300 | $300 to $450 | Smoother, slightly muted. T300 fades when hot | PlayStation on a tight budget, or used |
 | Intro direct drive, 3 to 6 Nm | Moza R3, R5, R5 Pro (6 Nm, new July 2026). Fanatec CSL DD 5 Nm. Thrustmaster T598 | $260 to $600 in a bundle | Smooth, quiet, detailed. Light | First wheel bought new |
 | Mid direct drive, 8 to 12 Nm | Moza R9, R12. Fanatec CSL DD 8 Nm, GT DD Pro. Logitech RS50. Simagic Alpha Evo Sport / Evo | $330 to $550 base only | Real weight in fast corners. Headroom | Most people. The "forever" base |
@@ -31,6 +31,9 @@ flowchart LR
 
 - Direct drive vs not: the biggest step. Nothing between motor and wheel, so no lost detail
 - Torque: 5 to 8 Nm is plenty to start. 8 to 12 Nm is enough forever for most
+- r/simracing: 12 Nm is the most cited sweet spot. Owners of 20 Nm+ bases run them at 8 to 13 Nm
+- Extra torque buys detail and headroom, not speed
+- Moza R5 Pro over R5: worth the ~EUR 70. Better pedals in the bundle
 - Small price gap between two bases: buy the stronger one and turn it down
 - Smoothness and speed of the motor, not peak force
 - The brand's wheel lineup and prices. You are buying into it
@@ -49,10 +52,10 @@ flowchart LR
 
 | Brand | Good | Watch out |
 |---|---|---|
-| Moza | Cheapest torque on PC, big lineup | Slow support. PlayStation: three direct drive products announced Sept 2026, check availability |
-| Fanatec | Most wheels, works on PlayStation and Xbox | Proprietary wheels, firmware problems reported in 2026 |
+| Moza | Cheapest torque on PC, big lineup. r/simracing's default first direct drive on PC | Slow support. PlayStation: R5S Pro (6 Nm) and R16S Ultra (16 Nm) announced Sept 2026, no price or date yet |
+| Fanatec | Most wheels, works on PlayStation and Xbox. Still the console default | Proprietary wheels, firmware and software complaints in 2026. On PC, r/simracing leans Moza or Simagic |
 | Simagic | Best-regarded feel for the money | PC only |
-| Logitech | Easiest on console, one base covers PC + PS + Xbox with the right hub | Adds up once pedals and hub are in |
+| Logitech | Easiest on console, one base covers PC + PS + Xbox with the right hub. Reliable. RS50 is the r/simracing pick for PS5 | Adds up once pedals and hub are in |
 | Thrustmaster | T598: cheapest PlayStation direct drive | Thin lineup, old belt wheels overpriced at list |
 | Simucube | The reference. Huge third-party wheel scene | PC only, price |
 
@@ -80,12 +83,14 @@ flowchart LR
 | Simagic, Simucube, Asetek, VRS | Yes | No | No |
 
 - PlayStation support is in the base. It cannot be added later
+- Moza on PS5 will need the new base. Existing Moza wheels and pedals are reported to work with it
 - Every console wheel also works on PC
 
 ## Used
 
 - Best used buy: Logitech G29 / G920, $100 to $150
 - Used direct drive: only if clearly under today's new price. New prices fell in 2026
+- Paid on Reddit: Moza R9 + load cell pedals EUR 350. Used Fanatec CSL DD 8 Nm + 2 wheels + pedals under GBP 750
 - Fanatec: check QR1 vs QR2. Old QR1 does not fit current wheels
 - Check: shaft play, connectors, firmware still updates
 - Avoid: belt wheels near new direct drive money (T300 at $370+)

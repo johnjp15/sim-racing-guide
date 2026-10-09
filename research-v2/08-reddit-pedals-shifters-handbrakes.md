@@ -1,5 +1,7 @@
 # 08: Community view on pedals, shifters and handbrakes (Reddit-targeted pass)
 
+> Superseded in part, 2026-10-09: `12-reddit-2026-10-threads-read.md` holds real r/simracing threads. Where they disagree, 12 wins. G-tagged claims here stay unverified.
+
 Research date 2026-10-09. USD unless a source only lists EUR/GBP. Companion to `02-pedals-shifters-handbrakes.md`; this file adds community opinion and does not repeat the price tables there.
 
 Confidence tags:

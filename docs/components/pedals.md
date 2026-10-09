@@ -6,7 +6,7 @@
 - Why: the brake is everything. load cell is the biggest single lap time gain
 - When: before anything else
 
-<!-- Draft for you to edit. Facts from research-v2/02 and 08 (sources there). Prices USD, checked 2026-10. "Pedals before wheelbase" is community consensus, not a measured fact. -->
+<!-- Draft for you to edit. Facts from research-v2/02, 08 and 12 (sources there). Prices USD, checked 2026-10. "Pedals before wheelbase" is community consensus, not a measured fact. -->
 
 ## Levels
 
@@ -25,10 +25,14 @@ flowchart LR
 | Active | Moza mBooster $759, Simucube ActivePedal Pro ~$1,850 + hub | $760 to $2,500 per pedal | A motor makes the feel. ABS pulse, changes per car | Everything else is sorted |
 
 - Simagic P700 is the reviewers' default entry pick
+- r/simracing budget picks: Simsonn Plus X (~EUR 170, AliExpress), Simjack UT (~$120), Simnet SP Pro. One Simsonn broke at 5 months, replacement took 2 months
+- Fanatec CSL load cell: good for the money, stiff. Softer springs fix it
+- Thrustmaster T-LCM: dated. Fine used at ~EUR 100
 - Simagic P1000: one long-term reviewer reports brake play and fading. Check recent reviews
 - Heusinkveld Sprint: the long-time benchmark
 - Moza CRP2: some forum regulars call it poor value next to the P700 or XP1
 - Moza SR-P Lite (bundled): the most regretted pedals. Plan to replace them
+- Moza mBooster owners are split: some love the brake, one returned two (grainy, noisy throttle)
 
 ## Sensor types
 
@@ -61,6 +65,7 @@ flowchart LR
 - 200 kg vs 100 kg sensors. Nobody brakes above 60 to 80 kg
 - A clutch "just in case". Cheap to add later
 - Vibration motors sold as "active"
+- Active pedals, for most. Worth it only if you change brake feel per car. A load cell plus haptics gets most of the feel for a fraction of the money
 - Setting it as stiff as it goes
 - Inverted (hanging) pedals, unless you want road car feel and have the rig
 
@@ -103,6 +108,7 @@ flowchart LR
 - Test under hard braking. Cracked load cells and noisy sensors only show under load
 - Check: controller box and cables included, rubber stacks present, brake reads smoothly to 100%
 - Fair: roughly 55 to 70% of new (estimate)
+- Paid on Reddit: Fanatec CSL load cell EUR 100 to 120, ClubSport V3 EUR 200 to 250, Moza SRP load cell ~EUR 100
 
 ## Related pages
 

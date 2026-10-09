@@ -1,5 +1,7 @@
 # 09: Community view on chassis, seats, tactile and motion (Reddit pass)
 
+> Superseded in part, 2026-10-09: `12-reddit-2026-10-threads-read.md` holds real r/simracing threads. Where they disagree, 12 wins. G-tagged claims here stay unverified.
+
 Research pass: 2026-10-09. USD unless stated. Companion to `03-chassis-seats-motion.md`; this file only adds community opinion and reported prices, it does not repeat the spec and price tables there.
 
 Confidence tags: **R** = read in a Reddit thread or search snippet. **S** = secondary source (forum thread or reviewer write-up) that I actually fetched and read. **G** = my general knowledge of r/simracing consensus up to mid 2026, NOT read this pass.

@@ -6,7 +6,7 @@
 - Why: shape and size change leverage and feel
 - When: you specialize. one round wheel covers everything at first
 
-<!-- Draft for you to edit. Facts from research-v2/01 and 07 (sources there). Prices USD, checked 2026-10. Diameters are typical ranges, not checked per product. -->
+<!-- Draft for you to edit. Facts from research-v2/01, 07 and 12 (sources there). Prices USD, checked 2026-10. Diameters are typical ranges, not checked per product. -->
 
 ## Shapes
 
@@ -19,6 +19,8 @@
 | Rally / drift, deep dish | 320 to 350 mm | Rally, drift with a handbrake | Formula cars |
 
 - F1 Arcade makes you want a formula wheel. Buy a round or D-shape first: it works in every car
+- One wheel, not round: a 290 to 300 mm GT wheel is the r/simracing middle ground. 270 mm formula wheels feel small to many
+- H-pattern shifting is harder with a GT or formula wheel
 
 ## Levels
 

@@ -10,7 +10,7 @@
 - Why: flex eats detail. a flexy chassis wastes a good wheelbase
 - When: before buying a strong direct drive base
 
-<!-- Draft for you to edit. Facts from research-v2/03 and 09 (sources there). Prices USD, checked 2026-10. Torque limits are maker ratings plus reviewer remarks, not measured. -->
+<!-- Draft for you to edit. Facts from research-v2/03, 09 and 12 (sources there). Prices USD, checked 2026-10. Torque limits are maker ratings plus reviewer remarks, not measured. -->
 
 ## Varieties
 
@@ -38,6 +38,9 @@ flowchart LR
 - Where the monitor goes
 - Whether it has to pack away
 - Build quality: a tight, square 4080 rig beats a loose bigger one
+- r/simracing: the cheapest aluminum profile is rigid enough for 5 to 8 Nm. Most named brands: Sim-Lab, RigMetal
+- Foldables work with direct drive at low torque. Flex shows with load cell pedals and more torque
+- Pack-away rigs get used only if setup takes about a minute
 
 ## Ignore
 
@@ -102,7 +105,7 @@ flowchart LR
 
 ## Used
 
-- Aluminum rigs: best used buy in the hobby. Local pickup
+- Aluminum rigs: best used buy in the hobby. Local pickup. Often sell for foldable-seat money
 - Check: 40-series profile, all brackets and T-nuts, deck hole patterns
 - Foldables: seams, hinges, bent tubes
 - Avoid: wood or PVC rigs priced like aluminum

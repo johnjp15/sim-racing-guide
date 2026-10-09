@@ -8,7 +8,7 @@
 - Why: decides what you can play and how smooth
 - When: first. then stop thinking about it
 
-<!-- Draft for you to edit. Facts from research-v2/04, 06 and 10 (sources there). Prices USD, checked 2026-10. PC-per-display guidance is a synthesis, not benchmarks. -->
+<!-- Draft for you to edit. Facts from research-v2/04, 06, 10 and 12 (sources there). Prices USD, checked 2026-10. PC-per-display guidance is a synthesis, not benchmarks. -->
 
 ## Choices
 
@@ -34,6 +34,10 @@
 
 - Sims with big grids lean on the CPU. An X3D chip matters more than usual
 - 12 to 16 GB of GPU memory for triples or VR. Not 8
+- Triple 1440p, per r/simracing: RTX 5070 Ti is the sweet spot. 5070 runs short of memory. 5080 for high refresh
+- Nvidia over AMD for triples: better triple-screen support in sims
+- Pimax Dream Air class VR: RTX 4090 / 5090. Above the "high" PC here
+- RTX 5090: far above list price in Oct 2026. Check before planning around one
 - Under ~$2,000, prebuilts are often cheaper than building right now
 - Older sims (Assetto Corsa, iRacing, RaceRoom) run on modest hardware
 
@@ -58,7 +62,7 @@
 | Logitech | G29, G923 PS, RS50 PS, PRO PS | G920, G923 Xbox, RS50 / PRO with Xbox hub |
 | Thrustmaster | T248R, T300, T598 PS | T248, T598 Xbox |
 | Fanatec | GT DD Pro, ClubSport DD+ | Any base with an Xbox wheel |
-| Moza | No (announced Sept 2026, not on sale) | R3 Xbox bundle |
+| Moza | No. R5S Pro and R16S Ultra announced Sept 2026, no price or date | R3 Xbox bundle |
 | Simagic, Simucube | No | No |
 
 ## Games by platform

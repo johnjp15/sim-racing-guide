@@ -1,5 +1,7 @@
 # 10: Community view (Reddit and forums): displays, VR, PC, console, audio, accessories, buying advice
 
+> Superseded in part, 2026-10-09: `12-reddit-2026-10-threads-read.md` holds real r/simracing threads. Where they disagree, 12 wins. G-tagged claims here stay unverified.
+
 Research date: 2026-10-09. US market, USD unless a thread was in GBP/EUR (kept as posted). Adds to files 04, 05, 06; does not repeat their price tables.
 
 Confidence tags used on every claim:

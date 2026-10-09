@@ -1,5 +1,7 @@
 # 07: Community view on wheelbases and wheel rims (Reddit-grounded attempt)
 
+> Superseded in part, 2026-10-09: `12-reddit-2026-10-threads-read.md` holds real r/simracing threads. Where they disagree, 12 wins. G-tagged claims here stay unverified.
+
 Research date 2026-10-09. Companion to `01-wheelbases-rims.md`; prices and specs are there and are not repeated here.
 
 Confidence tags:

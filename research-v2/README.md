@@ -17,6 +17,7 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
 | 09-reddit-chassis-seats-tactile-motion.md | Community view | See "Reddit" below |
 | 10-reddit-displays-pc-buying-advice.md | Community view | See "Reddit" below |
 | 11-refresh-2026-10-vr-motion-immersion.md | Oct 2026 refresh: Pimax Dream Air, Steam Frame, Moza HMA150, 3DOF vs 6DOF, shakers, belts, wind | Web research |
+| 12-reddit-2026-10-threads-read.md | r/simracing threads read directly: 28 questions, consensus, dissent, prices paid, quotes with URLs | Second agent (Muse) with a browser. Spot-checked over Reddit RSS |
 
 ## Reddit
 
@@ -28,7 +29,9 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
     - The session's web search budget ran out partway through
     - The blocks were not worked around
 - Files 07 to 10 therefore rest on other forums (GTPlanet, OC Racing forum, Simucube forum), reviewer comment sections, and recalled community consensus, each claim tagged
-- To fix: paste r/simracing threads into the session, or raise the search budget, and rerun
+- Fixed 2026-10-09: file 12 holds real threads. Where 12 and the G / S claims in 07 to 10 disagree, 12 wins
+- Reddit access that works: public RSS with an honest User-Agent, ~1 request per 35 s. Or a browser agent
+- Still thin in 12: triple monitor models, beginner regrets, used prices, wind
 
 ## Known conflicts between files
 
@@ -41,6 +44,12 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
 | Pro-Sim H-pattern | "$1,095" was GBP | ~$1,350 to $1,550 |
 | Junkyard seat | $20 to $30 (EU), $52 to $75 (US) | $50 to $75 |
 | Logitech RS50 | Base $350 to $450, system $600 to $700 | Not priced per console |
+| Qubic QS-210 | EUR 6,680 ex tax (11), EUR 4,000 to 5,000 + tax (12, Reddit) | EUR 6,680 |
+| Qubic QS-BT1 | $1,452 to $1,830 (11), "$2,500" (12, disputed in the same thread) | $1,450 to $1,830 |
+| PS VR2 | $399 (04), ~$500 (12, Reddit) | $399 |
+| 6DOF entry price | $6,999 DOF Reality H6 (11), ~$4,500 + rig eRacing Lab (12) | $4,500+ |
+| First shaker effects | Slip and ABS (03), RPM and shifts, avoid slip (12) | 12 |
+| RTX 5090 | ">$7,000" street (12, two Reddit mentions). Not checked | "Far above list" |
 
 ## Weakest data
 
