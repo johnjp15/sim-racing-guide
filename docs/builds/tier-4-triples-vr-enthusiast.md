@@ -1,6 +1,6 @@
 # Tier 4: Triples / VR Enthusiast
 
-![Example: complete triple-screen rig with bucket seat](../images/tier-4.png)
+![Example: complete triple-screen rig with bucket seat](../images/tier-4.jpg)
 
 <!-- Image source: https://simdeck.app/gear/builds/moh -->
 

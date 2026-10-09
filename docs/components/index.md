@@ -38,7 +38,7 @@
 <script type="importmap">
 {"imports":{"three":"../assets/js/three.module.min.js","three/addons/":"../assets/js/addons/"}}
 </script>
-<script type="module" src="../assets/js/rig-anatomy.js?v=13"></script>
+<script type="module" src="../assets/js/rig-anatomy.js?v=14"></script>
 <style>
 #rig3d-wrap{position:relative}
 #rig3d{height:520px;border-radius:.5rem;overflow:hidden;background:#0d1117}

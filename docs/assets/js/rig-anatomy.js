@@ -37,9 +37,15 @@ scene.background = new THREE.Color(0x0d1117);
 scene.fog = new THREE.Fog(0x0d1117, 7, 15);
 
 const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
-camera.position.set(2.6, 1.8, 2.7);
+camera.position.set(-2.3, 1.75, 2.3); // behind the driver's right shoulder
 
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ antialias: true });
+} catch (err) {
+  document.getElementById('rig-loading').textContent = '3D view unavailable. Use the list below.';
+  throw err;
+}
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 container.appendChild(renderer.domElement);
 
@@ -50,11 +56,11 @@ controls.dampingFactor = 0.08;
 controls.maxPolarAngle = Math.PI * 0.52;
 controls.minDistance = 1.2;
 controls.maxDistance = 8;
-controls.autoRotate = true;
+controls.autoRotate = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 controls.autoRotateSpeed = 0.7;
 controls.addEventListener('start', () => { controls.autoRotate = false; });
 
-scene.add(new THREE.HemisphereLight(0x8ea2c0, 0x0b0e14, 0.9));
+scene.add(new THREE.HemisphereLight(0xb4c2d8, 0x4a5262, 1.3));
 const key = new THREE.DirectionalLight(0xffffff, 1.7);
 key.position.set(3, 5, 2);
 scene.add(key);
@@ -86,8 +92,8 @@ new MutationObserver(applyBackdrop).observe(document.body,
 
 // ---- helpers ----
 const mat = (color, o = {}) => new THREE.MeshStandardMaterial(Object.assign({ color, roughness: 0.6, metalness: 0.35 }, o));
-const PROFILE = () => mat(0x1c2027, { roughness: 0.55, metalness: 0.5 });
-const DARK = () => mat(0x262b34, { roughness: 0.7, metalness: 0.2 });
+const PROFILE = () => mat(0x7d8792, { roughness: 0.5, metalness: 0.25 });   // anodized aluminum
+const DARK = () => mat(0x2a2f38, { roughness: 0.7, metalness: 0.1 });      // plastics, electronics
 const ACCENT = () => mat(0xff9100, { roughness: 0.4, metalness: 0.1, emissive: 0xff9100, emissiveIntensity: 0.25 });
 
 function box(w, h, d, material, x, y, z, rz = 0, ry = 0, rx = 0) {
@@ -147,7 +153,7 @@ function part(k) {
 // ================= SEAT =================
 {
   const g = part('seat');
-  const s = mat(0x2e3a4d, { roughness: 0.9, metalness: 0.05 });
+  const s = mat(0x3f5f8f, { roughness: 0.9, metalness: 0.05 });
   const d = DARK();
   g.add(box(0.48, 0.09, 0.5, s, -0.05, 0.30, 0));          // cushion, top 0.345
   [-0.24, 0.24].forEach(z => g.add(box(0.4, 0.12, 0.08, s, -0.05, 0.33, z, 0, 0, 0.12)));
@@ -694,8 +700,14 @@ new ResizeObserver(resize).observe(container);
 resize();
 
 document.getElementById('rig-loading').style.display = 'none';
-renderer.setAnimationLoop(() => {
+function frame() {
   controls.update();
   if (selectedKey) positionCard();
   renderer.render(scene, camera);
-});
+}
+// only render while the canvas is on screen and the tab is visible
+let onScreen = true;
+const setLoop = () => renderer.setAnimationLoop(onScreen && !document.hidden ? frame : null);
+new IntersectionObserver(es => { onScreen = es[0].isIntersecting; setLoop(); }).observe(container);
+document.addEventListener('visibilitychange', setLoop);
+setLoop();
