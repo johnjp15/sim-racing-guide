@@ -19,13 +19,13 @@ flowchart LR
 |---|---|---|---|---|
 | Bundled, position sensor | Logitech G29 / G923, Moza SR-P Lite, Fanatec CSL, Thrustmaster T3PM | In the box, or $140 to $150 | Light, long travel. You brake by how far, not how hard | Starting out |
 | Cheap fix | Moza brake kit $39, Fanatec Load Cell Kit $100, Logitech brake spring ~$25, TrueBrake mod ~$70 | $20 to $100 | Stiffer brake on the pedals you own | Delaying an upgrade |
-| Entry load cell | Moza SRP2 $149, Simagic P500 $149, Logitech RS $160, Simagic P700 $189, Fanatec CSL LC $240, Thrustmaster T-LCM $250 | $150 to $250 | Firm, short travel. Brake by pressure | First upgrade. Works on floor or stand |
+| Entry load cell | Simjack UT ~$120, Simsonn Plus X ~EUR 170, Moza SRP2 $149, Simagic P500 $149, Logitech RS $160, Simagic P700 $189, Fanatec CSL LC $240, Thrustmaster T-LCM $250 | $150 to $250 | Firm, short travel. Brake by pressure | First upgrade. Works on floor or stand |
 | Mid load cell, "buy once" | Moza CRP2 $369, Sim-Lab XP1 $399 to $499, Asetek La Prima $349 / Forte $479, Heusinkveld Sprint ~$585, Simagic P1000 $419 to $469, Fanatec CSL Elite V2 $330, ClubSport V3 $430 | $330 to $600 | All metal, very adjustable, brake you can lean on | Rigid rig owned. Most people stop here |
 | High end | Simagic P2000 $619+, Fanatec Podium $600 to $700, Asetek Invicta ~$850, Heusinkveld Ultimate+ ~$1,400 | $600 to $1,400 | Damped, smooth, like a real brake pedal | Aluminum rig, already consistent |
 | Active | Moza mBooster $759, Simucube ActivePedal Pro ~$1,850 + hub | $760 to $2,500 per pedal | A motor makes the feel. ABS pulse, changes per car | Everything else is sorted |
 
-- Simagic P700 is the reviewers' default entry pick
 - r/simracing budget picks: Simsonn Plus X (~EUR 170, AliExpress), Simjack UT (~$120), Simnet SP Pro. One Simsonn broke at 5 months, replacement took 2 months
+- Reviewers' entry pick: Simagic P700
 - Fanatec CSL load cell: good for the money, stiff. Softer springs fix it
 - Thrustmaster T-LCM: dated. Fine used at ~EUR 100
 - Simagic P1000: one long-term reviewer reports brake play and fading. Check recent reviews

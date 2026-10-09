@@ -28,6 +28,7 @@
 - Motion lite: Moza R25 Ultra $899 + CS Pro wheel $329 + mBooster active pedal set $949 + Moza HMA150 4-actuator kit $2,999 + P1X Pro $770 + seat + 3× 27" + stand = ~$7,100
 - Seat mover: Tier 4 build + Next Level Racing Motion Plus $2,799 = ~$6,500 to $7,500
 - PC only: motion reads PC telemetry
+- Belt tensioner (Qubic QS-BT1, $1,450 to $1,830): r/simracing says buy it before motion
 - Not included: PC, pallet freight, software licenses
 
 ## F1 Arcade comparison

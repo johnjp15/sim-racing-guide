@@ -48,8 +48,8 @@
 
 ```mermaid
 flowchart LR
-    A[Moza R5 bundle<br>on your desk<br>$380] --> B[Aluminum rig<br>+ seat + mount<br>~$740]
-    B --> C[Load cell pedals<br>$369]
+    A[Moza R5 bundle<br>on your desk<br>$380] --> B[Load cell pedals<br>$369]
+    B --> C[Aluminum rig<br>+ seat + mount<br>~$740]
     C --> D[12 Nm base<br>+ wheel<br>$658]
     D --> E[Triples or VR<br>$600 to $900]
 ```

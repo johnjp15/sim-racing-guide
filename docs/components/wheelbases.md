@@ -20,7 +20,7 @@ flowchart LR
 | Level | Examples | Price | Feels like | Buy if |
 |---|---|---|---|---|
 | Toy, no force feedback | Cheap no-name wheels | Under $100 | A spring. Teaches nothing | Never. A gamepad is better |
-| Gear drive, 2 to 3 Nm | Logitech G29 / G920 / G923 | $200 new, $100 to $150 used | Notchy, rattly, vague in the center. Not slower, just less feel | Used only, as a trial |
+| Gear drive, 2 to 3 Nm | Logitech G29 / G920 / G923 | $200 new, $100 to $150 used | Notchy, rattly, vague in the center. Not slower, just less feel | Used only, as a trial. PS5: fine new at ~$180 |
 | Belt and hybrid, 3 to 6 Nm | Thrustmaster T248, T300 | $300 to $450 | Smoother, slightly muted. T300 fades when hot | PlayStation on a tight budget, or used |
 | Intro direct drive, 3 to 6 Nm | Moza R3, R5, R5 Pro (6 Nm, new July 2026). Fanatec CSL DD 5 Nm. Thrustmaster T598 | $260 to $600 in a bundle | Smooth, quiet, detailed. Light | First wheel bought new |
 | Mid direct drive, 8 to 12 Nm | Moza R9, R12. Fanatec CSL DD 8 Nm, GT DD Pro. Logitech RS50. Simagic Alpha Evo Sport / Evo | $330 to $550 base only | Real weight in fast corners. Headroom | Most people. The "forever" base |
@@ -30,8 +30,8 @@ flowchart LR
 ## What matters
 
 - Direct drive vs not: the biggest step. Nothing between motor and wheel, so no lost detail
-- Torque: 5 to 8 Nm is plenty to start. 8 to 12 Nm is enough forever for most
-- r/simracing: 12 Nm is the most cited sweet spot. Owners of 20 Nm+ bases run them at 8 to 13 Nm
+- Torque: 5 to 8 Nm is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
+- Owners of 20 Nm+ bases run them at 8 to 13 Nm. Nobody regrets headroom
 - Extra torque buys detail and headroom, not speed
 - Moza R5 Pro over R5: worth the ~EUR 70. Better pedals in the bundle
 - Small price gap between two bases: buy the stronger one and turn it down
@@ -54,7 +54,7 @@ flowchart LR
 |---|---|---|
 | Moza | Cheapest torque on PC, big lineup. r/simracing's default first direct drive on PC | Slow support. PlayStation: R5S Pro (6 Nm) and R16S Ultra (16 Nm) announced Sept 2026, no price or date yet |
 | Fanatec | Most wheels, works on PlayStation and Xbox. Still the console default | Proprietary wheels, firmware and software complaints in 2026. On PC, r/simracing leans Moza or Simagic |
-| Simagic | Best-regarded feel for the money | PC only |
+| Simagic | Best-regarded feel for the money. r/simracing's step up from Moza and Fanatec | PC only |
 | Logitech | Easiest on console, one base covers PC + PS + Xbox with the right hub. Reliable. RS50 is the r/simracing pick for PS5 | Adds up once pedals and hub are in |
 | Thrustmaster | T598: cheapest PlayStation direct drive | Thin lineup, old belt wheels overpriced at list |
 | Simucube | The reference. Huge third-party wheel scene | PC only, price |
@@ -62,9 +62,9 @@ flowchart LR
 ## By tier
 
 - Tier 0: Moza R3 / R5 bundle, or used G29
-- Tier 1: Moza R5 bundle. PlayStation: T598
-- Tier 2: Moza R9, Fanatec GT DD Pro 8 Nm, Simagic Evo Sport
-- Tier 3: Moza R12, Simagic Alpha Evo, Fanatec ClubSport DD+, Logitech PRO
+- Tier 1: Moza R5 / R5 Pro bundle. PlayStation: Logitech RS50, or T598
+- Tier 2: Moza R9, Simagic Evo Sport. Console: Fanatec GT DD Pro 8 Nm, Logitech RS50
+- Tier 3: Moza R12, Simagic Alpha Evo. Console: Fanatec ClubSport DD+, Logitech PRO
 - Tier 4: same, or 18 to 21 Nm
 - Tier 5: Simucube 3 Pro, Moza R25
 

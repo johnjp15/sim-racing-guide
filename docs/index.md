@@ -52,8 +52,8 @@ flowchart TD
 
 ## Rules of thumb
 
-- Spend order: solid mount, then load cell brake, then wheel strength, then screens
-- 5 to 8 Nm of wheel force is plenty to start. 8 to 12 Nm is enough forever for most
+- Spend order: any direct drive base, then load cell brake, then a rigid rig, then screens
+- 5 to 8 Nm of wheel force is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
 - Direct drive now starts at ~$260. Skip gear-driven wheels unless used
 - Used Logitech G29 at ~$120 resells for ~$120: a free trial
 - PlayStation is the expensive platform at every tier

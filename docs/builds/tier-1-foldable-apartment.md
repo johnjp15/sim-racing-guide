@@ -29,6 +29,7 @@
 - PC, own chair: R5 bundle + NLR Wheel Stand Lite 2.0 $179 = ~$560
 - Xbox: Moza R3 Xbox bundle ~$340 + Playseat Challenge X $300 = ~$640
 - PlayStation, direct drive: Thrustmaster T598 $600 (5 Nm, wheel, pedals) + GTLite Pro $299 = ~$900
+- PlayStation, r/simracing pick: Logitech RS50 + RS pedals ~$700 to $800 + GTLite Pro $299 = ~$1,000 to $1,100
 - PlayStation, in budget: Thrustmaster T248R $300 + GTLite $199 = ~$500. Not direct drive
 - Newest and cheapest foldable: NLR GTLite Air $179 (Sept 2026)
 
@@ -52,6 +53,7 @@
 - \+: real driving position
 - \+: works in front of a couch TV
 - \+: base, wheel, pedals all move to a rigid rig later
+- \+: enough for years. r/simracing owners run 5 Nm on a folding stand and stay happy
 - −: flex under hard braking and above ~8 Nm (makers claim 10 to 13 Nm)
 - −: fabric seat sags over time
 - −: shifter mounts wobble

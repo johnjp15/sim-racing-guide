@@ -18,9 +18,11 @@
 
 ```mermaid
 flowchart LR
-    A[Solid mount] --> B[Load cell brake] --> C[Stronger wheelbase] --> D[Triples or VR] --> E[Shakers] --> F[Motion]
+    A[Direct drive base] --> B[Load cell brake] --> C[Rigid rig] --> D[Triples or VR] --> E[Shakers] --> F[Belt tensioner] --> G[Motion]
 ```
 
+- Order per r/simracing: pedals before a stronger base, rig after
+- A stiff load cell needs a mount that holds. Set it light until the rig arrives
 - Change one thing at a time, or you cannot tell what helped
 
 ## You are buying a brand, not a wheel

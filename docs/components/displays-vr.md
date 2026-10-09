@@ -30,10 +30,10 @@
 |---|---|---|---|---|
 | Try it | Meta Quest 3S | $350 | 1832 x 1920 | Cheapest test |
 | Default | Meta Quest 3 | $600 | 2064 x 2208 | Easy, wireless. Still the first headset to buy |
-| Console | PS VR2 | $399 | 2000 x 2040 OLED | Gran Turismo 7 on PS5. Works on PC with an adapter |
-| Wireless PC | Valve Steam Frame | $1,059 | 2160 x 2160 | New, Sept 2026. Sold by lottery. No cable option: the PC picture is streamed |
+| Console | PS VR2 | $399 | 2000 x 2040 OLED | Gran Turismo 7 on PS5. Works on PC with an adapter. Good value used |
+| Wireless PC | Valve Steam Frame | $1,059 | 2160 x 2160 | New, Sept 2026. Sold by lottery. No cable option: the PC picture is streamed. No owner reports on r/simracing yet |
 | Sharp, cheaper | Pimax Crystal Light | ~$700 to $900 | 2880 x 2880 | Sharp but ~950 g on your head |
-| Light | Bigscreen Beyond 2 | ~$960 to $1,020 + base stations | 2560 x 2560 OLED | 107 g. Needs base stations |
+| Light | Bigscreen Beyond 2 | ~$960 to $1,020 + base stations | 2560 x 2560 OLED | 107 g. Needs base stations. A Dream Air reviewer who owned one: more glare, pupil swim, crushed blacks |
 | Light, mid GPU | Pimax Dream Air SE | $899, or $1,199 without base stations | 2560 x 2560 OLED | Under 140 g. Easier to drive than the full Dream Air |
 | Sharpest, 2026 | Pimax Dream Air | $1,999 with base stations, $2,299 without | 3840 x 3552 OLED | ~170 g visor, 90 Hz, eye tracking. Nothing else is this sharp and this light. Divides owners |
 
@@ -139,6 +139,7 @@
 - Triples: same model and revision
 - Check: dead pixels, backlight bleed, VESA holes
 - VR: lens scratches and sun burns are fatal. Factory reset
+- Avoid Windows Mixed Reality headsets (HP Reverb). Microsoft ended support
 
 ## Related pages
 

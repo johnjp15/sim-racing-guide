@@ -12,7 +12,7 @@
 
 <small>Assumes: existing PC with a strong GPU. Displays included</small>
 
-- GPU for triple 1440p or VR: often another $700 to $1,500
+- GPU for triple 1440p: RTX 5070 Ti class, ~$860. Pimax Dream Air class VR: RTX 4090 / 5090
 
 ## Target user
 
@@ -23,9 +23,9 @@
 
 ## Parts
 
-- Triples: Tier 3 PC build on a Sim-Lab P1X Pro rig $770 + clutch $99 + Moza HGP shifter $149 + freestanding triple stand ~$275 + 3× 27" 1440p ~$630 to $700 + bass shaker and amp ~$300 (est) = ~$3,500
+- Triples: Tier 3 PC build on a Sim-Lab P1X Pro rig $770 + clutch $99 + SHH HUBB shifter ~$150 + freestanding triple stand ~$275 + 3× 27" 1440p ~$630 to $700 + bass shaker and amp ~$300 (est) = ~$3,500
 - VR: same without stand and monitors + Meta Quest 3 $600 = ~$3,200
-- Top of band: 3× 32" 1440p ~$300 each, 18 to 21 Nm base (Moza R21 Ultra $699), handbrake $99
+- Top of band: 3× 32" 1440p ~$200 to $300 each, 18 to 21 Nm base (Moza R21 Ultra $699), handbrake $99
 - Console ceiling: Fanatec ClubSport DD+ bundle $1,405 + P1X Pro + seat + Fanatec shifter ~$300 and handbrake ~$230
 
 ## Triples vs VR
@@ -37,7 +37,8 @@
 - VR: true depth and scale, no floor space
 - VR costs: heat, face pressure, nausea for some, can't see buttons, heavy GPU load
 - Try VR before buying. Quest 3S $350 is the cheap test
-- VR step up: Pimax Dream Air SE $899, Dream Air $1,999+. See [Displays](../components/displays-vr.md)
+- r/simracing in 2026: more people move from VR to triples than back. Comfort, not picture
+- VR step up: Pimax Dream Air SE $899, Dream Air $1,999+ (owners split). See [Displays](../components/displays-vr.md)
 
 ## Footprint
 

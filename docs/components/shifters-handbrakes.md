@@ -56,7 +56,7 @@
 
 | Level | Examples | Price | Notes |
 |---|---|---|---|
-| Free | A button on the wheel | $0 | On or off. Fine for rally hairpins |
+| Free | A button on the wheel | $0 | On or off. Works. Rally and drift want analog |
 | Cheap | eBay / AliExpress USB handbrakes | $30 to $100 | Fine for rally and drift. ~$30: on / off, a lottery. ~$60: decent. ~$90: load cell, good |
 | Entry | Moza HBP $99, Logitech RS $170 | $100 to $170 | Analog: partial lock, needed for drift |
 | Mid | Simagic load cell handbrake ~$170 to $220, Fanatec Handbrake V2 $230 | $170 to $230 | Load cell: pull by pressure |
