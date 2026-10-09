@@ -264,29 +264,228 @@ function part(k) {
   // Racing POV, rendered with a true perspective camera per screen:
   // each screen is yawed to its angle, like a real triple-screen sim render.
   // (48° h-FOV per 32" screen at 0.85 m — matches the model.)
+  // ---- procedural triple-screen POV: fake, but perspective-correct ----
+  // Each screen gets its own pinhole camera at the driver's head, yawed to the
+  // screen angle — the same way a real triple render works. Rendered 2x and
+  // downscaled for smooth edges.
+  let _noiseTile = null;
+  function noiseTile() {
+    if (_noiseTile) return _noiseTile;
+    const t2 = document.createElement('canvas');
+    t2.width = t2.height = 128;
+    const tc = t2.getContext('2d');
+    const id = tc.createImageData(128, 128);
+    for (let k = 0; k < id.data.length; k += 4) {
+      const v = 110 + (Math.random() * 36 | 0);
+      id.data[k] = id.data[k + 1] = id.data[k + 2] = v;
+      id.data[k + 3] = 255;
+    }
+    tc.putImageData(id, 0, 0);
+    _noiseTile = t2;
+    return t2;
+  }
+  function renderPOV(cv, yawDeg) {
+    const W = 512, H = 288, SS = 2;
+    const tmp = document.createElement('canvas');
+    tmp.width = W * SS; tmp.height = H * SS;
+    const c = tmp.getContext('2d');
+    c.scale(SS, SS);
+    const yaw = yawDeg * Math.PI / 180;
+    const sy = Math.sin(yaw), cy = Math.cos(yaw), h = 1.18;
+    const hfov = 2 * Math.atan(0.36 / 0.78);          // physical screen angular size
+    const vfov = 2 * Math.atan(Math.tan(hfov / 2) * H / W);
+    const fx = (W / 2) / Math.tan(hfov / 2), fy = (H / 2) / Math.tan(vfov / 2);
+    const P = (x, y, z) => {
+      const zc = x * sy + z * cy;
+      if (zc < 0.5) return null;
+      return [W / 2 + fx * (x * cy - z * sy) / zc, H / 2 - fy * (y - h) / zc];
+    };
+    const poly = (pts, fill) => {
+      const q = pts.map(p => P(p[0], p[1], p[2]));
+      if (q.some(p => !p)) return;
+      c.fillStyle = fill; c.beginPath(); c.moveTo(q[0][0], q[0][1]);
+      for (let i = 1; i < q.length; i++) c.lineTo(q[i][0], q[i][1]);
+      c.closePath(); c.fill();
+    };
+    const haze = (z) => Math.min(0.75, z / 320);      // distance haze 0..0.75
+    const mix = (a, b, t2) => {
+      const pa = parseInt(a.slice(1), 16), pb = parseInt(b.slice(1), 16);
+      const r = ((pa >> 16) + (((pb >> 16) - (pa >> 16)) * t2)) | 0;
+      const g = (((pa >> 8) & 255) + ((((pb >> 8) & 255) - ((pa >> 8) & 255)) * t2)) | 0;
+      const bl = ((pa & 255) + (((pb & 255) - (pa & 255)) * t2)) | 0;
+      return `rgb(${r},${g},${bl})`;
+    };
+    // sky
+    let g = c.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, '#4f8fd0'); g.addColorStop(0.55, '#a8c8e4'); g.addColorStop(0.62, '#c8d8e2');
+    c.fillStyle = g; c.fillRect(0, 0, W, H);
+    // sun + glow
+    const sp = P(-50, 34, 280);
+    if (sp) {
+      const sg = c.createRadialGradient(sp[0], sp[1], 2, sp[0], sp[1], 46);
+      sg.addColorStop(0, 'rgba(255,250,230,0.95)'); sg.addColorStop(0.25, 'rgba(255,244,214,0.55)'); sg.addColorStop(1, 'rgba(255,244,214,0)');
+      c.fillStyle = sg; c.beginPath(); c.arc(sp[0], sp[1], 46, 0, 7); c.fill();
+    }
+    // clouds
+    c.fillStyle = 'rgba(255,255,255,0.8)';
+    [[-70, 46, 300], [20, 58, 330], [100, 42, 290], [-130, 60, 320]].forEach(([cx0, cy0, cz0]) => {
+      const q = P(cx0, cy0, cz0); if (!q) return;
+      const s = fx / (cx0 * sy + cz0 * cy);
+      c.beginPath(); c.ellipse(q[0], q[1], 16 * s, 4.5 * s, 0, 0, 7); c.fill();
+      c.beginPath(); c.ellipse(q[0] + 12 * s, q[1] + 2 * s, 10 * s, 3.2 * s, 0, 0, 7); c.fill();
+      c.beginPath(); c.ellipse(q[0] - 12 * s, q[1] + 2 * s, 9 * s, 3 * s, 0, 0, 7); c.fill();
+    });
+    // mountains (hazier with distance)
+    [[-160, 380, 58], [-60, 360, 46], [60, 390, 64], [150, 370, 52]].forEach(([mx, mz, mh]) => {
+      const a = P(mx - 70, 0, mz), b = P(mx, mh, mz), d2 = P(mx + 70, 0, mz);
+      if (a && b && d2) {
+        c.fillStyle = mix('#7d8fa3', '#c8d4de', haze(mz));
+        c.beginPath(); c.moveTo(a[0], a[1]); c.lineTo(b[0], b[1]); c.lineTo(d2[0], d2[1]); c.closePath(); c.fill();
+      }
+    });
+    // grass base
+    c.fillStyle = '#5c7a3c'; c.fillRect(0, H / 2, W, H / 2);
+    // grandstand (left)
+    poly([[-58, 0, 55], [-30, 0, 55], [-30, 15, 55], [-58, 15, 55]], '#969ca4');
+    poly([[-55, 4, 56], [-33, 4, 56], [-33, 11, 56], [-55, 11, 56]], '#2e5da8');
+    for (let r2 = 0; r2 < 4; r2++)
+      poly([[-55, 4.5 + r2 * 1.7, 56], [-33, 4.5 + r2 * 1.7, 56], [-33, 5.6 + r2 * 1.7, 56], [-55, 5.6 + r2 * 1.7, 56]], r2 % 2 ? '#274e8f' : '#3568b8');
+    poly([[-58, 15, 55], [-30, 15, 55], [-26, 18, 105], [-54, 18, 105]], '#62686f');
+    // pit building (right)
+    poly([[30, 0, 70], [52, 0, 70], [52, 9, 70], [30, 9, 70]], '#a8adb2');
+    poly([[30, 9, 70], [52, 9, 70], [52, 11, 70], [30, 11, 70]], '#7d838a');
+    for (let wx = 32; wx < 52; wx += 5)
+      poly([[wx, 3, 71], [wx + 3, 3, 71], [wx + 3, 6.5, 71], [wx, 6.5, 71]], '#3d4a5a');
+    // floodlights
+    [[-26, 90], [28, 120]].forEach(([fx0, fz0]) => {
+      poly([[fx0 - 0.35, 0, fz0], [fx0 + 0.35, 0, fz0], [fx0 + 0.35, 20, fz0], [fx0 - 0.35, 20, fz0]], '#3a3f45');
+      const q = P(fx0, 20, fz0);
+      if (q) { c.fillStyle = '#22262b'; c.fillRect(q[0] - 16, q[1] - 9, 32, 11); }
+    });
+    // track: asphalt, curbs, lines, barriers, fencing — far -> near
+    for (let z = 260; z > 2; z -= 4) {
+      const hz = haze(z);
+      poly([[-5, 0.01, z], [5, 0.01, z], [5, 0.01, z + 4], [-5, 0.01, z + 4]], mix('#3f444b', '#a8b4be', hz));
+      const cc = (Math.floor(z / 8) % 2 === 0) ? mix('#c23b32', '#c8b8b0', hz) : mix('#e8e8e8', '#d8d4ce', hz);
+      poly([[-6.6, 0.01, z], [-5, 0.01, z], [-5, 0.01, z + 4], [-6.6, 0.01, z + 4]], cc);
+      poly([[5, 0.01, z], [6.6, 0.01, z], [6.6, 0.01, z + 4], [5, 0.01, z + 4]], cc);
+      if (Math.floor(z / 24) % 2 === 0)   // dashed white edge lines
+        poly([[-4.7, 0.02, z], [-4.4, 0.02, z], [-4.4, 0.02, z + 4], [-4.7, 0.02, z + 4]], mix('#d0d4d8', '#c8ccce', hz));
+      poly([[-8.7, 0, z], [-8.7, 1.05, z], [-8.7, 1.05, z + 4], [-8.7, 0, z + 4]], mix('#b2b7bd', '#b8c0c6', hz));
+      poly([[8.7, 0, z], [8.7, 1.05, z], [8.7, 1.05, z + 4], [8.7, 0, z + 4]], mix('#b2b7bd', '#b8c0c6', hz));
+      if (Math.floor(z / 20) % 2 === 0) {
+        poly([[-10.5, 1.05, z], [-10.3, 1.05, z], [-10.3, 3.6, z], [-10.5, 3.6, z]], '#6b7178');
+        poly([[10.3, 1.05, z], [10.5, 1.05, z], [10.5, 3.6, z], [10.3, 3.6, z]], '#6b7178');
+      }
+    }
+    // skid marks on the racing line
+    for (let z = 8; z < 120; z += 14) {
+      poly([[-1.6, 0.03, z], [-0.9, 0.03, z], [-0.9, 0.03, z + 9], [-1.6, 0.03, z + 9]], 'rgba(20,22,26,0.35)');
+      poly([[0.9, 0.03, z + 7], [1.6, 0.03, z + 7], [1.6, 0.03, z + 16], [0.9, 0.03, z + 16]], 'rgba(20,22,26,0.35)');
+    }
+    // catch fencing
+    for (let z = 10; z < 260; z += 34) {
+      poly([[-10.5, 1.05, z], [-10.5, 3.6, z], [-10.5, 3.6, z + 34], [-10.5, 1.05, z + 34]], 'rgba(175,183,190,0.30)');
+      poly([[10.5, 1.05, z], [10.5, 3.6, z], [10.5, 3.6, z + 34], [10.5, 1.05, z + 34]], 'rgba(175,183,190,0.30)');
+    }
+    // trees
+    [[-18, 48], [21, 72], [-24, 128], [26, 175], [-20, 210]].forEach(([tx, tz]) => {
+      const b = P(tx, 0, tz); if (!b) return;
+      const s = fx / (tx * sy + tz * cy);
+      c.fillStyle = '#5a4632'; c.fillRect(b[0] - 0.16 * s, b[1] - 2.4 * s, 0.32 * s, 2.4 * s);
+      c.fillStyle = mix('#3f6b34', '#8a9a80', haze(tz));
+      c.beginPath(); c.arc(b[0], b[1] - 3.4 * s, 1.7 * s, 0, 7); c.fill();
+      c.beginPath(); c.arc(b[0] - 1.1 * s, b[1] - 2.6 * s, 1.1 * s, 0, 7); c.fill();
+    });
+    // grain over the world (kills the flat cartoon look)
+    c.save(); c.globalAlpha = 0.10;
+    c.fillStyle = c.createPattern(noiseTile(), 'repeat');
+    c.fillRect(0, 0, W, H * 0.82);
+    c.restore();
+    // ---- car cockpit ----
+    const dashY = H * 0.80;
+    const glass = (x, y, w, hh, flip) => {           // mirror with a real reflection
+      c.fillStyle = '#0e1013'; c.fillRect(x - 4, y - 4, w + 8, hh + 8);
+      const rg = c.createLinearGradient(0, y, 0, y + hh);
+      rg.addColorStop(0, '#87aec9'); rg.addColorStop(0.42, '#a9c4de');
+      rg.addColorStop(0.43, '#43484f'); rg.addColorStop(1, '#2b3036');
+      c.fillStyle = rg; c.fillRect(x, y, w, hh);
+      c.fillStyle = 'rgba(240,244,248,0.85)';        // reflected curb/line
+      c.fillRect(flip ? x + w * 0.62 : x + w * 0.30, y + hh * 0.48, 4, hh * 0.44);
+      c.fillStyle = 'rgba(255,255,255,0.25)';        // glass sheen
+      c.fillRect(x, y, w, hh * 0.22);
+    };
+    c.fillStyle = '#0b0d10'; c.fillRect(0, 0, W, H * 0.06);    // windshield header
+    const pillar = (left) => {
+      c.fillStyle = '#0b0d10'; c.beginPath();
+      if (left) { c.moveTo(0, H * 0.06); c.lineTo(W * 0.052, H * 0.10); c.lineTo(W * 0.034, dashY); c.lineTo(0, dashY); }
+      else { c.moveTo(W, H * 0.06); c.lineTo(W * 0.948, H * 0.10); c.lineTo(W * 0.966, dashY); c.lineTo(W, dashY); }
+      c.closePath(); c.fill();
+    };
+    if (yawDeg === 0) {
+      pillar(true); pillar(false);
+      c.fillStyle = '#0e1013';                                  // rear-view mirror
+      c.fillRect(W * 0.405, H * 0.07, W * 0.19, H * 0.085);
+      const rg = c.createLinearGradient(0, H * 0.08, 0, H * 0.145);
+      rg.addColorStop(0, '#8fb4d8'); rg.addColorStop(0.45, '#43484f'); rg.addColorStop(1, '#2b3036');
+      c.fillStyle = rg; c.fillRect(W * 0.413, H * 0.08, W * 0.174, H * 0.065);
+      c.fillStyle = 'rgba(240,244,248,0.85)'; c.fillRect(W * 0.49, H * 0.095, 4, H * 0.045);
+    } else if (yawDeg > 0) { pillar(false); glass(W * 0.855, H * 0.30, W * 0.08, H * 0.105, true); }
+    else { pillar(true); glass(W * 0.065, H * 0.30, W * 0.08, H * 0.105, false); }
+    const dg = c.createLinearGradient(0, dashY, 0, H);         // dashboard
+    dg.addColorStop(0, '#232930'); dg.addColorStop(0.3, '#161a20'); dg.addColorStop(1, '#090b0e');
+    c.fillStyle = dg;
+    c.beginPath();
+    c.moveTo(0, H); c.lineTo(0, dashY); c.lineTo(W * 0.5, dashY - H * 0.035); c.lineTo(W, dashY); c.lineTo(W, H);
+    c.closePath(); c.fill();
+    c.fillStyle = 'rgba(255,255,255,0.06)'; c.fillRect(0, dashY + 2, W, 3);
+    if (yawDeg === 0) {
+      const vy = dashY + H * 0.05;
+      [-0.31, 0.31].forEach(off => {                            // air vents
+        const vx = W * (0.5 + off);
+        c.fillStyle = '#08090c';
+        c.beginPath(); c.ellipse(vx, vy, W * 0.058, H * 0.040, 0, 0, 7); c.fill();
+        c.strokeStyle = '#2e343c'; c.lineWidth = 2;
+        for (let i = -2; i <= 2; i++) {
+          c.beginPath(); c.moveTo(vx - W * 0.042, vy + i * 5.5); c.lineTo(vx + W * 0.042, vy + i * 5.5); c.stroke();
+        }
+        c.strokeStyle = '#454d56'; c.lineWidth = 2.5;
+        c.beginPath(); c.ellipse(vx, vy, W * 0.058, H * 0.040, 0, 0, 7); c.stroke();
+      });
+      const dw2 = W * 0.175, dh2 = H * 0.125, dx0 = W * 0.5 - dw2 / 2, dy0 = dashY + H * 0.018;
+      c.fillStyle = '#04070b';                                  // dash display
+      c.beginPath(); c.roundRect(dx0, dy0, dw2, dh2, 6); c.fill();
+      c.strokeStyle = '#232a33'; c.lineWidth = 2; c.stroke();
+      c.fillStyle = '#7df3ff'; c.font = 'bold 46px monospace'; c.textAlign = 'center'; c.textBaseline = 'alphabetic';
+      c.fillText('4', W * 0.5, dy0 + 54);
+      for (let i = 0; i < 12; i++) {                            // rpm bar
+        c.fillStyle = i < 8 ? '#3ddc84' : (i < 10 ? '#ffd23f' : '#ff5252');
+        c.fillRect(dx0 + 9 + i * 6.2, dy0 + dh2 - 13, 4.2, 7);
+      }
+      c.fillStyle = '#9fb3c8'; c.font = '13px monospace';
+      c.fillText('187 km/h', W * 0.5, dy0 + dh2 - 19);
+      [-0.19, -0.12, 0.12, 0.19].forEach(off => {                // dash buttons
+        c.fillStyle = '#1c2127';
+        c.beginPath(); c.arc(W * (0.5 + off), dy0 + dh2 + 13, 5, 0, 7); c.fill();
+        c.strokeStyle = '#333b44'; c.lineWidth = 1.5; c.stroke();
+      });
+    }
+    // downscale 2x -> smooth edges
+    cv.width = W; cv.height = H;
+    cv.getContext('2d').drawImage(tmp, 0, 0, W, H);
+  }
   // driver head (same height => screens stay vertical, each faces the driver)
   const HX = -0.05, HY = 1.0;
   const screens = [];
-  const povScreens = [];
-  new THREE.TextureLoader().load('../images/triple-pov.jpg', tex => {
-    tex.colorSpace = THREE.SRGBColorSpace;         // real iRacing cockpit photo
-    povScreens.forEach(scr => {                    // one wide image across all three
-      const one = tex.clone();
-      one.needsUpdate = true;
-      one.repeat.set(1 / 3, 1);
-      one.offset.set(scr.userData.povThird / 3, 0);
-      scr.material.map = one;
-      scr.material.color.setHex(0xffffff);
-      scr.material.needsUpdate = true;
-    });
-  });
   const mk = (deg) => {
     const grp = new THREE.Group();
     grp.add(box(0.76, 0.44, 0.03, d, 0, 0, 0));        // bezel, faces +z
+    const cv = document.createElement('canvas');
+    renderPOV(cv, deg);                                // this screen's own yawed view
+    const tex = new THREE.CanvasTexture(cv);
+    tex.colorSpace = THREE.SRGBColorSpace;
     const scr = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 0.40),
-      new THREE.MeshBasicMaterial({ color: 0x0a0d12 }));  // dark until photo loads
-    scr.userData.povThird = deg < 0 ? 0 : deg > 0 ? 2 : 1;  // left | center | right
-    povScreens.push(scr);
+      new THREE.MeshBasicMaterial({ map: tex }));
     scr.position.z = 0.017;                            // toward driver
     grp.add(scr);
     grp.add(box(0.12, 0.12, 0.025, d, 0, 0, -0.028));  // vesa plate on back
