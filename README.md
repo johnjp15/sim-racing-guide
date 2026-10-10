@@ -1,6 +1,6 @@
 # Sim Racing Equipment Guide
 
-Wiki-style sim racing equipment guide for friends who tried F1 Arcade. Built with MkDocs Material.
+Wiki-style sim racing equipment guide. Built with MkDocs Material.
 
 - Live: https://johnjp15.github.io/sim-racing-guide/
 - Source: `main`. Published site: `gh-pages`.

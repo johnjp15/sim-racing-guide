@@ -12,25 +12,33 @@
 
 ## Seating
 
-- Wheel distance: shoulders on the seat, arm straight, wrist rests on top of the rim
-- Elbows bent ~90 to 120° at 9 and 3
-- Wheel height: top of rim around shoulder height
-- Pedals: knee still bent at full brake
-- Office chair: lock or cup the casters before anything else
-- GT position (upright, pedals low): start here. Works for everything
-- Formula position (reclined, feet high): only if you drive formula cars only
+| What | How |
+|---|---|
+| Wheel distance | Shoulders on the seat, arm straight, wrist rests on top of the rim |
+| Elbows | Bent ~90 to 120° at 9 and 3 |
+| Wheel height | Top of the rim around shoulder height |
+| Pedals | Knee still bent at full brake |
+| Office chair | Lock or cup the casters before anything else |
+
+| Position | Use |
+|---|---|
+| GT: upright, pedals low | Start here. Works for everything |
+| Formula: reclined, feet high | Only if you drive formula cars only |
 
 ## Screen and FOV
 
 - FOV = how much of the world is squeezed onto your screen
 - Game defaults are far too wide: everything looks slow and far, braking points are wrong
 - Correct FOV depends on two things: screen width and eye distance
-- Steps
-    - Move the screen as close as possible, right behind the wheelbase
-    - Screen center at or just below eye level
-    - Measure eye-to-screen distance and screen width
-    - Put the numbers in an FOV calculator, enter the result in the game
-    - The calculator converts for each game. Some want degrees, some a slider value
+
+| Step | Do this |
+|---|---|
+| 1 | Move the screen as close as possible, right behind the wheelbase |
+| 2 | Screen center at or just below eye level |
+| 3 | Measure eye-to-screen distance and screen width |
+| 4 | Put the numbers in an FOV calculator, enter the result in the game |
+
+- The calculator converts for each game. Some want degrees, some a slider value
 - Correct FOV feels zoomed in at first. Give it a few sessions
 
 | Screen | Eyes at 60 cm | 70 cm | 100 cm |
@@ -55,10 +63,13 @@
 
 - Force feedback is information about front tire grip, not a strength contest
 - Clipping: the game asks for more force than the wheel has. Everything strong feels the same, detail vanishes
-- Tuning order
-    - Wheel software: 100% on Logitech and belt wheels. Direct drive: a comfortable peak, often 5 to 8 Nm
-    - In game: lower gain until the heaviest corner stops maxing the meter
-    - Turn off fake effects (kerb, engine, road rumble), add back to taste
+
+| Step | Where | Do this |
+|---|---|---|
+| 1 | Wheel software | 100% on Logitech and belt wheels. Direct drive: a comfortable peak, often 5 to 8 Nm |
+| 2 | In game | Lower gain until the heaviest corner stops maxing the meter |
+| 3 | In game | Turn off fake effects (kerb, engine, road rumble), add back to taste |
+
 - Arms ache after 20 minutes: too strong
 - Change one setting at a time
 
@@ -80,16 +91,20 @@
 
 ## Comfort
 
-- Motion sickness on a screen: usually wrong FOV or uneven frame rate
-- VR: start with 10 to 15 minutes, stop at the first nausea, use a fan
-- Heat: a fan aimed at you is the cheapest upgrade
-- Noise: rubber mat under the rig, headphones for sound
+| Problem | Fix |
+|---|---|
+| Motion sickness on a screen | Usually wrong FOV or uneven frame rate |
+| Motion sickness in VR | Start with 10 to 15 minutes, stop at the first nausea, use a fan |
+| Heat | A fan aimed at you. The cheapest upgrade |
+| Noise | Rubber mat under the rig, headphones for sound |
 
 ## Free software worth installing (PC)
 
-- Crew Chief: voice spotter ("car left") and race engineer. Free
-- SimHub: dash on an old phone, drives bass shakers. Free, license from 8 EUR
-- Maker software: Moza Pit House, Fanatec app, Simagic SimPro, Logitech G HUB. Update firmware first
+| Tool | Does |
+|---|---|
+| [Crew Chief](https://thecrewchief.org/) | Voice spotter ("car left") and race engineer. Free |
+| [SimHub](https://www.simhubdash.com/) | Dash on an old phone, drives bass shakers. Free, license from EUR 8 |
+| Maker software | Moza Pit House, Fanatec app, Simagic SimPro, Logitech G HUB. Update firmware first |
 
 ## Related pages
 

@@ -5,7 +5,7 @@ repo_url: https://github.com/johnjp15/sim-racing-guide
 edit_uri: edit/main/docs/
 
 site_name: Sim Racing Equipment Guide
-site_description: "A beginner-friendly wiki for getting into sim racing after F1 Arcade: setups, tiers, components, and example builds."
+site_description: "A beginner-friendly wiki for getting into sim racing: setups, tiers, components, and example builds."
 site_author: johnjp15
 
 theme:
@@ -53,6 +53,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
+      - Quick Start Guide: start/quick-start.md
+      - Slow Start Guide: start/slow-start.md
       - What to Play: start/games.md
       - First Setup: start/first-setup.md
       - Buying Smart: start/buying.md

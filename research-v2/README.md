@@ -75,6 +75,16 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
     - Console at Tier 4: PS VR2 with Gran Turismo 7 was missing
 - Removed as noise: weight estimates on tier pages, desk depth and box size estimates, single-owner anecdotes, research notes in page text ("thin data", "sources disagree")
 
+## Listings and buy links, 2026-10-09
+
+- Example builds on tier pages and "Where to buy" tables on component pages use live listings
+- Method: the stores' public Shopify catalogs (`/products.json`, `/products/<handle>.js`) give title, price and stock. Read for Moza US, Apex Sim Racing, Sim-Lab US, Trak Racer, RigMetal, Simagic, Next Level Racing US, GT Omega, Podium1, Sim Motion, Simsonn, RaceKraft, ButtKicker, Fosi, Sennheiser, Simucube, eRacing Lab, Knox Labs
+- Other prices: web search the same day (Best Buy, Amazon, Parts Express, SHH, Staples). Best Buy and Amazon pages block direct reads, so those prices rest on the search result
+- All 211 external links were requested once: 199 returned 200, 12 returned a bot-check page (Best Buy, Etsy, Micro Center, Cube Controls, Sparco, GPR Direct, Crew Chief, Amazon.de, one Simagic rate limit). None returned 404
+- Not verified by opening the listing: Best Buy prices (Moza R5 bundle $349.99, Samsung G50F $249.99), Playseat Trophy price, DOF Reality and SimXperience prices
+- Changed against older files: Moza R9 V3 $299 and R12 V2 $399 (were $329 / $429), Sim-Lab GT1 Evo $449 and P1X Ultimate $999 in the US store, D-BOX G5 4250i $5,990 new at Trak Racer (a $4,990 listing was open box), Qubic QS-210 / QS-220 $8,671 / $11,330 at Podium1, RaceKraft wind kit $650, Simsonn Plus X from $192 on its own store
+- Component photos are maker product images (Simucube, Sim-Lab, Moza, Trak Racer, Apex, Sennheiser), not freely licensed. Source URLs are in a comment under each image
+
 ## Weakest data
 
 - Used prices: nearly all estimates. No eBay sold listings were read

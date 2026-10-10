@@ -1,40 +1,44 @@
 # Pedals
 
-![example](../images/components/pedals.jpg)
+![Load cell pedals close up: Sim-Lab XP1](../images/components/pedals.jpg)
+
+<!-- Image source: https://sim-lab.us/products/pedal-set-xp1-loadcell-sim-racing (Sim-Lab product photo). File: https://sim-lab.us/cdn/shop/files/IMG_0018-6_mastery.jpg -->
 
 - What: throttle, brake, clutch
 - Why: the brake is everything. load cell is the biggest single lap time gain
 - When: right after a direct drive wheelbase. before everything else
 
-<!-- Draft for you to edit. Facts from research-v2/02, 08 and 12 (sources there). Prices USD, checked 2026-10. Order (direct drive wheelbase, then load cell brake) is John's call. "Biggest lap time gain" is community consensus, not a measured fact. -->
+<!-- Draft for you to edit. Facts from research-v2/02, 08 and 12 (sources there). Prices USD, listings checked 2026-10-09. Order (direct drive wheelbase, then load cell brake) is John's call. "Biggest lap time gain" is community consensus, not a measured fact. -->
 
 ## Levels
 
 ```mermaid
 flowchart LR
-    A[Spring brake<br>in the bundle] --> B[Entry load cell<br>$120 to $250] --> C[Mid load cell<br>$330 to $600] --> D[High end, hydraulic<br>$600 to $1,400] --> E[Active<br>$760 to $2,500 per pedal]
+    A[Spring brake<br>in the bundle] --> B[Entry load cell<br>$120 to $250] --> C[Mid load cell<br>$330 to $600] --> D[High end, hydraulic<br>$600 to $1,300] --> E[Active<br>$760 to $1,850 per pedal]
 ```
 
-| Level | Examples | Price | Feels like | Buy if |
-|---|---|---|---|---|
-| Bundled, position sensor | Logitech G29 / G923, Moza SR-P Lite, Fanatec CSL, Thrustmaster T3PM | In the box, or $140 to $150 | Light, long travel. You brake by how far, not how hard | Starting out |
-| Cheap fix | Moza brake kit $39, Fanatec Load Cell Kit $100, Logitech brake spring ~$25, TrueBrake mod ~$70 | $20 to $100 | Stiffer brake on the pedals you own | Delaying an upgrade |
-| Entry load cell | Simjack UT ~$120, Simsonn Plus X ~EUR 170, Moza SRP2 $149, Simagic P500 $149, Logitech RS $160, Simagic P700 $189, Fanatec CSL LC $240, Thrustmaster T-LCM $250 | $120 to $250 | Firm, short travel. Brake by pressure | First upgrade. Works on floor or stand |
-| Mid load cell, "buy once" | Moza CRP2 $369, Sim-Lab XP1 $399 to $499, Asetek La Prima $349 / Forte $479, Heusinkveld Sprint ~$585, Simagic P1000 $419 to $469, Fanatec CSL Elite V2 $330, ClubSport V3 $430 | $330 to $600 | All metal, very adjustable, brake you can lean on | Rigid rig owned. Most people stop here |
-| High end | Simagic P2000 $619+, Fanatec Podium $600 to $700, Asetek Invicta ~$850, Heusinkveld Ultimate+ ~$1,400 | $600 to $1,400 | Damped, smooth, like a real brake pedal | Aluminum rig, already consistent |
-| Active | Moza mBooster $759, Simucube ActivePedal Pro ~$1,850 + hub | $760 to $2,500 per pedal | A motor makes the feel. ABS pulse, changes per car | Everything else is sorted |
+| Level | Price | Feels like | Buy if |
+|---|---|---|---|
+| Bundled, position sensor | In the box | Light, long travel. You brake by how far, not how hard | Starting out |
+| Cheap fix | $20 to $140 | A stiffer brake on the pedals you own | Delaying an upgrade |
+| Entry load cell | $120 to $250 | Firm, short travel. Brake by pressure | First upgrade. Works on floor or stand |
+| Mid load cell, "buy once" | $330 to $600 | All metal, very adjustable, a brake you can lean on | Rigid rig owned. Most people stop here |
+| High end | $600 to $1,300 | Damped, smooth, like a real brake pedal | Aluminum rig, already consistent |
+| Active | $760 to $1,850 per pedal | A motor makes the feel. ABS pulse, changes per car | Everything else is sorted |
 
 ## Picks and warnings
 
-- Budget picks on r/simracing: Simsonn Plus X, Simjack UT, Simnet SP Pro. AliExpress brands: cheap, good feel, slow warranty
-- Reviewers' entry pick: Simagic P700
-- Console: Fanatec CSL load cell. Good for the money, stiff. Softer springs fix it
-- Thrustmaster T-LCM: dated. Fine used at ~EUR 100
-- Heusinkveld Sprint: the long-time benchmark
-- Simagic P1000: one long-term reviewer reports brake play and fading. Check recent reviews
-- Moza CRP2: some call it poor value next to the Simagic P700 or Sim-Lab XP1
-- Moza SR-P Lite (in the R3 / R5 bundles): soft spring brake. The first thing to replace
-- Moza mBooster: owners split. Good brake, grainy throttle
+| Pedals | Verdict |
+|---|---|
+| Simsonn Plus X, Simjack UT, Simnet SP Pro | The budget picks on r/simracing. AliExpress brands: cheap, good feel, slow warranty |
+| Simagic P700 | Reviewers' entry pick |
+| Fanatec CSL load cell | The console pick. Good for the money, stiff. Softer springs fix it |
+| Thrustmaster T-LCM | Dated. Fine used at ~EUR 100 |
+| Heusinkveld Sprint | The long-time benchmark |
+| Simagic P1000 | One long-term reviewer reports brake play and fading. Check recent reviews |
+| Moza CRP2 | Some call it poor value next to the Simagic P700 or Sim-Lab XP1 |
+| Moza SR-P Lite (in the R3 / R5 bundles) | Soft spring brake. The first thing to replace |
+| Moza mBooster | Owners split. Good brake, grainy throttle |
 
 ## Sensor types
 
@@ -73,8 +77,11 @@ flowchart LR
 
 ## Two pedals or three
 
-- Two is enough: F1, GT3, prototypes, most online racing
-- Clutch needed: H-pattern shifter, drifting, trucks, some standing starts
+| Pedals | Enough for |
+|---|---|
+| Two | F1, GT3, prototypes, most online racing |
+| Three, with clutch | H-pattern shifter, drifting, trucks, some standing starts |
+
 - Add-on clutch: $45 to $100 on most sets
 
 ## Mounting
@@ -91,18 +98,22 @@ flowchart LR
 
 ## Compatibility
 
-- PC: any USB pedals with any wheel
-- Console: pedals plug into the same brand's wheelbase. Never into the console
-- Console load cells: Fanatec, Logitech, Thrustmaster only
-- Moza pedals: PC, and Xbox only through an Xbox-capable Moza setup
-- Simagic, Heusinkveld, Asetek, Simucube: PC only
+| Platform | Rule |
+|---|---|
+| PC | Any USB pedals with any wheel |
+| Console | Pedals plug into the same brand's wheelbase. Never into the console |
+| Console load cells | Fanatec, Logitech, Thrustmaster only |
+| Moza pedals | PC, and Xbox only through an Xbox-capable Moza setup |
+| Simagic, Heusinkveld, Asetek, Simucube | PC only |
 
 ## By tier
 
-- Tier 0 to 1: bundled. First upgrade: an entry load cell
-- Tier 2: entry load cell
-- Tier 3 to 4: mid load cell
-- Tier 5: active brake + good throttle
+| Tier | Pedals |
+|---|---|
+| 0 to 1 | Bundled. First upgrade: an entry load cell |
+| 2 | Entry load cell |
+| 3 to 4 | Mid load cell |
+| 5 | Active brake + good throttle |
 
 ## Used
 
@@ -112,9 +123,72 @@ flowchart LR
 - Fair: roughly 55 to 70% of new (estimate)
 - Seen paid: Fanatec CSL load cell EUR 100 to 120, ClubSport V3 EUR 200 to 250, Moza SRP load cell ~EUR 100
 
+## Where to buy
+
+| Level | Product | Price | Buy |
+|---|---|---|---|
+| Cheap fix | Moza brake kit for SR-P Lite | $29 | [Moza US][kit] |
+| Cheap fix | Moza brake kit for SRP Lite2, SRP2, CRP2 | $20 | [Moza US][kit2] |
+| Cheap fix | Fanatec CSL Pedals Load Cell Kit | $100 to $140 | [Fanatec][lck] |
+| Cheap fix | AXC TrueBrake, for Logitech pedals | ~GBP 45 to 60 | [AXC Sim][axc] |
+| Entry load cell | Simjack UT | ~$120 | [AliExpress search][simjack] |
+| Entry load cell | Moza SRP2 | $149 | [Moza US][srp2] |
+| Entry load cell | Simagic P500 | $149 | [Simagic][p500] |
+| Entry load cell | Logitech RS Pedals | $160 | [Logitech G][rsp] |
+| Entry load cell | Simagic P700 | $189 | [Simagic][p700] |
+| Entry load cell | Simsonn Plus X | from $192 | [Simsonn][simsonn] |
+| Entry load cell | Simnet SP Pro, 2 pedals | $209 | [Apex Sim Racing][simnet] |
+| Entry load cell | Fanatec CSL Pedals LC | $240 | [Fanatec][csllc] |
+| Entry load cell | Thrustmaster T-LCM | $250 | [Thrustmaster][tlcm] |
+| Mid load cell | Fanatec CSL Elite V2 | $330 | [Fanatec][cslev2] |
+| Mid load cell | Asetek La Prima | $349 | [Podium1][laprima] |
+| Mid load cell | Moza CRP2 | $369 | [Moza US][crp2] |
+| Mid load cell | Sim-Lab XP1, 2 pedals | $399 | [Sim-Lab US][xp1] |
+| Mid load cell | Simagic P1000, 2 pedals | $419 | [Simagic][p1000] |
+| Mid load cell | Fanatec ClubSport V3 | $430 | [Fanatec][csv3] |
+| Mid load cell | Asetek Forte | $480 | [Podium1][forte] |
+| Mid load cell | Heusinkveld Sprint, 2 pedals | $585 | [Trak Racer][sprint] |
+| High end | Simagic P2000 | from $609 | [Simagic][p2000] |
+| High end | Fanatec Podium pedals | $600 to $700 | [Fanatec][fped] |
+| High end | Asetek Invicta | ~$850 | [Asetek][asetek] |
+| High end | Heusinkveld Ultimate+, 2 pedals | $1,259 | [Trak Racer][ult] |
+| Active | Moza mBooster, one pedal | $759 | [Moza US][mb] |
+| Active | Simucube ActivePedal Pro, one pedal | $1,849 | [Trak Racer][ap] |
+
+- Prices checked 2026-10-09. Moza, Simagic, Sim-Lab, Apex, Podium1 and Trak Racer from live store listings. Fanatec, Logitech and Thrustmaster from their sites earlier the same day
+- Simsonn sells for less on AliExpress: ~EUR 170 for two pedals
+
 ## Related pages
 
 - [Chassis & Mounts](chassis-mounts.md)
 - [Seat](seating.md)
 - [Shifter & Handbrake](shifters-handbrakes.md)
 - [First Setup](../start/first-setup.md)
+
+[kit]: https://us.mozaracing.com/products/srp-lite-kit
+[kit2]: https://us.mozaracing.com/products/brake-kit
+[lck]: https://www.fanatec.com/us/en/p/sim-racing-accessories/csl_p_lck/csl-pedals-load-cell-kit
+[axc]: https://www.axc-sim.com/
+[simjack]: https://www.aliexpress.com/w/wholesale-simjack-ut-pedals.html
+[srp2]: https://us.mozaracing.com/products/srp2-pedals
+[p500]: https://simagic.com/products/simagic-p500-pedals
+[rsp]: https://www.logitechg.com/en-us/shop/p/rs-pedals
+[p700]: https://simagic.com/products/simagic-p700-pedal
+[simsonn]: https://simsonn.com/products/simsonn-plus-x-pedals
+[simnet]: https://www.apexsimracing.com/products/sp-pro-pedal-2-pedal-set-with-2-hydraulic-dampers
+[csllc]: https://www.fanatec.com/us/en/p/pedals/csl_p_lc/csl-pedals-lc
+[tlcm]: https://www.thrustmaster.com/en-us/products/t-lcm-pedals/
+[cslev2]: https://www.fanatec.com/us/en/p/pedals/csl_ep_v2/csl-elite-pedals-v2
+[laprima]: https://podium1racing.com/products/asetek-la-prima-pedals-set-bt
+[crp2]: https://us.mozaracing.com/products/crp2-pedals
+[xp1]: https://sim-lab.us/products/pedal-set-xp1-loadcell-sim-racing
+[p1000]: https://simagic.com/products/p1000-f
+[csv3]: https://www.fanatec.com/us/en/p/pedals/csp_v3/clubsport-pedals-v3
+[forte]: https://podium1racing.com/products/asetek-forte-pedals-set-brake-and-throttle
+[sprint]: https://trakracer.com/products/heusinkveld-sprint-2-pedal-set-black
+[p2000]: https://simagic.com/products/p2000-r
+[fped]: https://www.fanatec.com/us/en/c/pedals
+[asetek]: https://www.asetek.com/simsports/
+[ult]: https://trakracer.com/products/heusinkveld-ultimate-2-pedal-set
+[mb]: https://us.mozaracing.com/products/mbooster-active-pedal
+[ap]: https://trakracer.com/products/simucube-activepedal-pro-no-link-hub

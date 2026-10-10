@@ -28,11 +28,14 @@ flowchart LR
 
 ## You are buying a brand, not a wheel
 
-- Wheels, quick releases and console support are locked to the brand
-- PC: pedals, shifters, handbrakes from any brand plug in by USB
-- Console: everything must plug into the same brand's wheelbase
-- PlayStation support lives in the wheelbase. It cannot be added later
-- Xbox support on Fanatec and Moza comes from the wheel rim
+| Platform | Rule |
+|---|---|
+| Any | Wheels, quick releases and console support are locked to the brand |
+| PC | Pedals, shifters, handbrakes from any brand plug in by USB |
+| Console | Everything must plug into the same brand's wheelbase |
+| PlayStation | Support lives in the wheelbase. It cannot be added later |
+| Xbox | On Fanatec and Moza, support comes from the wheel rim |
+
 - Xbox and PlayStation versions look identical. Check the exact model before paying
 
 ## Costs people forget
@@ -40,12 +43,12 @@ flowchart LR
 | Extra | Typical |
 |---|---|
 | Sales tax | Up to 10% |
-| Rig shipping | $100 to $250 from the EU |
-| Seat, brackets, slider | $200 to $400. Most profile rigs ship without |
-| Monitor mount | $100 single, $275 to $300 triple |
+| Rig shipping | $30 to $250 |
+| Seat, brackets, slider | $250 to $450. Most profile rigs ship without |
+| Monitor stand | $200 single, $300 to $360 triple |
 | Pedals, when a "system" has none | $130 to $160 |
 | Console tax | Moza Xbox wheel $129, Logitech Xbox hub $150 to $190 |
-| Shifter, handbrake | $130 to $170 each |
+| Shifter, handbrake | $100 to $170 each |
 | Bolts, T-nuts, USB hub, cables, mat | $20 to $60 |
 | GPU for triples or VR | $700 to $1,500 |
 | iRacing | $125 a year plus content |
@@ -54,15 +57,18 @@ flowchart LR
 
 ## Used market
 
-- Where: Facebook Marketplace for rigs, monitors, Logitech sets. Sim racing buy/sell groups for enthusiast gear
-- Maker refurb stores: Fanatec (2-year warranty), Logitech via eBay (1 year), Thrustmaster (6 months)
-- Amazon "Used, Like New" for Logitech sets: returnable
-- Best used buys: aluminum rigs, load cell pedals, Logitech G29/G920, monitors
-- Patient buyers pay a little over half of new. Many listings ask more than new
-- Best supply: barely used gear from people who went all in and quit
-- Seen paid: G29 $100 to $150, Moza R9 + load cell pedals EUR 350, PS VR2 EUR 150
-- Risky used buys: direct drive bases priced near new. New prices fell in 2026
-- Warranty rarely transfers (Fanatec and Thrustmaster say no). Price it as no warranty
+| Topic | What to know |
+|---|---|
+| Where | Facebook Marketplace for rigs, monitors, Logitech sets. Sim racing buy/sell groups for enthusiast gear |
+| Refurb stores | Fanatec (2-year warranty), Logitech via eBay (1 year), Thrustmaster (6 months), Moza US |
+| Returnable | Amazon "Used, Like New" for Logitech sets |
+| Best buys | Aluminum rigs, load cell pedals, Logitech G29 / G920, monitors |
+| Risky | Direct drive bases priced near new. New prices fell in 2026 |
+| Fair price | Patient buyers pay a little over half of new. Many listings ask more than new |
+| Supply | Barely used gear from people who went all in and quit |
+| Seen paid | G29 $100 to $150, Moza R9 + load cell pedals EUR 350, PS VR2 EUR 150 |
+| Warranty | Rarely transfers (Fanatec and Thrustmaster say no). Price it as no warranty |
+
 - Before paying
     - Powers on and calibrates
     - Every pedal and button registers
@@ -72,25 +78,29 @@ flowchart LR
 
 ## When to buy
 
-- Moza: everyday prices already match last Black Friday. Waiting saves little
-- Fanatec, Thrustmaster: 20 to 35% off in late November. Waiting pays
-- Logitech: discounted all year. Never pay list
-- 2026 is a bad year for anything with memory in it: GPUs, RAM, consoles, VR headsets are up
-- Monitors got cheaper
+| Brand | Advice |
+|---|---|
+| Moza | Everyday prices already match last Black Friday. Waiting saves little. Bundles beat single parts |
+| Fanatec, Thrustmaster | 20 to 35% off in late November. Waiting pays |
+| Logitech | Discounted all year. Never pay list |
+| GPUs, RAM, consoles, VR headsets | 2026 is a bad year for anything with memory in it. Prices are up |
+| Monitors | Got cheaper |
 
 ## Common regrets
 
-- Buying endgame gear first. A 5 Nm base on a wheel stand lasts years
-- More torque before a load cell brake
-- A foldable, then a 12 Nm base six months later
-- A load cell set stiff on a rolling office chair. Block the chair, set it light
-- A wheel that does not work on your console
-- A formula wheel first, because of F1 Arcade. Miserable in road cars
-- Triples for F1 25 or Forza. They only stretch
-- Motion before a rigid rig
-- A Logitech G923 as an upgrade from a G29. Same thing
-- A mid-priced steel tube cockpit, replaced a year later
-- A clutch pedal that never gets used
+| Regret | Do this instead |
+|---|---|
+| Endgame gear first | A 5 Nm base on a wheel stand lasts years |
+| More torque before a load cell brake | Brake first |
+| A foldable, then a 12 Nm base six months later | A rigid rig before big torque |
+| A load cell set stiff on a rolling office chair | Block the chair, set it light |
+| A wheel that does not work on your console | Check the exact model |
+| A formula wheel first | Round or D-shape first. Formula is miserable in road cars |
+| Triples for F1 25 or Forza | They only stretch. Single or ultrawide |
+| Motion before a rigid rig | Rig first |
+| A Logitech G923 as an upgrade from a G29 | Same thing. Go direct drive |
+| A mid-priced steel tube cockpit, replaced a year later | Aluminum profile, if the space exists |
+| A clutch pedal that never gets used | Add it later, $45 to $100 |
 
 ## Related pages
 
