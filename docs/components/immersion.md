@@ -11,14 +11,14 @@
 - Why: immersion. not lap time
 - When: last. after rig, pedals, wheelbase, screens
 
-<!-- Draft for you to edit. Facts from research-v2/11, 12, 03 and 09 (sources there). r/simracing views from 12. Prices USD, checked 2026-10. -->
+<!-- Draft for you to edit. Facts from research-v2/11, 12, 03 and 09 (sources there). r/simracing views from 12. Prices USD, checked 2026-10. Wind: only showcase threads found on r/simracing, no debate threads. -->
 <!-- Image source: https://commons.wikimedia.org/wiki/File:Rennsimulator_Playseat_Gamescom_(36851094225).jpg (CC BY 2.0, dronepicr) -->
 
 ## Buy order
 
 ```mermaid
 flowchart LR
-    A[Bass shakers<br>$100+] --> B[Pedal haptics<br>$50+] --> C[Wind<br>$150+] --> D[Belt tensioner<br>$1,400+] --> E[Motion<br>$3,000+]
+    A[Bass shakers<br>$100+] --> B[Pedal haptics<br>$50+] --> C[Wind<br>$75+] --> D[Belt tensioner<br>$1,400+] --> E[Motion<br>$3,000+]
 ```
 
 ## Varieties
@@ -27,7 +27,7 @@ flowchart LR
 |---|---|---|---|
 | Bass shakers | Engine, kerbs, shifts, wheel slip | $100 to $350 | No. Vibration only |
 | Pedal haptics | ABS, lockup, wheelspin under your foot | $50 to $150 a pedal | No |
-| Wind | Speed on your face. Also cooling in VR | $150 to $400 | No |
+| Wind | Speed on your face. Also cooling in VR | $75 to $400 | No |
 | Belt tensioner | Harness pulls tight under braking | $1,400 to $1,800 | Squeezes you |
 | G-seat | Seat panels press into you in corners | ~$3,000 | Squeezes you |
 | Seat mover | Seat tilts | $1,500 to $3,000 | Yes, 2DOF |
@@ -46,7 +46,7 @@ flowchart LR
 | Level | Kit | Price | Notes |
 |---|---|---|---|
 | Starter | Dayton puck (TT25) + small amp | ~$50 to $80 | Weak. Pedal plate or a light seat |
-| Default | Dayton BST-1 + amp (Fosi, Nobsound) + SimHub | ~$100 to $180 | Best value. $180 = two BST-1, amp, USB sound card, wire, SimHub (Reddit build) |
+| Default | 1 or 2 Dayton BST-1 + small amp (Fosi, Nobsound) + SimHub | ~$100 to $180 | Best value. $180 covers two shakers, amp, USB sound card, wire, SimHub |
 | Stronger | Dayton BST-300EX + bigger amp | $199 a pair + amp | Needs a rigid rig |
 | Plug and play | ButtKicker Gamer Plus / Pro | $280 / $350 | Amp and clamp included |
 | Four corners | 4 shakers + 4-channel amp | $415 to $1,300 | Left / right and front / rear effects. Diminishing returns |
@@ -58,8 +58,7 @@ flowchart LR
 - First effects: RPM and gear shift. Then road bumps and kerbs
 - Each effect at 10 to 20%. Too many at once feels like noise
 - Four corners: you cannot tell the wheels apart. Still adds immersion
-- Not for everyone: one owner returned BST-1s and kept pedal haptics
-- Nobsound amps: cheap, opinions split
+- Not for everyone. Some send them back and keep pedal haptics
 
 ## Pedal haptics
 
@@ -74,10 +73,10 @@ flowchart LR
 - Fans on the rig. Speed follows the car's speed through SimHub
 - Best in VR: cools your face. Some find it eases nausea
 - DIY controller + PC fans: ~$75
-- Ready kits, two fans: $190 to $430
+- Ready kits, two fans: $190 to $430 (SimRaceLab, RaceKraft)
 - A desk fan does half the job for free
-- Named on Reddit: SimRaceLab kit, DIY Noctua fans on a manual dial (works on console)
-- Thin data: owners like it, nobody on r/simracing debates it
+- Console: fans on a manual dial work without telemetry
+- Owners like it. Nobody calls it essential
 
 ## Belt tensioner
 
@@ -110,9 +109,9 @@ flowchart LR
 | Axes | Pitch, roll, heave | All six |
 | Hardware | 4 actuators under the rig | Hexapod, or 3DOF plus sliding base (surge, sway, traction loss) |
 | Price | $3,000 to $9,000 | $4,500 to $30,000+ (est) |
-| Space | Rig footprint + a hand of clearance | Much more, in every direction |
+| Space | Rig footprint plus a little clearance | Much more, in every direction |
 | Slides | Hinted at through roll | Felt directly through yaw |
-| Who | Home rigs. The normal choice | Pro simulators, training centers |
+| Who | Home rigs. The normal choice | Enthusiasts with the room, pro simulators |
 
 - In between
     - 2DOF: pitch + roll. Seat movers
@@ -128,31 +127,32 @@ flowchart LR
 
 | Level | Examples | Price | Notes |
 |---|---|---|---|
-| Seat mover, 2DOF | DOF Reality M2 $1,499, Next Level Racing Motion V3 $2,999 | $1,500 to $3,000 | Only the seat moves. Wheel and pedals stay put, which feels odd to some |
+| 2DOF | Seat movers: DOF Reality M2 $1,499, Next Level Racing Motion V3 $2,999. Whole rig: NLR Motion Plus $2,799 | $1,500 to $3,000 | Seat movers leave wheel and pedals still, which feels odd to some |
 | Affordable 3DOF | Moza HMA150 $2,999, DOF Reality H3 $2,999 | ~$3,000 | The 2026 change. Motion at half the old price |
 | Premium 3DOF | D-BOX G5 $6,000 to $8,250, Qubic QS-210 / QS-220 (EUR 6,680 / 8,880) | $6,000 to $10,000 | Faster, quieter, proven. D-BOX is what F1 Arcade uses |
 | 6DOF | eRacing Lab RS Ultimate ~$4,500 + rig, DOF Reality H6 $6,999, pro hexapods | $4,500 to $30,000+ (est) | Room-sized commitment. Sliding parts add noise |
 
 ## Moza HMA150
 
-- Moza's first motion product. Released July 2026. First units delivered Oct 2026, EU preorders mid-November
-- $2,999 for four actuators, controller built in
-- 3DOF: pitch, roll, heave
-- 150 mm travel, 300 mm/s, 350 kg payload
-- Bolts under an aluminum profile rig. Rig and seat not included
-- "AI Motion": makes motion from picture and sound in games without telemetry
-- Early review notes: one failed internal cable, loud first power supplies (since revised), built-in vibration does not replace shakers
-- First owners on r/moza: quiet for the driver, heard downstairs. Build quality good. Physically tiring
-- Open questions: SimHub support, VR motion compensation in Moza's software
+- Moza's first motion product: four actuators that bolt under an aluminum profile rig
+- $2,999, controller built in. About half the price of the D-BOX class
+- 3DOF: pitch, roll, heave. Carries 350 kg, rig and driver included
+- Shipping since Oct 2026. EU preorders mid-November
+- First owners: quiet for the driver, heard downstairs. Good build. Tiring to drive
+- Early review: one failed cable, loud first power supplies (since revised). Its built-in vibration does not replace shakers
+- Not there yet: SimHub support, VR motion compensation
+- Extra: "AI Motion" makes motion for games that send no telemetry
 - First generation. Long-term reliability unknown
 
 ## What matters
 
-- A rigid aluminum profile rig first. Motion on a flexy rig is wasted
-- Speed and smoothness of the actuators, not travel
-- Software: game support, ease of tuning
-- Noise and what is below your floor
-- Clearance for cables. They must not pinch as the rig moves
+- Shakers: on the seat, few effects, kept low
+- Belt tensioner before motion
+- Motion: a rigid aluminum profile rig first. Motion on a flexy rig is wasted
+- Motion: speed and smoothness of the actuators, not travel
+- Motion: software. Game support, ease of tuning
+- Noise, and who lives below you
+- Cable clearance. Nothing may pinch as the rig moves
 - VR on a moving rig needs motion compensation set up, or the view drifts
 
 ## Ignore
@@ -161,7 +161,8 @@ flowchart LR
 - Big travel numbers
 - 6DOF for a home rig
 - Motion before load cell pedals and a direct drive base
-- Harness without a tensioner. Decoration
+- A harness without a tensioner. Decoration
+- Four-corner shakers, at first
 
 ## By tier
 

@@ -18,9 +18,9 @@
 | Xbox Series S / X | $500 / $750 to $800 | Forza, Game Pass, Moza R3 works | Forza Motorsport no longer updated |
 | PC, entry | ~$1,150 | Every sim, every wheel, all the free software | Setup and tinkering |
 | PC, mid | ~$1,850 to $2,200 | Ultrawide, entry triples, Quest VR | Price |
-| PC, high | ~$3,200 | Triple 1440p, high-res VR | Price |
+| PC, high | ~$3,200 | Triple 1440p, most VR | Price |
 
-- Own a console: use it. Buy a wheel that also works on PC (they all do)
+- Own a console: use it. Every console wheel also works on PC later
 - Buying new only for sim racing: a PC is the better buy in 2026. Consoles went up
 - 2026: GPUs, RAM, consoles, VR headsets all cost more than older guides say
 
@@ -30,11 +30,11 @@
 |---|---|---|
 | Entry, ~$1,150 | Ryzen 5 + RX 9060 XT 16 GB or RTX 5060 | Single 1080p / 1440p |
 | Mid, ~$2,000 | X3D CPU + RTX 5070 or RX 9070 XT | Ultrawide, triple 1080p, Quest VR |
-| High, ~$3,200 | 9800X3D + RTX 5070 Ti to 5080 | Triple 1440p, high-res VR |
+| High, ~$3,200 | 9800X3D + RTX 5070 Ti to 5080 | Triple 1440p, most VR |
 
 - Sims with big grids lean on the CPU. An X3D chip matters more than usual
 - 12 to 16 GB of GPU memory for triples or VR. Not 8
-- Triple 1440p, per r/simracing: RTX 5070 Ti is the sweet spot. 5070 runs short of memory. 5080 for high refresh
+- Triple 1440p: RTX 5070 Ti is the sweet spot. The 5070 runs short of memory. 5080 for high refresh
 - Nvidia over AMD for triples: better triple-screen support in sims
 - Pimax Dream Air class VR: RTX 4090 / 5090. Above the "high" PC here
 - RTX 5090: far above list price in Oct 2026. Check before planning around one
@@ -90,7 +90,7 @@
 
 - Tier 0 to 2: whatever you own
 - Tier 3: entry or mid PC, or console
-- Tier 4: mid to high PC. Console stops here
+- Tier 4: mid to high PC. Console: no triples, VR only as PS VR2 on PlayStation
 - Tier 5: high PC
 
 ## Related pages

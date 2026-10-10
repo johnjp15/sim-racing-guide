@@ -4,7 +4,7 @@
 
 <!-- Image source: https://simdeck.app/gear/builds/moh -->
 
-<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, checked 2026-10. "est" = estimate, not sourced. -->
+<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md and 12 (sources there). Prices USD, checked 2026-10. "est" = estimate, not sourced. -->
 
 ## Cost
 
@@ -18,34 +18,31 @@
 
 - PC driver who wants peripheral vision and immersion
 - Rally and drift fans who need a shifter and handbrake
-- Skip if: console only (one screen, no PC VR; a big TV on a Tier 3 rig is the ceiling)
 - Skip if: mostly F1 25, Forza or EA WRC (they only stretch across triples)
+- Console: no triples. PlayStation has PS VR2 for Gran Turismo 7. Otherwise a big TV on a Tier 3 rig is the ceiling
 
 ## Parts
 
-- Triples: Tier 3 PC build on a Sim-Lab P1X Pro rig $770 + clutch $99 + SHH HUBB shifter ~$150 + freestanding triple stand ~$275 + 3× 27" 1440p ~$630 to $700 + bass shaker and amp ~$300 (est) = ~$3,500
-- VR: same without stand and monitors + Meta Quest 3 $600 = ~$3,200
-- Top of band: 3× 32" 1440p ~$200 to $300 each, 18 to 21 Nm base (Moza R21 Ultra $699), handbrake $99
-- Console ceiling: Fanatec ClubSport DD+ bundle $1,405 + P1X Pro + seat + Fanatec shifter ~$300 and handbrake ~$230
+- Triples: Tier 3 PC build on a Sim-Lab P1X Pro rig $770 + clutch $99 + SHH HUBB shifter ~$150 + freestanding triple stand ~$275 + 3× 27" or 32" 1440p ~$600 to $900 + 2 bass shakers and amp ~$180 = ~$3,400 to $3,650
+- VR: same without stand and monitors + Meta Quest 3 $600 = ~$3,100
+- VR, sharper: Pimax Dream Air SE from $899, Dream Air from $1,999. Bigger GPU needed. See [Displays](../components/displays-vr.md)
+- Top of band: 18 to 21 Nm base (Moza R21 Ultra $699), handbrake $99, OLED monitors ($300+ each)
+- PlayStation: Fanatec ClubSport DD+ bundle $1,405 + P1X Pro $770 + seat ~$250 + PS VR2 $399 = ~$2,800. Fanatec shifter ~$300 and handbrake ~$230 on top
 
 ## Triples vs VR
 
-- Triples: 140 to 170° view, see cars alongside, nothing on your face
-- Triples need: 3 identical monitors, flat or gentle curve (1500R+), a real stand, not desk arms
-- Proper triple support: iRacing, Assetto Corsa, ACC, AC EVO, Le Mans Ultimate, Automobilista 2, rFactor 2, RaceRoom
-- Stretch only: F1 25, EA WRC, Forza Motorsport
-- VR: true depth and scale, no floor space
-- VR costs: heat, face pressure, nausea for some, can't see buttons, heavy GPU load
-- Try VR before buying. Quest 3S $350 is the cheap test
+- Triples: 140 to 170° view, cars visible alongside, nothing on your face. Sit down and drive
+- VR: true depth and scale, no floor space. Hot, isolating, heavy on the GPU
 - r/simracing in 2026: more people move from VR to triples than back. Comfort, not picture
-- VR step up: Pimax Dream Air SE $899, Dream Air $1,999+ (owners split). See [Displays](../components/displays-vr.md)
+- Try VR before buying. Quest 3S $350 is the cheap test
+- Triples need games that support them. F1 25, EA WRC and Forza only stretch
+- Monitors, headsets, full comparison: [Displays](../components/displays-vr.md)
 
 ## Footprint
 
 - 27" triples: ~180 cm wide × 160 cm deep (est)
 - 32" triples: ~210 cm wide (est)
 - VR: same as Tier 3, ~150×70 cm
-- 80 to 110 kg with stand and monitors (est)
 - A full day including monitor alignment and software
 
 ## What it feels like
@@ -57,7 +54,7 @@
 
 ## Pros / cons
 
-- \+: biggest immersion jump after the load cell
+- \+: biggest immersion jump per dollar
 - \+: VR is the cheapest way to 1:1 scale
 - \+: everything carries to Tier 5
 - −: GPU cost not in the total
@@ -68,8 +65,8 @@
 
 ## Next upgrade
 
-- Stronger base or an active brake pedal
-- Then motion
+- Belt tensioner, then motion (Tier 5)
+- Optional: stronger base, active brake pedal. Feel, not lap time
 
 ## Used-market alternative
 
@@ -86,4 +83,4 @@
 - [Displays](../components/displays-vr.md)
 - [PC / Console](../components/pc-console.md)
 - [Shifter & Handbrake](../components/shifters-handbrakes.md)
-- [Sound](../components/audio.md)
+- [Motion & Immersion](../components/immersion.md)

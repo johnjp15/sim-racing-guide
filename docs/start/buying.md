@@ -5,7 +5,7 @@
 
 <!-- Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, checked 2026-10. Most used prices are estimates: check eBay sold listings. Reddit-reported prices from research-v2/12. -->
 
-## Buy once vs throw away
+## Buy once vs outgrow
 
 | Buy once | Outgrown |
 |---|---|
@@ -18,11 +18,12 @@
 
 ```mermaid
 flowchart LR
-    A[Direct drive base] --> B[Load cell brake] --> C[Rigid rig] --> D[Triples or VR] --> E[Shakers] --> F[Belt tensioner] --> G[Motion]
+    A[First<br>Direct drive wheelbase] --> B[Second<br>Load cell brake] --> C[Then<br>Everything else]
 ```
 
-- Order per r/simracing: pedals before a stronger base, rig after
-- A stiff load cell needs a mount that holds. Set it light until the rig arrives
+- Everything else, in the usual order: rigid rig, triples or VR, shakers, belt tensioner, motion
+- Load cell before the rig: brake set light, chair blocked, pedals against a wall
+- More torque comes last. 5 to 8 Nm lasts years
 - Change one thing at a time, or you cannot tell what helped
 
 ## You are buying a brand, not a wheel
@@ -58,8 +59,8 @@ flowchart LR
 - Amazon "Used, Like New" for Logitech sets: returnable
 - Best used buys: aluminum rigs, load cell pedals, Logitech G29/G920, monitors
 - Patient buyers pay a little over half of new. Many listings ask more than new
-- Paid on Reddit: G29 $100 to $150, Moza R9 + load cell pedals EUR 350, RTX 3090 EUR 500, PS VR2 EUR 150
-- Supply: people who went all in and quit
+- Best supply: barely used gear from people who went all in and quit
+- Seen paid: G29 $100 to $150, Moza R9 + load cell pedals EUR 350, PS VR2 EUR 150
 - Risky used buys: direct drive bases priced near new. New prices fell in 2026
 - Warranty rarely transfers (Fanatec and Thrustmaster say no). Price it as no warranty
 - Before paying
@@ -80,9 +81,9 @@ flowchart LR
 ## Common regrets
 
 - Buying endgame gear first. A 5 Nm base on a wheel stand lasts years
-- Buying torque before pedals and a solid mount
+- More torque before a load cell brake
 - A foldable, then a 12 Nm base six months later
-- A stiff load cell on a rolling office chair
+- A load cell set stiff on a rolling office chair. Block the chair, set it light
 - A wheel that does not work on your console
 - A formula wheel first, because of F1 Arcade. Miserable in road cars
 - Triples for F1 25 or Forza. They only stretch

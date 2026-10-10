@@ -19,7 +19,7 @@
 
 - Learn car control somewhere cheap before paying for iRacing. Skills transfer
 - There is no F1 26. F1 25 plus the 2026 Season Pack is the current F1 game. Next full game: 2027
-- F1 Arcade runs a custom rFactor 2. Closest at home: F1 25 for the cars, Le Mans Ultimate for the engine
+- F1 Arcade runs a custom rFactor 2. Closest at home: F1 25 for the cars, Le Mans Ultimate for the physics (same rFactor 2 base)
 
 ## Arcade, simcade, sim
 

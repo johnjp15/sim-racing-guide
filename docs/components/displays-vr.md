@@ -8,7 +8,7 @@
 - Why: seeing the apex and the car next to you
 - When: after wheelbase and pedals
 
-<!-- Draft for you to edit. Facts from research-v2/04, 10, 11 and 12 (sources there). r/simracing views from 12. Prices USD, checked 2026-10. View angles are geometry, not quoted. -->
+<!-- Draft for you to edit. Facts from research-v2/04, 10, 11 and 12 (sources there). r/simracing views from 12. Prices USD, checked 2026-10. View angles are geometry, not quoted. Triple monitor picks rest on one r/simracing thread: check current models and prices. -->
 
 ## Varieties
 
@@ -18,59 +18,38 @@
 | Single 27" 1440p | ~46° at 70 cm | $200 to $300, OLED from ~$300 | Low | Cheapest, works everywhere | No side view |
 | Single 32" | ~54° | $300 | Low to medium | Work and play | Same |
 | 34" ultrawide | ~60° | $300 to $450, OLED ~$730 | Medium | No bezels, one cable. Default pick | Still can't see a car alongside |
-| 49" super-ultrawide | 80 to 100° | $650 to $900, OLED $1,100+ | High | "Triples lite", no alignment | Less side view than real triples, edges distort in some games |
+| 49" super-ultrawide | 80 to 100° | $650 to $900, OLED $1,100+ | High | Wide view on one cable, nothing to align | Less side view than triples, edges distort in some games |
 | Triple 27" | 140 to 155° | $570 to $900 + stand $275 | High | See cars beside you, 1:1 scale | 1.6 to 1.8 m wide, setup work, not all games |
-| Triple 32" | 160 to 170° | $900 to $1,200 + stand $365 | High | Feels like a cockpit. Current pick if you have the room | 2 m wide, dedicated room |
+| Triple 32" | 160 to 170° | $600 to $1,200 + stand $365 | High | Feels like a cockpit. The pick if you have the room | 2 m wide, dedicated room |
 | 42 to 48" OLED TV | ~60° at 85 cm | $1,000 to $1,600 | High | Best picture, great for console | Needs a floor stand |
-| VR | 100 to 140° plus head turn | $350 to $1,000+ | Very high | True depth and scale, no floor space | Heat, nausea for some, can't see your buttons |
+| VR | 100 to 140° plus head turn | $350 to $2,300 | Very high | True depth and scale, no floor space | Heat, nausea for some, can't see your buttons |
 
-## VR headsets
+## Which one
 
-| Level | Headset | Price | Per eye | Notes |
-|---|---|---|---|---|
-| Try it | Meta Quest 3S | $350 | 1832 x 1920 | Cheapest test |
-| Default | Meta Quest 3 | $600 | 2064 x 2208 | Easy, wireless. Still the first headset to buy |
-| Console | PS VR2 | $399 | 2000 x 2040 OLED | Gran Turismo 7 on PS5. Works on PC with an adapter. Good value used |
-| Wireless PC | Valve Steam Frame | $1,059 | 2160 x 2160 | New, Sept 2026. Sold by lottery. No cable option: the PC picture is streamed. No owner reports on r/simracing yet |
-| Sharp, cheaper | Pimax Crystal Light | ~$700 to $900 | 2880 x 2880 | Sharp but ~950 g on your head |
-| Light | Bigscreen Beyond 2 | ~$960 to $1,020 + base stations | 2560 x 2560 OLED | 107 g. Needs base stations. A Dream Air reviewer who owned one: more glare, pupil swim, crushed blacks |
-| Light, mid GPU | Pimax Dream Air SE | $899, or $1,199 without base stations | 2560 x 2560 OLED | Under 140 g. Easier to drive than the full Dream Air |
-| Sharpest, 2026 | Pimax Dream Air | $1,999 with base stations, $2,299 without | 3840 x 3552 OLED | ~170 g visor, 90 Hz, eye tracking. Nothing else is this sharp and this light. Divides owners |
+| You | Pick |
+|---|---|
+| Starting out | The screen you own, moved close. Then a 34" ultrawide |
+| Wheel-to-wheel online racing | Triples or VR |
+| F1 25, EA WRC, Forza | Single or ultrawide. Triples only stretch |
+| Tiny room | VR or a single screen |
+| Shared room, people watching | Screens |
+| Console | One screen. PlayStation adds PS VR2 for Gran Turismo 7 |
 
-## Pimax Dream Air
-
-- The draw: about 4K per eye in a headset a third the weight of a Quest 3
-- 90 Hz. On OLED that is enough: r/simracing rates it above 120 Hz LCD
-- Eye tracking renders full detail only where you look, which saves GPU
-- GPU: RTX 4090 or 5090. A 5090 owner still lowered settings
-- Owners are split
-    - For: "Pimax looks like you're there, while Quest 3 makes you feel you're playing a game". Some sold their triples
-    - Against: one RTX 5090 owner returned it. Fiddly setup, OLED smearing, less clear than triple 4K
-- Most cited complaint: comfort of the face pad
-- Also: short cable, Pimax software, view width divides people
-- Tracking without base stations: now rated on par with Quest 3
-- Base stations: Valve reportedly stopped making them. Favors the version without
-- "170 g" is the visor. One review weighed ~300 g with the strap
-- Pimax pricing is split: part up front, the rest after a 14-day trial. Add both
-- Coming: Pimax Crystal Pro, $1,399, wireless. Announced Oct 2026
-
-## VR rules
-
-- Try a Quest before spending $900+
-- Own a Quest 3 and happy: no reason to upgrade
-- Needs a steady 72 to 90 frames per second
-- Resolution costs GPU. A Dream Air on a mid PC looks worse than a Quest 3 running smoothly
-- You sit still and face forward, so tracking matters less than in other VR games
+- Triples vs VR: no winner. Depends on the driver
+- VR: best depth and immersion. The top immersion upgrade on r/simracing
+- Triples: sit down and drive. No heat, no eye strain, easy in long races
+- r/simracing in 2026: most switch stories go VR to triples, for comfort. Some switch back, many keep both
 
 ## What matters
 
 - Distance: screen right behind the wheelbase. Closer beats bigger
-- A ~EUR 50 shaft extension lets the screen sit behind the wheel, not above it
+    - A wheel shaft extension (~EUR 50) lets the screen sit lower and closer, behind the wheel
 - Correct field of view. See [First Setup](../start/first-setup.md)
 - 120 to 165 Hz, held steady
-- Triples: three identical monitors, thin bezels, VESA holes
-- Which games you play (triple support below)
-- What your PC can drive
+- Which games you play. Not all do triples properly
+- What your PC can drive. See [PC / Console](pc-console.md)
+    - Triple 1080p is about as heavy as one 4K screen
+    - Triple 1440p wants an RTX 5070 Ti
 
 ## Ignore
 
@@ -82,7 +61,14 @@
 - Tight 1000R curves for triples
 - HDR, at first
 
-## Triples: which games do it properly
+## Triples
+
+- Three identical monitors, thin bezels, VESA holes
+- Sweet spot: 32" 1440p. 27" 1080p if the PC is weak
+- Flat, or a gentle curve (1500R or flatter). Sims assume flat panels
+- A freestanding stand. Desk arms sag
+- Budget pick: AOC CQ32G4VE, 32" 1440p, 1500R, ~EUR 170 each
+- Also common: Samsung Odyssey G5 32" 1440p
 
 | Proper per-screen view | Stretch only |
 |---|---|
@@ -92,30 +78,38 @@
 | Automobilista 2 | Any console game (one screen only) |
 | rFactor 2, RaceRoom | |
 
-## Monitors people buy for triples
+## VR
 
-- r/simracing sweet spot: triple 32" 1440p
-- AOC CQ32G4VE 32" 1440p 144 Hz: EUR 170 each, EUR 131 on sale. "Best bang for the buck" per one owner review
-- Samsung Odyssey G5 32" 1440p
-- 27" 1080p if the PC is weak
-- Flat over curved: most sims handle flat side screens better
-- Endgame: triple 32" 4K 240 Hz OLED. Needs an RTX 5090
-- Thin data: one main thread. Check current models and prices
+| Level | Headset | Price | Per eye | Notes |
+|---|---|---|---|---|
+| Try it | Meta Quest 3S | $350 | 1832 x 1920 | Cheapest test |
+| Default | Meta Quest 3 | $600 | 2064 x 2208 | Easy, wireless. The PC picture is streamed and compressed. The first headset to buy |
+| Console | PS VR2 | $399 | 2000 x 2040 OLED | Gran Turismo 7 on PS5. Works on PC with an adapter. Good value used |
+| Wireless PC | Valve Steam Frame | $1,059 | 2160 x 2160 | New, Sept 2026, sold by lottery. Streamed only, no cable. Too new for owner reports |
+| Sharp, cheaper | Pimax Crystal Light | ~$700 to $900 | 2880 x 2880 | Sharp, but heavy: 800 g+ on your head |
+| Light | Bigscreen Beyond 2 | ~$960 to $1,020 + base stations | 2560 x 2560 OLED | 107 g. Needs base stations |
+| Light, mid GPU | Pimax Dream Air SE | $899 + base stations, or $1,199 self-tracking | 2560 x 2560 OLED | Under 140 g. Easier on the GPU than the full Dream Air |
+| Sharpest | Pimax Dream Air | $1,999 + base stations, or $2,299 self-tracking | 3840 x 3552 OLED | 90 Hz, eye tracking. Nothing else is this sharp and this light. Divides owners |
 
-## Triples vs ultrawide vs VR
+- Try a Quest before spending $900+
+- Own a Quest 3 and happy: no reason to upgrade
+- Needs a steady 72 to 90 frames per second
+- Resolution costs GPU. A sharp headset on a mid PC looks worse than a Quest 3 running smoothly
+- You sit still and face forward, so tracking matters less than in other VR games
+- Base stations: tracking boxes on the wall. Not in the box. Budget $300+ and check stock
+- Announced, not out: Pimax Crystal Pro, $1,399, wireless
 
-- No winner in 2026. Depends on the driver
-- r/simracing in 2026: most switch stories go VR to triples
-    - Why: heat, eye strain, long races, connection trouble. "Just hop in and play"
-    - VR still wins on depth and immersion. Some switch back, many keep both
-- Biggest immersion upgrade per r/simracing: VR
+### Pimax Dream Air
 
-- Wheel-to-wheel online racing: triples or VR
-- Hot laps, F1 25, rally, Forza: single or ultrawide
-- Shared living room, people watching: screens
-- Tiny room: VR or a single screen
-- Night and endurance racing: OLED
-- Triple 1080p is about as heavy as one 4K screen. Triple 1440p needs the expensive GPU
+- The draw: about 4K per eye, OLED, at roughly half the weight of a Quest 3
+- Needs an RTX 4090 or 5090. A 5090 owner still lowered settings
+- 90 Hz. On OLED that is enough
+- Owners are split
+    - For: "Pimax looks like you're there, while Quest 3 makes you feel you're playing a game". Some sold their triples
+    - Against: fiddly setup, OLED smearing, face pad comfort, short cable. One RTX 5090 owner sent it back and bought triples
+- Self-tracking version: tracking now rated on par with Quest 3. Costs more, needs nothing on the wall
+- Price is split: part up front, the rest after a 14-day trial. Add both
+- "170 g" is the visor alone. ~300 g with the strap, per one review
 
 ## Panel types
 
@@ -123,7 +117,7 @@
 |---|---|---|
 | IPS | Wide viewing angle, good for triple side screens | Gray blacks |
 | VA | Deep blacks, cheap, most curved ultrawides | Dark smearing on cheap ones, narrow angles |
-| OLED | Instant response, perfect black | Burn-in risk from static dashboards over years, price |
+| OLED | Instant response, perfect black. Best for night and endurance racing | Burn-in risk from static dashboards over years, price |
 
 ## By tier
 

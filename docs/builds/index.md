@@ -8,10 +8,10 @@
 |---|---|---|---|---|---|
 | [0: Desk Starter](tier-0-desk-starter.md) | $200 to $400 | Desk clamp | 2 to 5.5 Nm | Spring | Yours |
 | [1: Foldable / Apartment](tier-1-foldable-apartment.md) | $500 to $700 | Folding seat or stand | 4 to 5.5 Nm direct drive | Spring | Yours |
-| [2: First Dedicated Rig](tier-2-first-dedicated-rig.md) | $1,200 to $1,600 | Steel cockpit | 8 to 9 Nm | Entry load cell | Yours |
+| [2: First Dedicated Rig](tier-2-first-dedicated-rig.md) | $1,200 to $1,600 | Steel cockpit or budget profile | 8 to 9 Nm | Entry load cell | Yours |
 | [3: Sweet Spot Enthusiast](tier-3-sweet-spot-enthusiast.md) | $1,800 to $2,200 | Aluminum profile | 12 Nm | Good load cell | Yours |
 | [4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md) | $3,500 to $5,500 | Aluminum profile | 12 to 21 Nm | Good load cell | Triples or VR |
-| [5: Motion / Pro](tier-5-motion-pro.md) | $10,000 to $18,000 | Profile on motion actuators | 25 Nm | Active | Triples |
+| [5: Motion / Pro](tier-5-motion-pro.md) | $10,000 to $18,000 | Profile on motion actuators | 25 Nm | Active | Triples or VR |
 
 ## Basic constraints
 
@@ -19,7 +19,7 @@
     - PC: everything works, every game
     - Xbox: Moza R3, Fanatec with an Xbox wheel, Logitech, Thrustmaster
     - PlayStation: only Logitech, Thrustmaster, Fanatec GT DD Pro and ClubSport DD+. Costs more at every tier
-    - Console: one screen only, no triples, no iRacing
+    - Console: one screen, no triples, no iRacing. VR only on PlayStation (PS VR2, Gran Turismo 7)
 - Space
     - Desk only: Tier 0
     - Must fold away: Tier 1. Folded ~104×93×30 cm
@@ -31,7 +31,7 @@
 - PC power
     - Single 1440p screen: ~$1,150 PC
     - Ultrawide, entry triples, Quest VR: ~$1,850 to $2,200 PC
-    - Triple 1440p, high-res VR: ~$3,200 PC
+    - Triple 1440p, most VR: ~$3,200 PC. Pimax Dream Air class: more
 - Time
     - Tier 0 and 1 need setup every session. Friction kills the habit
     - A permanent rig gets used more
@@ -55,11 +55,14 @@ flowchart LR
 ```
 
 - Total ~$2,750 to $3,050
+- Order: direct drive first, load cell brake second, then everything else
+- Load cell before the rig: brake set light, chair blocked, pedals against a wall
+- The 12 Nm base is optional. 5 to 8 Nm lasts years
 - Lost on outgrown parts: ~$150 to $250 (est)
 - vs G29, then foldable, then steel cockpit: ~$500 to $900 lost (est)
 - Skip Tier 1 unless it truly must fold away
 - Skip the Tier 2 steel cockpit if the floor space exists
-- PlayStation: no cheap direct drive first step. Used G29, or straight to Fanatec GT DD Pro
+- PlayStation: no cheap direct drive first step. Used G29, or straight to a Logitech RS50 or Fanatec GT DD Pro
 
 ## Related pages
 

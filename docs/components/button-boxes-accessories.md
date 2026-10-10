@@ -74,7 +74,7 @@
 | Socks or thin shoes | Pick one, stay with it | Changes brake feel |
 | Keyboard tray | On a rig | Menus and chat |
 | Emergency stop | 15 Nm and up | Often included with strong bases |
-| Wind simulator | Later | Fans tied to speed. Immersion |
+| Wind simulator | Later | Fans tied to speed. See [Motion & Immersion](immersion.md) |
 | Head tracking | Trucks, flight | Rare in racing |
 
 ## By tier
@@ -88,4 +88,5 @@
 
 - [Wheel](wheel-rims.md)
 - [Sound](audio.md)
+- [Motion & Immersion](immersion.md)
 - [First Setup](../start/first-setup.md)

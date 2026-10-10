@@ -27,11 +27,12 @@
 - Comfort over an hour
 - A slider if more than one person drives
 - How it mounts: side brackets or bottom rails
+- Harness slots, if a belt tensioner is ever planned
 
 ## Ignore
 
 - Racing brand logos
-- Harnesses. Decoration without motion
+- Harnesses. Decoration, unless you add a belt tensioner
 - "Buckets are better." Better hold, worse comfort and fit range
 
 ## Seating position

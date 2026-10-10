@@ -32,7 +32,7 @@
 <a href="button-boxes-accessories/">head tracking</a> ·
 <a href="button-boxes-accessories/">gloves</a> ·
 <a href="button-boxes-accessories/">keyboard tray</a> ·
-<a href="displays-vr/">monitor stand</a> ·
+<a href="chassis-mounts/">monitor stand</a> ·
 <a href="chassis-mounts/">casters</a>
 </p>
 

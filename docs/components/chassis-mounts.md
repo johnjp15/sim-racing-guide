@@ -8,7 +8,7 @@
 
 - What: the frame. wheelbase, pedals, seat all bolt to it
 - Why: flex eats detail. a flexy chassis wastes a good wheelbase
-- When: before buying a strong direct drive base
+- When: after a direct drive base and a load cell brake. more torque and a stiffer brake both need it
 
 <!-- Draft for you to edit. Facts from research-v2/03, 09 and 12 (sources there). Prices USD, checked 2026-10. Torque limits are maker ratings plus reviewer remarks, not measured. -->
 
@@ -19,16 +19,20 @@ flowchart LR
     A[Desk clamp<br>$0] --> B[Wheel stand<br>$120 to $280] --> C[Foldable seat<br>$180 to $400] --> D[Steel tube cockpit<br>$250 to $800] --> E[Aluminum profile<br>$350 to $900 + seat]
 ```
 
-| Type | Examples | Price | Holds | Good | Bad |
+| Type | Examples | Price | Wheelbase limit | Good | Bad |
 |---|---|---|---|---|---|
 | Desk clamp | In the box | $0 | 2 to 5 Nm, 8 Nm on a heavy desk | Free, no space | Chair rolls, pedals slide, setup every time |
 | Wheel stand | NLR Wheel Stand Lite 2.0 $179, Wheel Stand 2.0 $279, GT Omega APEX $220 | $120 to $280 | ~8 Nm | Folds, use your own chair | Chair still moves |
 | Foldable seat | Playseat Challenge X $300, NLR GTLite $199, GTLite Pro $299, GTLite Air $179 | $180 to $400 | ~8 Nm in practice | Real seating position, closet storage | Pedal end flexes under hard braking, no upgrade path |
-| Steel tube cockpit | NLR GTRacer 2.0 $499, GT Omega ART $250, Titan $410, Playseat Trophy | $250 to $800 | ~10 Nm | Seat included, looks like furniture | Limited adjustment, proprietary add-ons, replaced later |
+| Steel tube cockpit | NLR GTRacer 2.0 $499, GT Omega ART $250, Titan $410, Playseat Trophy | $250 to $800 | ~10 Nm | Seat included, tidy enough for a living room | Limited adjustment, proprietary add-ons, replaced later |
 | Budget aluminum profile | Trak Racer TR40S $349, RigMetal Basic $409, Amazon 4080 rigs ~$250 to $450 | $250 to $450, no seat | 10 to 16 Nm | Cheapest rigid option | Thin brackets, quality varies |
 | Mainstream aluminum profile | Sim-Lab GT1 Evo $390 to $450, Trak Racer TR80S $499, RigMetal Plus $539, ASR 3 $550 | $400 to $600, no seat | 16 Nm+ | Zero flex, fully adjustable, anything bolts on | Industrial look, heavy, extras add up |
 | Heavy aluminum profile | Sim-Lab P1X Pro $770 to $790, Trak Racer TR160 $730, P1X Ultimate $877 | $700 to $900, no seat | 30 Nm+, motion | Ready for anything | Overkill for a beginner |
 | DIY | Wood rig ~$50, aluminum from a local extrusion supplier ~$300 to $500 | $50 to $500 | Varies | Cheap, custom | Your time |
+
+- Aluminum profile is the standard. Even the cheapest is rigid enough for 5 to 8 Nm
+- Most recommended on r/simracing: Sim-Lab, RigMetal
+- Foldables and stands work with direct drive at low torque. Flex shows with a stiff load cell brake or more torque
 
 ## What matters
 
@@ -36,16 +40,13 @@ flowchart LR
 - Wheel deck and pedal deck that fit your gear's bolt pattern
 - Adjustability: seat, pedal and wheel distance and angle
 - Where the monitor goes
-- Whether it has to pack away
+- Whether it has to pack away. Pack-away rigs only get used if setup takes about a minute
 - Build quality: a tight, square 4080 rig beats a loose bigger one
-- r/simracing: the cheapest aluminum profile is rigid enough for 5 to 8 Nm. Most named brands: Sim-Lab, RigMetal
-- Foldables work with direct drive at low torque. Flex shows with load cell pedals and more torque
-- Pack-away rigs get used only if setup takes about a minute
 
 ## Ignore
 
 - 40160 vs 4080 profile, below ~20 Nm. Not a performance upgrade for a beginner
-- Maker torque ratings on foldables. Survival ratings, not flex-free
+- Maker torque ratings on foldables. They say what it survives, not what stays stiff
 - Looks
 - Brand accessories. Profile rigs take anything with a T-nut
 
@@ -80,11 +81,13 @@ flowchart LR
 | Desk shakes | Push to wall, lower force feedback |
 | Clamp slips | Wood shim under the desk edge |
 
-## Monitor mounts
+## Mounts and extras
 
-- Integrated: bolts to the rig. Cheap, compact. Shakes with a strong wheel
-- Freestanding: separate stand. No shake. $275 to $365 for triples
+- Monitor, integrated: bolts to the rig. Cheap, compact. Shakes with a strong wheel
+- Monitor, freestanding: separate stand. No shake. $275 to $365 for triples
 - Desk arms: not for triples. They sag
+- Shifter, handbrake, button box: side mounts bolt to any profile rig
+- Casters: $30 to $80 a set. Lockable only, or the rig rolls under braking
 
 ## Motion
 

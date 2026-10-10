@@ -12,19 +12,20 @@
 
 <small>Assumes: existing PC/console, display, foldable space</small>
 
-- PlayStation with direct drive: $800 to $1,000
+- PlayStation with direct drive: $900 to $1,100
 
 ## Target user
 
 - Hooked after Tier 0, or sure you'll stick with it
 - Apartment / shared room, rig must disappear
 - Console on a couch TV
-- Skip if: a permanent 60×140 cm floor spot exists (Tier 2 costs little more)
+- Skip if: a 60×140 cm floor spot can be permanent. A fixed cockpit costs $100 to $200 more than a foldable and does not flex (Tier 2)
 - Skip if: you want a stiff load cell brake (foldables flex)
 
 ## Parts
 
 - PC: Moza R5 bundle ~$380 + NLR GTLite Pro $299 = ~$680
+- PC, newer: R5 Pro bundle $399 in place of the R5. 6 Nm
 - PC, budget: R5 bundle + NLR GTLite $199 = ~$580
 - PC, own chair: R5 bundle + NLR Wheel Stand Lite 2.0 $179 = ~$560
 - Xbox: Moza R3 Xbox bundle ~$340 + Playseat Challenge X $300 = ~$640
@@ -63,8 +64,8 @@
 
 ## Next upgrade
 
-- Rigid rig first, load cell brake second
-- While still on a foldable: a rim you like beats stiffer pedals
+- Load cell brake, set light. Foldables flex past ~25 to 30 kg
+- Then a rigid rig, once the space exists
 - Resale on the foldable ~half (est)
 
 ## Used-market alternative

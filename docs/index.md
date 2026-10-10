@@ -34,15 +34,29 @@ flowchart TD
 | [5: Motion / Pro](builds/tier-5-motion-pro.md) | $10,000 to $18,000 | The rig moves. What F1 Arcade has |
 
 - Costs exclude PC or console, and the screen until Tier 4
+- Side by side: [Types of Setups](builds/index.md)
+
+## Words to know
+
+| Word | Means |
+|---|---|
+| Wheelbase | The motor the steering wheel attaches to. It makes the force feedback |
+| Direct drive | Wheel bolted straight to the motor. Smooth, quiet, detailed. The standard now |
+| Nm | Wheelbase strength. 5 is light, 12 is plenty |
+| Load cell | A brake pedal that reads how hard you press, not how far |
+| Rig | The frame that holds seat, wheel and pedals |
+
+- The rest: [Glossary](start/glossary.md)
 
 ## F1 Arcade vs home
 
-- F1 Arcade: Vesaro rigs on D-BOX motion, custom rFactor 2, heavy driving assists
-- ~$20 to $45 per person per visit, before food and drink
-- Home: no motion until Tier 5
-- Home: assists off, so harder at first. Normal
-- Home wheel and pedals at Tier 3 are better than the venue's
-- Home: any car, any track, ranked races against real people
+| | F1 Arcade | Home |
+|---|---|---|
+| Motion | D-BOX actuators under a Vesaro rig | None until Tier 5 |
+| Wheel and pedals | Mid-range | Same class or better from Tier 3 |
+| Game | Custom rFactor 2, heavy driving assists | Any sim, fewer assists. Harder at first. Normal |
+| Racing | Friends, short sprints | Any car, any track, ranked races against real people |
+| Cost | ~$20 to $45 a visit, before food and drink | Hardware once, then games |
 
 ## Three decisions, in order
 
@@ -52,8 +66,8 @@ flowchart TD
 
 ## Rules of thumb
 
-- Spend order: any direct drive base, then load cell brake, then a rigid rig, then screens
-- 5 to 8 Nm of wheel force is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
+- Spend order: direct drive wheelbase first, then a load cell brake, then everything else
+- 5 to 8 Nm is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
 - Direct drive now starts at ~$260. Skip gear-driven wheels unless used
 - Used Logitech G29 at ~$120 resells for ~$120: a free trial
 - PlayStation is the expensive platform at every tier

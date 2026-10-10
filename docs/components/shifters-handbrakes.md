@@ -35,11 +35,11 @@
 | Endgame, mechanical | BDH H2SQ ~$1,100 to $1,300, Pro-Sim H-pattern ~$1,350 to $1,550 | $1,100+ | Real gearbox feel. Owners love it, question the price |
 | Endgame, active | BDH Active Shifter $2,470, ~$3,000 delivered to the US | $2,500 to $3,000 | Motor adds gear lockout and vibration. Owner: better, "not 3x or 4x better" than the mechanical one |
 
-- SHH lineup: Newt, Thorn (older), HUBB (current, replaced the Thorn in early 2026, all metal). One-person maker in Spain, good support
+- SHH: one-person maker in Spain, good support. The all-metal HUBB replaced the Thorn in early 2026
 - SHH wait: 3 to 6 weeks quoted, some waited months
-- US buyers: at ~$200 delivered, the DS-8X gets close
-- Moza HGP: strong centering, long throw. A plastic sleeve on the shaft wears and Moza sells no spare. Several owners moved to SHH
-- BDH value pick per owners: a refurbished H1SQ
+- US buyers: at ~$200 delivered, the Simagic DS-8X gets close
+- Moza HGP: strong centering, long throw. A plastic sleeve on the shaft wears and Moza sells no spare
+- BDH: owners point to a refurbished H1SQ as the value pick
 - Moza's active shifter (AB9 base + knob, ~$430): reviewed poorly so far
 
 ## Sequential levels
@@ -76,7 +76,7 @@
 - Gear count. 6 + reverse covers almost everything
 - An expensive handbrake
 - Buying one to start circuit racing
-- A shifter without a clutch pedal
+- An H-pattern without a clutch pedal
 
 ## Compatibility
 

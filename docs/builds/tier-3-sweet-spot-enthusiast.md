@@ -12,7 +12,7 @@
 
 <small>Assumes: existing PC/console, display, dedicated space</small>
 
-- Landed with seat, monitor mount, shipping, tax: $1,800 to $2,400
+- With rig shipping and sales tax: up to ~$2,400
 
 ## Target user
 
@@ -27,7 +27,7 @@
 - PC, alt: Simagic Alpha Evo 12 Nm $549 + P1000 pedals $469 + GT Neo wheel ~$270 + same rig and seat = ~$1,930. Close to what newer F1 Arcade rigs use
 - PlayStation / Xbox / PC: Fanatec ClubSport DD+ GT3 bundle $1,405 (base, wheel, 3 load cell pedals) + GT1 Evo $390 + seat ~$250 = ~$2,045
 - Logitech route: PRO wheel 11 Nm $1,000 to $1,200 + PRO pedals $380 + rig + seat = ~$2,020 to $2,220
-- Rigs in US stock: Trak Racer TR80S $499, RigMetal Plus $539, ASR 3 $550, NLR GTElite Lite $599
+- Other rigs: Trak Racer TR80S $499, RigMetal Plus $539, ASR 3 $550, NLR GTElite Lite $599
 - Rig prices exclude seat, brackets, slider, monitor mount
 - Not included: screen, shifter, handbrake
 
@@ -36,15 +36,14 @@
 - GT1 Evo frame: 135×58×66 cm
 - With seat, pedals, wheel: ~150×70 cm (est)
 - Plan ~2.0×1.0 m with a screen and room to get in
-- 45 to 65 kg assembled (est)
 - Assembly 3 to 6 hours, plus an evening of adjusting
 
 ## What it feels like
 
 - vs Tier 2: zero flex, every angle adjustable
-- Brake you can lean on, 60 to 100 kg
+- Brake you can stand on. Set it as firm as you like
 - 12 Nm: no clipping in normal use
-- vs F1 Arcade: wheel and pedals are better than the venue's
+- vs F1 Arcade: wheel and pedals match or beat the venue's
 - Missing vs F1 Arcade: body motion, giant screens
 
 ## Pros / cons
@@ -65,7 +64,7 @@
 ## Used-market alternative
 
 - Aluminum profile rigs: best used buy in the hobby. Barely wear, costly to ship, so local pickup is cheap
-- Used Moza R12/R16, Simagic Alpha, Fanatec ClubSport DD, Heusinkveld Sprint pedals
+- Look for: Moza R12 / R16, Simagic Alpha, Fanatec ClubSport DD, Heusinkveld Sprint pedals
 - Check: 40-series profile (30-series is flimsy), all brackets and T-nuts, pedal controller box included
 - Avoid: wood or PVC rigs priced like aluminum, pedals missing elastomers
 

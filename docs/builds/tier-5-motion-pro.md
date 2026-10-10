@@ -26,9 +26,9 @@
 
 - Full: Simucube 3 Pro base $1,599 (25 Nm) + wheel ~$1,000 (est) + Simucube ActivePedal Pro brake from $1,849 + throttle ~$400 (est) + D-BOX G5 4-actuator kit $6,200 to $8,250 + Sim-Lab P1X Ultimate rig $877 + seat ~$400 + 3× 32" ~$900 + stand ~$300 = ~$13,500 to $15,600
 - Motion lite: Moza R25 Ultra $899 + CS Pro wheel $329 + mBooster active pedal set $949 + Moza HMA150 4-actuator kit $2,999 + P1X Pro $770 + seat + 3× 27" + stand = ~$7,100
-- Seat mover: Tier 4 build + Next Level Racing Motion Plus $2,799 = ~$6,500 to $7,500
+- 2DOF, whole rig moves: Tier 4 build on an NLR Elite rig + Next Level Racing Motion Plus $2,799 = ~$6,500 to $7,500
 - PC only: motion reads PC telemetry
-- Belt tensioner (Qubic QS-BT1, $1,450 to $1,830): r/simracing says buy it before motion
+- Add a belt tensioner: Qubic QS-BT1, $1,450 to $1,830. Owners with both rate it above motion alone. Buy it first
 - Not included: PC, pallet freight, software licenses
 
 ## F1 Arcade comparison
@@ -42,7 +42,6 @@
 ## Footprint
 
 - ~210×180 cm with triples, plus clearance to move (est)
-- 150 to 200 kg without driver (est)
 - One to two days to build, weeks to tune
 
 ## What it feels like
@@ -69,7 +68,7 @@
 
 ## Used-market alternative
 
-- Simucube 2 Sport / Pro (new $999 / $1,299), D-BOX Gen 3 to 5, Heusinkveld Ultimate+ pedals
+- Look for: Simucube 2 Sport / Pro (new $999 / $1,299), D-BOX Gen 3 to 5, Heusinkveld Ultimate+ pedals
 - Check: actuator knocking, controller box and cables present, motion software license transfers, E-stop works
 - Avoid: undocumented DIY motion, kits missing controller or brackets, sellers who won't demo under load
 

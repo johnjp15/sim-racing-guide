@@ -24,7 +24,7 @@
 | What you own | $0 | Free | TV speakers hide detail |
 | Closed gaming headset | Under $100 | Blocks fan and wheel noise, has a mic | Hot, narrower sound |
 | Open-back headphones (Sennheiser HD 560S) | ~$200 | Best positioning, cooler ears | Leaks sound, lets room noise in |
-| Wireless headset, 2.4 GHz dongle | $100 to $350 | No cable | Not Bluetooth: lag |
+| Wireless headset, 2.4 GHz dongle | $100 to $350 | No cable | Battery to charge. Not Bluetooth, which lags |
 | Desk or rig speakers | Varies | Nothing on your head, others can hear | Less precise, disturbs housemates |
 | Surround speakers | $300+ | Real rear sound | Cost, wiring. Skip |
 

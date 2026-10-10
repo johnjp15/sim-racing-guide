@@ -17,15 +17,17 @@
 - Permanent spot available
 - Drives weekly
 - Wants braking that is the same every lap
-- Skip if: you can stretch ~$400 (Tier 3 profile rig is the buy-once choice)
+- Skip if: you can stretch to Tier 3. Its rig and pedals are the buy-once choice
 - Skip if: it must pack away (Tier 1)
 
 ## Parts
 
 - PC: Moza R9 V3 base $329 (9 Nm) + KS wheel $229 + SRP2 pedals $149 (entry load cell) + NLR GTRacer 2.0 cockpit $499 = ~$1,200
 - PC, better pedals: swap in Moza CRP2 $369 = ~$1,430
+- PC, on aluminum profile: swap the cockpit for a Trak Racer TR40S $349 + reclining seat $229 + brackets ~$60 = ~$1,350. The rig carries to Tier 3
 - PC, alt: Simagic Alpha Evo Sport 9 Nm bundle (base, wheel, pedals) ~$600 to $790 + cockpit
 - PlayStation: Fanatec GT DD Pro 8 Nm bundle $860 + load cell kit ~$100 to $140 + Fanatec CSL Cockpit with seat $400 = ~$1,400
+- PlayStation, alt: Logitech RS50 + RS pedals (load cell) ~$700 to $800 + GTRacer 2.0 $499 = ~$1,200 to $1,300
 - Xbox: Thrustmaster T598 Xbox $600 + GTRacer 2.0 $499 = ~$1,100, before a load cell
 - Xbox, alt: Fanatec CSL Cockpit bundle $1,045 (cockpit, seat, CSL DD 5 Nm, wheel, pedals). Confirm the wheel is Xbox licensed
 - Not included: screen and mount, shifter
@@ -33,7 +35,6 @@
 ## Footprint
 
 - ~130 to 140 × 60 to 70 cm of floor, permanent
-- 40 to 55 kg with seat (est)
 - Assembly 2 to 4 hours
 
 ## What it feels like
@@ -53,17 +54,17 @@
 - −: some wheel deck flex above ~10 Nm
 - −: proprietary hole patterns and accessories
 - −: permanent floor space
-- −: cockpit is replaced at Tier 3
+- −: a steel cockpit is replaced at Tier 3. A profile rig is not
 
 ## Next upgrade
 
-- Load cell pedals, if still on a basic set
-- Then the rig itself (aluminum profile)
+- Better pedals: a mid load cell set
+- Then the rig itself, if on a steel cockpit
 - Seat can move across with brackets
 
 ## Used-market alternative
 
-- Fanatec CSL DD 5/8 Nm, Moza R9, Thrustmaster T300 with T-LCM pedals
+- Look for: Moza R9, Fanatec CSL DD 5 / 8 Nm, load cell pedals
 - New direct drive prices fell in 2026: used must be clearly under today's new price
 - Check: Fanatec QR1 vs QR2 (old QR1 does not fit current wheels), shaft play, brake reads smoothly to 100%
 - Avoid: belt bases priced near new direct drive, sellers who cannot show it working

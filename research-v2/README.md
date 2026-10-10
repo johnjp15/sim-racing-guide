@@ -51,6 +51,30 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
 | First shaker effects | Slip and ABS (03), RPM and shifts, avoid slip (12) | 12 |
 | RTX 5090 | ">$7,000" street (12, two Reddit mentions). Not checked | "Far above list" |
 
+## Audit, 2026-10-09
+
+- Spend order on the site is John's call: direct drive wheelbase, then load cell brake, then everything else
+- Checked on the web during the audit
+    - Pimax Dream Air and Dream Air SE, base-station versions: base stations and controllers are not in the box. One SteamVR Base Station 2.0 listed at $458 at Knox Labs; a third-party estimate says ~$300 to $350 new
+        - https://www.knoxlabs.com/products/pimax-dream-air-ultra-lightweight-pcvr-headset
+        - https://eu.pimax.com/blogs/highlights/pimax-dream-air-lighthouse-version-who-should-buy-it-and-how-much-do-you-actually-save
+    - AOC CQ32G4VE (the triple pick from file 12): 31.5", 1440p, VA, 1500R curve. Refresh listed as 150 to 180 Hz, the Reddit post said 144
+        - https://directcomputers.co.uk/products/aoc-31-5-va-monitor-curved-cq32g4ve
+        - https://multitronic.fi/en/products/4390249
+    - Moza R5 Pro bundle: 6 Nm, 21-bit encoder, ES Lite wheel, SR-P Lite2 pedals with Hall sensors, two pedals, $399. Not a load cell. File 12 says "better load-cell pedals": wrong on the sensor
+        - https://boxthislap.org/moza-r5-pro-bundle-review/
+        - https://simxpro.com/pages/moza-r5-vs-r5-pro-which-racing-bundle-should-you-choose
+- Fixed on the site, were wrong or contradicted another page
+    - Dream Air prices read as "with base stations". They are extra
+    - Tier 1 "Tier 2 costs little more". It costs double
+    - Tier 3 brake "60 to 100 kg" vs Pedals "nobody brakes above 60 to 80 kg"
+    - Tier 3 "better than the venue's" vs "close to what F1 Arcade uses". Now "match or beat" (file 05)
+    - Tier 5 "seat mover" was the NLR Motion Plus, which moves the whole rig (file 03)
+    - Tier 0 "setup 10 to 15 min each time" was the first-assembly time in file 05
+    - VRS DirectForce Pro (20 Nm) sat in the 25 Nm+ row
+    - Console at Tier 4: PS VR2 with Gran Turismo 7 was missing
+- Removed as noise: weight estimates on tier pages, desk depth and box size estimates, single-owner anecdotes, research notes in page text ("thin data", "sources disagree")
+
 ## Weakest data
 
 - Used prices: nearly all estimates. No eBay sold listings were read

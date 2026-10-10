@@ -30,6 +30,7 @@
     - Screen center at or just below eye level
     - Measure eye-to-screen distance and screen width
     - Put the numbers in an FOV calculator, enter the result in the game
+    - The calculator converts for each game. Some want degrees, some a slider value
 - Correct FOV feels zoomed in at first. Give it a few sessions
 
 | Screen | Eyes at 60 cm | 70 cm | 100 cm |
@@ -40,6 +41,7 @@
 | 49" super-ultrawide | 90° | 81° | 62° |
 | 55" TV at 2.5 m | 27° | | |
 
+- Table: side-to-side view angle on a flat screen
 - A 27" monitor at arm's length shows twice what a 55" TV across the room does
 - VR: no FOV setup. Set eye spacing (IPD) instead
 

@@ -16,17 +16,20 @@
 | DD (direct drive) | Wheel bolts straight to the motor. Strongest, most detail |
 | QR (quick release) | The coupling that lets you swap rims |
 | Ecosystem | One brand's family of bases, rims, pedals, shifters that work together |
+| Bundle | Wheelbase, wheel and pedals sold in one box |
 | Paddles | Shifters behind the rim |
 | Potentiometer | Old contact sensor that reads pedal position. Wears out |
 | Hall sensor | Magnetic position sensor. No contact, lasts |
 | Load cell | Brake sensor that reads pressure, not travel |
 | Elastomer | Rubber stack in a brake pedal that sets stiffness |
 | Active pedal | A motor creates the pedal feel and can change it per car |
+| Pedal haptics | Small motor on a pedal that buzzes for ABS, lockup, wheelspin |
 | H-pattern | Manual shifter with a gate, used with a clutch |
 | Sequential | Push or pull lever for up and down shifts |
 | Handbrake | Lever that locks the rear wheels. Rally and drift |
 | Rig / cockpit | Frame that holds seat, wheel, pedals |
 | Aluminum profile (8020, 4080) | Slotted aluminum beams. Stiff, adjustable, anything bolts on |
+| T-nut | Sliding nut that fits the profile slot. How everything bolts on |
 | Wheel stand | Folding frame for wheel and pedals, no seat |
 | Bass shaker / tactile | Speaker-like puck bolted to the rig. Vibrates with engine, kerbs, shifts |
 | Motion platform | Actuators that move the seat or the whole rig |
@@ -46,6 +49,8 @@
 | Ultrawide | One 21:9 or 32:9 monitor |
 | Triples | Three monitors wrapped around the driver |
 | VR | Headset. Full depth and head tracking |
+| Base station | Tracking box on the wall that some VR headsets need |
+| IPD | Distance between your eyes. The one setting a VR headset needs |
 | VRR | Variable refresh rate. Stops tearing when frame rate dips |
 
 ## Settings
@@ -57,7 +62,9 @@
 | Deadzone | Input range that reads as zero, or as full |
 | DOR (degrees of rotation) | Total lock-to-lock steering angle |
 | Soft lock | Game stops the wheel at the real car's steering limit |
-| Telemetry | Recorded car data: speed, inputs, tire temps |
+| Telemetry | Live and recorded car data: speed, inputs, tire temps. Drives shakers and motion |
+| SimHub | Free PC app that runs dashes, shakers, wind and LEDs from telemetry |
+| Crew Chief | Free PC app. Voice spotter and race engineer |
 | Setup | Car configuration: tire pressure, wing, suspension, gears |
 
 ## Driving

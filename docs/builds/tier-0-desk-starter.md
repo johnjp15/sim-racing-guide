@@ -23,24 +23,24 @@
 ## Parts
 
 - PC: Moza R5 bundle ~$380. 5.5 Nm direct drive, wheel, 2 pedals, desk clamp
+- PC, newer: Moza R5 Pro bundle $399. 6 Nm, newer base and pedals. Take it if the gap is small
 - PC, cheaper: Moza R3 bundle ~$260 to $280. 3.9 Nm direct drive
 - Xbox: Moza R3 Xbox bundle ~$320 to $340
-- PlayStation: Thrustmaster T248R $300 (belt/gear hybrid, 3 pedals)
-- PlayStation or Xbox, cheapest: Logitech G29 / G920 ~$200 street. $300 list, never pay list
+- PlayStation or Xbox, cheapest: Logitech G29 (PlayStation) / G920 (Xbox) ~$180 to $200 street. Gear drive, 3 pedals. $300 list, never pay list
+- PlayStation, smoother: Thrustmaster T248R $300 (belt / gear hybrid, 3 pedals)
 - No PlayStation direct drive at this price
 - Not in the box: shifter (Logitech $60). Not needed to start
 
 ## Footprint
 
-- Existing desk ~120×60 cm, wheel clamps to edge
-- Needs ~30 cm desk depth (est)
-- Pedals on floor against wall or box
-- Stores in a box ~45×35×30 cm (est)
-- Setup 10 to 15 min each time
+- Your desk. Wheel clamps to the front edge
+- Pedals on the floor, against a wall or a box
+- Packs away into one box
+- 10 to 15 min to set up the first time. A few minutes each session after (est)
 
 ## What it feels like
 
-- vs F1 Arcade: no motion, no fixed seat, assists off, so harder
+- vs F1 Arcade: no motion, no fixed seat, fewer assists. Harder at first
 - Logitech G29: notchy, loud gear rattle
 - Moza R3/R5: smooth, quiet, light
 - Slower than a controller for the first week or two
@@ -48,13 +48,13 @@
 
 ## Pros / cons
 
-- \+: cheapest way in, nothing to build or store
+- \+: cheapest way in, nothing to build
 - \+: resells easily
 - \+: Moza parts bolt onto any rig later
 - −: office chair rolls back under braking
 - −: pedals slide on hard floor
 - −: brake is a spring, not a load cell
-- −: clamp on, clamp off every session kills the habit
+- −: clamp on, clamp off every session. Friction kills the habit
 
 ## Free fixes
 
@@ -64,10 +64,11 @@
 
 ## Next upgrade
 
-- Wheel stand or foldable seat so pedals stop moving (Tier 1)
-- Moza brake kit $39: stiffer brake, cheap
+- Load cell brake first: Moza SRP2 pedals $149. Stopgap: Moza brake kit $39
+- On a desk: brake set light, chair blocked, pedals against the wall
+- Then stop things moving: wheel stand or foldable (Tier 1), or a rig (Tier 2)
 - Carries over: Moza base, wheel, pedals
-- Does not carry over: Logitech and T248 sets are closed systems, sold whole
+- Does not carry over: Logitech and T248 sets are closed systems, sold whole. Their next step is a direct drive bundle
 
 ## Used-market alternative
 

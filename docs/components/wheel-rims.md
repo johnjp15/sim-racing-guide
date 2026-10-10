@@ -15,11 +15,11 @@
 | Round | 300 to 350 mm | Everything: road cars, rally, drift, trucks | Nothing. The default |
 | D-shape / flat bottom | 300 to 330 mm | GT cars, general use | Drift (flat bottom snags) |
 | GT "butterfly", open top | 290 to 320 mm | GT3, prototypes. Many buttons | Rally, drift |
-| Formula, rectangular | 270 to 300 mm | F1, open wheel | Road cars, rally, drift, parking a truck |
+| Formula, rectangular | 270 to 300 mm | F1, open wheel | Road cars, rally, drift, trucks |
 | Rally / drift, deep dish | 320 to 350 mm | Rally, drift with a handbrake | Formula cars |
 
 - F1 Arcade makes you want a formula wheel. Buy a round or D-shape first: it works in every car
-- One wheel, not round: a 290 to 300 mm GT wheel is the r/simracing middle ground. 270 mm formula wheels feel small to many
+- Want one wheel that is not round: a 290 to 300 mm GT wheel is the middle ground. 270 mm formula wheels feel small to many
 - H-pattern shifting is harder with a GT or formula wheel
 
 ## Levels
