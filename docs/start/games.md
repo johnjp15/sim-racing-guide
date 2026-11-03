@@ -9,7 +9,7 @@
 
 | You are | Platform | Start with | Year-one cost |
 |---|---|---|---|
-| F1 fan | PS5 / Xbox / PC | F1 25 + 2026 Season Pack | ~$75 to $150 |
+| F1 fan | PS5 / Xbox / PC | F1 25 + 2026 Season Pack | ~$50 to $150 |
 | Casual | PS5 | Gran Turismo 7 | $30 to $70 |
 | Casual | Xbox | Forza Horizon 6, Forza Motorsport on Game Pass | Game Pass or $70 |
 | Casual | PC | Assetto Corsa + BeamNG.drive | $45 to $90 |
@@ -36,11 +36,11 @@
 | Game | Platform | Price | Good for |
 |---|---|---|---|
 | Gran Turismo 7 | PS5 | $70 list, often $30 to $40 | Best console all-rounder, license tests teach basics |
-| F1 25 | PC, PS5, Xbox | $50 + $25 season pack | F1 cars and career, assists to peel off |
+| F1 25 | PC, PS5, Xbox | $50 with the 2026 Season Pack | F1 cars and career, assists to peel off |
 | Assetto Corsa | PC | $20, less on sale | Mods, free roam, drift. Cheapest serious start |
 | Assetto Corsa Competizione | PC, PS5, Xbox | $40 | GT3 racing |
 | Le Mans Ultimate | PC | $40 | Endurance, built-in ranked races |
-| iRacing | PC | $14.75/mo or $124.50/yr, 30% off first year | Scheduled ranked racing, best online structure |
+| iRacing | PC | $14.75/mo or $124.50/yr, 30% off any new membership | Scheduled ranked racing, best online structure |
 | RaceRoom | PC | Free to start | Free ranked servers |
 | Automobilista 2 | PC | Paid | Variety, good in VR |
 | Assetto Corsa EVO | PC | Early Access | Promising, unfinished. Free roam due Dec 9. Buy the original first |

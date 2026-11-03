@@ -15,10 +15,10 @@
 | Type | View | Price | PC load | Good | Bad |
 |---|---|---|---|---|---|
 | Living-room TV | ~27° from the couch | Owned | Low | Free, fine for console | Too far away, tiny real view |
-| Single 27" 1440p | ~46° at 70 cm | $200 to $300, OLED from ~$300 | Low | Cheapest, works everywhere | No side view |
+| Single 27" 1440p | ~46° at 70 cm | $200 to $300, OLED from ~$330 | Low | Cheapest, works everywhere | No side view |
 | Single 32" | ~54° | $250 to $350 | Low to medium | Work and play | Same |
-| 34" ultrawide | ~60° | $300 to $450, OLED ~$730 | Medium | No bezels, one cable. Default pick | Still can't see a car alongside |
-| 49" super-ultrawide | 80 to 100° | $650 to $900, OLED $1,100+ | High | Wide view on one cable, nothing to align | Less side view than triples, edges distort in some games |
+| 34" ultrawide | ~60° | $300 to $450, OLED ~$800 | Medium | No bezels, one cable. Default pick | Still can't see a car alongside |
+| 49" super-ultrawide | 80 to 100° | $650 to $900, OLED $1,000+ | High | Wide view on one cable, nothing to align | Less side view than triples, edges distort in some games |
 | Triple 27" | 140 to 155° | $570 to $900 + stand | High | See cars beside you, 1:1 scale | 1.6 to 1.8 m wide, setup work, not all games |
 | Triple 32" | 160 to 170° | $600 to $1,200 + stand | High | Feels like a cockpit. The pick if you have the room | 2 m wide, dedicated room |
 | 42 to 48" OLED TV | ~60° at 85 cm | $1,000 to $1,600 | High | Best picture, great for console | Needs a floor stand |
@@ -94,7 +94,7 @@
 - Needs a steady 72 to 90 frames per second
 - Resolution costs GPU. A sharp headset on a mid PC looks worse than a Quest 3 running smoothly
 - You sit still and face forward, so tracking matters less than in other VR games
-- Base stations: tracking boxes on the wall. Not in the box. Budget $300+ and check stock
+- Base stations: tracking boxes on the wall. Not in the box. ~$300 for two from Valve when in stock, ~$460 for two in stock now
 - Announced, ships spring 2027: Pimax Crystal Pro, $1,399, wireless
 
 ### Pimax Dream Air
@@ -140,15 +140,15 @@
 | Type | Product | Price | Buy |
 |---|---|---|---|
 | Single 27" 1440p | LG 27GS75Q-B, IPS, 200 Hz | ~$230 | [Amazon search][m27] |
-| Single 27" 1440p, OLED | AOC Q27G41ZDF, 240 Hz | ~$300 on sale | [Amazon search][m27o] |
-| 34" ultrawide | Alienware AW3425DWM, VA, 180 Hz | ~$285 to $400 | [Amazon search][m34] |
-| 34" ultrawide, OLED | Alienware AW3425DW, 240 Hz | ~$730 | [Amazon search][m34o] |
+| Single 27" 1440p, OLED | AOC Q27G41ZDF, 240 Hz | ~$330 on sale, $500 regular | [Amazon search][m27o] |
+| 34" ultrawide | Alienware AW3425DWM, VA, 180 Hz (gone from Dell US, 2026-11-02) | ~$285 to $400 | [Amazon search][m34] |
+| 34" ultrawide, OLED | Alienware AW3425DW, 240 Hz | ~$800 | [Amazon search][m34o] |
 | 49" super-ultrawide | Samsung Odyssey G9 G95C | ~$800 to $900 | [Amazon search][m49] |
-| 49" super-ultrawide, OLED | Samsung Odyssey OLED G9 G93SD | ~$1,100 | [Amazon search][m49o] |
-| Triples, 32" 1440p | Samsung Odyssey G5 G50F, flat IPS, 180 Hz | $250 each | [Best Buy][g50f] |
+| 49" super-ultrawide, OLED | Samsung Odyssey OLED G9 G93SD | ~$1,000 on sale, $1,700 regular | [Amazon search][m49o] |
+| Triples, 32" 1440p | Samsung Odyssey G5 G50F, flat IPS, 180 Hz | $350 each | [Best Buy][g50f] |
 | Triples, 32" 1440p, Europe | AOC CQ32G4VE, 1500R curve | ~EUR 170 each | [Amazon search][aoc] |
 | Triple stand | NLR freestanding triple, up to 3× 43" | $299 | [Next Level Racing][mon3] |
-| OLED TV | LG C5 42" | ~$1,000 | [Amazon search][c5] |
+| OLED TV | LG C5 42" (being cleared, 2026-11-02) | ~$1,000 | [Amazon search][c5] |
 | VR | Meta Quest 3S | $350 | [Meta][q3s] |
 | VR | Meta Quest 3 | $600 | [Meta][q3] |
 | VR | PS VR2 | $399 | [PlayStation][psvr2] |
@@ -159,7 +159,7 @@
 | VR | Pimax Dream Air | $1,999 + base stations, or $2,299 self-tracking | [Pimax][da] |
 
 - Prices checked 2026-10-09. Monitor prices move weekly: the search links show today's price
-- The Samsung G50F has been seen at $200 to $220 at Staples and Amazon, not confirmed
+- On sale 2026-11-02: Samsung G50F $209.99 (Best Buy, no end date)
 - The Samsung Odyssey G5 with a "C" in the model (G55C) is a tight 1000R curve. Not for triples
 
 ## Related pages

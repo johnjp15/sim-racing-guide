@@ -104,8 +104,8 @@
 | Premium | Moza CS Pro, round, screen | $329 | [Moza US][cspro] |
 | Premium | Fanatec ClubSport and Podium rims | $350 to $1,600 | [Fanatec][fwheel] |
 | Premium | Simucube Tahko Round, for Simucube 2 | $649 | [Trak Racer][tahko] |
-| Boutique | Cube Controls | $500 to $1,500+ | [Cube Controls][cube] |
-| Boutique | Ascher Racing | $500 to $1,500+ | [Ascher Racing][ascher] |
+| Boutique | Cube Controls | EUR 400 to 1,400 | [Cube Controls][cube] |
+| Boutique | Ascher Racing | EUR 550 to 1,700 | [Ascher Racing][ascher] |
 | Boutique | GSI (Gomez Sim Industries) | $700 to $1,500+ | [GSI][gsi] |
 | Budget third-party | No-name USB rims | $60 to $200 | [AliExpress search][ali] |
 

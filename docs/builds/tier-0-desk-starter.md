@@ -4,7 +4,7 @@
 
 <!-- Image source: https://www.techtesters.eu/logitech-g29-driving-force-shifter/5/ -->
 
-<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, listings checked 2026-10-09. "est" = estimate, not sourced. -->
+<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, listings checked 2026-11-02. "est" = estimate, not sourced. -->
 
 ## Cost
 
@@ -41,7 +41,7 @@
 | Xbox | [Moza R3 Xbox bundle][r3x] | $339 | Also works on PC |
 | PlayStation | [Logitech G29][g29] | ~$190 to $230 | Gear drive, 3 pedals. $300 list, never pay list |
 | Xbox, cheapest | [Logitech G920][g29] | ~$200 to $230 | Same wheel, Xbox version |
-| PlayStation, smoother | [Thrustmaster T248][t248] | $300 to $330 | Belt / gear hybrid, 3 pedals |
+| PlayStation, smoother | [Thrustmaster T248R][t248] | $300 to $330 | Belt / gear hybrid, 3 pedals |
 
 - No PlayStation direct drive at this price
 - Shifter is not in the box. Not needed to start
@@ -89,8 +89,7 @@
 | Wheelbase, wheel, pedals, desk clamp | Moza R5 bundle, 5.5 Nm | $379 | [Moza US][r5] |
 | **Total** | | **$379** | |
 
-- PC build. Cheapest new listing found on 2026-10-09. Tax and shipping extra
-- Seen lower, not confirmed: $349.99 at [Best Buy][r5bb]
+- PC build. Cheapest new listing found on 2026-11-02. Tax and shipping extra
 
 ## Related pages
 
@@ -105,7 +104,6 @@
 [r3]: https://us.mozaracing.com/products/r3-racing-bundle-pc
 [r3x]: https://us.mozaracing.com/products/r3-racing-bundle-xbox
 [g29]: https://www.logitechg.com/en-us/shop/p/driving-force-racing-wheel
-[t248]: https://www.thrustmaster.com/en-us/products/t248/
+[t248]: https://eshop.thrustmaster.com/en_us/t248r-us.html
 [srp2]: https://us.mozaracing.com/products/srp2-pedals
 [kit]: https://us.mozaracing.com/products/srp-lite-kit
-[r5bb]: https://www.bestbuy.com/product/moza-racing-r5-direct-drive-sim-racing-bundle-with-5-5nm-of-force-for-pc-black/J3R84PHT5S

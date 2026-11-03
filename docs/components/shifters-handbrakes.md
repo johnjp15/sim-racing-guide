@@ -129,7 +129,7 @@
 | Dual-mode, upper mid | Conspit CHS | $369 | [Sim Motion][chs] |
 | H-pattern, endgame | BDH H1 | $759 | [Trak Racer][bdhh1] |
 | Dual-mode, endgame | BDH H2SQ V2 | $1,229 | [Trak Racer][h2sq] |
-| H-pattern, endgame | Pro-Sim H-pattern | ~$1,350 to $1,550 | [Pro-Sim][prosim] |
+| H-pattern, endgame | Pro-Sim H-pattern | GBP 1,075 to 1,220 | [Pro-Sim][prosim] |
 | Active | BDH Active Shifter | $2,549 | [Trak Racer][bdha] |
 | Sequential, entry | Moza SGP | $129 | [Moza US][sgp] |
 | Sequential, entry | Logitech RS Shifter & Handbrake | $170 | [Logitech G][rssh] |
@@ -138,17 +138,18 @@
 | Sequential, mid | Simagic Q1 | $239 | [Simagic][q1] |
 | Sequential, mid | Heusinkveld MagShift Mini | ~$270 | [Sim Motion][magmini] |
 | Sequential, upper mid | Heusinkveld MagShift | $399 | [Trak Racer][mag] |
-| Sequential, endgame | Pro-Sim sequential | ~$550 to $1,150 | [Pro-Sim][prosim] |
+| Sequential, endgame | Pro-Sim sequential | GBP 425 to 895 | [Pro-Sim][prosim] |
 | Handbrake, cheap USB | No-name USB handbrakes | $30 to $100 | [Amazon search][hbamz] |
 | Handbrake, entry | Moza HBP | $99 | [Moza US][hbp] |
 | Handbrake, load cell | Simagic TB-1 | $109 | [Apex Sim Racing][tb1] |
-| Handbrake, load cell | Simsonn HB Pro | $149 | [Simsonn][hbpro] |
+| Handbrake, load cell | Simsonn HB Pro | $166 | [Simsonn][hbpro] |
 | Handbrake, load cell | Fanatec ClubSport Handbrake V2 | $230 | [Fanatec][fadd] |
 | Handbrake, endgame | Heusinkveld Handbrake | $329 | [Trak Racer][hvhb] |
 
 - Prices checked 2026-10-09. Moza, Simagic, Sim-Lab, Apex, Sim Motion and Trak Racer from live store listings
-- Out of stock on 2026-11-02: Heusinkveld MagShift (pre-order) and MagShift Mini, Conspit CHS (pre-order). BDH shifters: back-ordered, no date
+- Out of stock on 2026-11-02: Heusinkveld MagShift (pre-order) and MagShift Mini, Conspit CHS (pre-order), Simsonn HB Pro (sold out). BDH shifters: back-ordered, no date
 - Simagic Q1S is $239 at Simagic's own store, $199 at Trak Racer
+- On sale 2026-11-02: Driving Force Shifter $49.99 (Logitech G, no end date)
 
 ## Related pages
 
@@ -160,7 +161,7 @@
 [th8s]: https://www.thrustmaster.com/en-us/products/th8s-shifter-add-on/
 [th8a]: https://www.thrustmaster.com/en-us/products/th8a-shifter-add-on/
 [tb]: https://www.amazon.com/s?k=Turtle+Beach+VelocityOne+Multi-Shift
-[hubb]: https://www.shiftershh.com/es/inicio/26-144-shh-shifter-hubb.html
+[hubb]: https://www.shiftershh.com/en/home/26-shh-shifter-hubb.html
 [hgp]: https://us.mozaracing.com/products/hgp-shifter
 [ds8x]: https://simagic.com/products/ds-8x-shifter
 [fadd]: https://www.fanatec.com/us/en/c/add-ons
@@ -179,5 +180,5 @@
 [hbamz]: https://www.amazon.com/s?k=usb+sim+racing+handbrake
 [hbp]: https://us.mozaracing.com/products/hbp-handbrake
 [tb1]: https://www.apexsimracing.com/products/simagic-tb-1-handbrake
-[hbpro]: https://simsonn.com/products/newest-simsonn-hb-pro-racing-simulator-handbrake
+[hbpro]: https://www.simsonn.com/products/simsonn-hb-pro-racing-simulator-handbrake
 [hvhb]: https://trakracer.com/products/heusinkveld-handbrake-black

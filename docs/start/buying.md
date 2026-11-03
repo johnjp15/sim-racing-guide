@@ -48,7 +48,7 @@ flowchart LR
 | Console tax | Moza Xbox wheel $129, Logitech Xbox hub $150 to $190 |
 | Shifter, handbrake | $100 to $170 each |
 | Bolts, T-nuts, USB hub, cables, mat | $20 to $60 |
-| GPU for triples or VR | $700 to $1,500 |
+| GPU for triples or VR | $800 to $1,300 |
 | iRacing | $125 a year plus content |
 
 - A "$499 rig" is $900 to $1,100 sat in and driving. See [Chassis & Mounts](../components/chassis-mounts.md#real-cost-of-a-profile-rig)

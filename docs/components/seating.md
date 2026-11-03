@@ -19,8 +19,8 @@
 | Cheap bucket | ~$100 to $200 | Cheap, looks the part | Thin padding, sizing a gamble | Tight budget |
 | Reclining sim seat | $250 to $390 | Adjustable, fits most bodies, easy in and out | Backrest gives slightly under hard braking | Most beginners, shared rigs |
 | Fiberglass bucket | $350 to $450 | Zero flex, locked in | Size sensitive, less comfy long term | One driver who has test-sat it |
-| Real motorsport bucket | $200 to $950 | The real thing | Narrow, built for a helmet and harness | Looks and feel |
-| Formula seat | $600+ | Real open-wheel posture | Hard to get into, tiring | Formula-only drivers |
+| Real motorsport bucket | $450 to $950+ | The real thing | Narrow, built for a helmet and harness | Looks and feel |
+| Formula seat | GBP 470+ ex VAT | Real open-wheel posture | Hard to get into, tiring | Formula-only drivers |
 
 ## What matters
 
@@ -78,16 +78,16 @@
 | Reclining | GT Omega RS12 | $390 | [GT Omega][rs12] |
 | Fiberglass bucket | Trak Racer GT Pro | $349, $399 with brackets | [Trak Racer][gtpro] |
 | Fiberglass bucket | Sim-Lab S1 Sport GT | $449 | [Sim-Lab US][s1] |
-| Motorsport bucket | Sparco | $200 to $950 | [Sparco USA][sparco] |
-| Motorsport bucket | NRG | $200+ | [NRG][nrg] |
-| Formula seat | Sparco F1-style sim seat | $600+ | [GPR Direct][f1seat] |
+| Motorsport bucket | Sparco | $500 to $950+ | [Sparco USA][sparco] |
+| Motorsport bucket | NRG | $450+ | [NRG][nrg] |
+| Formula seat | Sparco F1-style sim seat | GBP 470+ ex VAT | [GPR Direct][f1seat] |
 | Brackets | Trak Racer universal seat brackets | $69 | [Trak Racer][brk] |
 | Brackets | NLR universal seat brackets | $79 | [Next Level Racing][brkn] |
 | Slider | Trak Racer dual-lock slider | $49 | [Trak Racer][slider] |
 
 - Prices checked 2026-10-09 at the maker's own US store. Shipping and tax extra
 - Junkyard seats: your local pick-and-pull yard
-- On sale 2026-11-02: RE2 $254.15, $313.65 with brackets, and GT Pro $296.65, $339.15 with brackets (Trak Racer, November sale)
+- On sale 2026-11-02: RE2 $254.15, $313.65 with brackets, GT Pro $296.65, $339.15 with brackets, seat brackets $58.65 and slider $41.65 (Trak Racer, November sale)
 
 ## Related pages
 

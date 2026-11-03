@@ -10,8 +10,8 @@
 | [1: Foldable / Apartment](tier-1-foldable-apartment.md) | $500 to $700 | Folding seat or stand | 4 to 6 Nm direct drive | Spring | Yours | [$678](tier-1-foldable-apartment.md#example-build) |
 | [2: First Dedicated Rig](tier-2-first-dedicated-rig.md) | $1,200 to $1,600 | Steel cockpit or budget profile | 8 to 9 Nm | Entry load cell | Yours | [$1,058](tier-2-first-dedicated-rig.md#example-build) |
 | [3: Sweet Spot Enthusiast](tier-3-sweet-spot-enthusiast.md) | $1,800 to $2,200 | Aluminum profile | 12 Nm | Mid load cell | Yours | [$2,045](tier-3-sweet-spot-enthusiast.md#example-build) |
-| [4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md) | $3,500 to $5,500 | Aluminum profile | 12 to 21 Nm | Mid load cell | Triples or VR | [$3,566](tier-4-triples-vr-enthusiast.md#example-build) |
-| [5: Motion / Pro](tier-5-motion-pro.md) | $10,000 to $18,000 | Profile on motion actuators | 25 Nm | Active | Triples or VR | [$14,177](tier-5-motion-pro.md#example-build) |
+| [4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md) | $3,500 to $5,500 | Aluminum profile | 12 to 21 Nm | Mid load cell | Triples or VR | [$3,866](tier-4-triples-vr-enthusiast.md#example-build) |
+| [5: Motion / Pro](tier-5-motion-pro.md) | $10,000 to $18,000 | Profile on motion actuators | 25 Nm | Active | Triples or VR | [$14,477](tier-5-motion-pro.md#example-build) |
 
 - Each tier page ends with a full example build: every part, price and a link to buy it
 
@@ -50,10 +50,10 @@ flowchart LR
     A[Moza R5 bundle<br>on your desk<br>$379] --> B[Load cell pedals<br>$369]
     B --> C[Aluminum rig<br>+ seat + stand<br>~$1,070]
     C --> D[12 Nm base<br>+ wheel<br>$609]
-    D --> E[Triples or VR<br>$600 to $1,050]
+    D --> E[Triples or VR<br>$600 to $1,350]
 ```
 
-- Total ~$3,000 to $3,500
+- Total ~$3,000 to $3,800
 - Why this order: [Buying Smart](../start/buying.md#upgrade-order)
 - The 12 Nm base is optional. 5 to 8 Nm lasts years
 - Lost on outgrown parts: ~$150 to $250 (est)

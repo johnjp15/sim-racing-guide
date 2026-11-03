@@ -12,7 +12,7 @@
 
 <small>Assumes: existing PC with a strong GPU. Displays included</small>
 
-- GPU for triple 1440p: RTX 5070 Ti class, ~$860. Pimax Dream Air class VR: RTX 4090 / 5090
+- GPU for triple 1440p: RTX 5070 Ti class, ~$960. Pimax Dream Air class VR: RTX 4090 / 5090
 
 ## At a glance
 
@@ -37,7 +37,7 @@
 
 | Build | What | Total |
 |---|---|---|
-| Triples | Tier 3 controls $978 + [clutch][clutch] $99 + [SHH HUBB shifter][hubb] ~$150 + [Trak Racer TR160 V5 rig][tr160] $730 + [seat][re2] $369 + [triple stand][mon3] $299 + 3× [32" 1440p monitor][g50f] $750 + 2 [bass shakers][bst1], [amp][amp] and [sound card][snd] $191 | ~$3,570 |
+| Triples | Tier 3 controls $978 + [clutch][clutch] $99 + [SHH HUBB shifter][hubb] ~$150 + [Trak Racer TR160 V5 rig][tr160] $730 + [seat][re2] $369 + [triple stand][mon3] $299 + 3× [32" 1440p monitor][g50f] $1,050 + 2 [bass shakers][bst1], [amp][amp] and [sound card][snd] $191 | ~$3,870 |
 | VR | Same without stand and monitors + [Meta Quest 3][q3] $600 | ~$3,120 |
 | VR, sharper | [Pimax Dream Air SE][dase] from $899, [Dream Air][da] from $1,999, in place of the Quest 3. The "from" prices need base stations. Bigger GPU needed | ~$3,420 to $4,520 |
 | Top of band | 18 to 21 Nm base ([Moza R21 Ultra][r21] $699), [handbrake][hbp] $99, OLED monitors ($300+ each) | up to ~$5,500 |
@@ -88,17 +88,16 @@
 | Rig | Trak Racer TR160 V5, seat slider included | $730 | [Trak Racer][tr160] |
 | Seat | Trak Racer RE2 recliner, with brackets | $369 | [Trak Racer][re2] |
 | Triple stand | Next Level Racing freestanding triple stand | $299 | [Next Level Racing US][mon3] |
-| Monitors | 3× Samsung Odyssey G5 G50F, 32" 1440p, flat | $750 | [Best Buy][g50f] |
+| Monitors | 3× Samsung Odyssey G5 G50F, 32" 1440p, flat | $1,050 | [Best Buy][g50f] |
 | Bass shakers | 2× Dayton Audio BST-1 | $110 | [Parts Express][bst1] |
 | Shaker amp | Fosi Audio BT20A | $72 | [Parts Express][amp] |
 | USB sound card | Sabrent AU-MMSA | $9 | [Sabrent][snd] |
-| **Total** | | **$3,566** | |
+| **Total** | | **$3,866** | |
 
 - PC build, triples. Cheapest new listings found on 2026-10-09. Tax and shipping extra
 - SHH ships from Spain. About $200 delivered to the US
-- The monitor has been seen at $200 to $220 at Staples and Amazon, not confirmed
 - Add speaker wire, and SimHub (free, license from EUR 8) to drive the shakers
-- On sale 2026-11-02: TR160 V5 $620.50 and RE2 seat with brackets $313.65 (Trak Racer, November sale)
+- On sale 2026-11-02: TR160 V5 $620.50 and RE2 seat with brackets $313.65 (Trak Racer, November sale), Samsung G50F $209.99 (Best Buy, no end date)
 
 ## Related pages
 
@@ -112,7 +111,7 @@
 [r12ks]: https://us.mozaracing.com/products/r12-ks-bundle
 [crp2]: https://us.mozaracing.com/products/crp2-pedals
 [clutch]: https://us.mozaracing.com/products/crp2-clutch
-[hubb]: https://www.shiftershh.com/es/inicio/26-144-shh-shifter-hubb.html
+[hubb]: https://www.shiftershh.com/en/home/26-shh-shifter-hubb.html
 [tr160]: https://trakracer.com/products/tr160-v5
 [re2]: https://trakracer.com/products/re2-recliner-sim-racing-seat-premium-diamond-stitched-leather-style-black
 [mon3]: https://store-us.nextlevelracing.com/products/round-tube-freestanding-triple-monitor-stand

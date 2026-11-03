@@ -17,7 +17,7 @@
 
 ```mermaid
 flowchart LR
-    A[Bass shakers<br>$100+] --> B[Pedal haptics<br>$40+] --> C[Wind<br>$75+] --> D[Belt tensioner<br>$1,400+] --> E[Motion<br>$1,500+]
+    A[Bass shakers<br>$100+] --> B[Pedal haptics<br>$40+] --> C[Wind<br>$75+] --> D[Belt tensioner<br>$1,800+] --> E[Motion<br>$1,500+]
 ```
 
 ## Varieties
@@ -26,12 +26,12 @@ flowchart LR
 |---|---|---|---|
 | Bass shakers | Engine, kerbs, shifts | $100 to $350 | No. Vibration only |
 | Pedal haptics | ABS, lockup, wheelspin under your foot | $40 to $150 a pedal | No |
-| Wind | Speed on your face. Also cooling in VR | $75 to $650 | No |
-| Belt tensioner | Harness pulls tight under braking | $1,400 to $1,850 | Squeezes you |
+| Wind | Speed on your face. Also cooling in VR | $75 to $340, RaceKraft AUD 650 to 700 | No |
+| Belt tensioner | Harness pulls tight under braking | $1,800 to $1,850 | Squeezes you |
 | G-seat | Seat panels press into you in corners | ~$3,000 | Squeezes you |
-| Seat mover | Seat tilts | $1,500 to $2,800 | Yes, 2DOF |
+| Seat mover | Seat tilts | $1,500 to $3,500 | Yes, 2DOF |
 | Actuators under the rig | Whole rig tilts and lifts | $2,600 to $11,300 | Yes, 3DOF |
-| Traction loss, 6DOF | Rear slides out, rig shifts sideways | $4,400+ | Yes, 4 to 6DOF |
+| Traction loss, 6DOF | Rear slides out, rig shifts sideways | $4,380+ | Yes, 4 to 6DOF |
 
 - All of it is PC only. It runs on game telemetry
 - Exceptions: a shaker fed from the audio output, or fans on a manual dial, work on console
@@ -76,7 +76,7 @@ flowchart LR
 - Best in VR: cools your face. Some find it eases nausea
 - A desk fan does half the job for free
 - DIY controller + PC fans: ~$75
-- Ready kits, two fans: $220 to $650
+- Ready kits, two fans: Sim Racing Studio $339 (one fan $199), RaceKraft AUD 650 to 700
 - Console: fans on a manual dial work without telemetry
 - Owners like it. Nobody calls it essential
 
@@ -86,7 +86,7 @@ flowchart LR
 - Does what motion cannot: holds pressure for the whole braking zone
 - r/simracing: buy it before motion. Owners with both say the belt adds more on its own
 - Helps braking, not just immersion
-- Qubic QS-BT1: $1,799. Silent
+- Qubic QS-BT1: $1,799, $1,839 with harness. Silent
 - DIY SimHub tensioner: under $1,000, noisy
 - Needs a bucket seat with harness slots and a 4 to 6 point harness
 
@@ -109,7 +109,7 @@ flowchart LR
 |---|---|---|
 | Axes | Pitch, roll, heave | All six |
 | Hardware | 4 actuators under the rig | Hexapod, or 3DOF plus sliding base (surge, sway, traction loss) |
-| Price | $2,600 to $11,300 | $4,400 to $30,000+ (est) |
+| Price | $2,600 to $11,300 | $4,380 to $30,000+ (est) |
 | Space | Rig footprint plus a little clearance | Much more, in every direction |
 | Slides | Hinted at through roll | Felt directly through yaw |
 | Who | Home rigs. The normal choice | Enthusiasts with the room, pro simulators |
@@ -130,10 +130,10 @@ flowchart LR
 
 | Level | Price | Notes |
 |---|---|---|
-| 2DOF | $1,500 to $2,800 | Seat movers leave wheel and pedals still, which feels odd to some |
+| 2DOF | $1,500 to $3,500 | Seat movers leave wheel and pedals still, which feels odd to some |
 | Affordable 3DOF | $2,600 to $3,000 | The 2026 change. Motion at half the old price |
 | Premium 3DOF | $6,000 to $11,300 | Faster, quieter, proven |
-| 6DOF | $4,400 to $30,000+ (est) | Room-sized commitment. Sliding parts add noise |
+| 6DOF | $4,380 to $30,000+ (est) | Room-sized commitment. Sliding parts add noise |
 
 ## Moza HMA150
 
@@ -197,30 +197,30 @@ flowchart LR
 | USB sound card | Sabrent AU-MMSA | $9 | [Sabrent][snd] |
 | Shaker kit | ButtKicker Gamer Plus | $280 | [ButtKicker][bkplus] |
 | Shaker kit | ButtKicker Gamer Pro | $350 | [ButtKicker][bkpro] |
-| Pedal haptics | Simagic P-HPR GT | $39 | [Trak Racer][hpr] |
+| Pedal haptics | Simagic P-HPR GT | $39 | [Simagic][hpr] |
 | Software | SimHub | Free, license from EUR 8 | [SimHub][simhub] |
-| Wind | Sim Racing Studio Hurricane kit, two fans | ~$220 | [Sim Racing Studio][srs] |
-| Wind | RaceKraft Dual Wind Simulator Kit V2 | $650 | [RaceKraft][wind] |
-| Belt tensioner | Qubic QS-BT1 | $1,799 | [Trak Racer][bt1] |
-| Belt tensioner | SimXperience G-Belt | ~$1,365 | [SimXperience][simx] |
-| G-seat | SimXperience GS-5 | ~$3,000 | [SimXperience][gs5] |
-| Motion, 2DOF seat mover | DOF Reality M2 | ~$1,500 | [DOF Reality][dof] |
-| Motion, 2DOF seat mover | NLR Motion Platform V3 | $2,799 | [Next Level Racing][mv3] |
-| Motion, 2DOF whole rig | NLR Motion Plus | $2,799 | [Next Level Racing][mplus] |
+| Wind | Sim Racing Studio Hurricane kit, two fans | $339, one fan $199 | [Sim Racing Studio][srs] |
+| Wind | RaceKraft Dual Wind Simulator Kit V2 | AUD 650 to 700, tax included | [RaceKraft][wind] |
+| Belt tensioner | Qubic QS-BT1 | $1,799, $1,839 with harness | [Trak Racer][bt1] |
+| Belt tensioner | SimXperience G-Belt (not for sale on 2026-11-02) | $999 | [SimXperience][simx] |
+| G-seat | SimXperience GS-5 (not for sale on 2026-11-02) | $2,999 | [SimXperience][gs5] |
+| Motion, 2DOF seat mover | DOF Reality M2 | ~$1,500 | [DOF Reality][dofm2] |
+| Motion, 2DOF seat mover | NLR Motion Platform V3 | ~$3,000 to $3,500 | [Next Level Racing][mv3] |
+| Motion, 2DOF whole rig | NLR Motion Plus | ~$3,000 | [Next Level Racing][mplus] |
 | Motion, 3DOF | eRacing Lab RS MEGA+ | $2,600 | [eRacing Lab][mega] |
 | Motion, 3DOF | Moza HMA150, four actuators | $2,999 | [Moza US][hma] |
-| Motion, 3DOF | DOF Reality H3 | ~$3,000 | [DOF Reality][dof] |
+| Motion, 3DOF | DOF Reality H3 | ~$3,000 | [DOF Reality][dofh3] |
 | Motion, 3DOF | D-BOX G5 4250i, four actuators | $5,990 | [Trak Racer][dbox] |
 | Motion, 3DOF | Qubic QS-210 | $8,671 | [Podium1][qs210] |
 | Motion, 3DOF | Qubic QS-220 | $11,330 | [Podium1][qs220] |
 | Motion, 6DOF | eRacing Lab RS Ultimate Gen 2 | $4,380 | [eRacing Lab][rsu] |
-| Motion, 6DOF | DOF Reality H6 | ~$7,000 | [DOF Reality][dof] |
+| Motion, 6DOF | DOF Reality H6 | ~$7,000 | [DOF Reality][dofh6] |
 | Motion, DIY | SFX-100 plans and parts list | Parts only | [OpenSFX][sfx] |
 
-- Prices checked 2026-10-09. Parts Express, Moza, Trak Racer, Podium1, eRacing Lab, RaceKraft and Next Level Racing from live store listings
+- Prices checked 2026-10-09. Moza, Trak Racer, DOF Reality, Sim Racing Studio, SimXperience and RaceKraft rechecked 2026-11-02. Next Level Racing motion prices from B&H (NLR's US store could not be read). Parts Express not rechecked
 - ButtKicker Gamer Plus and Pro: still out of stock on 2026-11-02
 - D-BOX with a rig: Trak Racer sells the TR160 V5 rig plus the four actuators as [one bundle][dboxrig] for $6,384
-- DOF Reality and SimXperience prices are from earlier research, not rechecked
+- DOF Reality ships from the EU: about $500 to $1,200 shipping to the US, plus duties
 
 ## Related pages
 
@@ -238,14 +238,16 @@ flowchart LR
 [snd]: https://sabrent.com/products/au-mmsa
 [bkplus]: https://thebuttkicker.com/products/buttkicker-gamer-plus
 [bkpro]: https://thebuttkicker.com/products/buttkicker-gamer-pro
-[hpr]: https://trakracer.com/products/simagic-p-hpr-gt-linear-haptic-pedal-reactor
+[hpr]: https://simagic.com/products/simagic-p-hpr-gt-linear-haptic-pedal-reactor
 [simhub]: https://www.simhubdash.com/
-[srs]: https://www.simracingstudio.com/
+[srs]: https://simracingstudio.com/product-page/srs-hurricane-power-wind-kit-package
 [wind]: https://racekraft.net/products/wind-simulator
 [bt1]: https://trakracer.com/products/qubic-system-qs-bt1-direct-drive-seat-belt-tensioner-with-trak-racer-seat-harness-red
-[simx]: https://www.simxperience.com/
-[gs5]: https://www.simxperience.com/blog/simxperience-news-1/simxperience-gs-5-g-force-seat-available-now-35
-[dof]: https://dofreality.com/
+[simx]: https://www.simxperience.com/shop/sx-sbt-001-g-belt-dual-axis-active-seat-belt-tensioning-system-712
+[gs5]: https://www.simxperience.com/shop/sx-gs5-001-gs-5-g-seat-711
+[dofm2]: https://dofreality.com/product/universal/universal-motion-platform-2-axis-mover-m2/
+[dofh3]: https://dofreality.com/product/racing/motion-racing-rig-3-axis-hero-h3/
+[dofh6]: https://dofreality.com/product/racing/motion-racing-rig-6-axis-hero-h6/
 [mv3]: https://store-us.nextlevelracing.com/products/next-level-racing-motion-simulator-platform-v3-1
 [mplus]: https://store-us.nextlevelracing.com/products/next-level-racing-motion-plus
 [mega]: https://eracing-lab.com/products/rs-mega-plus

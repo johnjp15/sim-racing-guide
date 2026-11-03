@@ -45,7 +45,7 @@
 | Xbox | [Moza R3 Xbox bundle][r3x] $339 + [Playseat Challenge X][pcx] $300 | ~$640 |
 | PlayStation, direct drive | [Thrustmaster T598][t598] $600 (5 Nm, wheel, pedals) + GTLite Pro $299 | ~$900 |
 | PlayStation, r/simracing pick | [Logitech RS50][rs50] + [RS pedals][rsp] ~$700 to $800 + GTLite Pro $299 | ~$1,000 to $1,100 |
-| PlayStation, in budget | [Thrustmaster T248][t248] $300 + GTLite $199. Not direct drive | ~$500 |
+| PlayStation, in budget | [Thrustmaster T248R][t248] $300 + GTLite $199. Not direct drive | ~$500 |
 
 - Cheapest foldable: [NLR GTLite Air][gtla] $179
 - PlayStation, launches Dec 3, 2026: Thrustmaster T-GT III. 5 Nm direct drive, load cell brake in the box
@@ -89,10 +89,8 @@
 | Folding seat | Next Level Racing GTLite Pro | $299 | [Next Level Racing US][gtlp] |
 | **Total** | | **$678** | |
 
-- PC build. Cheapest new listings found on 2026-10-09. Tax and shipping extra
-- Seen lower, not confirmed: R5 bundle $349.99 at [Best Buy][r5bb]
-- Same price elsewhere: GTLite Pro $299.99 at [Best Buy][gtlpbb]
-- On sale 2026-11-02: RS50 System $529.99 to $629.99 and RS Pedals $149.99 (Logitech G, no end date), GTLite Air $149 (nextlevelracing.com, US store not confirmed)
+- PC build. Cheapest new listings found on 2026-11-02. Tax and shipping extra
+- On sale 2026-11-02: RS50 System $529.99 to $629.99 and RS Pedals $149.99 (Logitech G, no end date)
 
 ## Related pages
 
@@ -110,8 +108,6 @@
 [wsl]: https://store-us.nextlevelracing.com/products/next-level-racing-ws-lite-2-0
 [pcx]: https://www.logitechg.com/en-us/shop/p/playseat-challenge-x-sim-racing-seat
 [t598]: https://www.thrustmaster.com/en-us/products/t598/
-[t248]: https://www.thrustmaster.com/en-us/products/t248/
+[t248]: https://eshop.thrustmaster.com/en_us/t248r-us.html
 [rs50]: https://www.logitechg.com/en-us/shop/p/rs50-system
 [rsp]: https://www.logitechg.com/en-us/shop/p/rs-pedals
-[r5bb]: https://www.bestbuy.com/product/moza-racing-r5-direct-drive-sim-racing-bundle-with-5-5nm-of-force-for-pc-black/J3R84PHT5S
-[gtlpbb]: https://www.bestbuy.com/product/next-level-racing-nlr-s031-gtlite-pro-foldable-racing-cockpit-black/J3R8K883S7

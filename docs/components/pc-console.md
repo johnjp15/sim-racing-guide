@@ -17,7 +17,7 @@
 | PS5 | $600 to $650, refurb $499. Pro $900 | Gran Turismo 7, zero setup, PS VR2 | Fewest wheels work, costs more at every tier |
 | Xbox Series S / X | $500 / $750 to $800 | Forza, Game Pass, Moza R3 works | Forza Motorsport no longer updated |
 | PC, entry | ~$1,150 | Every sim, every wheel, all the free software | Setup and tinkering |
-| PC, mid | ~$1,850 to $2,200 | Ultrawide, entry triples, Quest VR | Price |
+| PC, mid | ~$2,200 to $2,300 | Ultrawide, entry triples, Quest VR | Price |
 | PC, high | ~$3,200 | Triple 1440p, most VR | Price |
 
 - Own a console: use it. Every console wheel also works on PC later
@@ -29,7 +29,7 @@
 | Level | Parts class | Runs |
 |---|---|---|
 | Entry, ~$1,150 | Ryzen 5 + RX 9060 XT 16 GB or RTX 5060 | Single 1080p / 1440p |
-| Mid, ~$2,000 | X3D CPU + RTX 5070 or RX 9070 XT | Ultrawide, triple 1080p, Quest VR |
+| Mid, ~$2,200 to $2,300 | X3D CPU + RTX 5070 or RX 9070 XT | Ultrawide, triple 1080p, Quest VR |
 | High, ~$3,200 | 9800X3D + RTX 5070 Ti to 5080 | Triple 1440p, most VR |
 
 | Topic | Rule |
@@ -82,14 +82,14 @@
 | Type | Product | Price | Buy |
 |---|---|---|---|
 | Console | PlayStation 5 | $600 to $650, refurb $499 | [PlayStation Direct][ps5] |
-| Console | Xbox Series S / X | $500 / $750 to $800 | [Xbox][xbox] |
+| Console | Xbox Series S / X | $500 / $750 to $800 | [Microsoft Store][xbox] |
 | PC, any level | Part lists by budget | $1,150 to $3,200 | [PCPartPicker build guides][pcpp] |
 | GPU, entry | RTX 5060 / RX 9060 XT 16 GB | See listing | [Newegg search][g5060] |
 | GPU, mid | RTX 5070 / RX 9070 XT | See listing | [Newegg search][g5070] |
-| GPU, triple 1440p | RTX 5070 Ti | ~$860 | [Newegg search][g5070ti] |
+| GPU, triple 1440p | RTX 5070 Ti | ~$960 | [Newegg search][g5070ti] |
 | GPU, high refresh | RTX 5080 | See listing | [Newegg search][g5080] |
 | CPU | Ryzen 7 9800X3D | See listing | [Newegg search][x3d] |
-| Prebuilt PC | Gaming desktops with the GPUs above | $1,300 to $2,000+ | [Newegg search][prebuilt] |
+| Prebuilt PC | Gaming desktops with the GPUs above | $1,300 to $2,300+ | [Newegg search][prebuilt] |
 
 - GPU and RAM prices move week to week in 2026. The search links show today's price
 - Prebuilt checklist: 32 GB RAM, DDR5, 1 TB+ SSD, a named power supply brand, the 16 GB GPU variant
@@ -100,8 +100,8 @@
 - [Displays](displays-vr.md)
 - [Wheelbase](wheelbases.md)
 
-[ps5]: https://direct.playstation.com/en-us/ps5
-[xbox]: https://www.xbox.com/en-US/consoles
+[ps5]: https://direct.playstation.com/en-us/hardware/ps5/
+[xbox]: https://www.microsoft.com/en-us/store/b/xboxconsoles
 [pcpp]: https://pcpartpicker.com/guide/
 [g5060]: https://www.newegg.com/p/pl?d=rtx+5060
 [g5070]: https://www.newegg.com/p/pl?d=rtx+5070

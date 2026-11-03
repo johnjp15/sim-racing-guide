@@ -4,7 +4,7 @@
 
 <!-- Image source: https://simracingsetup.com/product-guides/best-aluminium-profile-sim-rigs/ -->
 
-<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, listings checked 2026-10-09. "est" = estimate, not sourced. -->
+<!-- Draft for you to edit. Facts from research-v2/05-tier-builds-used-market.md (sources there). Prices USD, listings checked 2026-11-02. "est" = estimate, not sourced. -->
 
 ## Cost
 
@@ -41,7 +41,7 @@
 | PlayStation / Xbox / PC | [Fanatec ClubSport DD+ GT3 bundle][csdd] $1,405 (18 Nm base, GT3 wheel, 3 pedals, load cell brake) + rig $499 + seat $369 | ~$2,275 |
 | PlayStation / Xbox / PC, Logitech | [PRO wheel 11 Nm][lpro] $1,000 to $1,200 + [PRO pedals][lped] $380 + rig $499 + seat $369 | ~$2,250 to $2,450 |
 
-- Other rigs: [Sim-Lab GT1 Evo][gt1] $449 (sold out), [RigMetal Plus][rmp] $539, [ASR 3][asr3] ~$550, [NLR GT Elite Lite][gtel] $599
+- Other rigs: [Sim-Lab GT1 Evo][gt1] $449 (sold out), [RigMetal Plus][rmp] $539, [ASR 3][asr3] CAD 830, [NLR GT Elite Lite][gtel] $599
 - Rig prices exclude seat, brackets and monitor stand
 - Not included: screen, shifter, handbrake
 
@@ -85,9 +85,9 @@
 | Monitor stand | Next Level Racing freestanding single stand | $199 | [Next Level Racing US][mon1] |
 | **Total** | | **$2,045** | |
 
-- PC build. Cheapest new listings found on 2026-10-09. Tax and shipping extra (Trak Racer quotes ~$30 per large item in the US)
+- PC build. Cheapest new listings found on 2026-11-02. Tax and shipping extra (Trak Racer quotes ~$30 per large item in the US)
 - The Moza bundle saves $19 over base and wheel bought apart
-- On sale 2026-11-02: TR80S $424.15 and RE2 seat with brackets $313.65 (Trak Racer, November sale), PRO wheel $799.99 to $999.99 (Logitech G, no end date), GT Elite Lite $499 (nextlevelracing.com, US store not confirmed)
+- On sale 2026-11-02: TR80S $424.15 and RE2 seat with brackets $313.65 (Trak Racer, November sale), PRO wheel $799.99 to $999.99 (Logitech G, no end date)
 
 ## Related pages
 

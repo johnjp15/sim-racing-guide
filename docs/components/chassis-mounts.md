@@ -138,7 +138,7 @@ flowchart LR
 | Mainstream profile | Sim-Lab GT1 Evo | $449 | [Sim-Lab US][gt1] |
 | Mainstream profile | Trak Racer TR80S | $499 | [Trak Racer][tr80] |
 | Mainstream profile | RigMetal Plus | $539 | [RigMetal][rmp] |
-| Mainstream profile | ASR 3 | ~$550 | [Advanced SimRacing][asr3] |
+| Mainstream profile | ASR 3 | CAD 830 | [Advanced SimRacing][asr3] |
 | Heavy profile | Trak Racer TR160 V5 | $730 | [Trak Racer][tr160] |
 | Heavy profile | Sim-Lab P1X Pro | $789 | [Sim-Lab US][p1x] |
 | Heavy profile | Sim-Lab P1X Ultimate | $999 | [Sim-Lab US][p1xu] |
@@ -149,9 +149,9 @@ flowchart LR
 | Casters | Sim-Lab caster set | $30 | [Sim-Lab US][cast] |
 
 - Prices checked 2026-10-09 at the maker's own US store. Shipping and tax extra
-- Sold out on 2026-11-02: Sim-Lab GT1 Evo, restock due mid-November
+- Sold out on 2026-11-02 at Sim-Lab US: GT1 Evo (restock due mid-November), P1X Pro, P1X Ultimate, caster set
 - RigMetal Basic: final production run, then discontinued. Successor: RigMetal Updated Basic, $399
-- On sale 2026-11-02: TR40S $296.65, TR80S $424.15, TR160 V5 $620.50 and 22" to 32" triple stand $305.15 (Trak Racer, November sale), GTRacer 2.0 $399, GTLite Air $149 and Wheel Stand 2.0 $249 (nextlevelracing.com, US store not confirmed)
+- On sale 2026-11-02: TR40S $296.65, TR80S $424.15, TR160 V5 $620.50, 22" to 32" triple stand $305.15 and cockpit-mounted single stand $194.65 (Trak Racer, November sale)
 
 ## Related pages
 

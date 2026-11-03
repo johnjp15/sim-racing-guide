@@ -131,13 +131,13 @@ flowchart LR
 | Cheap fix | Moza brake kit for SR-P Lite | $29 | [Moza US][kit] |
 | Cheap fix | Moza brake kit for SRP Lite2, SRP2, CRP2 | $20 | [Moza US][kit2] |
 | Cheap fix | Fanatec CSL Pedals Load Cell Kit | $100 to $140 | [Fanatec][lck] |
-| Cheap fix | AXC TrueBrake, for Logitech pedals | ~GBP 45 to 60 | [AXC Sim][axc] |
+| Cheap fix | AXC TrueBrake, for Logitech pedals | GBP 60 | [AXC Sim][axc] |
 | Entry load cell | Simjack UT | ~$120 | [AliExpress search][simjack] |
 | Entry load cell | Moza SRP2 | $149 | [Moza US][srp2] |
 | Entry load cell | Simagic P500 | $149 | [Simagic][p500] |
 | Entry load cell | Logitech RS Pedals | $160 | [Logitech G][rsp] |
 | Entry load cell | Simagic P700 | $189 | [Simagic][p700] |
-| Entry load cell | Simsonn Plus X | from $192 | [Simsonn][simsonn] |
+| Entry load cell | Simsonn Plus X | from $206 | [Simsonn][simsonn] |
 | Entry load cell | Simnet SP Pro, 2 pedals | $209 | [Apex Sim Racing][simnet] |
 | Entry load cell | Fanatec CSL Pedals LC | $240 | [Fanatec][csllc] |
 | Entry load cell | Thrustmaster T-LCM | $250 | [Thrustmaster][tlcm] |
@@ -159,8 +159,8 @@ flowchart LR
 - Prices checked 2026-10-09. Moza, Simagic, Sim-Lab, Apex, Podium1 and Trak Racer from live store listings. Fanatec, Logitech and Thrustmaster from their sites earlier the same day
 - Simsonn sells for less on AliExpress: ~EUR 170 for two pedals
 - Announced: Fanatec ClubSport Pedals V4. Due 2027: Simucube ActivePedal Sport
-- Not shipping on 2026-11-02: Simucube ActivePedal Pro (pre-order), Fanatec Podium Pedals Formula (unavailable, the Sport set is in stock)
-- On sale 2026-11-02, no end date: RS Pedals $149.99 (Logitech G)
+- Not shipping on 2026-11-02: Simucube ActivePedal Pro (pre-order), Fanatec Podium Pedals Formula (unavailable, the Sport set is in stock), Sim-Lab XP1 (sold out)
+- On sale 2026-11-02, no end date: RS Pedals $149.99 (Logitech G), Plus X from $176 (Simsonn)
 
 ## Related pages
 
@@ -189,7 +189,7 @@ flowchart LR
 [p1000]: https://simagic.com/products/p1000-f
 [csv3]: https://www.fanatec.com/us/en/p/pedals/csp_v3/clubsport-pedals-v3
 [forte]: https://podium1racing.com/products/asetek-forte-pedals-set-brake-and-throttle
-[sprint]: https://trakracer.com/products/heusinkveld-sprint-2-pedal-set-black
+[sprint]: https://trakracer.com/collections/heusinkveld
 [p2000]: https://simagic.com/products/p2000-r
 [fped]: https://www.fanatec.com/us/en/c/pedals
 [asetek]: https://www.asetek.com/simsports/

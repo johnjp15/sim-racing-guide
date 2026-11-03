@@ -54,7 +54,10 @@ Written 2026-10-10. Read this first. Per-topic detail lives in the session memor
 - Moving or renaming a heading breaks `#anchor` links, and the default build does not catch it. Check with a strict build that sets `validation: links: anchors: warn`
 - External links are reference style: `[Moza US][r5]`, definitions at the bottom of the file. Links between pages are relative Markdown links, with `#anchor` for a section
 - Mermaid labels must not start with `1. ` (use `First<br>...`)
-- Prices are USD from live store listings, checked 2026-10-09. Many stores are Shopify: `https://<store>/products.json` and `/products/<handle>.js` give price and stock
+- Prices are USD from live US store listings, checked 2026-10-09 and rechecked 2026-11-02 (what is still open: `research-v2/13`). Many stores are Shopify: `https://<store>/products.json` and `/products/<handle>.js` give price and stock
+- Non-US stores (Ascher, Cube Controls, Pro-Sim, AXC, GPR, RaceKraft, ASR, SHH) show their own currency, not a converted USD figure
+- nextlevelracing.com is NLR's International store. US prices come from store-us.nextlevelracing.com or US retailers
+- In a text fetch, "Sold out" can be template text on Shopify stores. Trust the buy button and variant state
 - Component photos are maker product photos, not freely licensed. `pc.jpg` is still an older stock photo
 
 ## Build and publish
@@ -80,12 +83,13 @@ Written 2026-10-10. Read this first. Per-topic detail lives in the session memor
 - 2026-10-10: John started hand-editing in Obsidian, beginning with the Quick Start Guide
 - 2026-11-02: team pass from a cloud session: content audit of every page, live price check, independent review. 3D page untouched. Sale convention: regular prices in tables, short sales in one dated "On sale 2026-11-02" bullet per page (delete when the sales end)
 - 2026-11-02: reorganization pass: one home per topic, duplicates replaced with links (31 topics mapped), Home trimmed to a hub, Buying Smart moved before First Setup, Draft Guide taken off the live site
+- 2026-11-02 evening: recheck of the morning's unverified items. Tier 0 to 3 example builds fully verified. Tier 4 and 5 totals up $300 (Samsung G50F regular $350). Tier 2 Fanatec Xbox row fixed (the bundle's P1 V2 does not work on Xbox)
 
 ## Open items
 
-- `research-v2/13-open-items-2026-11-02.md`: links and facts not yet rechecked (search budget ran out) and decisions for John
-- Best Buy prices (Moza R5 bundle $349.99, Samsung G50F $249.99) are unconfirmed: its pages block direct reads
-- Stock as of 2026-11-02: TR80S and D-BOX bundle back in stock; Co-Pedal and ActivePedal Pro pre-order; GT1 Evo sold out
+- `research-v2/13-open-items-2026-11-02.md`: what is still unverified, and decisions for John
+- Agents cannot read NLR's US store, Parts Express, Amazon or meta.com. Check those in a browser
+- Stock as of 2026-11-02: TR80S and D-BOX bundle in stock; Co-Pedal and ActivePedal Pro pre-order; Sim-Lab cockpits, XP1 pedals and casters sold out; VRS DirectForce Pro discontinued in its US shop
 - Tier 2 example build ($1,058) sits below its cost heading; headings were left as John wrote them. Options in file 13
 - Tier photos and the PC / Console photo have not been refreshed
 - The `!!! info "NEW PAGE"` boxes on five pages wait for John to keep or delete

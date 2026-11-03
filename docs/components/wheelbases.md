@@ -72,7 +72,7 @@ flowchart LR
 |---|---|---|---|
 | Logitech G29 / G923 PS, RS50 PS, PRO PS | Yes | Yes | RS50 / PRO with Xbox hub |
 | Logitech G920 / G923 Xbox | Yes | No | Yes |
-| Thrustmaster T248 PS, T300, T598 PS | Yes | Yes | No |
+| Thrustmaster T248R, T300, T598 PS | Yes | Yes | No |
 | Thrustmaster T248 Xbox, T598 Xbox | Yes | No | Yes |
 | Fanatec GT DD Pro, ClubSport DD+ | Yes | Yes | With an Xbox wheel |
 | Fanatec CSL DD, ClubSport DD, Podium DD | Yes | No | With an Xbox wheel |
@@ -129,7 +129,7 @@ flowchart LR
 | High | Moza R21 Ultra, 21 Nm | $699 | [Moza US][r21] |
 | High | Simagic Alpha Evo Pro, 18 Nm, 21 Nm by free update | $699 | [Simagic][evo] |
 | High | Fanatec ClubSport DD / DD+ | $700 / $900 | [Fanatec][fbase] |
-| High | VRS DirectForce Pro, 20 Nm | $799 | [VRS][vrs] |
+| High | VRS DirectForce Pro, 20 Nm (discontinued in VRS's US shop, 2026-11-02) | $799 | [VRS][vrs] |
 | Endgame | Moza R25 Ultra, 25 Nm | $899 | [Moza US][r25] |
 | Endgame | Simagic Alpha Evo Ultra, 28 Nm | $969 | [Simagic][evou] |
 | Endgame | Fanatec Podium DD, 25 Nm | $1,200 | [Fanatec][pdd] |
@@ -153,7 +153,7 @@ flowchart LR
 [g29a]: https://www.amazon.com/dp/B00Z0UWWYC
 [g923]: https://www.logitechg.com/en-us/shop/p/g923-trueforce-sim-racing-wheel
 [t248]: https://www.thrustmaster.com/en-us/products/t248/
-[t300]: https://eshop.thrustmaster.com/en_us/products-steering-wheels.html
+[t300]: https://eshop.thrustmaster.com/en_us/t300-gt-edition.html
 [t598]: https://www.thrustmaster.com/en-us/products/t598/
 [r3]: https://us.mozaracing.com/products/r3-racing-bundle-pc
 [r3x]: https://us.mozaracing.com/products/r3-racing-bundle-xbox

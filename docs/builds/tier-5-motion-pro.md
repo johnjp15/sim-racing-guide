@@ -38,9 +38,9 @@
 
 | Build | What | Total |
 |---|---|---|
-| Full | [Simucube 2 Pro][sc2] $1,299 + [wheel][tahko] $649 + [active brake][ap] $1,849 + [throttle][cop] $499 + [Link Hub][hub] $150 + [rig with D-BOX motion][dbox] $6,384 + [bucket seat][seat] $399 + [belt tensioner][bt1] $1,839 + [triple stand][mon3] $359 + 3× [32" monitor][g50f] $750 | ~$14,180 |
-| Motion lite | [Moza R25 Ultra][r25] $899 + [CS Pro wheel][cspro] $329 + [mBooster active pedal set][mb] $949 + [Moza HMA150 motion][hma] $2,999 + [TR160 V5 rig][tr160] $730 + seat $399 + stand $359 + monitors $750 | ~$7,410 |
-| 2DOF, whole rig moves | Tier 4 build on an NLR Elite rig + [NLR Motion Plus][mplus] $2,799 | ~$6,500 to $7,500 |
+| Full | [Simucube 2 Pro][sc2] $1,299 + [wheel][tahko] $649 + [active brake][ap] $1,849 + [throttle][cop] $499 + [Link Hub][hub] $150 + [rig with D-BOX motion][dbox] $6,384 + [bucket seat][seat] $399 + [belt tensioner][bt1] $1,839 + [triple stand][mon3] $359 + 3× [32" monitor][g50f] $1,050 | ~$14,480 |
+| Motion lite | [Moza R25 Ultra][r25] $899 + [CS Pro wheel][cspro] $329 + [mBooster active pedal set][mb] $949 + [Moza HMA150 motion][hma] $2,999 + [TR160 V5 rig][tr160] $730 + seat $399 + stand $359 + monitors $1,050 | ~$7,710 |
+| 2DOF, whole rig moves | Tier 4 build on an NLR Elite rig + [NLR Motion Plus][mplus] ~$3,000 | ~$7,000 to $8,000 |
 
 - PC only: motion reads PC telemetry
 - Belt tensioner: owners with both rate it above motion alone. Buy it first. See [Motion & Immersion](../components/immersion.md#belt-tensioner)
@@ -91,13 +91,13 @@
 | Seat | Trak Racer GT Pro fiberglass bucket, with brackets | $399 | [Trak Racer][seat] |
 | Belt tensioner | Qubic QS-BT1, with 4-point harness | $1,839 | [Trak Racer][bt1] |
 | Triple stand | Trak Racer freestanding, 32" to 45" | $359 | [Trak Racer][mon3] |
-| Monitors | 3× Samsung Odyssey G5 G50F, 32" 1440p, flat | $750 | [Best Buy][g50f] |
-| **Total** | | **$14,177** | |
+| Monitors | 3× Samsung Odyssey G5 G50F, 32" 1440p, flat | $1,050 | [Best Buy][g50f] |
+| **Total** | | **$14,477** | |
 
 - PC build. Cheapest new listings found on 2026-10-09. Tax and freight extra
-- The rig and D-BOX bundle saves $336 over buying them apart ($730 + $5,990)
-- Stock moves. On 2026-11-02 the ActivePedal Pro and Co-Pedal were pre-order only, and the Tahko Round was listed as sold out
-- On sale 2026-11-02: TR160 V5 $620.50, GT Pro seat with brackets $339.15 and triple stand $305.15 (Trak Racer, November sale)
+- Rig and D-BOX bundle: regular $6,720, the same as the parts bought apart ($730 + $5,990). The $6,384 is a 5% sale, $336 off
+- Stock moves. On 2026-11-02 the ActivePedal Pro and Co-Pedal were pre-order only
+- On sale 2026-11-02: TR160 V5 $620.50, GT Pro seat with brackets $339.15 and triple stand $305.15 (Trak Racer, November sale), Samsung G50F $209.99 (Best Buy, no end date)
 
 ## Related pages
 
