@@ -76,11 +76,13 @@ Written 2026-10-10. Read this first. Per-topic detail lives in the session memor
 - 2026-10-09: research v2, Reddit-first rewrite, full audit, F1 Arcade removed, example builds and buy tables, new layout, new component photos, Quick and Slow Start drafts
 - 2026-10-09: 3D wheel zoom fixed (OrbitControls updated to three 0.160.1; the old file broke below 100% page zoom)
 - 2026-10-10: John started hand-editing in Obsidian, beginning with the Quick Start Guide
+- 2026-11-02: team pass from a cloud session: content audit of every page, live price check, independent review. 3D page untouched. Sale convention: regular prices in tables, short sales in one dated "On sale 2026-11-02" bullet per page (delete when the sales end)
 
 ## Open items
 
+- `research-v2/13-open-items-2026-11-02.md`: links and facts not yet rechecked (search budget ran out) and decisions for John
 - Best Buy prices (Moza R5 bundle $349.99, Samsung G50F $249.99) are unconfirmed: its pages block direct reads
-- Some example-build items were back-ordered when checked (TR80S, D-BOX bundle, Co-Pedal, GT1 Evo)
-- Tier 2 example build ($1,058) sits below its cost heading; headings were left as John wrote them
+- Stock as of 2026-11-02: TR80S and D-BOX bundle back in stock; Co-Pedal and ActivePedal Pro pre-order; GT1 Evo sold out
+- Tier 2 example build ($1,058) sits below its cost heading; headings were left as John wrote them. Options in file 13
 - Tier photos and the PC / Console photo have not been refreshed
 - The `!!! info "NEW PAGE"` boxes on five pages wait for John to keep or delete

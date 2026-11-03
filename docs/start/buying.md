@@ -34,7 +34,7 @@ flowchart LR
 | PC | Pedals, shifters, handbrakes from any brand plug in by USB |
 | Console | Everything must plug into the same brand's wheelbase |
 | PlayStation | Support lives in the wheelbase. It cannot be added later |
-| Xbox | On Fanatec and Moza, support comes from the wheel rim |
+| Xbox | On Fanatec and Moza, support comes from the wheel rim. On Moza only the R3 Xbox bundle is certain |
 
 - Xbox and PlayStation versions look identical. Check the exact model before paying
 
@@ -44,7 +44,7 @@ flowchart LR
 |---|---|
 | Sales tax | Up to 10% |
 | Rig shipping | $30 to $250 |
-| Seat, brackets, slider | $250 to $450. Most profile rigs ship without |
+| Seat, brackets, slider | $290 to $570. Most profile rigs ship without |
 | Monitor stand | $200 single, $300 to $360 triple |
 | Pedals, when a "system" has none | $130 to $160 |
 | Console tax | Moza Xbox wheel $129, Logitech Xbox hub $150 to $190 |
@@ -83,6 +83,7 @@ flowchart LR
 | Moza | Everyday prices already match last Black Friday. Waiting saves little. Bundles beat single parts |
 | Fanatec, Thrustmaster | 20 to 35% off in late November. Waiting pays |
 | Logitech | Discounted all year. Never pay list |
+| PlayStation | New direct drive bundles due: Thrustmaster T-GT III with load cell pedals (Dec 3), Moza R5S Pro and R16S Ultra (no date yet). Compare before buying |
 | GPUs, RAM, consoles, VR headsets | 2026 is a bad year for anything with memory in it. Prices are up |
 | Monitors | Got cheaper |
 

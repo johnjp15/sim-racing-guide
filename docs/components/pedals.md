@@ -14,7 +14,7 @@
 
 ```mermaid
 flowchart LR
-    A[Spring brake<br>in the bundle] --> B[Entry load cell<br>$120 to $250] --> C[Mid load cell<br>$330 to $600] --> D[High end, hydraulic<br>$600 to $1,300] --> E[Active<br>$760 to $1,850 per pedal]
+    A[Spring brake<br>in the bundle] --> B[Entry load cell<br>$120 to $250] --> C[Mid load cell<br>$330 to $600] --> D[High end, often hydraulic<br>$600 to $1,300] --> E[Active<br>$760 to $1,850 per pedal]
 ```
 
 | Level | Price | Feels like | Buy if |
@@ -39,6 +39,7 @@ flowchart LR
 | Moza CRP2 | Some call it poor value next to the Simagic P700 or Sim-Lab XP1 |
 | Moza SR-P Lite (in the R3 / R5 bundles) | Soft spring brake. The first thing to replace |
 | Moza mBooster | Owners split. Good brake, grainy throttle |
+| Simagic P-ACTIVE | New active pedal, ships Nov 2026. PC only, fits P1000 / P2000. No owner reports yet |
 
 ## Sensor types
 
@@ -102,7 +103,7 @@ flowchart LR
 |---|---|
 | PC | Any USB pedals with any wheel |
 | Console | Pedals plug into the same brand's wheelbase. Never into the console |
-| Console load cells | Fanatec, Logitech, Thrustmaster only |
+| Console load cells | Fanatec, Logitech, Thrustmaster. Moza on Xbox only |
 | Moza pedals | PC, and Xbox only through an Xbox-capable Moza setup |
 | Simagic, Heusinkveld, Asetek, Simucube | PC only |
 
@@ -157,6 +158,9 @@ flowchart LR
 
 - Prices checked 2026-10-09. Moza, Simagic, Sim-Lab, Apex, Podium1 and Trak Racer from live store listings. Fanatec, Logitech and Thrustmaster from their sites earlier the same day
 - Simsonn sells for less on AliExpress: ~EUR 170 for two pedals
+- Announced: Fanatec ClubSport Pedals V4. Due 2027: Simucube ActivePedal Sport
+- Not shipping on 2026-11-02: Simucube ActivePedal Pro (pre-order), Fanatec Podium Pedals Formula (unavailable, the Sport set is in stock)
+- On sale 2026-11-02, no end date: RS Pedals $149.99 (Logitech G)
 
 ## Related pages
 

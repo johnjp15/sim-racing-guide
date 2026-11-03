@@ -25,7 +25,7 @@ flowchart LR
 | Intro direct drive, 3 to 6 Nm | $280 to $600 in a bundle | Smooth, quiet, detailed. Light | First wheel bought new |
 | Mid direct drive, 8 to 12 Nm | $300 to $520 base only | Real weight in fast corners. Headroom | Most people. The "forever" base |
 | High, 15 to 21 Nm | $530 to $900 base only | Strong enough to hurt in a crash | Rigid rig already owned |
-| Endgame, 25 Nm+ | $900 to $3,300 base only | Smoothest and fastest. Most owners run it at 30 to 60% | You know exactly why |
+| Endgame, 25 Nm+ | $900 to $3,300 base only | Smoothest, quickest to react. Most owners run it at 30 to 60% | You know exactly why |
 
 ## Picks
 
@@ -63,7 +63,7 @@ flowchart LR
 | Fanatec | Most wheels. Works on PlayStation and Xbox. The console default | Proprietary wheels. Software and firmware complaints. On PC most now pick Moza or Simagic |
 | Simagic | Best-regarded feel for the money | PC only |
 | Logitech | Easiest on console. One base covers PC + PS + Xbox with the right hub. Reliable | Adds up once pedals and hub are in |
-| Thrustmaster | T598: cheapest PlayStation direct drive | Thin lineup, old belt wheels overpriced at list |
+| Thrustmaster | T598: cheapest PlayStation direct drive. T-GT III (PlayStation, 5 Nm, load cell brake) launches Dec 3, 2026. PC support not yet stated | Thin lineup, old belt wheels overpriced at list |
 | Simucube | The reference. Huge third-party wheel scene | PC only, price |
 
 ## Compatibility
@@ -127,7 +127,7 @@ flowchart LR
 | Mid direct drive | Fanatec GT DD Pro, 8 Nm bundle | $860 | [Fanatec][gtdd] |
 | High | Moza R16 Ultra, 16 Nm | $529 | [Moza US][r16] |
 | High | Moza R21 Ultra, 21 Nm | $699 | [Moza US][r21] |
-| High | Simagic Alpha Evo Pro, 18 Nm | $699 | [Simagic][evo] |
+| High | Simagic Alpha Evo Pro, 18 Nm, 21 Nm by free update | $699 | [Simagic][evo] |
 | High | Fanatec ClubSport DD / DD+ | $700 / $900 | [Fanatec][fbase] |
 | High | VRS DirectForce Pro, 20 Nm | $799 | [VRS][vrs] |
 | Endgame | Moza R25 Ultra, 25 Nm | $899 | [Moza US][r25] |
@@ -139,6 +139,7 @@ flowchart LR
 - Prices checked 2026-10-09. Moza, Simagic and Simucube from live store listings. Fanatec, Logitech and Thrustmaster from their sites earlier the same day
 - Moza sells base + wheel bundles for less than the parts: [R9 + KS wheel][r9ks] $509, [R12 + KS wheel][r12ks] $609
 - G29: $189.98 at Amazon in a deal reported 2026-10-07
+- On sale 2026-11-02, no end date: G923 $229.99, RS50 with wheel $529.99 to $629.99, PRO with wheel $799.99 to $999.99 (Logitech G)
 
 ## Related pages
 

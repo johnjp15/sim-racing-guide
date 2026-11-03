@@ -49,20 +49,20 @@
 - Mods (Assetto Corsa's whole appeal)
 - Triples and ultrawide
 - Mixed brands: any pedals, shifter, handbrake by USB
-- SimHub, Crew Chief, bass shakers, motion
+- SimHub, Crew Chief, motion, bass shakers run from telemetry
 
 ## Console wheel rules
 
 - Console wheels need a licensed chip. A PC wheel will not "just work"
 - PlayStation: the chip is in the wheelbase
-- Xbox on Fanatec and Moza: the chip is in the wheel rim
+- Xbox on Fanatec and Moza: the chip is in the wheel rim. On Moza only the R3 Xbox bundle is certain
 - Other brands sell separate PlayStation and Xbox versions that look identical
 - Pedals and shifters must plug into the same brand's base, not the console
 
 | Brand | PlayStation | Xbox |
 |---|---|---|
 | Logitech | G29, G923 PS, RS50 PS, PRO PS | G920, G923 Xbox, RS50 / PRO with Xbox hub |
-| Thrustmaster | T248 PS, T300, T598 PS | T248 Xbox, T598 Xbox |
+| Thrustmaster | T248 PS, T300, T598 PS. T-GT III launches Dec 3, 2026 | T248 Xbox, T598 Xbox |
 | Fanatec | GT DD Pro, ClubSport DD+ | Any base with an Xbox wheel |
 | Moza | No. R5S Pro and R16S Ultra announced Sept 2026, no price or date | R3 Xbox bundle |
 | Simagic, Simucube | No | No |
@@ -73,7 +73,7 @@
 |---|---|---|---|
 | Gran Turismo 7 | Yes | No | No |
 | Forza Motorsport | No | Yes | Yes |
-| Forza Horizon 6 | Planned | Yes | Yes |
+| Forza Horizon 6 | Jan 26, 2027 | Yes | Yes |
 | F1 25 | Yes | Yes | Yes |
 | Assetto Corsa Competizione | Yes | Yes | Yes |
 | EA Sports WRC | Yes | Yes | Yes |
@@ -86,7 +86,7 @@
 - Waiting for the next GPU generation
 - "Build it yourself, always cheaper." Not in 2026
 - Adapters that promise any wheel on any console. Some work (Brook with a Moza R9 on PS5), with weak force feedback, and can break with updates
-- "iRacing is on console." iRacing Arcade and NASCAR 25 are different games
+- "iRacing is on console." iRacing Arcade and NASCAR 26 are different games
 
 ## By tier
 

@@ -83,11 +83,11 @@
 | Try it | Meta Quest 3S | 1832 x 1920 | Cheapest test |
 | Default | Meta Quest 3 | 2064 x 2208 | Easy, wireless. The PC picture is streamed and compressed. The first headset to buy |
 | Console | PS VR2 | 2000 x 2040 OLED | Gran Turismo 7 on PS5. Works on PC with an adapter. Good value used |
-| Wireless PC | Valve Steam Frame | 2160 x 2160 | New, Sept 2026, sold by lottery. Streamed only, no cable. Too new for owner reports |
+| Wireless PC | Valve Steam Frame | 2160 x 2160 | New, Sept 2026, sold by lottery. Order windows run into 2027. Streamed only, no cable. Too new for owner reports |
 | Sharp, cheaper | Pimax Crystal Light | 2880 x 2880 | Sharp, but heavy: 800 g+ on your head |
 | Light | Bigscreen Beyond 2 | 2560 x 2560 OLED | 107 g. Needs base stations |
 | Light, mid GPU | Pimax Dream Air SE | 2560 x 2560 OLED | Under 140 g. Easier on the GPU than the full Dream Air |
-| Sharpest | Pimax Dream Air | 3840 x 3552 OLED | 90 Hz, eye tracking. Nothing else is this sharp and this light. Divides owners |
+| Sharpest lightweight | Pimax Dream Air | 3840 x 3552 OLED | 90 Hz, eye tracking. Nothing else is this sharp and this light. Divides owners |
 
 - Try a Quest before spending $900+
 - Own a Quest 3 and happy: no reason to upgrade
@@ -95,7 +95,7 @@
 - Resolution costs GPU. A sharp headset on a mid PC looks worse than a Quest 3 running smoothly
 - You sit still and face forward, so tracking matters less than in other VR games
 - Base stations: tracking boxes on the wall. Not in the box. Budget $300+ and check stock
-- Announced, not out: Pimax Crystal Pro, $1,399, wireless
+- Announced, ships spring 2027: Pimax Crystal Pro, $1,399, wireless
 
 ### Pimax Dream Air
 
@@ -107,7 +107,7 @@
 | Owners, for | "Pimax looks like you're there, while Quest 3 makes you feel you're playing a game". Some sold their triples |
 | Owners, against | Fiddly setup, OLED smearing, face pad comfort, short cable. One RTX 5090 owner sent it back and bought triples |
 | Self-tracking version | Tracking now rated on par with Quest 3. Costs more, needs nothing on the wall |
-| Price | Split: part up front, the rest after a 14-day trial. Add both |
+| Price | One full payment on Pimax's store (Nov 2026). No longer split around a 14-day trial |
 | Weight | "170 g" is the visor alone. ~300 g with the strap, per one review |
 
 ## Panel types
@@ -123,8 +123,7 @@
 | Tier | Display |
 |---|---|
 | 0 to 1 | What you own, moved close |
-| 2 | Single 27" or 34" ultrawide |
-| 3 | 34" ultrawide |
+| 2 to 3 | What you own, on its own stand. Upgrade: 34" ultrawide |
 | 4 | Triples, or VR (Quest 3, Dream Air SE) |
 | 5 | Triple 32", or Pimax Dream Air |
 
@@ -186,6 +185,6 @@
 [psvr2]: https://www.playstation.com/en-us/ps-vr2/
 [frame]: https://store.steampowered.com/hardware/steamframe
 [pcl]: https://store.pimax.com/products/pimax-crystal-light
-[bsb]: https://bigscreenvr.com/
+[bsb]: https://store.bigscreenvr.com/products/bigscreen-beyond-2
 [dase]: https://store.pimax.com/products/pimax-dream-air-se
 [da]: https://store.pimax.com/products/pimax-dream-air

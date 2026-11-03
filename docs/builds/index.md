@@ -9,8 +9,8 @@
 | [0: Desk Starter](tier-0-desk-starter.md) | $200 to $400 | Desk clamp | 2 to 6 Nm | Spring | Yours | [$379](tier-0-desk-starter.md#example-build) |
 | [1: Foldable / Apartment](tier-1-foldable-apartment.md) | $500 to $700 | Folding seat or stand | 4 to 6 Nm direct drive | Spring | Yours | [$678](tier-1-foldable-apartment.md#example-build) |
 | [2: First Dedicated Rig](tier-2-first-dedicated-rig.md) | $1,200 to $1,600 | Steel cockpit or budget profile | 8 to 9 Nm | Entry load cell | Yours | [$1,058](tier-2-first-dedicated-rig.md#example-build) |
-| [3: Sweet Spot Enthusiast](tier-3-sweet-spot-enthusiast.md) | $1,800 to $2,200 | Aluminum profile | 12 Nm | Good load cell | Yours | [$2,045](tier-3-sweet-spot-enthusiast.md#example-build) |
-| [4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md) | $3,500 to $5,500 | Aluminum profile | 12 to 21 Nm | Good load cell | Triples or VR | [$3,566](tier-4-triples-vr-enthusiast.md#example-build) |
+| [3: Sweet Spot Enthusiast](tier-3-sweet-spot-enthusiast.md) | $1,800 to $2,200 | Aluminum profile | 12 Nm | Mid load cell | Yours | [$2,045](tier-3-sweet-spot-enthusiast.md#example-build) |
+| [4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md) | $3,500 to $5,500 | Aluminum profile | 12 to 21 Nm | Mid load cell | Triples or VR | [$3,566](tier-4-triples-vr-enthusiast.md#example-build) |
 | [5: Motion / Pro](tier-5-motion-pro.md) | $10,000 to $18,000 | Profile on motion actuators | 25 Nm | Active | Triples or VR | [$14,177](tier-5-motion-pro.md#example-build) |
 
 - Each tier page ends with a full example build: every part, price and a link to buy it
@@ -67,7 +67,7 @@ flowchart LR
 - vs G29, then foldable, then steel cockpit: ~$500 to $900 lost (est)
 - Skip Tier 1 unless it truly must fold away
 - Skip the Tier 2 steel cockpit if the floor space exists
-- PlayStation: no cheap direct drive first step. Used G29, or straight to a Logitech RS50 or Fanatec GT DD Pro
+- PlayStation: no cheap direct drive first step. Used G29, or straight to a Thrustmaster T598, Logitech RS50 or Fanatec GT DD Pro
 
 ## Related pages
 

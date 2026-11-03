@@ -22,9 +22,9 @@ flowchart LR
 | Desk clamp | $0, in the box | 2 to 5 Nm, 8 Nm on a heavy desk | Free, no space | Chair rolls, pedals slide, setup every time |
 | Wheel stand | $180 to $280 | ~8 Nm | Folds, use your own chair | Chair still moves |
 | Foldable seat | $180 to $300 | ~8 Nm in practice | Real seating position, closet storage | Pedal end flexes under hard braking, no upgrade path |
-| Steel tube cockpit | $250 to $600 | ~10 Nm | Seat included, tidy enough for a living room | Limited adjustment, proprietary add-ons, replaced later |
+| Steel tube cockpit | $250 to $600 | ~10 Nm | Seat often included, tidy enough for a living room | Limited adjustment, proprietary add-ons, replaced later |
 | Budget aluminum profile | $350 to $450, no seat | 10 to 16 Nm | Cheapest rigid option | Thin brackets, quality varies |
-| Mainstream aluminum profile | $450 to $600, no seat | 16 Nm+ | Zero flex, fully adjustable, anything bolts on | Industrial look, heavy, extras add up |
+| Mainstream aluminum profile | $450 to $600, no seat | Up to ~16 Nm | Zero flex, fully adjustable, anything bolts on | Industrial look, heavy, extras add up |
 | Heavy aluminum profile | $730 to $1,000, no seat | 30 Nm+, motion | Ready for anything | Overkill for a beginner |
 | DIY | $50 to $500 | Varies | Cheap, custom | Your time |
 
@@ -36,6 +36,7 @@ flowchart LR
 
 - Nothing moves when you brake hard. Pedal end first, wheel deck second
 - Wheel deck and pedal deck that fit your gear's bolt pattern
+    - Front-mount bases (Simucube 2, VRS) may need a front-mount bracket, sold separately
 - Adjustability: seat, pedal and wheel distance and angle
 - Where the monitor goes
 - Whether it has to pack away. Pack-away rigs only get used if setup takes about a minute
@@ -149,7 +150,9 @@ flowchart LR
 | Casters | Sim-Lab caster set | $30 | [Sim-Lab US][cast] |
 
 - Prices checked 2026-10-09 at the maker's own US store. Shipping and tax extra
-- Out of stock when checked: Sim-Lab GT1 Evo, RigMetal Basic
+- Sold out on 2026-11-02: Sim-Lab GT1 Evo, restock due mid-November
+- RigMetal Basic: final production run, then discontinued. Successor: RigMetal Updated Basic, $399
+- On sale 2026-11-02: TR40S $296.65, TR80S $424.15, TR160 V5 $620.50 and 22" to 32" triple stand $305.15 (Trak Racer, November sale), GTRacer 2.0 $399, GTLite Air $149 and Wheel Stand 2.0 $249 (nextlevelracing.com, US store not confirmed)
 
 ## Related pages
 

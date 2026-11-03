@@ -55,7 +55,7 @@
 | Tier | Sound |
 |---|---|
 | 0 to 2 | Headphones you own + Crew Chief |
-| 3 | Good headphones, one shaker |
+| 3 | Good headphones |
 | 4 | Shakers on seat and pedals |
 | 5 | Motion plus shakers |
 

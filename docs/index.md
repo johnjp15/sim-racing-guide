@@ -69,7 +69,7 @@ flowchart TD
 
 - Spend order: direct drive wheelbase first, then a load cell brake, then everything else
 - 5 to 8 Nm is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
-- Direct drive now starts at ~$280. Skip gear-driven wheels unless used
+- Direct drive now starts at ~$280 on PC. Skip gear-driven wheels unless used, or on a tight PlayStation budget
 - Used Logitech G29 at ~$120 resells for ~$120: a free trial
 - PlayStation is the expensive platform at every tier
 - Motion and big torque add immersion, not lap time

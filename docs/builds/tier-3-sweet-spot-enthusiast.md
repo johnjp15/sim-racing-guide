@@ -38,10 +38,10 @@
 |---|---|---|
 | PC | [Moza R12 V2 + KS wheel bundle][r12ks] $609 + [CRP2 load cell pedals][crp2] $369 + [Trak Racer TR80S rig][tr80] $499 + [reclining seat with brackets][re2] $369 + [monitor stand][mon1] $199 | ~$2,045 |
 | PC, Simagic | [Alpha Evo 12 Nm + GT Neo wheel][evo] $759 + [P1000 pedals][p1000] $419 + same rig, seat and stand $1,067 | ~$2,245 |
-| PlayStation / Xbox / PC | [Fanatec ClubSport DD+ GT3 bundle][csdd] $1,405 (base, wheel, 3 load cell pedals) + rig $499 + seat $369 | ~$2,275 |
-| Logitech | [PRO wheel 11 Nm][lpro] $1,000 to $1,200 + [PRO pedals][lped] $380 + rig $499 + seat $369 | ~$2,250 to $2,450 |
+| PlayStation / Xbox / PC | [Fanatec ClubSport DD+ GT3 bundle][csdd] $1,405 (18 Nm base, GT3 wheel, 3 pedals, load cell brake) + rig $499 + seat $369 | ~$2,275 |
+| PlayStation / Xbox / PC, Logitech | [PRO wheel 11 Nm][lpro] $1,000 to $1,200 + [PRO pedals][lped] $380 + rig $499 + seat $369 | ~$2,250 to $2,450 |
 
-- Other rigs: [Sim-Lab GT1 Evo][gt1] $449 (back-ordered), [RigMetal Plus][rmp] $539, [ASR 3][asr3] ~$550, [NLR GT Elite Lite][gtel] $599
+- Other rigs: [Sim-Lab GT1 Evo][gt1] $449 (sold out), [RigMetal Plus][rmp] $539, [ASR 3][asr3] ~$550, [NLR GT Elite Lite][gtel] $599
 - Rig prices exclude seat, brackets and monitor stand
 - Not included: screen, shifter, handbrake
 
@@ -87,7 +87,7 @@
 
 - PC build. Cheapest new listings found on 2026-10-09. Tax and shipping extra (Trak Racer quotes ~$30 per large item in the US)
 - The Moza bundle saves $19 over base and wheel bought apart
-- Stock moves. The TR80S page showed a back-order notice when checked
+- On sale 2026-11-02: TR80S $424.15 and RE2 seat with brackets $313.65 (Trak Racer, November sale), PRO wheel $799.99 to $999.99 (Logitech G, no end date), GT Elite Lite $499 (nextlevelracing.com, US store not confirmed)
 
 ## Related pages
 

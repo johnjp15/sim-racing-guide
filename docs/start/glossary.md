@@ -10,17 +10,20 @@
 | Wheelbase | The motor unit the steering wheel attaches to |
 | Rim | The steering wheel itself, often swappable |
 | FFB (force feedback) | Motor forces in the wheel that copy steering load and grip |
-| Nm (newton meter) | How strong a wheelbase is. Entry 2 to 5, mid 8 to 12, high 15+ |
+| Nm (newton meter) | How strong a wheelbase is. Entry 2 to 6, mid 8 to 12, high 15+ |
 | Gear drive | Motor to wheel through gears. Cheap, notchy, loud |
 | Belt drive | Motor to wheel through a belt. Smooth, mid-range |
-| DD (direct drive) | Wheel bolts straight to the motor. Strongest, most detail |
-| QR (quick release) | The coupling that lets you swap rims |
+| DD (direct drive) | Wheel bolts straight to the motor. Smooth, quiet, most detail |
+| QR (quick release) | The coupling that lets you swap rims. Fanatec QR1 (old) and QR2 (current) do not mix |
 | Ecosystem | One brand's family of bases, rims, pedals, shifters that work together |
-| Bundle | Wheelbase, wheel and pedals sold in one box |
+| Bundle | Parts sold together for less. Often wheelbase, wheel and pedals. Some leave the pedals out |
+| Licensed (console) | Has the chip that makes it work on PlayStation or Xbox. PlayStation: in the base. Xbox on Fanatec and Moza: in the wheel. On Moza only the R3 Xbox bundle is certain |
 | Paddles | Shifters behind the rim |
 | Potentiometer | Old contact sensor that reads pedal position. Wears out |
 | Hall sensor | Magnetic position sensor. No contact, lasts |
 | Load cell | Brake sensor that reads pressure, not travel |
+| Spring brake | The brake in most bundles. Reads how far you press, not how hard |
+| Hydraulic pedal | Brake with real fluid resistance. On cheap sets, just a small damper |
 | Elastomer | Rubber stack in a brake pedal that sets stiffness |
 | Active pedal | A motor creates the pedal feel and can change it per car |
 | Pedal haptics | Small motor on a pedal that buzzes for ABS, lockup, wheelspin |
@@ -31,7 +34,7 @@
 | Aluminum profile (8020, 4080) | Slotted aluminum beams. Stiff, adjustable, anything bolts on |
 | T-nut | Sliding nut that fits the profile slot. How everything bolts on |
 | Wheel stand | Folding frame for wheel and pedals, no seat |
-| Bass shaker / tactile | Speaker-like puck bolted to the rig. Vibrates with engine, kerbs, shifts |
+| Bass shaker / tactile | Speaker-like puck bolted to the seat or pedal plate. Vibrates with engine, kerbs, shifts |
 | Motion platform | Actuators that move the seat or the whole rig |
 | DOF | Degrees of freedom. How many directions a motion platform moves |
 | 3DOF | Pitch, roll, heave. The usual home motion system |
@@ -40,17 +43,20 @@
 | Belt tensioner | Motors that tighten the harness under braking |
 | Button box | Extra panel of switches and knobs |
 | DDU | Dash display unit. Small screen showing gear, speed, lap times |
+| X3D | AMD Ryzen CPUs like the 9800X3D. The usual pick for sims, which lean on the CPU |
 
 ## Screens
 
 | Term | Meaning |
 |---|---|
 | FOV (field of view) | Angle of the game world shown on screen. Should match your real viewing angle |
-| Ultrawide | One 21:9 or 32:9 monitor |
+| Ultrawide | One 21:9 monitor, usually 34". 32:9 (49") is super-ultrawide |
 | Triples | Three monitors wrapped around the driver |
+| 1000R, 1500R | Monitor curve. Smaller number, tighter curve. Triples want 1500R or flatter |
 | VR | Headset. Full depth and head tracking |
 | Base station | Tracking box on the wall that some VR headsets need |
-| IPD | Distance between your eyes. The one setting a VR headset needs |
+| IPD | Distance between your eyes. Set it on a VR headset instead of FOV |
+| Motion compensation | Stops the VR view drifting on a moving rig |
 | VRR | Variable refresh rate. Stops tearing when frame rate dips |
 
 ## Settings
@@ -90,6 +96,7 @@
 | Term | Meaning |
 |---|---|
 | Simcade | Between arcade and sim: GT7, Forza, F1 25 |
+| Early Access | Unfinished game, sold and updated during development |
 | iRating | iRacing's skill rating |
 | SR (safety rating) | How cleanly you drive. Unlocks license classes |
 | Split | One of several races run at once, grouped by skill |

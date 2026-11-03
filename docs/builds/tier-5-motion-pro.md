@@ -44,7 +44,8 @@
 
 - PC only: motion reads PC telemetry
 - Belt tensioner: owners with both rate it above motion alone. Buy it first
-- Newer base: [Simucube 3 Pro][sc3] $1,599. Its wheels are harder to find in stock
+- Newer base: [Simucube 3 Pro][sc3] $1,599, quick release and Link Hub sold separately. Its wheels are harder to find in stock
+- Motion lite: HMA150 orders now dispatch late December. A 40120 / 40160 rig with a closed center rail needs Moza's $49 adapter kit: check the TR160 V5
 - Not included: PC, freight, software licenses
 
 ## What it feels like
@@ -95,7 +96,8 @@
 
 - PC build. Cheapest new listings found on 2026-10-09. Tax and freight extra
 - The rig and D-BOX bundle saves $336 over buying them apart ($730 + $5,990)
-- Stock moves. The bundle and the Co-Pedal showed back-order dates in October 2026 when checked
+- Stock moves. On 2026-11-02 the ActivePedal Pro and Co-Pedal were pre-order only, and the Tahko Round was listed as sold out
+- On sale 2026-11-02: TR160 V5 $620.50, GT Pro seat with brackets $339.15 and triple stand $305.15 (Trak Racer, November sale)
 
 ## Related pages
 
@@ -118,7 +120,7 @@
 [g50f]: https://www.bestbuy.com/product/samsung-32-odyssey-g5-g50f-qhd-fast-ips-180hz-1ms-g-sync-freesync-compatible-gaming-monitor-displayport-hdmi-black/JJGRF363Q8/sku/6667827
 [r25]: https://us.mozaracing.com/products/r25-ultra
 [cspro]: https://us.mozaracing.com/products/cs-pro-wheel
-[mb]: https://us.mozaracing.com/products/mbooster-active-pedal
+[mb]: https://us.mozaracing.com/products/mbooster-pedal-set
 [hma]: https://us.mozaracing.com/products/hma150
 [tr160]: https://trakracer.com/products/tr160-v5
 [mplus]: https://store-us.nextlevelracing.com/products/next-level-racing-motion-plus

@@ -47,10 +47,9 @@
 | 32" | 61° | 54° | 39° |
 | 34" ultrawide | 67° | 59° | 43° |
 | 49" super-ultrawide | 90° | 81° | 62° |
-| 55" TV at 2.5 m | 27° | | |
 
 - Table: side-to-side view angle on a flat screen
-- A 27" monitor at arm's length shows twice what a 55" TV across the room does
+- 55" TV across the room (2.5 m): 27°. A 27" monitor at arm's length shows twice that
 - VR: no FOV setup. Set eye spacing (IPD) instead
 
 ## Wheel rotation
@@ -77,8 +76,8 @@
 
 - Calibrate in the maker's software first, then in each game
 - Load cell: set 100% at a force you can repeat for a whole race, not your one-time max
-- Beginner range: 20 to 40 kg
-- Small deadzone at the bottom so a resting foot does not drag the brake
+- Beginner range: 20 to 40 kg on a rig. Office chair or foldable: under ~25 kg
+- Small deadzone at the start of the travel, so a resting foot does not drag the brake
 - Pick socks or shoes and stick with one
 
 ## First weeks
@@ -102,8 +101,8 @@
 
 | Tool | Does |
 |---|---|
-| [Crew Chief](https://thecrewchief.org/) | Voice spotter ("car left") and race engineer. Free |
-| [SimHub](https://www.simhubdash.com/) | Dash on an old phone, drives bass shakers. Free, license from EUR 8 |
+| [Crew Chief][crew] | Voice spotter ("car left") and race engineer. Free |
+| [SimHub][simhub] | Dash on an old phone, drives bass shakers. Free, license from EUR 8 |
 | Maker software | Moza Pit House, Fanatec app, Simagic SimPro, Logitech G HUB. Update firmware first |
 
 ## Related pages
@@ -112,3 +111,6 @@
 - [Displays](../components/displays-vr.md)
 - [Wheelbase](../components/wheelbases.md)
 - [Pedals](../components/pedals.md)
+
+[crew]: https://thecrewchief.org/
+[simhub]: https://www.simhubdash.com/

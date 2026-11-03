@@ -19,7 +19,7 @@
 | Desk | Elgato Stream Deck, 15 keys | $150 | Labeled LCD keys. Flat, so poor by feel and in VR |
 | Entry box | Etsy, AliExpress, small makers | ~$80 to $200 | Real toggles and knobs. Works in VR |
 | DIY | Arduino or Leo Bodnar board + switches + printed case | Parts only | Popular first project |
-| Brand | Moza, Simagic, Fanatec, Sim-Lab boxes and dashes | $150 to $350 | Matches your wheelbase |
+| Brand | Moza, Simagic, Fanatec, Sim-Lab boxes and dashes | $150 to $350 | Matches your wheelbase or rig |
 | Endgame | Apex Sim Racing and similar | $500+ | Screen, lights and buttons in one |
 
 ## Dash displays: levels
@@ -59,10 +59,10 @@
 
 | Tool | Does | Cost |
 |---|---|---|
-| [SimHub][simhub] | Dash on a phone, drives shakers and LEDs | Free, license from EUR 8 |
+| [SimHub][simhub] | Dash on a phone, drives shakers and LEDs | Free, dashes at 10 fps. License from EUR 8 for 60 fps |
 | [Crew Chief][crew] | Voice spotter and engineer | Free |
 | [Content Manager][cm] | Launcher and mods for Assetto Corsa | Free, paid extras |
-| [Racelab][racelab], [iOverlay][iov] | On-screen overlays for iRacing | Free tier |
+| [Racelab][racelab], [iOverlay][iov] | On-screen overlays: relative (gaps to nearby cars), standings, radar. Racelab covers most sims, iOverlay only iRacing | Free tier. VR overlays: Racelab Pro |
 | [Garage 61][g61] | Telemetry and lap comparison for iRacing | Free tier |
 
 - Download SimHub only from its own site
@@ -105,6 +105,7 @@
 | Mount | Trak Racer universal mount for Stream Deck, tablet, button box | $119 | [Trak Racer][mount] |
 
 - Prices checked 2026-10-09. Moza, Simagic, Apex and Trak Racer from live store listings
+- On sale 2026-11-02: universal mount $101.15 (Trak Racer, November sale)
 
 ## Related pages
 
@@ -119,7 +120,7 @@
 [racelab]: https://racelab.app/
 [iov]: https://ioverlay.app
 [g61]: https://garage61.net/
-[deck]: https://www.elgato.com/us/en/p/stream-deck-mk2-black
+[deck]: https://www.elgato.com/us/en/p/stream-deck
 [etsybox]: https://www.etsy.com/search?q=sim+racing+button+box
 [etsydash]: https://www.etsy.com/search?q=sim+racing+dash+display+vocore
 [bodnar]: https://www.leobodnar.com/shop/

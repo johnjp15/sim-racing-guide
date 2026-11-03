@@ -18,6 +18,7 @@ From-scratch research, 2026-10-09. The older `research/` folder was not read and
 | 10-reddit-displays-pc-buying-advice.md | Community view | See "Reddit" below |
 | 11-refresh-2026-10-vr-motion-immersion.md | Oct 2026 refresh: Pimax Dream Air, Steam Frame, Moza HMA150, 3DOF vs 6DOF, shakers, belts, wind | Web research |
 | 12-reddit-2026-10-threads-read.md | r/simracing threads read directly: 28 questions, consensus, dissent, prices paid, quotes with URLs | Second agent (Muse) with a browser. Spot-checked over Reddit RSS |
+| 13-open-items-2026-11-02.md | After the 2026-11-02 fix-up: links and facts not yet rechecked, decisions for John | Team pass: content audit, live store checks, independent review |
 
 ## Reddit
 

@@ -51,15 +51,15 @@
 - Passenger seats have less wear
 - Manual seats, not powered
 - Keep the factory sliders
-- Airbag seats: unplug it, never power that connector
+- Airbag seats: leave the airbag unplugged, never power its connector
 
 ## By tier
 
 | Tier | Seat |
 |---|---|
 | 0 | Office chair with the wheels blocked |
-| 1 | Built into the foldable |
-| 2 | Comes with the cockpit |
+| 1 | Built into the foldable, or your own chair at a wheel stand |
+| 2 | Comes with most steel cockpits. Recliner on a budget profile rig |
 | 3 to 4 | Recliner or junkyard seat |
 | 5 | Bucket, sized for you |
 
@@ -87,6 +87,7 @@
 
 - Prices checked 2026-10-09 at the maker's own US store. Shipping and tax extra
 - Junkyard seats: your local pick-and-pull yard
+- On sale 2026-11-02: RE2 $254.15, $313.65 with brackets, and GT Pro $296.65, $339.15 with brackets (Trak Racer, November sale)
 
 ## Related pages
 

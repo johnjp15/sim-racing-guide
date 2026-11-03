@@ -9,7 +9,7 @@
 
 - What: add-ons that make you feel the car. shakers, belts, wind, motion
 - Why: immersion. not lap time
-- When: last. after rig, pedals, wheelbase, screens
+- When: last. after wheelbase, pedals, rig, screens
 
 <!-- Draft for you to edit. Facts from research-v2/11, 12, 03 and 09 (sources there). r/simracing views from 12. Prices USD, listings checked 2026-10-09. Wind: only showcase threads found on r/simracing, no debate threads. -->
 
@@ -17,24 +17,24 @@
 
 ```mermaid
 flowchart LR
-    A[Bass shakers<br>$100+] --> B[Pedal haptics<br>$40+] --> C[Wind<br>$75+] --> D[Belt tensioner<br>$1,800+] --> E[Motion<br>$2,800+]
+    A[Bass shakers<br>$100+] --> B[Pedal haptics<br>$40+] --> C[Wind<br>$75+] --> D[Belt tensioner<br>$1,400+] --> E[Motion<br>$1,500+]
 ```
 
 ## Varieties
 
 | Add-on | You feel | Price | Moves you? |
 |---|---|---|---|
-| Bass shakers | Engine, kerbs, shifts, wheel slip | $100 to $350 | No. Vibration only |
+| Bass shakers | Engine, kerbs, shifts | $100 to $350 | No. Vibration only |
 | Pedal haptics | ABS, lockup, wheelspin under your foot | $40 to $150 a pedal | No |
 | Wind | Speed on your face. Also cooling in VR | $75 to $650 | No |
 | Belt tensioner | Harness pulls tight under braking | $1,400 to $1,850 | Squeezes you |
 | G-seat | Seat panels press into you in corners | ~$3,000 | Squeezes you |
 | Seat mover | Seat tilts | $1,500 to $2,800 | Yes, 2DOF |
-| Actuators under the rig | Whole rig tilts and lifts | $3,000 to $11,000 | Yes, 3DOF |
+| Actuators under the rig | Whole rig tilts and lifts | $2,600 to $11,300 | Yes, 3DOF |
 | Traction loss, 6DOF | Rear slides out, rig shifts sideways | $4,400+ | Yes, 4 to 6DOF |
 
 - All of it is PC only. It runs on game telemetry
-- Exception: a shaker fed from the audio output works on console
+- Exceptions: a shaker fed from the audio output, or fans on a manual dial, work on console
 
 ## Bass shakers
 
@@ -109,14 +109,14 @@ flowchart LR
 |---|---|---|
 | Axes | Pitch, roll, heave | All six |
 | Hardware | 4 actuators under the rig | Hexapod, or 3DOF plus sliding base (surge, sway, traction loss) |
-| Price | $3,000 to $11,000 | $4,400 to $30,000+ (est) |
+| Price | $2,600 to $11,300 | $4,400 to $30,000+ (est) |
 | Space | Rig footprint plus a little clearance | Much more, in every direction |
 | Slides | Hinted at through roll | Felt directly through yaw |
 | Who | Home rigs. The normal choice | Enthusiasts with the room, pro simulators |
 
 | In between | What |
 |---|---|
-| 2DOF | Pitch + roll. Seat movers |
+| 2DOF | Pitch + roll. Seat movers, some whole-rig platforms |
 | 4DOF | 3DOF + rear traction loss (yaw). The useful middle step |
 
 - Yaw is the upgrade that matters for drift, rally, catching slides
@@ -124,7 +124,7 @@ flowchart LR
 - No home platform holds a sustained g-force. Motion gives the first hit, then eases back
 - More DOF is not automatically better. Most guides are written by sellers
 - Owners on r/simracing: "it's awesome but for fun, it's not going to make you faster"
-- DIY route: SFX100 actuators run from SimHub
+- DIY route: SFX-100 actuators run from SimHub
 
 ## Motion levels
 
@@ -140,13 +140,14 @@ flowchart LR
 | | |
 |---|---|
 | What | Moza's first motion product: four actuators that bolt under an aluminum profile rig |
+| Fit | 4080, 40120 or 40160 profile. A 40120 / 40160 rig with a closed center rail needs Moza's adapter kit |
 | Price | $2,999, controller built in. About half the price of the D-BOX class |
-| Motion | 3DOF: pitch, roll, heave. Carries 350 kg, rig and driver included |
-| Shipping | Since Oct 2026. EU preorders mid-November |
+| Motion | 3DOF: pitch, roll, heave. Carries 350 kg, rig and driver included. Full speed only up to 250 kg |
+| Shipping | Since Oct 2026. New US orders: dispatch late December. EU preorders mid-November |
 | First owners | Quiet for the driver, heard downstairs. Good build. Tiring to drive |
 | Early review | One failed cable, loud first power supplies (since revised). Its built-in vibration does not replace shakers |
-| Not there yet | SimHub support, VR motion compensation |
-| Extra | "AI Motion" makes motion for games that send no telemetry |
+| Not there yet | Control from SimHub (Moza only forwards telemetry to it), VR motion compensation |
+| Extra | "AI Motion" makes motion for games that send no telemetry. Nvidia RTX 4060 or better only |
 | Risk | First generation. Long-term reliability unknown |
 
 ## What matters
@@ -165,7 +166,7 @@ flowchart LR
 - Lap time claims. A static rig is more repeatable under braking
 - Big travel numbers
 - 6DOF for a home rig
-- Motion before load cell pedals and a direct drive base
+- Motion before a direct drive base and load cell pedals
 - A harness without a tensioner. Decoration
 - Four-corner shakers, at first
 
@@ -173,8 +174,7 @@ flowchart LR
 
 | Tier | Immersion |
 |---|---|
-| 0 to 2 | None. A desk fan |
-| 3 | One shaker under the seat |
+| 0 to 3 | None. A desk fan |
 | 4 | Shakers on seat and pedals, wind if in VR |
 | 5 | 3DOF motion, belt tensioner, shakers |
 
@@ -218,7 +218,7 @@ flowchart LR
 | Motion, DIY | SFX-100 plans and parts list | Parts only | [OpenSFX][sfx] |
 
 - Prices checked 2026-10-09. Parts Express, Moza, Trak Racer, Podium1, eRacing Lab, RaceKraft and Next Level Racing from live store listings
-- ButtKicker Gamer Plus and Pro were out of stock when checked
+- ButtKicker Gamer Plus and Pro: still out of stock on 2026-11-02
 - D-BOX with a rig: Trak Racer sells the TR160 V5 rig plus the four actuators as [one bundle][dboxrig] for $6,384
 - DOF Reality and SimXperience prices are from earlier research, not rechecked
 

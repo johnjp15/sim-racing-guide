@@ -43,7 +43,7 @@
 | iRacing | PC | $14.75/mo or $124.50/yr, 30% off first year | Scheduled ranked racing, best online structure |
 | RaceRoom | PC | Free to start | Free ranked servers |
 | Automobilista 2 | PC | Paid | Variety, good in VR |
-| Assetto Corsa EVO | PC | Early Access | Promising, unfinished. Buy the original first |
+| Assetto Corsa EVO | PC | Early Access | Promising, unfinished. Free roam due Dec 9. Buy the original first |
 | Forza Motorsport | Xbox, PC | Paid or Game Pass | Easy start. No longer updated |
 | Assetto Corsa Rally | PC | $30, Early Access | Current rally sim |
 | EA Sports WRC / DiRT Rally 2.0 | PC, consoles | Cheap on sale | Easy rally start. No longer updated |

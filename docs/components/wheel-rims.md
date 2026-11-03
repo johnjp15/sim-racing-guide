@@ -31,7 +31,7 @@
 | Fixed to the base | Included | Logitech G29 / G923. Cannot swap |
 | Bundle rims | $70 to $170 | Plastic, fine to learn on |
 | Mid | $230 to $350 | Metal, better buttons and paddles. Where most stop |
-| Premium brand rims | $330 to $800 | Leather or Alcantara, screens, clutch paddles |
+| Premium brand rims | $330 to $800, Fanatec Podium to $1,600 | Leather or Alcantara, screens, clutch paddles |
 | Boutique | $500 to $1,500+ | Real race-wheel build. For Simucube-class bases |
 | Budget third-party | $60 to $200 | PC only, own USB cable, quality varies |
 
@@ -72,7 +72,7 @@
 
 - PC: almost any USB rim can go on any base with an adapter and its own cable
 - Console: same-brand licensed rims only
-- Xbox support on Fanatec and Moza lives in the rim
+- Xbox support on Fanatec and Moza lives in the rim. On Moza only the R3 Xbox bundle is certain. See [Wheelbase](wheelbases.md)
 
 ## By tier
 
@@ -81,7 +81,7 @@
 | 0 to 1 | Whatever is in the bundle |
 | 2 to 3 | One mid rim, round or GT |
 | 4 | Add a second shape if you drive rally or drift |
-| 5 | Boutique |
+| 5 | Premium or boutique |
 
 ## Used
 
@@ -99,10 +99,10 @@
 | Mid | Moza KS, GT shape | $229 | [Moza US][ks] |
 | Mid | Moza CS V2P, round | $229 | [Moza US][cs] |
 | Mid | Simagic GT Neo, GT shape | $239 | [Simagic][neo] |
-| Mid | Fanatec CSL GT3 | $170 | [Fanatec][fwheel] |
+| Mid | Fanatec CSL GT3 | $230 | [Fanatec][fwheel] |
 | Premium | Moza KS Pro | $329 | [Moza US][kspro] |
 | Premium | Moza CS Pro, round, screen | $329 | [Moza US][cspro] |
-| Premium | Fanatec ClubSport and Podium rims | $330 to $800 | [Fanatec][fwheel] |
+| Premium | Fanatec ClubSport and Podium rims | $350 to $1,600 | [Fanatec][fwheel] |
 | Premium | Simucube Tahko Round, for Simucube 2 | $649 | [Trak Racer][tahko] |
 | Boutique | Cube Controls | $500 to $1,500+ | [Cube Controls][cube] |
 | Boutique | Ascher Racing | $500 to $1,500+ | [Ascher Racing][ascher] |

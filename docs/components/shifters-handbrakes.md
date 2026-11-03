@@ -105,7 +105,7 @@
 | Tier | Shifter and handbrake |
 |---|---|
 | 0 to 3 | None, unless you drive road cars, rally or drift |
-| 4 | Mid shifter + handbrake |
+| 4 | Mid shifter. Handbrake for rally or drift |
 | 5 | Endgame |
 
 ## Used
@@ -120,10 +120,10 @@
 |---|---|---|---|
 | H-pattern, toy | Logitech Driving Force Shifter | $60 | [Logitech G][dfs] |
 | H-pattern, budget | Thrustmaster TH8S | $80 | [Thrustmaster][th8s] |
-| H-pattern, budget | Turtle Beach VelocityOne Multi-Shift | ~$110 to $160 | [Amazon search][tb] |
+| Dual-mode, budget | Turtle Beach VelocityOne Multi-Shift | ~$110 to $160 | [Amazon search][tb] |
 | Dual-mode, mid | SHH HUBB | EUR 129 (~$150) | [SHH][hubb] |
-| Dual-mode, mid | Moza HGP | $149 | [Moza US][hgp] |
-| H-pattern, mid | Thrustmaster TH8A | $150 to $200 | [Thrustmaster][th8a] |
+| H-pattern, mid | Moza HGP | $149 | [Moza US][hgp] |
+| Dual-mode, mid | Thrustmaster TH8A | $150 to $200 | [Thrustmaster][th8a] |
 | Dual-mode, upper mid | Simagic DS-8X | $299 | [Simagic][ds8x] |
 | Dual-mode, upper mid | Fanatec ClubSport Shifter SQ V1.5 | $300 | [Fanatec][fadd] |
 | Dual-mode, upper mid | Conspit CHS | $369 | [Sim Motion][chs] |
@@ -147,7 +147,7 @@
 | Handbrake, endgame | Heusinkveld Handbrake | $329 | [Trak Racer][hvhb] |
 
 - Prices checked 2026-10-09. Moza, Simagic, Sim-Lab, Apex, Sim Motion and Trak Racer from live store listings
-- Out of stock when checked: Heusinkveld MagShift and MagShift Mini
+- Out of stock on 2026-11-02: Heusinkveld MagShift (pre-order) and MagShift Mini, Conspit CHS (pre-order). BDH shifters: back-ordered, no date
 - Simagic Q1S is $239 at Simagic's own store, $199 at Trak Racer
 
 ## Related pages

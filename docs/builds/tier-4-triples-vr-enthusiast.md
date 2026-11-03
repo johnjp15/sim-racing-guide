@@ -22,7 +22,7 @@
 | Wheelbase | 12 to 21 Nm direct drive |
 | Pedals | Mid load cell, plus a clutch |
 | Screen | Triple monitors, or a VR headset |
-| Extras | Shifter, two bass shakers |
+| Extras | Shifter, two bass shakers (seat and pedal plate) |
 | Space | 27" triples ~180×160 cm. 32" triples ~210 cm wide. VR ~150×70 cm (est) |
 | Build time | A full day, including monitor alignment and software |
 
@@ -39,9 +39,11 @@
 |---|---|---|
 | Triples | Tier 3 controls $978 + [clutch][clutch] $99 + [SHH HUBB shifter][hubb] ~$150 + [Trak Racer TR160 V5 rig][tr160] $730 + [seat][re2] $369 + [triple stand][mon3] $299 + 3× [32" 1440p monitor][g50f] $750 + 2 [bass shakers][bst1], [amp][amp] and [sound card][snd] $191 | ~$3,570 |
 | VR | Same without stand and monitors + [Meta Quest 3][q3] $600 | ~$3,120 |
-| VR, sharper | [Pimax Dream Air SE][dase] from $899, [Dream Air][da] from $1,999, in place of the Quest 3. Bigger GPU needed | ~$3,420 to $4,520 |
+| VR, sharper | [Pimax Dream Air SE][dase] from $899, [Dream Air][da] from $1,999, in place of the Quest 3. The "from" prices need base stations. Bigger GPU needed | ~$3,420 to $4,520 |
 | Top of band | 18 to 21 Nm base ([Moza R21 Ultra][r21] $699), [handbrake][hbp] $99, OLED monitors ($300+ each) | up to ~$5,500 |
 | PlayStation | [Fanatec ClubSport DD+ bundle][csdd] $1,405 + rig $730 + seat $369 + [PS VR2][psvr2] $399. Fanatec shifter ~$300 and handbrake ~$230 on top | ~$2,900 |
+
+- Coming from Tier 3: keep the TR80S (rated to 16 Nm). The TR160 V5 is for 20 Nm+ bases and motion, and carries to Tier 5
 
 ## Triples vs VR
 
@@ -108,6 +110,7 @@
 - SHH ships from Spain. About $200 delivered to the US
 - The monitor has been seen at $200 to $220 at Staples and Amazon, not confirmed
 - Add speaker wire, and SimHub (free, license from EUR 8) to drive the shakers
+- On sale 2026-11-02: TR160 V5 $620.50 and RE2 seat with brackets $313.65 (Trak Racer, November sale)
 
 ## Related pages
 

@@ -30,7 +30,7 @@
 
 | Good fit | Skip if |
 |---|---|
-| Hooked after Tier 0, or sure you'll stick with it | A 60×140 cm floor spot can be permanent. A fixed cockpit costs $100 to $200 more than a foldable and does not flex (Tier 2) |
+| Hooked after Tier 0, or sure you'll stick with it | A ~140×70 cm floor spot can be permanent. A fixed cockpit costs $100 to $200 more than a foldable and flexes less (Tier 2) |
 | Apartment or shared room, the rig must disappear | You want a stiff load cell brake. Foldables flex |
 | Console on a couch TV | |
 
@@ -48,6 +48,7 @@
 | PlayStation, in budget | [Thrustmaster T248][t248] $300 + GTLite $199. Not direct drive | ~$500 |
 
 - Cheapest foldable: [NLR GTLite Air][gtla] $179
+- PlayStation, launches Dec 3, 2026: Thrustmaster T-GT III. 5 Nm direct drive, load cell brake in the box
 
 ## What it feels like
 
@@ -91,6 +92,7 @@
 - PC build. Cheapest new listings found on 2026-10-09. Tax and shipping extra
 - Seen lower, not confirmed: R5 bundle $349.99 at [Best Buy][r5bb]
 - Same price elsewhere: GTLite Pro $299.99 at [Best Buy][gtlpbb]
+- On sale 2026-11-02: RS50 System $529.99 to $629.99 and RS Pedals $149.99 (Logitech G, no end date), GTLite Air $149 (nextlevelracing.com, US store not confirmed)
 
 ## Related pages
 
