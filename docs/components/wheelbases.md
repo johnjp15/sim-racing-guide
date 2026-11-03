@@ -42,6 +42,8 @@ flowchart LR
 - Direct drive vs not: the biggest step. Nothing between motor and wheel, so no lost detail
 - Torque: 5 to 8 Nm is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
 - More torque buys detail and headroom, not speed. Owners of 20 Nm+ bases run them at 8 to 13 Nm
+- Headroom means no clipping. A base already at 80 to 90% in a fast corner has nothing left when the tires hit a curb, so you do not feel it
+- Real cars at the wheel: road cars ~2 to 3 Nm, sporty road cars 5 to 7, GT3 race cars ~6 to 12 ([Fanatec][realnm])
 - Small price gap between two bases: buy the stronger one and turn it down
 - The brand's wheel lineup and prices. You are buying into it
 - Console support on the exact model
@@ -174,5 +176,6 @@ flowchart LR
 [gtdd]: https://www.fanatec.com/us/en/p/sim-racing-bundles/crd-9020007-8nm-us/gran-turismo-dd-pro-8nm-qr2l-us
 [pdd]: https://www.fanatec.com/us/en/p/wheel-bases/crd-9020022-us/podium-dd-us
 [vrs]: https://vrs.racing/
+[realnm]: https://www.fanatec.com/uk/en/explorer/products/racing-wheels-wheel-bases/how-realistic-is-fanatec-torque-compared-to-a-real-car/
 [sc2]: https://trakracer.com/products/simucube-2-pro-direct-drive-wheel-base
 [sc3]: https://trakracer.com/products/simucube-3-pro

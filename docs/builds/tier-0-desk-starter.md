@@ -45,6 +45,7 @@
 
 - No PlayStation direct drive at this price
 - Shifter is not in the box. Not needed to start
+- Wheel, pedals and a shifter: R5 bundle + [Moza HGP][hgp] $149 = ~$530. With 9 Nm: [Moza R9 V3 bundle][r9b] $559 + HGP = ~$710
 
 ## What it feels like
 
@@ -69,7 +70,7 @@
 
 - First: a load cell brake. [Moza SRP2 pedals][srp2] $149. Stopgap: [Moza brake kit][kit] $29
 - On a desk: brake set light, chair blocked, pedals against the wall
-- Then: stop things moving. Wheel stand or foldable (Tier 1), or a rig (Tier 2)
+- Then: stop things moving, and stop setting up every session. Wheel stand or foldable (Tier 1), or a rig (Tier 2)
 - Carries over: Moza base, wheel, pedals
 - Does not carry over: Logitech and T248 sets are closed systems, sold whole. Their next step is a direct drive bundle
 
@@ -107,3 +108,5 @@
 [t248]: https://eshop.thrustmaster.com/en_us/t248r-us.html
 [srp2]: https://us.mozaracing.com/products/srp2-pedals
 [kit]: https://us.mozaracing.com/products/srp-lite-kit
+[hgp]: https://us.mozaracing.com/products/hgp-shifter
+[r9b]: https://us.mozaracing.com/products/r9-v3-and-ks-with-srp2-bundle

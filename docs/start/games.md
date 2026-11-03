@@ -9,6 +9,7 @@
 
 | You are | Platform | Start with | Year-one cost |
 |---|---|---|---|
+| Not sure you will like it | PC | Assetto Corsa: cheap, endless mods, any car, any track | $20 |
 | F1 fan | PS5 / Xbox / PC | F1 25 + 2026 Season Pack | ~$50 to $150 |
 | Casual | PS5 | Gran Turismo 7 | $30 to $70 |
 | Casual | Xbox | Forza Horizon 6, Forza Motorsport on Game Pass | Game Pass or $70 |

@@ -35,7 +35,7 @@ Written 2026-10-10. Read this first. Per-topic detail lives in the session memor
 
 ## Layout
 
-- `mkdocs.yml`: config and nav. 27 `.md` files in `docs/`: 26 in the nav plus the draft
+- `mkdocs.yml`: config and nav. 28 `.md` files in `docs/`: 26 in the nav plus two drafts (`draft-guide.md`, `start/quick-start-draft.md`)
 - `docs/index.md`: home. A hub: short sections that link to where each topic is explained
 - `docs/start/`: Getting Started (quick-start, slow-start, games, buying, first-setup, glossary)
 - `docs/builds/`: Types of Setups intro plus Tier 0 to 5

@@ -85,3 +85,4 @@ nav:
 # To publish one, delete it here and add its nav line back above.
 draft_docs: |
   draft-guide.md
+  start/quick-start-draft.md

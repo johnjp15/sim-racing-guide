@@ -81,6 +81,9 @@ flowchart LR
 | Pedals slide | Against the wall, or screwed to a board the chair sits on |
 | Desk shakes | Push to wall, lower force feedback |
 | Clamp slips | Wood shim under the desk edge |
+| Wheel too high or low | Adjust the chair. The desk sets the wheel height, so the chair is the only adjustment |
+
+- Desk strength varies. r/simracing reports range from a desk holding [12 Nm][desk12] to one that broke at [5 Nm][desk5]
 
 ## Mounts and extras
 
@@ -188,3 +191,5 @@ flowchart LR
 [mon3]: https://store-us.nextlevelracing.com/products/round-tube-freestanding-triple-monitor-stand
 [mon3t]: https://trakracer.com/products/floor-stand-holds-22-33
 [cast]: https://sim-lab.us/products/caster-wheels-set
+[desk12]: https://www.reddit.com/r/simracing/comments/1kbrsbs/torque_limit_for_a_desk_mounted_wheelbase/
+[desk5]: https://www.reddit.com/r/simracing/comments/1lra2kn/question_from_a_desk_racer_is_there_a_certain_dd/
