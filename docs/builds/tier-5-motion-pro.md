@@ -43,7 +43,7 @@
 | 2DOF, whole rig moves | Tier 4 build on an NLR Elite rig + [NLR Motion Plus][mplus] $2,799 | ~$6,500 to $7,500 |
 
 - PC only: motion reads PC telemetry
-- Belt tensioner: owners with both rate it above motion alone. Buy it first
+- Belt tensioner: owners with both rate it above motion alone. Buy it first. See [Motion & Immersion](../components/immersion.md#belt-tensioner)
 - Newer base: [Simucube 3 Pro][sc3] $1,599, quick release and Link Hub sold separately. Its wheels are harder to find in stock
 - Motion lite: HMA150 orders now dispatch late December. A 40120 / 40160 rig with a closed center rail needs Moza's $49 adapter kit: check the TR160 V5
 - Not included: PC, freight, software licenses

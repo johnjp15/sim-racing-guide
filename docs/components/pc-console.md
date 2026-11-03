@@ -50,36 +50,16 @@
 - Triples and ultrawide
 - Mixed brands: any pedals, shifter, handbrake by USB
 - SimHub, Crew Chief, motion, bass shakers run from telemetry
+- Which game runs on which platform: [What to Play](../start/games.md#the-main-games)
 
 ## Console wheel rules
 
 - Console wheels need a licensed chip. A PC wheel will not "just work"
-- PlayStation: the chip is in the wheelbase
+- PlayStation: the chip is in the wheelbase. It cannot be added later
 - Xbox on Fanatec and Moza: the chip is in the wheel rim. On Moza only the R3 Xbox bundle is certain
-- Other brands sell separate PlayStation and Xbox versions that look identical
+- Other brands sell separate PlayStation and Xbox versions that look identical. Check the exact model before paying
 - Pedals and shifters must plug into the same brand's base, not the console
-
-| Brand | PlayStation | Xbox |
-|---|---|---|
-| Logitech | G29, G923 PS, RS50 PS, PRO PS | G920, G923 Xbox, RS50 / PRO with Xbox hub |
-| Thrustmaster | T248 PS, T300, T598 PS. T-GT III launches Dec 3, 2026 | T248 Xbox, T598 Xbox |
-| Fanatec | GT DD Pro, ClubSport DD+ | Any base with an Xbox wheel |
-| Moza | No. R5S Pro and R16S Ultra announced Sept 2026, no price or date | R3 Xbox bundle |
-| Simagic, Simucube | No | No |
-
-## Games by platform
-
-| Game | PS5 | Xbox | PC |
-|---|---|---|---|
-| Gran Turismo 7 | Yes | No | No |
-| Forza Motorsport | No | Yes | Yes |
-| Forza Horizon 6 | Jan 26, 2027 | Yes | Yes |
-| F1 25 | Yes | Yes | Yes |
-| Assetto Corsa Competizione | Yes | Yes | Yes |
-| EA Sports WRC | Yes | Yes | Yes |
-| iRacing | No | No | Yes |
-| Le Mans Ultimate | 2027 | 2027 | Yes |
-| Assetto Corsa EVO | Later | Later | Early Access |
+- Which wheelbase works on which console: [Wheelbase](wheelbases.md#compatibility)
 
 ## Ignore
 

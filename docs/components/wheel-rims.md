@@ -72,7 +72,7 @@
 
 - PC: almost any USB rim can go on any base with an adapter and its own cable
 - Console: same-brand licensed rims only
-- Xbox support on Fanatec and Moza lives in the rim. On Moza only the R3 Xbox bundle is certain. See [Wheelbase](wheelbases.md)
+- Xbox support on Fanatec and Moza lives in the rim. On Moza only the R3 Xbox bundle is certain. See [Wheelbase](wheelbases.md#compatibility)
 
 ## By tier
 

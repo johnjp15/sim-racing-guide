@@ -31,6 +31,9 @@
 | Brand | Moza CM2, Simagic MagicDash | ~$200 |
 | Premium | Apex Sim Racing dash | $500+ |
 
+- SimHub phone dashes: free at 10 fps, license from EUR 8 for 60 fps
+- SimHub, Crew Chief, overlays and other free PC tools: [First Setup](../start/first-setup.md#free-software-worth-installing-pc)
+
 ## What matters
 
 - Controls you use mid-race within reach: brake bias, traction control, pit limiter, radio
@@ -54,18 +57,6 @@
 - Then: a phone dash (free)
 - Then: one rig-mounted box
 - Last: a dash screen, if wanted
-
-## Free software (PC)
-
-| Tool | Does | Cost |
-|---|---|---|
-| [SimHub][simhub] | Dash on a phone, drives shakers and LEDs | Free, dashes at 10 fps. License from EUR 8 for 60 fps |
-| [Crew Chief][crew] | Voice spotter and engineer | Free |
-| [Content Manager][cm] | Launcher and mods for Assetto Corsa | Free, paid extras |
-| [Racelab][racelab], [iOverlay][iov] | On-screen overlays: relative (gaps to nearby cars), standings, radar. Racelab covers most sims, iOverlay only iRacing | Free tier. VR overlays: Racelab Pro |
-| [Garage 61][g61] | Telemetry and lap comparison for iRacing | Free tier |
-
-- Download SimHub only from its own site
 
 ## Other accessories
 
@@ -114,12 +105,6 @@
 - [Motion & Immersion](immersion.md)
 - [First Setup](../start/first-setup.md)
 
-[simhub]: https://www.simhubdash.com/
-[crew]: https://thecrewchief.org/
-[cm]: https://acstuff.club/app/
-[racelab]: https://racelab.app/
-[iov]: https://ioverlay.app
-[g61]: https://garage61.net/
 [deck]: https://www.elgato.com/us/en/p/stream-deck
 [etsybox]: https://www.etsy.com/search?q=sim+racing+button+box
 [etsydash]: https://www.etsy.com/search?q=sim+racing+dash+display+vocore

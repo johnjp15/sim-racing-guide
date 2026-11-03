@@ -30,14 +30,8 @@
 | Neighbors and housemates | Gear wheels rattle, direct drive is quiet. Bass shakers and motion travel through floors |
 | Time | Tier 0 and 1 need setup every session. Friction kills the habit. A permanent rig gets used more |
 
-## PC power
-
-| Screen | PC needed |
-|---|---|
-| Single 1440p | ~$1,150 PC |
-| Ultrawide, entry triples, Quest VR | ~$1,850 to $2,200 PC |
-| Triple 1440p, most VR | ~$3,200 PC |
-| Pimax Dream Air class VR | More. RTX 4090 / 5090 |
+- Which wheelbase works on which console: [Wheelbase](../components/wheelbases.md#compatibility)
+- PC needed for each screen: [PC / Console](../components/pc-console.md#pc-levels)
 
 ## What each jump buys
 
@@ -60,8 +54,7 @@ flowchart LR
 ```
 
 - Total ~$3,000 to $3,500
-- Order: direct drive first, load cell brake second, then everything else
-- Load cell before the rig: brake set light, chair blocked, pedals against a wall
+- Why this order: [Buying Smart](../start/buying.md#upgrade-order)
 - The 12 Nm base is optional. 5 to 8 Nm lasts years
 - Lost on outgrown parts: ~$150 to $250 (est)
 - vs G29, then foldable, then steel cockpit: ~$500 to $900 lost (est)
@@ -71,10 +64,5 @@ flowchart LR
 
 ## Related pages
 
-- [Tier 0: Desk Starter](tier-0-desk-starter.md)
-- [Tier 1: Foldable / Apartment](tier-1-foldable-apartment.md)
-- [Tier 2: First Dedicated Rig](tier-2-first-dedicated-rig.md)
-- [Tier 3: Sweet Spot Enthusiast](tier-3-sweet-spot-enthusiast.md)
-- [Tier 4: Triples / VR Enthusiast](tier-4-triples-vr-enthusiast.md)
-- [Tier 5: Motion / Pro](tier-5-motion-pro.md)
 - [Buying Smart](../start/buying.md)
+- [PC / Console](../components/pc-console.md)

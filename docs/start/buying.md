@@ -33,10 +33,8 @@ flowchart LR
 | Any | Wheels, quick releases and console support are locked to the brand |
 | PC | Pedals, shifters, handbrakes from any brand plug in by USB |
 | Console | Everything must plug into the same brand's wheelbase |
-| PlayStation | Support lives in the wheelbase. It cannot be added later |
-| Xbox | On Fanatec and Moza, support comes from the wheel rim. On Moza only the R3 Xbox bundle is certain |
 
-- Xbox and PlayStation versions look identical. Check the exact model before paying
+- PlayStation and Xbox rules, look-alike versions: [PC / Console](../components/pc-console.md#console-wheel-rules)
 
 ## Costs people forget
 
@@ -53,7 +51,7 @@ flowchart LR
 | GPU for triples or VR | $700 to $1,500 |
 | iRacing | $125 a year plus content |
 
-- A "$499 rig" is $900 to $1,100 sat in and driving
+- A "$499 rig" is $900 to $1,100 sat in and driving. See [Chassis & Mounts](../components/chassis-mounts.md#real-cost-of-a-profile-rig)
 
 ## Used market
 

@@ -63,13 +63,7 @@
 | Resells easily | Brake is a spring, not a load cell |
 | Moza parts bolt onto any rig later | Clamp on, clamp off every session. Friction kills the habit |
 
-## Free fixes
-
-| Problem | Fix |
-|---|---|
-| Chair rolls | Caster cups, or rear wheels in old shoes |
-| Pedals slide | Against the wall, or screwed to a board the chair sits on |
-| Desk shakes | Push the desk to the wall, lower force feedback |
+- Free fixes for a rolling chair, sliding pedals, a shaking desk: [Chassis & Mounts](../components/chassis-mounts.md#desk-fixes)
 
 ## Next upgrade
 

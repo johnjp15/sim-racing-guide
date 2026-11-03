@@ -35,9 +35,7 @@
 ## Feeling it: bass shakers
 
 - A speaker-like puck bolted to the seat. Plays engine, kerbs, shifts as vibration
-- Best immersion per dollar: ~$100 to $180 for a Dayton BST-1, small amp, SimHub
-- Not motion. Nothing moves
-- Full detail and where to buy: [Motion & Immersion](immersion.md)
+- Full detail and where to buy: [Motion & Immersion](immersion.md#bass-shakers)
 
 ## Spotter
 

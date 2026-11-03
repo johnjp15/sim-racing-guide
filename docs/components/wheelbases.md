@@ -82,7 +82,7 @@ flowchart LR
 
 - PlayStation support is in the base. It cannot be added later
 - Moza on PS5 will need the new base. Existing Moza wheels and pedals are reported to work with it
-- Every console wheel also works on PC
+- General console rules: [PC / Console](pc-console.md#console-wheel-rules)
 
 ## By tier
 
@@ -103,7 +103,7 @@ flowchart LR
 - Fanatec: check QR1 vs QR2. Old QR1 does not fit current wheels
 - Check: shaft play, connectors, firmware still updates
 - Avoid: belt wheels near new direct drive money (T300 at $370+)
-- Warranty usually stays with the first owner
+- Used-market basics, warranty: [Buying Smart](../start/buying.md#used-market)
 
 ## Where to buy
 

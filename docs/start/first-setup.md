@@ -20,10 +20,7 @@
 | Pedals | Knee still bent at full brake |
 | Office chair | Lock or cup the casters before anything else |
 
-| Position | Use |
-|---|---|
-| GT: upright, pedals low | Start here. Works for everything |
-| Formula: reclined, feet high | Only if you drive formula cars only |
+- GT (upright, pedals low) works for everything. Formula posture and more: [Seat](../components/seating.md#seating-position)
 
 ## Screen and FOV
 
@@ -102,8 +99,13 @@
 | Tool | Does |
 |---|---|
 | [Crew Chief][crew] | Voice spotter ("car left") and race engineer. Free |
-| [SimHub][simhub] | Dash on an old phone, drives bass shakers. Free, license from EUR 8 |
+| [SimHub][simhub] | Dash on an old phone, drives bass shakers and LEDs. Free, license from EUR 8 |
+| [Content Manager][cm] | Launcher and mods for Assetto Corsa. Free, paid extras |
+| [Racelab][racelab], [iOverlay][iov] | On-screen overlays: relative (gaps to nearby cars), standings, radar. Racelab covers most sims, iOverlay only iRacing. Free tier. VR overlays: Racelab Pro |
+| [Garage 61][g61] | Telemetry and lap comparison for iRacing. Free tier |
 | Maker software | Moza Pit House, Fanatec app, Simagic SimPro, Logitech G HUB. Update firmware first |
+
+- Download SimHub only from its own site
 
 ## Related pages
 
@@ -114,3 +116,7 @@
 
 [crew]: https://thecrewchief.org/
 [simhub]: https://www.simhubdash.com/
+[cm]: https://acstuff.club/app/
+[racelab]: https://racelab.app/
+[iov]: https://ioverlay.app
+[g61]: https://garage61.net/

@@ -51,6 +51,8 @@
 | BeamNG.drive | PC | Paid | Crashes, free roam, soft-body physics |
 | Euro / American Truck Simulator | PC | Cheap | Relaxed cruising |
 
+- Console dates: Forza Horizon 6 is on Xbox and PC, and comes to PS5 on Jan 26, 2027. Le Mans Ultimate comes to PS5 and Xbox in 2027. Assetto Corsa EVO later
+
 ## What iRacing really costs
 
 - Year one, included cars and tracks only: ~$90

@@ -7,17 +7,17 @@
 
 | Term | Meaning |
 |---|---|
-| Wheelbase | The motor unit the steering wheel attaches to |
+| Wheelbase | The motor unit the steering wheel attaches to. It makes the force feedback |
 | Rim | The steering wheel itself, often swappable |
 | FFB (force feedback) | Motor forces in the wheel that copy steering load and grip |
 | Nm (newton meter) | How strong a wheelbase is. Entry 2 to 6, mid 8 to 12, high 15+ |
 | Gear drive | Motor to wheel through gears. Cheap, notchy, loud |
 | Belt drive | Motor to wheel through a belt. Smooth, mid-range |
-| DD (direct drive) | Wheel bolts straight to the motor. Smooth, quiet, most detail |
+| DD (direct drive) | Wheel bolts straight to the motor. Smooth, quiet, most detail. The standard now |
 | QR (quick release) | The coupling that lets you swap rims. Fanatec QR1 (old) and QR2 (current) do not mix |
 | Ecosystem | One brand's family of bases, rims, pedals, shifters that work together |
 | Bundle | Parts sold together for less. Often wheelbase, wheel and pedals. Some leave the pedals out |
-| Licensed (console) | Has the chip that makes it work on PlayStation or Xbox. PlayStation: in the base. Xbox on Fanatec and Moza: in the wheel. On Moza only the R3 Xbox bundle is certain |
+| Licensed (console) | Has the chip that makes it work on PlayStation or Xbox. Where the chip sits: [PC / Console](../components/pc-console.md#console-wheel-rules) |
 | Paddles | Shifters behind the rim |
 | Potentiometer | Old contact sensor that reads pedal position. Wears out |
 | Hall sensor | Magnetic position sensor. No contact, lasts |

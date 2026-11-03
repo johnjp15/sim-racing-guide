@@ -80,7 +80,7 @@
 | Price | New direct drive prices fell in 2026. Used must be clearly under today's new price |
 | Check | Fanatec QR1 vs QR2 (old QR1 does not fit current wheels), shaft play, brake reads smoothly to 100% |
 | Avoid | Belt bases priced near new direct drive, sellers who cannot show it working |
-| Warranty | Usually does not transfer (Fanatec, Thrustmaster) |
+| Basics | Warranty, checks, where to look: [Buying Smart](../start/buying.md#used-market) |
 
 ## Example build
 

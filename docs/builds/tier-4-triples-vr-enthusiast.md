@@ -44,20 +44,8 @@
 | PlayStation | [Fanatec ClubSport DD+ bundle][csdd] $1,405 + rig $730 + seat $369 + [PS VR2][psvr2] $399. Fanatec shifter ~$300 and handbrake ~$230 on top | ~$2,900 |
 
 - Coming from Tier 3: keep the TR80S (rated to 16 Nm). The TR160 V5 is for 20 Nm+ bases and motion, and carries to Tier 5
-
-## Triples vs VR
-
-| | Triples | VR |
-|---|---|---|
-| View | 140 to 170°, cars visible alongside | True depth and scale |
-| Comfort | Nothing on your face. Sit down and drive | Hot, isolating |
-| Space | A room | None extra |
-| PC load | High | Very high |
-| Games | Not all. F1 25, EA WRC and Forza only stretch | Most sims |
-
-- r/simracing in 2026: more people move from VR to triples than back. Comfort, not picture
 - Try VR before buying. [Quest 3S][q3s] $350 is the cheap test
-- Monitors, headsets, full comparison: [Displays](../components/displays-vr.md)
+- Triples or VR compared, monitors and headsets: [Displays](../components/displays-vr.md#which-one)
 
 ## What it feels like
 

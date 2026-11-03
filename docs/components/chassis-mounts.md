@@ -95,7 +95,6 @@ flowchart LR
 ## Motion
 
 - Actuators go under the rig, so the rig must be rigid: heavy aluminum profile
-- Affordable 3DOF arrived in 2026: Moza HMA150, $2,999 for four actuators
 - Leave room: cables, monitor stand, walls
 - Last purchase, or never
 - Full detail, 3DOF vs 6DOF, belt tensioners: [Motion & Immersion](immersion.md)

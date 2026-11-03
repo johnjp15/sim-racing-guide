@@ -36,18 +36,18 @@
 | Console | One screen. PlayStation adds PS VR2 for Gran Turismo 7 |
 
 - Triples vs VR: no winner. Depends on the driver
-- VR: best depth and immersion. The top immersion upgrade on r/simracing
-- Triples: sit down and drive. No heat, no eye strain, easy in long races
+- Triples: nothing on your face. Sit down and drive. No heat, no eye strain, easy in long races. Needs a room
+- VR: best depth and immersion, works in most sims, no extra floor space. Hot and isolating. The top immersion upgrade on r/simracing
 - r/simracing in 2026: most switch stories go VR to triples, for comfort. Some switch back, many keep both
 
 ## What matters
 
 - Distance: screen right behind the wheelbase. Closer beats bigger
     - A wheel shaft extension (~EUR 50) lets the screen sit lower and closer, behind the wheel
-- Correct field of view. See [First Setup](../start/first-setup.md)
+- Correct field of view. See [First Setup](../start/first-setup.md#screen-and-fov)
 - 120 to 165 Hz, held steady
 - Which games you play. Not all do triples properly
-- What your PC can drive. See [PC / Console](pc-console.md)
+- What your PC can drive. See [PC / Console](pc-console.md#pc-levels)
     - Triple 1080p is about as heavy as one 4K screen
     - Triple 1440p wants an RTX 5070 Ti
 
@@ -66,7 +66,7 @@
 - Three identical monitors, thin bezels, VESA holes
 - Sweet spot: 32" 1440p. 27" 1080p if the PC is weak
 - Flat, or a gentle curve (1500R or flatter). Sims assume flat panels
-- A freestanding stand. Desk arms sag
+- A freestanding stand. Desk arms sag. Stands: [Chassis & Mounts](chassis-mounts.md#mounts-and-extras)
 
 | Proper per-screen view | Stretch only |
 |---|---|
