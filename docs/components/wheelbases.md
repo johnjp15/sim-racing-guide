@@ -42,7 +42,7 @@ flowchart LR
 - Direct drive vs not: the biggest step. Nothing between motor and wheel, so no lost detail
 - Torque: 5 to 8 Nm is plenty to start. 12 Nm is the sweet spot. 10 to 15 Nm covers nearly everyone
 - More torque buys detail and headroom, not speed. Owners of 20 Nm+ bases run them at 8 to 13 Nm
-- Headroom means no clipping. A base already at 80 to 90% in a fast corner has nothing left when the tires hit a curb, so you do not feel it
+- Headroom means less [clipping](../start/glossary.md#settings): a base near its limit cannot add force for a sudden load, so that detail is lost
 - Real cars at the wheel: road cars ~2 to 3 Nm, sporty road cars 5 to 7, GT3 race cars ~6 to 12 ([Fanatec][realnm])
 - Small price gap between two bases: buy the stronger one and turn it down
 - The brand's wheel lineup and prices. You are buying into it
